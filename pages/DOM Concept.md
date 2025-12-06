@@ -1,0 +1,25 @@
+tags:: [[DOM]]
+---
+
+- ## 什么是 DOM
+	- 参考: [MDN - Document Object Model (DOM)](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model)
+	- 即 `Document Object Model` , 文档对象模型。
+	- 定义 `文档 (Document)` 的结构，并将其以对象的形式存储在内存中。
+		- 这样，编程语言 (比如 JavaScript) 就可以操作它了。
+		- 这里的 `Document` 包括: `HTML` , `SVG` 或 `XML` 。
+	- DOM 以 *树* 的形式来表示 `Document` 。
+- ## DOM 规范
+	- 我们常说的 DOM 规范，是指 WHATWG 维护的 DOM 规范 (参见  [[DOM Spec]])，它主要定义了操作 文档 (Document) 的接口和方法。
+	- 而  [[HTML DOM]] 、[[XML DOM]] 、[[SVG DOM]] 相当于对 DOM 规范的扩展，DOM 规范为这些特定类型的文档提供了基础框架。
+		- [[HTML DOM]] 的规范，定义在 HTML 的规范中 (参见 [[HTML Spec]] )。
+		- [[XML DOM]] 的规范，定义在 XML 的规范中 (参见 [[XML Spec]] )。
+		- [[SVG DOM]] 的规范，定义在 SVG 的规范中 (参见 [[SVG Spec]] )。
+	- 不过，我们常说的 DOM ，通常是指 [[HTML DOM]] 。
+- ## DOM 与 JavaScript
+	- 参见: [MDN - DOM and JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#dom_and_javascript)
+	- DOM 规范，独立于编程语言存在，它并不属于 Core JavaScript 的一部分。
+	- 任何语言都可以实现 DOM 规范，从而能够使用 DOM API 来操作符合 DOM 规范的文档 (比如 HTML、XML 和 SVG) 。
+		- Python 和 JavaScript 都有对 DOM 的实现。
+	- 只不过我们在聊 DOM 时，通常指的是使用 JavaScript 语言实现的 DOM API 。
+		- 更准确讲，通常是指使用 JavaScript 语言实现的 HTML DOM API ，它属于 Web API 的一部分。
+	-

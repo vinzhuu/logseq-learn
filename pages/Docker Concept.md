@@ -1,0 +1,52 @@
+tags:: [[Docker]]
+---
+
+- ## Docker architecture
+	- 参考: https://docs.docker.com/get-started/overview/
+	- ### Overview
+		- Docker 是 client-server 架构的。
+		- Docker client 和 Docker daemon  可以在同一台机器，也可以在不同机器。
+		- Docker client 和 Docker daemon 之间使用 REST API 通信。
+		- Docker compose 属于另一种 Client ，它可以让你操作 **多个容器组成的集合** 。
+		- ![architecture.png](../assets/architecture_1692166161266_0.png)
+	- ### Docker daemon
+		- Docker daemon 即 **Docker 守护进程** ，简称 `dockerd` .
+		- Docker daemon 可以和其他 daemon 通信，一起管理 Docker services .
+	- ### Docker client
+		- Docker client , 或直接称为 docker 。
+		- 用户主要通过 Docker client 与 Docker 交互, Docker client 通过 Docker API 将用户的命令发送给 Docker daemon 执行。
+		- 一个 Docker client 可以与多个 Docker daemon 通信。
+	- ###  [Docker Engine](https://docs.docker.com/engine/)
+		- Docker Engine 提供 Docker 的核心功能，提供了一些命令。
+	- ### [Docker Desktop](https://docs.docker.com/desktop/)
+		- Docker Desktop 属于 GUI。
+		- Docker Desktop 包含的组件：
+			- [Docker Engine](https://docs.docker.com/engine/)
+			- Docker CLI client
+			- [Docker Buildx](https://docs.docker.com/build/)
+			- [Docker Extensions](https://docs.docker.com/desktop/extensions/)
+			- [Docker Compose](https://docs.docker.com/compose/)
+			- [Docker Scout](https://docs.docker.com/scout/)
+			- [Docker Content Trust](https://docs.docker.com/engine/security/trust/)
+			- [Kubernetes](https://github.com/kubernetes/kubernetes/)
+			- [Credential Helper](https://github.com/docker/docker-credential-helpers/)
+	- ### Docker objects
+		- #### Images
+			- 带有用于创建容器的指令的、只读的 模板。
+			- image 可以基于其他 image 构建。
+			- Dockerfile 定义了创建和运行 image 的指令。
+			- Dockerfile 中的每一条指令都会创建 image 的一个 layer，当改变 Dockerfile 并重建 image 时，只有那些改变了的 layer 会被 **重新构建** 。
+		- #### Containers
+			-
+		- networks
+		- volumes
+		- plugins
+		- other objects
+	- ### Docker registries
+		- Docker registry 是保存 Docker images 的地方。
+		- Docker Hub 是 Docker 官方提供的公共 Docker registry
+		- Docker Hub 是 Docker 使用的默认 registry ，用户可以自定义 registry 地址。
+		-
+- ---
+- ## 参考
+	-
