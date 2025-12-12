@@ -2,12 +2,28 @@ tags:: [[Payment Product]], [[WeChat Dev]]
 ---
 
 - ## 子目录
-	- [[微信支付 - APP 支付业务流程 (V3)]]
+	- [[微信支付方式]]
 	  logseq.order-list-type:: number
-	- [[微信支付 - 委托代扣]]
+		- [[微信支付 - APP 支付]]
+		- [[微信支付 - JSAPI 支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - APP 支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - H5 支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - Native 支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - 小程序支付]]
+		  logseq.order-list-type:: number
+	- [[微信支付产品]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+		- [[微信支付 - 普通支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - 合单支付]]
+		  logseq.order-list-type:: number
+		- [[微信支付 - 委托代扣]]
+		  logseq.order-list-type:: number
+	-
 	- 各 语言/框架 集成:
 		- [[Flutter 微信支付 SDK]]
 		- [[Java 微信支付 SDK]]

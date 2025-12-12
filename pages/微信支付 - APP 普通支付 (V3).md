@@ -63,7 +63,10 @@ tags:: [[WeChat Pay]]
 	- 参考: [APP调起支付签名](https://pay.weixin.qq.com/doc/v3/merchant/4012365340)
 	- 也可以使用 [服务端 SDK](https://pay.weixin.qq.com/doc/v3/merchant/4012076498) 进行构造
 - ## 获取支付结果
-	-
+- ## 一些场景
+	- ### 支付超时
+		- 用户拉起微信 APP 一直未支付, 直到时间超过 `time_expire` 时, 用户进行支付, 会出现如下弹窗.
+		- ![IMG_1089.jpeg](../assets/IMG_1089_1765450096540_0.jpeg){:height 582, :width 238}
 - ## 参考
 	- [微信支付 - 开发指引](https://pay.weixin.qq.com/doc/v3/merchant/4013070176)
 	  logseq.order-list-type:: number
