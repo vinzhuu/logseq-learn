@@ -1,4 +1,4 @@
-tags:: [[Cost per sale]]
+tags:: [[Cost Per Sale]]
 ---
 
 - ## CPS 平台
