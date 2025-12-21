@@ -25,12 +25,12 @@ tags:: [[YT-DLP]]
 		   --cookies-from-browser chrome \
 		   'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 		  ```
-	- 弹出如下窗口, 点击 "Done" (点击完之后就执行就停掉了, 这是因为 macOS 认为这个不知道哪里来的东西不安全)
+	- 弹出如下窗口, 点击 "Done" (点击完之后, 执行就停止了, 这是因为 macOS 认为这个不知道哪里来的东西不安全)
 	  logseq.order-list-type:: number
 		- ![image.png](../assets/image_1766321621729_0.png){:height 358, :width 322}
 	- 按下 `Command` + `空格` 快捷键呼出全局搜索, 输入 `Privacy & Security` 或者 `隐私与安全性` , 按下回车进入.
 	  logseq.order-list-type:: number
-	- 弹出如下窗口, 点击 `Allow Anyway` 按钮, 表示允许刚才的执行的命令.
+	- 弹出如下窗口, 点击 `Allow Anyway` 按钮, 表示允许刚才的命令执行.
 	  logseq.order-list-type:: number
 		- ![image.png](../assets/image_1766321890654_0.png){:height 547, :width 586}
 	- 再次回到刚才的 `terminal` 窗口, 重新输入的刚才的下载命令, 并回车.

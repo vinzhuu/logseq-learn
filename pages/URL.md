@@ -15,7 +15,7 @@ tags:: [[HTTP]]
 - ## URL的结构
 	- 一个标准的URL必须包括：protocol、host、port、path、parameter、anchor
 	- ```http
-	  http://www.aspxfans.com:8080/news/index.asp?boardID=5&ID=24618&page=1#name
+	  http://www.example.com:8080/news/index.html?boardID=5&ID=24618&page=1#name
 	  ```
 	- 协议部分 (protocol)
 	  logseq.order-list-type:: number
@@ -50,7 +50,7 @@ tags:: [[HTTP]]
 		  logseq.order-list-type:: number
 		- 文件名部分不是一个 URL 必须的部分，如果省略该部分，则使用默认的文件名。
 		  logseq.order-list-type:: number
-		- 本例中的文件名是 `index.asp` 。
+		- 本例中的文件名是 `index.html` 。
 	- 参数部分 (parameter)
 	  logseq.order-list-type:: number
 		- 从 `?` 开始到 `#` 为止之间的部分为参数部分，又称搜索部分、查询部分。
