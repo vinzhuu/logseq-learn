@@ -111,7 +111,106 @@ tags:: [[Dart]]
 		  // Uses Element from lib2.
 		  lib2.Element element2 = lib2.Element();
 		  ```
-	-
+	- ### Importing only part of a library
+		- ``` dart
+		  // Import only foo.
+		  import 'package:lib1/lib1.dart' show foo;
+		  
+		  // Import all names EXCEPT foo.
+		  import 'package:lib2/lib2.dart' hide foo;
+		  ```
+		- 使用 `show` 以导入指定库.
+		- 使用 `hide` 以隐藏指定库.
+- ## Deferred loading
+	- ### What is Deferred loading
+		- Deferred loading ( 或称  lazy loading , 即延迟加载/懒加载) 可以让 Web 应用按需加载库.
+			- 目前 `dart` tool 仅支持 Web 平台的延迟加载.
+			- Flutter 应用参见: [[Flutter Deferred components]]
+		- 一般 Web 应用有如下需求时, 可以采用延迟加载:
+			- 减少第一次启动时间.
+			  logseq.order-list-type:: number
+			- 进行 A/B 测试.
+			  logseq.order-list-type:: number
+			- 加载不常用的功能 (如 optional screens and dialogs )
+			  logseq.order-list-type:: number
+	- ###  Syntax
+		- ``` dart
+		  // 使用 deferred as 语法导入
+		  import 'package:greetings/hello.dart' deferred as hello;
+		  
+		  // 使用前, 调用 loadLibrary() 方法进行加载
+		  Future<void> greet() async {
+		    await hello.loadLibrary();
+		    hello.printGreeting();
+		  }
+		  ```
+		- 使用 `deferred as namespace` 语法导入 **延迟加载库** .
+			- 此处会给 `namespace` 插入一个 `loadLibrary()` 函数.
+		- 使用 `await namespace.loadLibrary()` 加载 **延迟加载库** .
+			- 多次调用 `loadLibrary()` 加载同一个库, 不会有问题, 这个库只会被加载一次.
+	- ### 注意事项
+		- #### Deferred library's constants
+			- `foo.dart`
+				- ``` dart
+				  const int answer = 42;
+				  ```
+			- `main.dart`
+				- ``` dart
+				  import 'foo.dart' deferred as foo;
+				  
+				  // ❌ 编译错误
+				  const x = foo.answer; 
+				  
+				  // ✅ 运行时访问 OK
+				  await foo.loadLibrary();
+				  print(foo.answer); 
+				  ```
+			- 不能直接访问 **延迟加载的库** 中的 **编译时常量** , 因为在使用方眼中, 它已经属于运行时常量了, 因为整个库都是运行时加载的.
+		- #### Deferred library's types
+			- `main.dart`
+				- ``` dart
+				  import 'impl.dart' deferred as impl;
+				  
+				  impl.Service s;   // ❌ 编译错误
+				  ```
+			- 不能直接使用 **延迟加载的库** 中的 **类型 (type)** .
+				- Dart 不允许你 “在编译期依赖 deferred 库里的类型” .
+					- 比如 `泛型 / extends / implements / as` 等语法.
+				- 但允许你 “在运行时创建 deferred 库里的对象” .
+					- 比如 `new / 构造调用 / 工厂返回值` 等语法.
+			- 可以考虑这样使用:
+				- 新增一个抽象层, 使用方和被延迟加载的库, 都依赖这个抽象层.
+					- ``` dart
+					  api.dart        // 接口 / 抽象类 / typedef / enum
+					  impl.dart       // 具体实现（deferred）
+					  main.dart       // 使用方
+					  ```
+				- `api.dart（非 deferred）`
+					- ``` dart
+					  abstract class Service {
+					    void run();
+					  }
+					  ```
+				- `impl.dart（deferred）`
+					- ``` dart
+					  import 'api.dart';
+					  
+					  class ServiceImpl implements Service {
+					    @override
+					    void run() {}
+					  }
+					  ```
+				- `main.dart`
+					- ``` dart
+					  import 'api.dart';
+					  import 'impl.dart' deferred as impl;
+					  
+					  Future<void> main() async {
+					    await impl.loadLibrary();
+					    Service s = impl.ServiceImpl(); // ✅ OK
+					  }
+					  ```
+			-
 - ## 参考
 	- [Dart Docs - Libraries & imports](https://dart.dev/language/libraries)
 	  logseq.order-list-type:: number

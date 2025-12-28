@@ -3,7 +3,7 @@ tags:: [[Dart]]
 
 - ## Syntax
 	- `Metadata` 就是给代码提供额外的 **静态信息 (static information)** 的语法.
-	- 语法: `@` 后跟一个 运行时常量 (compile-time constant) , 或者是 一个 constant constructor .
+	- 语法: `@` 后跟一个 编译期常量 (compile-time constant) , 或者是 一个 constant constructor .
 - ## Built-in annotations
 	- ### @Deprecated
 		- 参考: [Dart API - Deprecated](https://api.dart.dev/dart-core/Deprecated-class.html)
@@ -77,17 +77,8 @@ tags:: [[Dart]]
 	    print('Do something');
 	  }
 	  ```
-- ## package:meta
-	- 使用 `@Target` 指定注解可以使用的地方.
-		- 参见: [package:meta](https://pub.dev/packages/meta)
-	- ``` dart
-	  import 'package:meta/meta_meta.dart';
-	  
-	  @Target({TargetKind.function, TargetKind.method})
-	  class Todo {
-	    // ···
-	  }
-	  ```
+- ## 注解增强包: package:meta
+	- 参见: [[Dart Package: meta]]
 - ## 参考
 	- [Dart Docs - Metadata](https://dart.dev/language/metadata)
 	  logseq.order-list-type:: number

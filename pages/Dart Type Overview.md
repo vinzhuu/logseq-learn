@@ -43,9 +43,9 @@ tags:: [[Dart Type]]
 		  logseq.order-list-type:: number
 		- [[Dart Syntax/Iterable Type]] :  用于 `for-in loops` 和 `synchronous generator functions` 中.
 		  logseq.order-list-type:: number
-		- [[Dart Syntax/Never Type]] : 表示表达式永远无法成功完成求值.
+		- [[Dart Type - Never]] : 表示表达式永远无法成功完成求值.
 		  logseq.order-list-type:: number
-		- [[Dart Syntax/dynamic Type]] : 表示禁用 `Static Checking` , 不过通常应该改用 `Object` / `Object?` .
+		- [[Dart Type - dynamic]] : 表示禁用 `Static Checking` , 不过通常应该改用 `Object` / `Object?` .
 		  logseq.order-list-type:: number
 		- `void` : 表示某个值永远不会被使用, 常用作 **返回类型** .
 		  logseq.order-list-type:: number
@@ -57,7 +57,7 @@ tags:: [[Dart Type]]
 		  logseq.order-list-type:: number
 		- [[Dart Type - Null]]
 		  logseq.order-list-type:: number
-		- [[Dart Syntax/Never Type]]
+		- [[Dart Type - Never]]
 		  logseq.order-list-type:: number
 - ## 参考
 	- [Dart Docs - Built-in types](https://dart.dev/language/built-in-types)

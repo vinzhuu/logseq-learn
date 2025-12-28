@@ -17,14 +17,17 @@ tags:: [[Dart]]
 				- Types
 					- 看完 Built-in types, Typedefs
 				- Functions (==还差 Generators 部分==)
+				- Metadatas  ==已阅==
+				- Library & imports  ==已阅==
 				- Classes & Objects
 					- 看完 Classes, Constructors, Methods, Extend a class, Callable objects
+			- Packages
+				-
+			- Development
+				- 看完: Number Representation,
 			- Tools & techniques
 				- Overview  ==已阅==
 				- Editors & debuggers  ==已阅==
-			- Development
-				- 看完: Number Representation,
-			- Command-line Tools
-				- Overview, dart, dart create, dart run
-				-
+				- Command-line Tools
+					- Overview, dart, dart create, dart run
 -
