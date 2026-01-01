@@ -9,7 +9,79 @@ tags:: [[Dart Type]]
 	  ```
 	- 可以使用 trailing commas .
 - ## Declare enhanced enums
-	-
+	- Dart 允许在枚举类型中声明:
+		- fields
+		  logseq.order-list-type:: number
+		- methods
+		  logseq.order-list-type:: number
+			- Instance methods 可以使用 `this` 来引用当前枚举值.
+		- const constructors
+		  logseq.order-list-type:: number
+	- 这被称为 Enhanced Enums , 增强枚举 .
+	- 声明 Enhanced Enums 需要遵循与普通类相似的语法, 但有如下限制:
+		- Variables:
+		  logseq.order-list-type:: number
+			- Instance variables 必须是 `final` .
+			  logseq.order-list-type:: number
+			- 不能定义名称为 `values` 的成员, 这会与枚举类自动生成的 static `values` getter 冲突.
+			  logseq.order-list-type:: number
+		- Constructors:
+		  logseq.order-list-type:: number
+			- Non-factory constructors 必须是 `const` .
+			  logseq.order-list-type:: number
+			- Factory constructors 必须返回当前枚举类已经定义的实例.
+			  logseq.order-list-type:: number
+		- Extends:
+		  logseq.order-list-type:: number
+			- 枚举类已经隐式继承了 `Enum` , 不能使用 `extends` 继承其他类.
+			- ``` dart
+			  enum X { a } 
+			  等价于
+			  class X extends Enum { ... }
+			  ```
+		- Override
+		  logseq.order-list-type:: number
+			- index, hashCode and operator `==` 都不能被重写.
+		- Instances
+		  logseq.order-list-type:: number
+			- 枚举类的所有实例, 都必须声明在开头, 并且需要至少一个实例.
+	- ``` dart
+	  enum Vehicle implements Comparable<Vehicle> {
+	    car.of(tires: 4, passengers: 5, carbonPerKilometer: 400),
+	    bus(tires: 6, passengers: 50, carbonPerKilometer: 800),
+	    bicycle(tires: 2, passengers: 1, carbonPerKilometer: 0);
+	  
+	    const Vehicle({
+	      required this.tires,
+	      required this.passengers,
+	      required this.carbonPerKilometer,
+	    });
+	  
+	    const Vehicle.of({
+	      required this.tires,
+	      required this.passengers,
+	      required this.carbonPerKilometer,
+	    });
+	  
+	    final int tires;
+	    final int passengers;
+	    final int carbonPerKilometer;
+	  
+	    int get carbonFootprint => (carbonPerKilometer / passengers).round();
+	  
+	    bool get isTwoWheeled => this == Vehicle.bicycle;
+	  
+	    factory Vehicle.fromTires(int tires) {
+	      return Vehicle.values.firstWhere(
+	        (vehicle) => vehicle.tires == tires,
+	        orElse: () => throw ArgumentError('No vehicle with $tires tires.'),
+	      );
+	    }
+	  
+	    @override
+	    int compareTo(Vehicle other) => carbonFootprint - other.carbonFootprint;
+	  }
+	  ```
 - ## Use enums
 	- ### Access the enumerated values
 		- 与 静态变量 的访问类似 (参见:  [[Dart Syntax/Variable Members]] )
