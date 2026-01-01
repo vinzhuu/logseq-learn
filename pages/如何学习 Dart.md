@@ -20,7 +20,9 @@ tags:: [[Dart]]
 				- Metadatas  ==已阅==
 				- Library & imports  ==已阅==
 				- Classes & Objects
-					- 看完 Classes, Constructors, Methods, Extend a class, Callable objects
+					- 看完 Classes, Constructors, Methods, Extend a class, Mixins, Callable objects
+				- Class modifiers
+					-
 			- Packages
 				-
 			- Development

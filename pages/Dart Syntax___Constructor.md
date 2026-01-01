@@ -76,7 +76,7 @@ tags:: [[Dart]]
 		- 使用 `ClassName()` 或 `new ClassName()` 语法, 调用构造函数创建对象 (最好省略 `new` ) .
 - ## Constant constructors
 	- ### Define Constant constructors
-		- 使用 **同一个类** 中的  Constant constructors 创建的对象是同一个 (不管用的是不是同一个 Constant constructor )
+		- 使用 **同一个类** 中的  Constant constructors 创建的 **各成员变量值相同的** 对象是同一个 (不管用的是不是同一个 Constant constructor )
 		- 关键字: 语法上, 就是在 Generative constructors 或 Named constructors 前加上关键字 `const` .
 		- 要求: 所有 Instance variables 都是 `final` 类型.
 		- 这里只演示 **Use initializing formal parameters** 方式对变量进行初始化, 其他方式参见 ((6919d464-627c-465d-a1c0-b786c009a045))
@@ -130,7 +130,7 @@ tags:: [[Dart]]
 			    print(identical(p1, p2)); // false
 			  }
 			  ```
-		- 如果变量加了 `const` 关键字, 则可以省略调用 Constant constructor 需要用到的 `const` .
+		- 如果变量声明加了 `const` 关键字, 则可以省略调用 Constant constructor 需要用到的 `const` .
 			- 因为 `const` 变量被赋的值必须是 `const` 值 (参见 [[Dart Syntax/Variables]]  `const` 相关部分)
 			- ``` dart
 			  void main(List<String> args) {
@@ -152,7 +152,7 @@ tags:: [[Dart]]
 - ## Factory constructors
 	- ### Define Factory constructors
 		- 前面提到的 Generative constructors, Named Constructors, Constant constructors 都是不能写 `return` 语句的, 它们会自动创建一个对象并返回.
-		- 而 Factory constructors 是不会自动创建对象的 (因此不能用 `this`), 需要开发者自己在方法体内创建对象并返回.
+		- 而 Factory constructors 是不会自动创建对象的 (因此不能用 `this` ), 需要开发者自己在方法体内创建对象并返回.
 		- ==语法上:==
 			- 使用 `ClassName` 或 `ClassName.constructorName` 作为方法名.
 			  logseq.order-list-type:: number
@@ -165,7 +165,7 @@ tags:: [[Dart]]
 	- ### Factory constructor samples
 		- Factory constructors 有如下几种经典使用场景:
 			- 这里只演示 **Use initializing formal parameters** 方式对变量进行初始化, 其他方式参见 ((6919d464-627c-465d-a1c0-b786c009a045))
-		- #### 单例模式:
+		- #### 单例模式
 			- ``` dart
 			  class Logger {
 			    static Logger? _instance;
@@ -274,7 +274,7 @@ tags:: [[Dart]]
   id:: 6919d464-627c-465d-a1c0-b786c009a045
 	- ### Instance Variables must be Initialized
 		- 如下类型的 成员变量 , 必须在创建对象时就被初始化:
-			- `nullable` variables 
+			- `non-nullable` variables
 			  logseq.order-list-type:: number
 			- `non-late` 的 `final` variables
 			  logseq.order-list-type:: number
@@ -488,7 +488,7 @@ tags:: [[Dart]]
 			  ```
 	- ### Redirecting Factory constructors
 		- Redirecting Factory constructors 就是使用 `=` 将当前 Factory constructors 指向另一个 **参数相同** 的 constructors .
-			- 这有点类似于 Tear-off
+			- 这有点类似于 Tear-off (参见: [[Dart Function]] )
 			- ``` dart
 			  class Point {
 			    final double x;
@@ -716,6 +716,7 @@ tags:: [[Dart]]
 				      return 'Child(x: $x, y: $y, z: $z)';
 				    }
 				  }
+				  
 				  
 				  void main(List<String> args) {
 				    Child child = Child(1, 2);

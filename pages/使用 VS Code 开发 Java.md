@@ -53,4 +53,5 @@ tags:: [[Java]], [[Visual Studio Code]]
 			- 配置完之后, Maven 插件执行时, 都是执行的这个路径下的命令.
 			- ==注意: Workspace 的 `settings.json` 配置这个无效.==
 - ## 项目配置
-	-
+- ## 运行
+	- JDT 与 Maven

@@ -19,8 +19,6 @@ tags:: [[Dart]]
 		  logseq.order-list-type:: number
 		- [[Dart Syntax/Callable Object]]
 		  logseq.order-list-type:: number
-	- [[Dart Generic]]
-	  logseq.order-list-type:: number
 	- [[Dart Syntax/Implicit interface]]
 	  logseq.order-list-type:: number
 	- [[Dart Syntax/Extend a class]]
@@ -29,11 +27,17 @@ tags:: [[Dart]]
 	  logseq.order-list-type:: number
 	- [[Dart Equality & HashCode]]
 	  logseq.order-list-type:: number
-	- [[Dart Mixin]]
-	  logseq.order-list-type:: number
 	- [[Dart Syntax/Abstract Class]]
 	  logseq.order-list-type:: number
+	- [[Dart Syntax/Class modifiers]]
+	  logseq.order-list-type:: number
+	- [[Dart Mixin]]
+	  logseq.order-list-type:: number
+	- [[Dart Type - Enum]]
+	  logseq.order-list-type:: number
 	- [[Dart Extension Method]]
+	  logseq.order-list-type:: number
+	- [[Dart Generic]]
 	  logseq.order-list-type:: number
 	- [[Dart Type System]]
 	  logseq.order-list-type:: number

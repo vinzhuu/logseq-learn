@@ -37,7 +37,7 @@ tags:: [[Dart Type]]
 	- Dart 中的如下类型 , 有特殊作用:
 		- [[Dart Type - Object]] : 是除了 `NUll` 之外的所有 `class` 的 `superclass` .
 		  logseq.order-list-type:: number
-		- [[Dary Type - Enum]] : 是所有 **枚举类** 的 `superclass` .
+		- [[Dart Type - Enum]] : 是所有 **枚举类** 的 `superclass` .
 		  logseq.order-list-type:: number
 		- `Future` and `Stream`: 用于 [[Dart Async]]
 		  logseq.order-list-type:: number
