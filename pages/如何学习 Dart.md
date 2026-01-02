@@ -13,14 +13,14 @@ tags:: [[Dart]]
 		- #### Overview ==已阅==
 		- #### Docs
 			- Language
-				- 看完 Introduction, Variables, Operators, Comments,
+				- 看完 Introduction, Variables, Operators, Comments   ==已阅==
 				- Types
 					- 看完 Built-in types, Typedefs
 				- Functions (==还差 Generators 部分==)
 				- Metadatas  ==已阅==
 				- Library & imports  ==已阅==
 				- Classes & Objects
-					- 看完 Classes, Constructors, Methods, Extend a class, Mixins, Enums, Callable objects
+					- 看完 Classes, Constructors, Methods, Extend a class, Mixins, Enums, Dot shorthands, Callable objects
 				- Class modifiers
 					-
 			- Packages
