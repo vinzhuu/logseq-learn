@@ -17,9 +17,9 @@ tags:: [[Dart]]
 			  logseq.order-list-type:: number
 		- Methods
 		  logseq.order-list-type:: number
-			- Instance methods
+			- 普通 Instance methods
 			  logseq.order-list-type:: number
-			- 特殊的 Instance methods
+			- 特殊 Instance methods
 			  logseq.order-list-type:: number
 				- Operators (可以给 class 自定义运算符的实现)
 				  logseq.order-list-type:: number

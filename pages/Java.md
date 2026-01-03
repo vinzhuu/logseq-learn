@@ -5,7 +5,7 @@ tags:: [[Program Language]]
 	- [[如何学习 Java]]
 	- [[Java Concept]]
 	  logseq.order-list-type:: number
-	- [[Java 环境代建]]
+	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number
 	- [[Java SE]]
 	  logseq.order-list-type:: number

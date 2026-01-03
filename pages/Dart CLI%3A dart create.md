@@ -25,6 +25,11 @@ tags:: [[Dart CLI: dart]]
 	  ```
 	- `-t` 指定模板, 不使用 `-t` 也会默认使用 `console` 模板.
 	- `--no-pub` 表示创建项目后, 不执行 `pub get` .
+- ## 常用命令
+	- ### 创建一个 Package
+		- ``` dart
+		  dart create -t package <PACKAGE_NAME>
+		  ```
 - ## 参考
 	- [Dart Docs - dart create](https://dart.dev/tools/dart-create)
 	  logseq.order-list-type:: number

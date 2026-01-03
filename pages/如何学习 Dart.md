@@ -20,11 +20,11 @@ tags:: [[Dart]]
 				- Metadatas  ==已阅==
 				- Library & imports  ==已阅==
 				- Classes & Objects
-					- 看完 Classes, Constructors, Methods, Extend a class, Mixins, Enums, Dot shorthands, Callable objects
+					- 看完 Classes, Constructors, Methods, Extend a class, Mixins, Enums, Dot shorthands, Extension methods, Callable objects
 				- Class modifiers
 					-
 			- Packages
-				-
+				- Creating packages 接下来看 Organizing a package
 			- Development
 				- 看完: Number Representation,
 			- Tools & techniques
@@ -32,4 +32,5 @@ tags:: [[Dart]]
 				- Editors & debuggers  ==已阅==
 				- Command-line Tools
 					- Overview, dart, dart create, dart run
--
+			- Related sites  ==已阅==
+				- 看完 API Reference, DartPad, Flutter, Package site

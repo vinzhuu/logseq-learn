@@ -92,8 +92,8 @@ tags:: [[Dart]]
 		- ``` dart
 		  import 'dart:js_interop';
 		  ```
-	- ### Import Pub libraries
-		- 导入 Pub 上的库.
+	- ### Import Package libraries
+		- 导入 Package 中的库.
 		- `import 'package:pacakge_name/foo.dart;`
 		- ``` dart
 		  import 'package:test/test.dart';

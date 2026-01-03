@@ -8,4 +8,6 @@ tags:: [[Dart Type]]
 	  logseq.order-list-type:: number
 	- [[Dart Syntax/Dot shorthand]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- [[Dart Type - dynamic]]
+	  logseq.order-list-type:: number
+-
