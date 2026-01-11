@@ -1,4 +1,4 @@
-tags:: [[Java]], [[WeChat Pay]]
+tags:: [[Java]], [[微信支付]]
 ---
 
 - 微信支付 APIv3 的官方库: [wechatpay-java](https://github.com/wechatpay-apiv3/wechatpay-java)

@@ -1,4 +1,4 @@
-tags:: [[Flutter]], [[WeChat Pay]]
+tags:: [[Flutter]], [[微信支付]]
 ---
 
 - 参见 [fluwx](https://pub.dev/packages/fluwx)

@@ -1,4 +1,4 @@
-tags:: [[WeChat Dev]]
+tags:: [[微信开发]]
 ---
 
 -
