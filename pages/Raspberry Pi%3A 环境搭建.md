@@ -10,8 +10,8 @@ tags:: [[Raspberry Pi]]
 		  logseq.order-list-type:: number
 	- 访问树莓派:
 	  logseq.order-list-type:: number
-		- ==注意, 安装系统时填写了 Wi-Fi,  在不连外设的情况下, 貌似无法自动连上 Wi-Fi ==
-			- 所以请确保先进行了 [[Raspberry Pi: 外设连接]] , 手动连上网络.
+		- ==注意, 安装桌面系统时填写了 Wi-Fi,  在不连外设的情况下, 貌似无法自动连上 Wi-Fi ==
+			- 所以树莓派启动后, 没有连上网络的话, 可以先进行 [[Raspberry Pi: 外设连接]] , 手动连上网络.
 		- [[Raspberry Pi: 外设连接]]
 		  logseq.order-list-type:: number
 			- [[Raspberry Pi: 指示灯]]
@@ -30,10 +30,10 @@ tags:: [[Raspberry Pi]]
 			  logseq.order-list-type:: number
 		- [[Raspberry Pi: VNC 连接]] (远程桌面)
 		  logseq.order-list-type:: number
-		- [[Raspberry Pi: RDP 连接]] (远程桌面)
+		- [[Raspberry Pi: RDP 连接]] (远程桌面) ==不建议==
 		  logseq.order-list-type:: number
 		- [[Raspberry Pi Connect]]
 		  logseq.order-list-type:: number
-	- [[初次使用树莓派]]
--
+	- [[Raspberry Pi: apt 配置]]
+	  logseq.order-list-type:: number
 -

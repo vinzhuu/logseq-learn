@@ -39,4 +39,28 @@ tags:: [[Raspberry Pi]]
 	- 在路由器上查看树莓派是否连接上.
 	  logseq.order-list-type:: number
 		- ![image-20220830031550895.png](../assets/image-20220830031550895_1687106286671_0.png)
-	-
+- ## 常见问题
+	- ### Wi-Fi 连接失败问题
+		- 参考: [树莓派wifi连接不上咋回事](https://blog.csdn.net/l_z_y_000/article/details/128412237)
+		- 先执行 `ifconfig` 看是否有 `wlan0` ，应该是没有的 ( ==否则，这里无法解决== ).
+		  logseq.order-list-type:: number
+		- 执行 `sudo ifconfig -a` ，看是否有 `wlan0` ；如果有，说明 **无线射频** 被锁。
+		  logseq.order-list-type:: number
+		- 执行 `rfkill list` 看是否有被锁住的内容
+		  logseq.order-list-type:: number
+			- ```sh
+			   pi@raspberrypi:~ $ rfkill list
+			   0: phy0: Wireless LAN
+			           Soft blocked: yes
+			           Hard blocked: no
+			   1: hci0: Bluetooth
+			           Soft blocked: no
+			           Hard blocked: no
+			   ```
+		- 执行 `rfkill unblock all` 解锁所有内容。
+		  logseq.order-list-type:: number
+		- 再次执行 `ifconfig` 应该可以看到 `wlan0` 。
+		  logseq.order-list-type:: number
+		- 下面则进行wifi的ssid和密码的配置。
+		  logseq.order-list-type:: number
+-
