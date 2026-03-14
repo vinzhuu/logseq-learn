@@ -1,0 +1,21 @@
+tags:: [[Raspberry Pi]]
+---
+
+- ## 官方资料
+- ## 学习进度
+	- ### 官网了解
+		- ![image.png](../assets/image_1772957040275_0.png)
+		- For industry ==已阅==
+		- For home  ==已阅==
+		- Hardware  ==已阅==
+		- Software  ==已阅==
+		- Documentation ==另起一节==
+		- News  ==已阅==
+		- Forums  ==已阅==
+		- Foundation  ==已阅==
+		- Contact  ==已阅==
+	- ### Documentation
+		- ![image.png](../assets/image_1772967395717_0.png){:height 420, :width 374}
+		- #### Computers
+			- Getting started ==已阅==
+		-

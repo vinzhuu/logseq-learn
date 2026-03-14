@@ -1,0 +1,36 @@
+-
+- ## 参考
+	- ### 相关法律
+		- [中华人民共和国著作权法](https://enipc.court.gov.cn/zh-cn/news/view-405.html)
+		- [信息网络传播权保护条例](https://www.gov.cn/zhengce/2020-12/27/content_5573516.htm)
+	- ### 文章
+		- [在非商用视频中使用背景音乐涉及侵权吗？](https://www.zhihu.com/question/391291934)
+		- [短视频背景音乐可不能乱用 当心侵犯著作权](https://news.cctv.com/2023/05/12/ARTIdai6UKYjPZAi3t0XdZgh230512.shtml)
+		- [第23集 | 免责素材分享～bgm/图片/字体素材分享](https://www.douyin.com/video/7105010605609766159)
+		- [“同学，你的Vlog背景音乐侵权了！”](https://zhuanlan.zhihu.com/p/141954622)
+		- [免版税资源](https://zhuanlan.zhihu.com/p/178557793)
+- ## 字体版权
+	- **得意黑**
+- ## 音乐版权
+	- ### 翻唱
+		- 翻唱不涉及侵权，因为这属于合理使用：
+		- > 第二十二条　【合理使用】在下列情况下使用作品，可以不经著作权人许可，不向其支付报酬，但应当指明作者姓名、作品名称，并且不得侵犯著作权人依照本法享有的其他权利：
+		  ……
+		  (九)免费表演已经发表的作品，该表演未向公众收取费用，也未向表演者支付报酬;
+	- ### 免版权网站
+		- [Free Music Archive (FMA)](https://freemusicarchive.org/home)
+		- [Free PD](https://freepd.com/)
+		- [国际乐谱库 (IMSLP)](https://imslp.org/)
+		- [Audionautix](https://audionautix.com/)
+		- [Sound Cloud](https://soundcloud.com/)
+		- [Free-stock-music](https://www.free-stock-music.com/)
+		- [爱给网](https://www.aigei.com/)
+		- [Free Stock Music](https://www.free-stock-music.com/)
+- ## 视频版权
+	- ### 二次创作
+		- 对平台视频的二次创作，是否涉及侵权？
+- ## 结论
+	- 使用未经授权的音乐作为bgm确实属于侵权行为！
+	- 不过由于国内环境，一方面侵权太多、危害不大、维权成本高，另一方面如果作者维权可能很容易丧失听众缘。
+	- 另外，使用平台已获得授权的音乐，可以不用额外再去获取授权；但如果涉及商用，可能也要额外获取音乐的商用版权。
+-

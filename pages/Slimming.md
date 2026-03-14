@@ -1,0 +1,34 @@
+alias:: [[减肥]]
+tags:: [[Health]] 
+---
+
+-
+-
+- ## 原则
+	- 公理: **消耗 > 摄入 => 减肥**
+	- 减肥的本质是改变生活习惯，并坚持下去 (以防反弹)。
+	- 最好每周减 1 - 2斤 。
+- ## 睡眠
+	- 保持规律睡眠。
+- ## 运动
+	- 无氧 + 有氧 结合。
+	- 运动时，先无氧，再有氧。
+	- 有氧
+		- 最高心率的 60% - 80%
+		- 最高心率 = 220 - 年龄
+- ## 饮食
+	- 8/16轻断食。
+		- 参考: [【轻断食】最简单的减肥方法，断食≠节食](https://www.bilibili.com/video/BV1p5411d7Dg/?spm_id_from=333.337.search-card.all.click&vd_source=f1fbb083ddef12dcff3388779faac201)
+	- 增加蛋白质摄入。
+		- 每天需要吃自身 kg 数 **1.2** 倍以上的 g 数的蛋白质。
+		- 蛋白质含量：
+			- 鸡蛋: 13g/100g ; 一个鸡蛋 50g 左右，所以一个鸡蛋大概 6g 蛋白质。
+			- 牛奶: 3g/100ml ; 一盒牛奶一般 250 ml，所以一盒牛奶大概 7.5g 蛋白质。
+		- [优质蛋白十佳食物排行榜](https://hospital.pku.edu.cn/info/1056/1935.htm)
+	- 细嚼慢咽。
+	- 早餐或者运动后的那一餐补充碳水不容易胖。
+	- 碳水和脂肪一起吃，更容易变胖。
+		- 参考: [导致肥胖的元凶是谁，怎么吃更不容易变胖？【略长干货预警】](https://www.bilibili.com/video/BV1da411e71f/?vd_source=f1fbb083ddef12dcff3388779faac201)
+- ---
+- ## 参考
+	- [减肥反弹不要慌，几点建议帮你忙！【减肥真谛】](https://www.bilibili.com/video/BV1ET4y1X7v7/?spm_id_from=333.337.search-card.all.click&vd_source=f1fbb083ddef12dcff3388779faac201)

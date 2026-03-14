@@ -1,0 +1,11 @@
+-
+- tags:: Spring Cloud Gateway, #[[常见问题]]
+-
+- # Spring Cloud Gateway 常见问题
+	- ## APPLICATION FAILED TO START
+		- ### GatewayAutoConfiguration 自动配置相关
+			- 详细信息: `Parameter 0 of method modifyRequestBodyGatewayFilterFactory in org.springframework.cloud.gateway.config.GatewayAutoConfiguration required a bean of type 'org.springframework.http.codec.ServerCodecConfigurer' that could not be found.`
+			- 参考资料: [Github Issue](https://github.com/spring-cloud/spring-cloud-gateway/issues/2326)
+			- 解决方案: 移除 `spring-boot-start-web` 依赖项，因为 `Spring Cloud Gateway` 是基于 webflux的，如果非要 web 支持的话，需要导入 `spring-boot-starter-webflux`.
+-
+-

@@ -1,0 +1,3 @@
+- eg:
+	- You do this by typing the variable name, followed by an equals sign (`=`), followed by the value you want to give it
+-
