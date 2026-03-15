@@ -10,6 +10,8 @@ tags:: [[部署运维]]
 	  logseq.order-list-type:: number
 	- [[Raspberry Pi: 环境搭建]]
 	  logseq.order-list-type:: number
+	- [[Raspberry Pi Connect]]
+	  logseq.order-list-type:: number
 	- [[Raspberry Pi OS]]
 	  logseq.order-list-type:: number
 - ## Index

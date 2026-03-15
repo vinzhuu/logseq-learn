@@ -32,7 +32,7 @@ tags:: [[Raspberry Pi]]
 		  logseq.order-list-type:: number
 		- [[Raspberry Pi: RDP 连接]] (远程桌面) ==不建议==
 		  logseq.order-list-type:: number
-		- [[Raspberry Pi Connect]]
+		- [[Raspberry Pi Connect: 连接树莓派]]
 		  logseq.order-list-type:: number
 	- [[Raspberry Pi: apt 配置]]
 	  logseq.order-list-type:: number

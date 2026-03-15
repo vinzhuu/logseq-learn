@@ -44,3 +44,6 @@ tags:: [[Raspberry Pi]], [[apt]]
 			  ```
 	- 执行 `sudo apt update` .
 	  logseq.order-list-type:: number
+- ## 参考
+	- ChatGPT
+	  logseq.order-list-type:: number

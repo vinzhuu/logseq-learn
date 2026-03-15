@@ -18,4 +18,6 @@ tags:: [[Raspberry Pi]]
 		- ![image.png](../assets/image_1772967395717_0.png){:height 420, :width 374}
 		- #### Computers
 			- Getting started ==已阅==
-		-
+			- Remote access ==看完 Remote access with Raspberry Pi Connect==
+		- #### Services
+			- Raspberry Pi Connect ==已阅, Connect for Organisations 小节未读==

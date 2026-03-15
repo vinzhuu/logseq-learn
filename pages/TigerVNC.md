@@ -1,5 +1,7 @@
 tags:: [[VNC]]
 ---
 
-- https://tigervnc.org/
-- 开源
+- [TigerVNC 官网](https://tigervnc.org/)
+- ## 安装
+	- [TigerVNC](https://github.com/TigerVNC/tigervnc/releases)
+-
