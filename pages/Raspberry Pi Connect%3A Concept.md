@@ -9,10 +9,11 @@ tags:: [[Raspberry Pi Connect]]
 		- **Raspberry Pi OS Lite** 默认安装了 **Raspberry Pi Connect Lite** .
 	- ![image.png](../assets/image_1773542715526_0.png){:height 318, :width 865}
 - ## Connect 安全性
-	- Connect 使用安全加密的连接.
+	- Connect 采用 [[DTLS]] 安全加密连接.
 	- 默认情况下, **树莓派** 和 **浏览器** 之间进行直连通信.
-	- 当 **树莓派** 和 **浏览器** 之间无法直连时, Connect 会使用 **中继服务器 (relay server)** .
+	- 当 **树莓派** 和 **浏览器** 之间无法直连时, Connect 会使用 **中继服务器 (relay server)** (需要用到 [[TURN]] 技术)
 		- **中继服务器 (relay server)** , 仅保留运行 Connect 所需的元数据.
+	- Connect 服务已通过 [[Cure53]] 的安全评估.
 - ## 系统要求
 	- 参考:
 		- [Bookworm — the new version of Raspberry Pi OS](https://www.raspberrypi.com/news/bookworm-the-new-version-of-raspberry-pi-os/)
@@ -23,3 +24,6 @@ tags:: [[Raspberry Pi Connect]]
 - ## 参考
 	- [Raspberry Pi Connect#Introduction](https://www.raspberrypi.com/documentation/services/connect.html#introduction)
 	  logseq.order-list-type:: number
+	- [Raspberry Pi Connect#Security](https://www.raspberrypi.com/documentation/services/connect.html#security)
+	  logseq.order-list-type:: number
+-

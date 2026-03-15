@@ -1,4 +1,4 @@
-tags:: [[Network]]
+tags:: [[Computer Network]] 
 alias:: [[Network Mapper]]
 ---
 
