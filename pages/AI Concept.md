@@ -9,18 +9,20 @@ tags:: [[AI]]
 	- ### 基础概念
 		- [[LLM]]
 		  logseq.order-list-type:: number
-		- [[Prompt]]
+		- Token
+		  logseq.order-list-type:: number
+		- [[AI Prompt]]
 		  logseq.order-list-type:: number
 		- [[RAG]]
 		  logseq.order-list-type:: number
-		- [[MCP]]
-		  logseq.order-list-type:: number
 	- ### 工具
-		- [[AI Chatbot]]
+		- [[AI Chat]]
 		  logseq.order-list-type:: number
 		- [[AI Agent]]
 		  logseq.order-list-type:: number
-			- [[AI Agent Skills]]
+			- [[AI Agent Skill]]
+			  logseq.order-list-type:: number
+			- [[MCP]]
 			  logseq.order-list-type:: number
 		- [[AI Coding]]
 		  logseq.order-list-type:: number

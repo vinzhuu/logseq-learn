@@ -8,7 +8,7 @@ tags:: [[Raspberry Pi]], [[apt]]
 		  sudo cp /etc/apt/sources.list.d/raspi.sources /etc/apt/sources.list.d/raspi.sources.bak
 		  sudo cp /etc/apt/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources.bak
 		  ```
-	- 编辑 `raspi.sources`  .
+	- 编辑 `raspi.sources`  (==国内的镜像可能更新没那么快, 可以先用树莓派官方的==).
 	  logseq.order-list-type:: number
 		- 执行 `sudo nano /etc/apt/sources.list.d/raspi.sources` .
 		  logseq.order-list-type:: number
