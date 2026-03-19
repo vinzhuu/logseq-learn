@@ -1,4 +1,4 @@
-tags:: [[AI Agent]], [[AI Coding]] 
+tags:: [[AI Agent]], [[AI Coding Agent]] 
 ---
 
 - ## AI Coding Mode

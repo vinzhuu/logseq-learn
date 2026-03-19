@@ -1,8 +1,8 @@
-tags:: [[AI]], [[Coding]]
+tags:: [[AI Agent]] 
 ---
 
 - ## 学习路线
-	- [[AI Coding Mode]]
+	- [[AI Coding Agent Mode]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index

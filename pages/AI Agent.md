@@ -7,8 +7,8 @@ alias:: [[智能体]]
 	  logseq.order-list-type:: number
 		- [[AI Agent Skill]]
 		  logseq.order-list-type:: number
-	- [[AI Coding]]
+	- [[AI Coding Agent]]
 	  logseq.order-list-type:: number
-		- [[AI Coding Mode]]
+		- [[AI Coding Agent Mode]]
 		  logseq.order-list-type:: number
 -
