@@ -1,2 +1,3 @@
 -
 - {{renderer :tocgen2, [[粟丘疹如何处理]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[痘痘外用药]], calc(100vh - 135px)}}

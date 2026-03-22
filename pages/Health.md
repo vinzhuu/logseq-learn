@@ -8,4 +8,6 @@ alias:: [[健康]]
 	  logseq.order-list-type:: number
 	- [[增肌]]
 	  logseq.order-list-type:: number
-	-
+	- [[美发]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
