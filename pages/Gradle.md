@@ -1,4 +1,4 @@
-tags:: Build Tool, Java
+tags:: [[Build Tool]], [[Java]]
+---
 
--
 -

@@ -1,4 +1,4 @@
-tags:: [[Glossary]], [[Front-End]] 
+tags:: [[Glossary]], [[Web]] 
 alias:: [[Polyfiller]]
 ---
 

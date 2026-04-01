@@ -19,7 +19,7 @@ tags:: [[Shell]]
 	- 交互设备：
 		- 早期的计算机程序都是 `CLI 程序` ，需要用到专门的 `Terminal` 设备进行交互。
 		- 后来有了 `GUI` ，无需专门的 `Terminal` 设备，只需用到通用的鼠标、键盘和显示器即可进行交互。
-- ## Terminal, TTY 与 Console
+- ## Terminal 与 Console
 	- 早年间，计算机比较笨重，会被安置在单独的机房中；人们通过一些与机房连接的 **外部硬件设备** ，与计算机进行交互，这就是 `Terminal` (终端/终端机) 。
 	  logseq.order-list-type:: number
 	  id:: 675ce902-0dcb-447e-b3ef-b3922543ed8c

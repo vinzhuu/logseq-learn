@@ -1,7 +1,7 @@
 alias:: [[World Wide Web]]
 ---
 
-- ==子目录==
+- ## 学习路线
 	- [[Web History]]
 - ---
 - ## 一句话解释

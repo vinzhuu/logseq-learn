@@ -1,4 +1,4 @@
-tags:: [[Front End]], [[JS]], [[Computer Graphics]]
+tags:: [[Web]], [[JS]], [[Computer Graphics]]
 alias:: [[Web Graphics Library]]
 ---
 

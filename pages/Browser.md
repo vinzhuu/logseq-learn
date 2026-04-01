@@ -1,4 +1,4 @@
-tags:: [[Front-End]]
+tags:: [[Web]] 
 ---
 
 -

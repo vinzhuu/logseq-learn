@@ -25,3 +25,4 @@ alias:: [[Yellowdog Updater Modified]]
 	- [[YUM/Configure]]
 	  logseq.order-list-type:: number
 -
+-
