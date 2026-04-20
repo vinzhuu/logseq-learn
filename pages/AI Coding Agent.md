@@ -1,4 +1,4 @@
-tags:: [[AI Agent]] 
+tags:: [[AI Agent]], [[AI Coding]] 
 ---
 
 - ## 学习路线

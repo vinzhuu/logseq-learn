@@ -8,11 +8,11 @@ tags:: [[Swift]]
 	  logseq.order-list-type:: number
 	- [[Swift Type]]
 	  logseq.order-list-type:: number
+	- [[Swift - Control Flow]]
+	  logseq.order-list-type:: number
+	- [[Swift - Assertions and Preconditions]]
+	  logseq.order-list-type:: number
 	- [[Swift - Error Handling]]
 	  logseq.order-list-type:: number
-	- [[Swift Syntax/Basics]]
 	-
-	-
-	-
--
 -

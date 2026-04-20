@@ -1,12 +1,11 @@
 tags:: [[Swift Type]]
 ---
 
-- ## Bool
+- ## Type Aliases
+	- 使用类型别名。
 	- ``` swift
-	  let orangesAreOrange = true
-	  let turnipsAreDelicious = false
-	  
-	  let val: Bool = false
+	  // 定义类型别名
+	  typealias AudioSample = UInt16
 	  ```
 - ## 参考
 	- [The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics)
