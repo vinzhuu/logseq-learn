@@ -1,12 +1,6 @@
 tags:: [[Swift]]
 ---
 
-- ## 安装 Swift
-	- 下载 Swift : [Install Swift](https://www.swift.org/install/)
-	- macOS 直接在 App Store 安装 Xcode 。
-	- 安装 Xcode 也会安装其内置的 Swift 。
-	- 在 App Store 升级 Xcode 也会升级其内置的 Swift 。
-	- 执行 `swift --version` 查看 Swift 版本。
 - ## 如何运行 Swift 代码
   id:: 651d39e1-512d-4825-acf3-5c403015217f
 	- **Xcode**: 在 Xcode 中创建 Project 编写代码并运行。 ==初学阶段不推荐，太重==

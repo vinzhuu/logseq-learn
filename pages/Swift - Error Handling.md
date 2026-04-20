@@ -1,3 +1,6 @@
+tags:: [[Swift Syntax]]
+---
+
 - ``` swift
   func makeASandwich() throws {
       // ...

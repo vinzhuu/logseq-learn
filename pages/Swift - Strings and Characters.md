@@ -1,4 +1,7 @@
-## String Literals
+tags:: [[Swift Type]]
+---
+
+- ## String Literals
 	- ``` swift
 	  let someString = "Some string literal value"
 	  ```

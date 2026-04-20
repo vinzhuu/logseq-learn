@@ -2,17 +2,15 @@ tags:: [[Swift]]
 ---
 
 - ## 学习路线
-	- [[Swift - Hello World]]
+	- [[Swift - Type Operator]]
 	  logseq.order-list-type:: number
-	- [[Swift - Variables]]
+	- [[Swift - Number]]
 	  logseq.order-list-type:: number
-	- [[Swift Type]]
+	- [[Swift - Bool]]
 	  logseq.order-list-type:: number
-	- [[Swift - Error Handling]]
+	- [[Swift Operators]]
 	  logseq.order-list-type:: number
-	- [[Swift Syntax/Basics]]
-	-
-	-
-	-
+	- [[Swift - Strings and Characters]]
+	  logseq.order-list-type:: number
 -
 -
