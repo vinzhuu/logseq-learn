@@ -1,20 +1,6 @@
 tags:: [[微信支付 API]]
 ---
 
-- ## 需要的参数
-	- 商户账号
-	  logseq.order-list-type:: number
-	- 应用 AppID
-	  logseq.order-list-type:: number
-		- 即 需要接入微信支付的 **微信生态应用** 的 AppID (参见: [[微信开发: 概念]])
-		- 在 [商户平台 - AppID账号管理](https://pay.weixin.qq.com/index.php/extend/merchant_appid/mapay_platform/account_manage) 查看和关联.
-	- 商户 APIv2 密钥
-	  logseq.order-list-type:: number
-		- [商户平台 - 账户中心 - API 安全](https://pay.weixin.qq.com/index.php/core/cert/api_cert#/) --> 商户 APIv2 密钥 (随机生成 32 个字符, 仅包含 "数字和大小写字母")
-		- 关于修改
-	- 商户 API 证书
-	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
 - ## 接口规范
 	- **请求方式**: HTTPS + POST .
 	  logseq.order-list-type:: number
@@ -46,6 +32,8 @@ tags:: [[微信支付 API]]
 			- 签名算法为 `MD5` 或 `HMAC-SHA256` .
 		- 最终追加一个 `sign` 字段, 值为 `signValue` .
 		  logseq.order-list-type:: number
+- ## 签名校验工具
+	- [微信支付接口签名校验工具](https://pay.weixin.qq.com/doc/v2/tool/sign_verify)
 - ## 参考
 	- [协议规则](https://pay.weixin.qq.com/doc/v2/merchant/4011986811)
 	  logseq.order-list-type:: number
