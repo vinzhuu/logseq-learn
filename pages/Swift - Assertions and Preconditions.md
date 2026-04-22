@@ -22,7 +22,7 @@ tags:: [[Swift Syntax]]
 		      assertionFailure("A person's age can't be less than zero.")
 		  }
 		  ```
-		- 如果条件判断已经有了，则可以是用 `assertionFailure()` 方法来表示断言失败。
+		- 如果条件判断已经有了，则可以使用 `assertionFailure()` 方法来表示断言失败。
 - ## Preconditions
 	- ==Preconditions 在 Debug Builds 和 Production Builds 都会执行。==
 	- Preconditions 语法:

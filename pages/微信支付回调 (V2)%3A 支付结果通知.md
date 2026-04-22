@@ -1,4 +1,4 @@
-tags:: [[WeChat Pay API]] 
+tags:: [[微信支付 API]] 
 ---
 
 - ## 文档

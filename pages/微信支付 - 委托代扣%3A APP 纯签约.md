@@ -20,7 +20,7 @@ tags:: [[微信支付 - 委托代扣]]
 - ## OpenBusinessView 与 WXLaunchMiniProgram
 	- ### 支持情况
 		- 申请日期 < 2025.09.23 的模板 (==被称为 存量模板==):
-			- 如果有 `OpenBusinessView` 权限, 则支持调用 `OpenBusinessWebview` .
+			- 如果有 `OpenBusinessWebview` 权限, 则支持调用 `OpenBusinessWebview` .
 			  logseq.order-list-type:: number
 			- 如果没有 `OpenBusinessWebview` 权限, 则不支持调用 `OpenBusinessWebview` , 只能调用 `WXLaunchMiniProgram` .
 			  logseq.order-list-type:: number

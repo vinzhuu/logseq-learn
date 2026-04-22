@@ -4,6 +4,10 @@ tags:: [[Swift]]
 - ## 学习路线
 	- [[Swift - Type Annotation]]
 	  logseq.order-list-type:: number
+	- [[Swift - Optional Type]]
+	  logseq.order-list-type:: number
+	- [[Swift Operator]]
+	  logseq.order-list-type:: number
 	- Basic Types
 	  logseq.order-list-type:: number
 		- [[Swift - Number]]
@@ -20,12 +24,9 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Tuple]]
 		  logseq.order-list-type:: number
-	- [[Swift - Optional Type]]
-	  logseq.order-list-type:: number
 	- [[Swift - Type Alias]]
 	  logseq.order-list-type:: number
-	- [[Swift Operator]]
-	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 -
 -

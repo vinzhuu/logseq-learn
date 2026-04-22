@@ -8,7 +8,7 @@ tags:: [[Swift]]
 		- [Swift Docs - Home](https://www.swift.org/documentation/)
 			- Swift
 				- [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-				- [The Swift Programming Language - 中文版本 (by swiftgg)](https://gitbook.swiftgg.team/swift/)
+				- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team)
 			- [Swift Standard Library](https://developer.apple.com/documentation/swift/swift-standard-library)
 			- [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 - ## 第三方资料

@@ -13,7 +13,7 @@ tags:: [[Swift Syntax]]
 	      if score > 50 {
 	          teamScore += 3
 	      } else {
-	          teamScore += 1
+	        teamScore += 1
 	      }
 	  }
 	  print(teamScore)
