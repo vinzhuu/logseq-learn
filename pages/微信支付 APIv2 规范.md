@@ -34,6 +34,7 @@ tags:: [[微信支付 API]]
 		  logseq.order-list-type:: number
 - ## 签名校验工具
 	- [微信支付接口签名校验工具](https://pay.weixin.qq.com/doc/v2/tool/sign_verify)
+-
 - ## 参考
 	- [协议规则](https://pay.weixin.qq.com/doc/v2/merchant/4011986811)
 	  logseq.order-list-type:: number
