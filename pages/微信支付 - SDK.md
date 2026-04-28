@@ -15,7 +15,7 @@ tags:: [[微信支付]]
 	- ### 官方
 		- 官方 APIv2 版本的 SDK 已找不到.
 		- 下面是 APIv3 版本的 SDK:
-			- Java : [wechatpay-java](https://github.com/wechatpay-apiv3/wechatpay-java)
+			- Java : [wechatpay-java](https://github.com/wechatpay-apiv3/wechatpay-java) 参见: [[wechatpay-java]]
 			  logseq.order-list-type:: number
 			- PHP : [wechatpay-php](https://github.com/wechatpay-apiv3/wechatpay-php)
 			  logseq.order-list-type:: number
