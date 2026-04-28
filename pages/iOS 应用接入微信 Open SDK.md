@@ -14,26 +14,7 @@ tags:: [[微信 Open SDK]]
 		- 不管是手动创建的, 还是 Flutter 之类的跨平台框架创建的.
 	- 引入微信 Open SDK:
 	  logseq.order-list-type:: number
-		- CocoaPods 引入依赖
-		  logseq.order-list-type:: number
-			- 在工程根目录下创建 `Podfile` 文件, 并引入 `pod 'WechatOpenSDK-XCFramework'`
-			  logseq.order-list-type:: number
-			- 执行 `pod install` 下载依赖.
-			  logseq.order-list-type:: number
-			- 使用 Xcode 打开生成的 `myapp.xcworkspace`
-			  logseq.order-list-type:: number
-		- 手动引入下载的 Open SDK .
-		  logseq.order-list-type:: number
-		- Flutter 引入 Open SDK
-		  logseq.order-list-type:: number
-			- `pubspec.yaml` 文件中加入 [[Fluwx]] 依赖
-			  logseq.order-list-type:: number
-				- ``` yaml
-				  dependencies:
-				    fluwx: ^${latestVersion}
-				  ```
-			- 执行 `flutter pub get` 下载依赖.
-			  logseq.order-list-type:: number
+		- ==参见下一小节==
 	- 新增 URL Type (用于 微信 回调 第三方 App)
 	  logseq.order-list-type:: number
 		- Xcode 工程中, 进入 TARTGETS > 选择 TARGET > 顶部 Info 标签 > URL Types > 新增一个 URL Type
@@ -53,6 +34,84 @@ tags:: [[微信 Open SDK]]
 		- ![image.png](../assets/image_1768712526348_0.png){:height 317, :width 903}
 	- 配置第三方 App 的 Universal Links (参见: [[Apple: Associated domains]])
 	  logseq.order-list-type:: number
+- ## 引入微信 Open SDK
+	- ### Flutter 引入 Open SDK
+		- `pubspec.yaml` 文件中加入 [[Fluwx]] 依赖
+		  logseq.order-list-type:: number
+			- ``` yaml
+			  dependencies:
+			    fluwx: ^${latestVersion}
+			  ```
+		- 执行 `flutter pub get` 下载依赖.
+		  logseq.order-list-type:: number
+	- ### 手动引入下载的 Open SDK (XCFramework 形式)
+		- 下载 **iOS 开发工具包**
+		  logseq.order-list-type:: number
+			- [iOS开发工具包 (XCFramework 形式)](https://dldir1.qq.com/WechatWebDev/opensdk/XCFramework/OpenSDK2.0.5.zip)（2.0.5版本，包含支付功能）。
+			  logseq.order-list-type:: number
+			- [iOS开发工具包 (XCFramework 形式)](https://dldir1.qq.com/WechatWebDev/opensdk/XCFramework/OpenSDK2.0.5_NoPay.zip)（2.0.5版本，不包含支付功能）。
+			  logseq.order-list-type:: number
+		- 解压得到 `WechatOpenSDK.xcframework` 目录.
+		  logseq.order-list-type:: number
+			- ![image.png](../assets/image_1777357394805_0.png)
+		- 将  `WechatOpenSDK.xcframework` 目录复制到 **项目根目录下与项目同名的目录中** 
+		  logseq.order-list-type:: number
+			- (复制进来时会让我们选 `TARGET` )
+			- ![image.png](../assets/image_1777357504154_0.png){:height 136, :width 473}
+		- 我们可以在如下界面中看到 `WechatOpenSDK.xcframework`
+		  logseq.order-list-type:: number
+			- 指定 `TARGET` > `General` > `Frameworks, Libraries, and Embedded Content`
+			  logseq.order-list-type:: number
+			- 指定 `TARGET` > `Build Phases` > `Link Binary With Libraries`
+			  logseq.order-list-type:: number
+		- 链接 Apple Framework .
+		  logseq.order-list-type:: number
+			- 在指定 `TARGET` > `General` > `Frameworks, Libraries, and Embedded Content`
+			- 添加如下几个库:
+				- Security.framework
+				  logseq.order-list-type:: number
+				- CoreGraphics.framework
+				  logseq.order-list-type:: number
+				- WebKit.framework
+				  logseq.order-list-type:: number
+		- 在指定 `TARGET` > `Build Setting` , 搜索 `Other Linker Flags` , 添加 `-ObjC -all_load` .
+		  logseq.order-list-type:: number
+			- ![image.png](../assets/image_1777358838274_0.png){:height 116, :width 508}
+		- 处理 `AppDelegate` .
+		  logseq.order-list-type:: number
+			- Object-C:
+				- 在需要调用 **微信终端 API** 的文件中, `import WXApi.h` 头文件，并增加 `WXApiDelegate` 协议
+				- ``` objc
+				  #import <UIKit/UIKit.h>
+				  #import <WechatOpenSDK/WXApi.h> // （SDK版本 >= 2.0.5）
+				  // #import <WXApi.h> // 旧版本SDK的导入方式（SDK版本 < 2.0.5）
+				  
+				  @interface AppDelegate : UIResponder<UIApplicationDelegate, WXApiDelegate>
+				  
+				  @property (strong, nonatomic) UIWindow *window;
+				  
+				  @end
+				  ```
+			- Swift:
+				- ==待研究==
+	- ### CocoaPods 引入依赖  (XCFramework 形式)
+		- 在工程根目录下创建 `Podfile` 文件, 并引入 `pod 'WechatOpenSDK-XCFramework'`
+		  logseq.order-list-type:: number
+		- 执行 `pod install` 下载依赖.
+		  logseq.order-list-type:: number
+		- 使用 Xcode 打开生成的 `myapp.xcworkspace`
+		  logseq.order-list-type:: number
+	- ### 手动引入下载的 Open SDK (.a 静态库文件形式)
+		- 下载 **iOS 开发工具包**
+		  logseq.order-list-type:: number
+			- [iOS开发工具包 (.a 静态库文件形式)](https://dldir1.qq.com/WechatWebDev/opensdk/OpenSDK2.0.5.zip)（2.0.5版本，包含支付功能）。
+			  logseq.order-list-type:: number
+			- [iOS开发工具包 (.a 静态库文件形式)](https://dldir1.qq.com/WechatWebDev/opensdk/OpenSDK2.0.5_NoPay.zip)（2.0.5版本，不包含支付功能）。
+			  logseq.order-list-type:: number
+		- 参见: [使用.a静态库文件的OpenSDK差异点说明](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS_Static_Library_Difference.html)
+		  logseq.order-list-type:: number
+	- ### CocoaPods 引入依赖  (.a 静态库文件形式)
+		- 参见: [使用.a静态库文件的OpenSDK差异点说明](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS_Static_Library_Difference.html)
 - ## 验证 Universal Links 是否正常
 	- ### 1.验证 **微信** 的 Universal Links 正常
 		- Safari 访问 `https://help.wechat.com/app/` .

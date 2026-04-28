@@ -12,5 +12,10 @@ tags:: [[微信开发]]
 		  logseq.order-list-type:: number
 		- [[Flutter 应用接入微信 Open SDK]]
 		  logseq.order-list-type:: number
--
+- ## Index
+	- ### 示例
+		- [iOS SDKSample](https://open.weixin.qq.com/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK_sample_iOS_1.4.2.1.zip)
+		  logseq.order-list-type:: number
+		- [Android SDKSample](https://open.weixin.qq.com/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK_sample_Android.zip)
+		  logseq.order-list-type:: number
 -

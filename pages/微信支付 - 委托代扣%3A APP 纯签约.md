@@ -12,11 +12,9 @@ tags:: [[微信支付 - 委托代扣]]
 	- **前端** 调用 [[微信 Open SDK API: WXLaunchMiniProgram]] , 拉起 **微信客户端** , 让用户进行签约操作.
 	  logseq.order-list-type:: number
 		- ==**预签约** 成功后, 需在 2 分钟内调起微信客户端 (将来可能缩短至 20 秒)==
-	- **用户** 操作后, **微信客户端** 发起回调.
+	- **用户** 操作后, **微信客户端** 的小程序发起回调, 拉起 **商户 APP** .
 	  logseq.order-list-type:: number
-	- **系统** 拉起 **商户 APP** .
-	  logseq.order-list-type:: number
-		- 参见: [打开 App](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/launchApp.html)
+		- 参见: [[微信小程序跳转移动应用]]
 - ## OpenBusinessView 与 WXLaunchMiniProgram
 	- ### 支持情况
 		- 申请日期 < 2025.09.23 的模板 (==被称为 存量模板==):
