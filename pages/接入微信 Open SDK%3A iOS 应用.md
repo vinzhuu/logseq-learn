@@ -77,23 +77,6 @@ tags:: [[微信 Open SDK]]
 		- 在指定 `TARGET` > `Build Setting` , 搜索 `Other Linker Flags` , 添加 `-ObjC -all_load` .
 		  logseq.order-list-type:: number
 			- ![image.png](../assets/image_1777358838274_0.png){:height 116, :width 508}
-		- 处理 `AppDelegate` .
-		  logseq.order-list-type:: number
-			- Object-C:
-				- 在需要调用 **微信终端 API** 的文件中, `import WXApi.h` 头文件，并增加 `WXApiDelegate` 协议
-				- ``` objc
-				  #import <UIKit/UIKit.h>
-				  #import <WechatOpenSDK/WXApi.h> // （SDK版本 >= 2.0.5）
-				  // #import <WXApi.h> // 旧版本SDK的导入方式（SDK版本 < 2.0.5）
-				  
-				  @interface AppDelegate : UIResponder<UIApplicationDelegate, WXApiDelegate>
-				  
-				  @property (strong, nonatomic) UIWindow *window;
-				  
-				  @end
-				  ```
-			- Swift:
-				- ==待研究==
 	- ### CocoaPods 引入依赖  (XCFramework 形式)
 		- 在工程根目录下创建 `Podfile` 文件, 并引入 `pod 'WechatOpenSDK-XCFramework'`
 		  logseq.order-list-type:: number
@@ -124,19 +107,6 @@ tags:: [[微信 Open SDK]]
 		- Safari 访问 `https://{第三方 App 的域名}` .
 		  logseq.order-list-type:: number
 			- 如果可以跳转到第三方 App , 则正常.
-- ## Swift 使用 Open SDK
-	- 在需要使用 Open SDK 的文件中 `import WXApi.h` 头文件，并增加 `WXApiDelegate` 协议。
-		- ``` swift
-		  #import <UIKit/UIKit.h>
-		  #import <WechatOpenSDK/WXApi.h> // （SDK版本 >= 2.0.5）
-		  // #import <WXApi.h> // 旧版本SDK的导入方式（SDK版本 < 2.0.5）
-		  
-		  @interface AppDelegate : UIResponder<UIApplicationDelegate, WXApiDelegate>
-		  
-		  @property (strong, nonatomic) UIWindow *window;
-		  
-		  @end
-		  ```
 - ## 参考
 	- [iOS接入指南](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS.html#_2-%E7%A1%AE%E8%AE%A4-App-%E7%9A%84Universal-Links%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F)
 	  logseq.order-list-type:: number

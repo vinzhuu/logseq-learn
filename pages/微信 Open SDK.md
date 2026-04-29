@@ -6,11 +6,15 @@ tags:: [[微信开发]]
 	  logseq.order-list-type:: number
 	- 接入 微信 Open SDK
 	  logseq.order-list-type:: number
-		- [[iOS 应用接入微信 Open SDK]]
+		- [[接入微信 Open SDK: iOS 应用]]
 		  logseq.order-list-type:: number
-		- [[Android 应用接入微信 Open SDK]]
+		- [[接入微信 Open SDK: Android 应用]]
 		  logseq.order-list-type:: number
-		- [[Flutter 应用接入微信 Open SDK]]
+		- [[接入微信 Open SDK: Flutter 应用]]
+		  logseq.order-list-type:: number
+	- 使用 微信 Open SDK
+	  logseq.order-list-type:: number
+		- [[使用微信 Open SDK: iOS 应用]]
 		  logseq.order-list-type:: number
 - ## Index
 	- ### 示例
