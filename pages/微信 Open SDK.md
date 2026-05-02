@@ -1,4 +1,4 @@
-tags:: [[微信开发]]
+tags:: [[微信开发]], [[微信移动应用]]
 ---
 
 - ## 学习路线
@@ -16,6 +16,8 @@ tags:: [[微信开发]]
 	  logseq.order-list-type:: number
 		- [[使用微信 Open SDK: iOS 应用]]
 		  logseq.order-list-type:: number
+			- [[WechatOpenSDK.xcframework 介绍]]
+		- logseq.order-list-type:: number
 - ## Index
 	- ### 示例
 		- [iOS SDKSample](https://open.weixin.qq.com/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK_sample_iOS_1.4.2.1.zip)
