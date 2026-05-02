@@ -8,6 +8,8 @@ tags:: [[Contents]]
 	  logseq.order-list-type:: number
 	- [[Health]]
 	  logseq.order-list-type:: number
+	- [[Physics]]
+	  logseq.order-list-type:: number
 - ## 社科
 	- [[Philosophy]]
 	  logseq.order-list-type:: number
