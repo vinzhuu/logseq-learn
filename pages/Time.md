@@ -14,6 +14,8 @@ alias:: [[时间]]
 		  logseq.order-list-type:: number
 		- 原子钟
 		  logseq.order-list-type:: number
+		- 世界时与协调时
+		  logseq.order-list-type:: number
 	- 计算机时间
 	  logseq.order-list-type:: number
 		- Unix 时间戳

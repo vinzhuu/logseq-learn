@@ -32,7 +32,7 @@ tags:: [[Swift Type]]
 - ## Type Safety
 	- 一个变量被赋的多个值的类型, 必须一致 。
 	  logseq.order-list-type:: number
-	- 一个类型从来不会被 **隐式地 (implicitly)** 转换成另一种类型，必须 显式地 转换 .
+	- 一个类型从来不会被 **隐式地 (implicitly)** 转换成另一种类型，必须 **显式地** 转换 .
 	  logseq.order-list-type:: number
 		- ``` swift
 		  let label = "The width is "

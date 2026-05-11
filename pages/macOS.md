@@ -7,7 +7,9 @@ tags:: [[部署运维]], [[Unix]], [[Apple Technology]], [[OS]]
 	- [[macOS File System]]
 	- [[macOS Shell]]
 	- [[Homebrew]]
-	- [[macOS 常见问题]]
+	- macOS 使用异常:
+		- [[macOS 常见问题]]
+		- [[macOS 更新异常]]
 - ---
 - # macOS
 	- ## 官方资料
