@@ -1,8 +1,7 @@
 tags:: [[AI Agent]] 
 ---
 
-- ##
-	-
+-
 - ## Skills 市场
 	- [Github Repo - Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)
 	  logseq.order-list-type:: number
@@ -13,4 +12,6 @@ tags:: [[AI Agent]]
 	- [skills.sh (skills 包管理)](https://skills.sh/)
 	  logseq.order-list-type:: number
 - ## Index
-	-
+	- [[常用 Skill]]
+	  logseq.order-list-type:: number
+-

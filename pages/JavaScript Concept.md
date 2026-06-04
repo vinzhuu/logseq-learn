@@ -45,7 +45,7 @@ tags:: [[JavaScript]]
 		- #### 浏览器特定 API
 			- 特定浏览器才有的 API，如 Chromium 的 `chrome.*` 扩展 API。
 	- ### Server-side JavaScript
-		- 运行在 Node.js/Deno/Bun 等服务端环境中
+		- 运行在 [[Node.js]] / [[Deno]] / [[Bun]] 等服务端环境中
 		- 相当于 `Core JavaScript` + `服务端环境 API`
 		- 服务端 API ，包括 文件、网络、系统 等模块。
 	- ### JavaScript 与 ECMAScript
