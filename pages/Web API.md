@@ -27,6 +27,7 @@ tags:: [[JavaScript]], [[Web]]
 	- ### 性能相关
 		- [[Performance API]]
 		  logseq.order-list-type:: number
+	- [[Service Worker API]]
 - ## Index
 	- [MDN - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 	  logseq.order-list-type:: number
