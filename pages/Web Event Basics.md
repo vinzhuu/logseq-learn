@@ -131,7 +131,7 @@ tags:: [[Web Event]]
 		- 最佳实践就是，不要使用 `inline event handlers` ，原因：
 			- 分散在 HTML 文档各处，不好维护。
 			  logseq.order-list-type:: number
-			- 出于安全考虑，很多 Web 服务器默认禁用  `Inline JavaScript` (通过加 `Content-Security-Policy` 响应头)。
+			- 出于安全考虑，很多 Web 服务器默认禁用  `Inline JavaScript` (通过加 `Content-Security-Policy` 响应头, 参见 [[Content Security Policy]] )。
 			  logseq.order-list-type:: number
 		- 可以说 `inline event handlers` 已经过时了 (outdated) 。
 - ## 使用 Event Object

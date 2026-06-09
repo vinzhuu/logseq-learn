@@ -87,8 +87,8 @@ tags:: [[Web Event]]
 		  
 		  </html>
 		  ```
-		- https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#preventing_default_behavior
-- ## Reference
+		- 参见: [Events#Preventing default behavior](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#preventing_default_behavior)
+- ## Index
 	- `Event`
 	  logseq.order-list-type:: number
 		- 事件索引：[MDN - Event Index](https://developer.mozilla.org/en-US/docs/Web/Events#event_index)

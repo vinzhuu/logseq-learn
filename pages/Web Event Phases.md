@@ -230,7 +230,7 @@ tags:: [[Web Event]], [[JavaScript]]
 	  
 	  </html>
 	  ```
-- ## Reference
+- ## Index
 	- [DOM Event 可视化工具](https://domevents.dev/)
 	-
 - ---

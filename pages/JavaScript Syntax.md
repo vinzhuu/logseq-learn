@@ -10,5 +10,7 @@ tags:: [[JavaScript]]
 	  logseq.order-list-type:: number
 	- [[Promise API]]
 	  logseq.order-list-type:: number
+	- [[JavaScript: Objects]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 -

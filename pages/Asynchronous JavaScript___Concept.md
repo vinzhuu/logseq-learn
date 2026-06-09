@@ -1,4 +1,7 @@
-## JavaScript 程序是单线程的
+tags:: [[JavaScript]]
+---
+
+- ## JavaScript 程序是单线程的
 	- JavaScript 程序, 默认是单线程的 (single-threaded) .
 	- 为了让耗时比较长的操作, 可以不阻塞后面代码的运行, 我们需要一种方法, 可以实现如下内容:
 		- 通过调用一个函数, 来启动耗时操作.

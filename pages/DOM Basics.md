@@ -43,7 +43,7 @@ tags:: [[DOM]]
 		  id:: 67b08b26-8110-4acf-9805-068cb8d71ffe
 		- 进一步学习: [[DOM API/Attr]]
 	- ### NamedNodeMap
-		- [MDN - Web API - NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap)
+		- 参见: [MDN - Web API - NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap)
 		- 与 `NodeList` 类似， `NamedNodeMap` 表示 `Attr` 的集合。
 			- 但与 `NodeList` 不同的是， `NamedNodeMap` 内部的对象没有特定顺序，即便可以使用索引来访问。
 		- `NamedNodeMap` 对象可以通过 `Element.attributes` 属性获取。
@@ -55,14 +55,6 @@ tags:: [[DOM]]
 	- `Node` 继承了 `EventTarget`
 		- ![image.png](../assets/image_1739610237217_0.png)
 		- 图片来源: [MDN - Wen API - Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)
-- ## JavaScript 如何查看继承关系
-	- ``` js
-	  // 原型链
-	  document.__proto__.__proto__
-	  
-	  // instanceof 关键字
-	  document instanceof Node
-	  ```
 - ## DOM Tree
 	- 参考:  [MDN - Using the Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model)
 	- ### 简化 DOM Tree
@@ -89,13 +81,13 @@ tags:: [[DOM]]
 			- ![image.png](../assets/image_1739814846759_0.png){:height 296, :width 562}
 	- ### Node Type
 		- 参考: [MDN - Node - nodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType)
-		- Node.ELEMENT_NODE (1) 元素节点
+		- 常量 Node.ELEMENT_NODE = 1 :  元素节点
 		  logseq.order-list-type:: number
 			- 如 `<p>` , `<div>`
-		- Node.ATTRIBUTE_NODE (2) 属性节点
+		- 常量 Node.ATTRIBUTE_NODE = 2 : 属性节点
 		  logseq.order-list-type:: number
 			- 元素的属性.
-		- Node.TEXT_NODE (3) 文本节点
+		- 常量 Node.TEXT_NODE = 3 : 文本节点
 		  logseq.order-list-type:: number
 		- ......
 	- ### Node 相关术语

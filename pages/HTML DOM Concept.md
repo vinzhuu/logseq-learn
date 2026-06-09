@@ -30,7 +30,7 @@ tags:: [[HTML DOM]]
 	- `Element` 接口被拓展为 `HTMLElement` 以及很多不同的子类.
 		- `HTMLElement` 接口是通用的,  它包含 元素 ID, coordinates, HTML 文本, scroll position 等所有元素通用的信息.
 		- 其他 HTML 元素都继承自 `HTMLElement` .
-		- ![image.png](../assets/image_1742119789532_0.png){:height 280, :width 451}
+		- ![image.png](../assets/image_1742119789532_0.png){:height 389, :width 451}
 - ## HTML DOM API 分类
 	- 参考: [MDN - HTML DOM API interfaces](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API#html_dom_api_interfaces)
 	- HTML element interfaces ( `HTMLElement` 及其子类 )
