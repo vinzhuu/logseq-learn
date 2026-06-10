@@ -22,7 +22,7 @@ alias:: [[Polyfiller]]
 			- jQuery 的 `$.ajax()` 方法通过判断浏览器类型动态选择底层实现，统一了接口行为 .
 - ## Polyfill 已不常见
 	- 在如今, 由于前端技术的标准化, Polyfill 已不常见.
-- ## Reference
+- ## Index
 	- HTML5 Polyfill 汇总: [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 	  logseq.order-list-type:: number
 - ## 参考

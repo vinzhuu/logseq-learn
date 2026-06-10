@@ -1,4 +1,4 @@
-tags:: [[Asynchronous JavaScript]]
+tags:: [[JavaScript Async]]
 ---
 
 - ## 学习进度

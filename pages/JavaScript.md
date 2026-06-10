@@ -8,6 +8,8 @@ alias:: [[JS]]
 	  logseq.order-list-type:: number
 	- [[JavaScript Syntax]]
 	  logseq.order-list-type:: number
+	- [[JavaScript Async]]
+	  logseq.order-list-type:: number
 	- 客户端 API :
 	  logseq.order-list-type:: number
 		- [[Web API]]
