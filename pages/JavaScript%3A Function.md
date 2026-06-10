@@ -1,4 +1,7 @@
-## Function Declaration
+tags:: [[JavaScript]]
+---
+
+- ## Function Declaration
 	- ``` js
 	  function hello(name) {
 	    console.log("Hello World! " + name);
