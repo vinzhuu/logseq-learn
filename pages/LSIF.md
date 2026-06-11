@@ -1,5 +1,5 @@
 alias:: [[Language Server Index Format]]
-tags:: [[Program Language]], [[LSP]]
+tags:: [[Program Language Glossary]] , [[LSP]]
 ---
 
 - ## 学习路径

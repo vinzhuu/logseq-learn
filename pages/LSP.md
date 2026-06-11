@@ -1,5 +1,5 @@
 alias:: [[Language Server Protocol]]
-tags:: [[Program Language]], [[Protocol]] 
+tags:: [[Program Language Glossary]] , [[Protocol]] 
 ---
 
 - ## 学习路径

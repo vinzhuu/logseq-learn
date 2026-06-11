@@ -1,5 +1,5 @@
 alias:: [[小程序]], [[Mini Programs]]
-tags:: [[Program Language]], [[Mobile]] 
+tags:: [[Mobile]] 
 ---
 
 -

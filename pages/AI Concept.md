@@ -31,6 +31,10 @@ tags:: [[AI]]
 			  logseq.order-list-type:: number
 			- [[MCP]]
 			  logseq.order-list-type:: number
+			- [[AI Agent Loop]]
+			  logseq.order-list-type:: number
+			- [[AI Agent Harness]]
+			  logseq.order-list-type:: number
 		- [[AI Coding Agent]]
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number

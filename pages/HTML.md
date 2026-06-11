@@ -31,7 +31,7 @@ alias:: [[HyperText Markup Language]]
 			  logseq.order-list-type:: number
 			- [[HTML/Video and Audio]]
 			  logseq.order-list-type:: number
-- ## Reference
+- ## Index
 	- ### HTML Elements
 		- HTML Elements 分类汇总: [MDN - HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#table_content)
 	- ### HTML Attributes
