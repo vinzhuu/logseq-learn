@@ -46,7 +46,6 @@ tags:: [[WXML]]
 	    <view> {{item}} </view>
 	  </block>
 	  ```
--
 - ## 参考
 	- [列表渲染](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/list.html)
 	  logseq.order-list-type:: number
