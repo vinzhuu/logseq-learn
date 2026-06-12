@@ -2,7 +2,7 @@
 	- ### 一句话解释
 		- 是一款 Linux 系统使用的包管理工具。
 	- ### 名称由来
-		- 原全称为 `Red Hat Package Manager` (因为最初是为 Red Hat 系列 Linux 开发的)，后来由于一些非 Red Hat 系列的 Linux 发行版本也在使用 RPM，所以把全称改为了 `RPM Package Manager` ([[Recursive acronym]]) 。
+		- 原全称为 `Red Hat Package Manager` (因为最初是为 Red Hat 系列 Linux 开发的)，后来由于一些非 Red Hat 系列的 Linux 发行版本也在使用 RPM，所以把全称改为了 `RPM Package Manager` ([[Recursive Acronym]]) 。
 	- ### 使用 RPM 的系统
 		- Red Hat 系列。如 Fedora 、 CentOS
 		- SUSE 系列。

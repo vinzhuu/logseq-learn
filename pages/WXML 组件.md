@@ -1,8 +1,10 @@
-tags:: [[微信小程序]]
+tags:: [[微信小程序]], [[WXML]]
 ---
 
 - ## 学习路线
-	- [[微信小程序 - 基础组件]]
+	- [[WXML: 什么是组件]]
+	  logseq.order-list-type:: number
+	- [[WXML: 常用基础组件]]
 	  logseq.order-list-type:: number
 	- 自定义组件
 	  logseq.order-list-type:: number

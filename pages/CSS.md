@@ -18,6 +18,8 @@ alias:: [[Cascading Style Sheets]]
 		  logseq.order-list-type:: number
 	- [[浏览器如何处理 Whitespace]]
 	  logseq.order-list-type:: number
+	- [[CSS Pseudo-element]]
+	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 -
 -

@@ -45,7 +45,6 @@ tags:: [[WXML]]
 	    <view> {{index}}: </view>
 	    <view> {{item}} </view>
 	  </block>
-	  
 	  ```
 -
 - ## 参考

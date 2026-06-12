@@ -11,7 +11,7 @@ tags:: [[Conda]]
 		  logseq.order-list-type:: number
 			- [Conda Docs](https://docs.conda.io/projects/conda/en/stable/)
 			  logseq.order-list-type:: number
-				- ![image.png](../assets/image_1743346099014_0.png){:height 305, :width 515}
+				- ![image.png](../assets/image_1743346099014_0.png){:height 196, :width 515}
 			- [Conda-build Docs](https://docs.conda.io/projects/conda-build/en/stable/index.html)
 			  logseq.order-list-type:: number
 				- ![image.png](../assets/image_1743346118324_0.png){:height 209, :width 518}
