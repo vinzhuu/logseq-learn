@@ -70,9 +70,60 @@ tags:: [[微信小程序]]
 				  logseq.order-list-type:: number
 				- 使用 **数据路径** 直接修改指定 **属性** 或 **元素** 的值.
 				  logseq.order-list-type:: number
-- ##
+- ## 单向绑定
+	- 对于普通的 **数据绑定** .
+		- ``` html
+		  <input value="{{value}}" />
+		  ```
+		- 如果使用 `this.setData({ value: 'leaf' })` 来更新 `value` :
+			- `this.data.value` 和 **输入框的中显示的值** 都会被更新为 `leaf` .
+		- 但如果, 只是用户修改了 **输入框里的值**  :
+			- `this.data.value` 却不会被同时更新.
+	- 这就是 **单向绑定** :
+		- `this.setData()` : 同时修改 `this.data` 和  **页面数据** .
+		- **页面输入** : 只能修改当前这个组件的 **页面数据** (其他绑定同一变量的组件的 **页面数据** 不会被修改) , 无法同时修改 `this.data` .
+- ## 简易双向绑定: `model:*`
+	- ### 啥是简易双向绑定
+		- 在属性名称前, 加 `model:`
+			- ``` html
+			  <input model:value="{{value}}" />
+			  ```
+			- 如果输入框的值被改变了:
+				- `this.data.value` 会同时改变.
+				  logseq.order-list-type:: number
+				- 触发页面重绘, 页面上所有绑定了 `value` 值的地方都会改变 (不管是不是用了 `model:*` )
+				  logseq.order-list-type:: number
+				- **自定义组件的数据监听器** 也会被触发 (参见: [[WXML 自定义组件: 数据监听器]]) .
+				  logseq.order-list-type:: number
+		- 这实现了 **简易双向绑定** :
+			- `this.setData()` : 同时修改 `this.data` 和  **页面数据** .
+			- **页面输入** :
+				- 同时修改 **页面数据** 和 `this.data` .
+				  logseq.order-list-type:: number
+				- 触发 **自定义组件的数据监听器** .
+				  logseq.order-list-type:: number
+	- ### 简易双向绑定的限制
+		- 有如下限制:
+			- 只能绑定单一变量, 不能进行运算
+			  logseq.order-list-type:: number
+				- ``` html
+				  <!-- 如下数据绑定都是非法的 -->
+				  <input model:value="值为 {{value}}" />
+				  <input model:value="{{ a + b }}" />
+				  ```
+			- 不能使用 **数据路径** .
+			  logseq.order-list-type:: number
+				- ``` html
+				  <!-- 如下数据绑定都是非法的 -->
+				  <input model:value="{{ a.b }}" />
+				  <input model:value="{{ arr[0] }}" />
+				  ```
+		- ==这也是名字里有 **简易** 的原因之一.==
+-
 - ## 参考
 	- [Page.prototype.setData(Object data, Function callback)](https://developers.weixin.qq.com/miniprogram/dev/reference/api/Page.html#Page-prototype-setData-Object-data-Function-callback)
+	  logseq.order-list-type:: number
+	- [简易双向绑定](https://developers.weixin.qq.com/miniprogram/dev/framework/view/two-way-bindings.html)
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number

@@ -22,7 +22,14 @@ alias:: [[WeiXin Markup language]]
 		  logseq.order-list-type:: number
 		- [[WXML 事件: 事件对象]]
 		  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- ==数据传输:==
+	  logseq.order-list-type:: number
+		- [[WXML: this.setData 与 双向绑定]]
+		  logseq.order-list-type:: number
+		- [[WXML 列表渲染 - wx:for]]
+		  logseq.order-list-type:: number
+		- [[WXML 列表渲染 - wx:key]]
+		  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index
 	- [[WXML 组件]]

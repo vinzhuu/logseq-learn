@@ -133,6 +133,8 @@ tags:: [[WXML]]
 	    {{item}}
 	  </view>
 	  ```
+- ## 初次渲染
+	- 如果页面中含有 **数据绑定** , 那页面在初次渲染时, 必然是需要和 **逻辑层** 通信, 才能拿到数据的.
 - ## 参考
 	- [数据绑定](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/data.html)
 	  logseq.order-list-type:: number

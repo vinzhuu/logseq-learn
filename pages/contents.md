@@ -1,3 +1,1 @@
 -
-- {{renderer :tocgen2, [[wxml 数据绑定]], calc(100vh - 135px)}}
-- {{renderer :tocgen2, [[wxml 事件: 事件绑定]], calc(100vh - 135px)}}

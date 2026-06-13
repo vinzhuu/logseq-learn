@@ -86,7 +86,7 @@ tags:: [[HTML]]
 			- Event Handler Attributes
 			  logseq.order-list-type:: number
 				- `onabort`, `onautocomplete`, `onautocompleteerror`, `onblur`, `oncancel`, `oncanplay`, `oncanplaythrough`, `onchange`, `onclick`, `onclose`, `oncontextmenu`, `oncuechange`, `ondblclick`, `ondrag`, `ondragend`, `ondragenter`, `ondragleave`, `ondragover`, `ondragstart`, `ondrop`, `ondurationchange`, `onemptied`, `onended`, `onerror`, `onfocus`, `oninput`, `oninvalid`, `onkeydown`, `onkeypress`, `onkeyup`, `onload`, `onloadeddata`, `onloadedmetadata`, `onloadstart`, `onmousedown`, `onmouseenter`, `onmouseleave`, `onmousemove`, `onmouseout`, `onmouseover`, `onmouseup`, `onmousewheel`, `onpause`, `onplay`, `onplaying`, `onprogress`, `onratechange`, `onreset`, `onresize`, `onscroll`, `onseeked`, `onseeking`, `onselect`, `onshow`, `onsort`, `onstalled`, `onsubmit`, `onsuspend`, `ontimeupdate`, `ontoggle`, `onvolumechange`, `onwaiting`.
-- ## Reference
+- ## Index
 	- Global Attributes: [MDN - Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 	  logseq.order-list-type:: number
 	- Global Attributes 之外的 Attributes: [MDN - Attribute list](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes#attribute_list)
