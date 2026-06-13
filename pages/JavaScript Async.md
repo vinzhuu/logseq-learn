@@ -7,9 +7,13 @@ tags:: [[JavaScript]], [[Asynchronous]]
 	  logseq.order-list-type:: number
 	- [[Promise API]]
 	  logseq.order-list-type:: number
-	- 普通任务, 宏任务, 微任务
+		- https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS
+		- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+	- 普通任务 (非官方称呼: 宏任务), 微任务
 	  logseq.order-list-type:: number
 		- https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide
+	- [[浏览器是如何渲染一个页面的]]
+	  logseq.order-list-type:: number
 	- JS 执行模型
 	  logseq.order-list-type:: number
 		- [MDN - JavaScript execution model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#event_loop)
@@ -20,4 +24,5 @@ tags:: [[JavaScript]], [[Asynchronous]]
 	  logseq.order-list-type:: number
 	- [[Web Worker]]
 	  logseq.order-list-type:: number
+-
 -

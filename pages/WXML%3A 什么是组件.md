@@ -43,7 +43,7 @@ tags:: [[WXML]]
 	  | style | String | 组件的内联样式 | 可以动态设置的内联样式 |
 	  | hidden | Boolean | 组件是否显示 | 所有组件默认显示 |
 	  | data-* | Any | 自定义属性 | 组件上触发事件时, 会发送给事件处理函数 |
-	  | bind* / catch* | EventHandler | 组件的事件处理函数 | |
+	  | bind* / bind:* / catch* | EventHandler | 组件的事件处理函数 | 比如 `bindtap` , 组件点击事件处理函数 |
 - ## 组件的特殊属性
 	- 除了以上 **公共属性** 之外, 几乎所有组件, 都有自己的 **特殊属性** .
 - ## 基础组件列表

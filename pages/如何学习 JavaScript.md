@@ -26,5 +26,10 @@ tags:: [[JavaScript]]
 		- [MDN - JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -> [MDN - JavaScript Guide](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 			- 学习完 [MDN - JavaScript Guide - Introduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction) ，但未学习其中提到的 [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) ==2024-08-22==
 			- 接下来学习 [MDN - JavaScript Guide - Functions - Calling functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#calling_functions)
-			-
--
+	- ### 教程之外的顺序
+		- 接下来学习下 **JavaScript** 的执行顺序 (参见:  [[JavaScript Async]] )
+		  logseq.order-list-type:: number
+			- 然后学习 Fetch API 及其相关对象 ( 参见: [[Fetch API]] )
+		- 重新阅读 MDN  并整理 [[JavaScript Syntax]] 的内容.
+		  logseq.order-list-type:: number
+		-
