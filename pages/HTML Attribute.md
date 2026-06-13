@@ -30,7 +30,7 @@ tags:: [[HTML]]
 				  select.size; // 返回 0？还是 1？
 				  ```
 - ## 几种特殊的 Attribute
-	- ## Boolean Attribute
+	- ### Boolean Attribute
 		- 仅有 true 或 false 两种值的属性。
 			- 表示 true 的情况：
 			  logseq.order-list-type:: number
@@ -62,7 +62,7 @@ tags:: [[HTML]]
 		- ==个人最推崇的方式:==
 			- `<input type="checkbox" checked />`
 			- 简洁, 无歧义
-	- ## Event Handler Attribute
+	- ### Event Handler Attribute
 		- 用于注册 Event Handler 的属性, 已是过时属性, 可以不了解.
 		- 详情参见: ((67cb35c5-7b06-41b0-9995-a2745d6cd6c1))
 - ## Global Attribute

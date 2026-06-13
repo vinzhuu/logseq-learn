@@ -10,8 +10,14 @@ alias:: [[WeiXin Markup language]]
 		  logseq.order-list-type:: number
 		- [[WXML: 常用基础组件]]
 		  logseq.order-list-type:: number
-	- [[WXML: 数据绑定]]
-	  logseq.order-list-type:: number
+		- [[WXML: 数据绑定]]
+		  logseq.order-list-type:: number
+		- [[WXML: 模板 <template>]]
+		  logseq.order-list-type:: number
+		- [[WXML: 导入模板 <import>]]
+		  logseq.order-list-type:: number
+		- [[WXML: 引入文件 <include>]]
+		  logseq.order-list-type:: number
 	- ==事件系统:==
 	  logseq.order-list-type:: number
 		- [[WXML 事件: 概览]]
@@ -29,6 +35,10 @@ alias:: [[WeiXin Markup language]]
 		- [[WXML 列表渲染 - wx:for]]
 		  logseq.order-list-type:: number
 		- [[WXML 列表渲染 - wx:key]]
+		  logseq.order-list-type:: number
+		- [[WXML 条件渲染 - wx:if]]
+		  logseq.order-list-type:: number
+		- [[WXML - wx:if 与 hidden]]
 		  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index

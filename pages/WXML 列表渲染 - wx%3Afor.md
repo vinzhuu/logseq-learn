@@ -37,10 +37,12 @@ tags:: [[WXML]]
 	  })
 	  ```
 - ## block wx:for
+	- 处理 `<block>` 下的多个组件
+		- `<block/>` 并不是一个组件, 它仅仅是一个包装元素.
+		- 它不会在页面中做任何渲染, 只接受控制属性.
 	- ``` html
 	  <!--pages/block/block.wxml-->
 	  <!-- block wx:for -->
-	  <!-- 一个 wx:for , 渲染多个元素 -->
 	  <block wx:for="{{[1, 2, 3]}}">
 	    <view> {{index}}: </view>
 	    <view> {{item}} </view>
