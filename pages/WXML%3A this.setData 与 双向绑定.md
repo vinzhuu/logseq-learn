@@ -1,4 +1,4 @@
-tags:: [[微信小程序]]
+tags:: [[微信小程序]], [[WXML]]
 ---
 
 - ## this.setData 的作用
@@ -22,7 +22,11 @@ tags:: [[微信小程序]]
 	- ### 示例
 		- ``` html
 		  <!--pages/setdata/setdata.wxml-->
-		  <text>{{foo}}</text>
+		  <view>{{foo}}</view>
+		  <view>{{arr[0]}}, {{arr[1]}}</view>
+		  <view>name: {{stu.name}}</view>
+		  <view>age: {{stu.age}}</view>
+		  <view>hobby: {{stu.hobby}}</view>
 		  <button bind:tap="setValue">setValue</button>
 		  ```
 		- ``` js
@@ -30,11 +34,25 @@ tags:: [[微信小程序]]
 		  Page({
 		    data: {
 		      foo: 'null',
+		      arr: ['arr0', 'arr1'], 
+		      stu: {
+		        name: "zhangsan",
+		        age: 21,
+		        hobby: "xxx"
+		      }
 		    },
 		    setValue: function() {
+		      let last = this.data.arr.length - 1;
+		      let field = "hobby";
 		      this.setData(
 		        {
-		          foo: "bar"
+		          foo: "bar",
+		          'arr[0]': "000",
+		          'stu.name': "lisi",
+		          'stu.age': 28,
+		  
+		          ['arr[' + last + ']']: last,
+		          [`stu.${field}`]: "pingpong"
 		        },
 		        function() {
 		          console.log("callback")
@@ -43,16 +61,33 @@ tags:: [[微信小程序]]
 		    }
 		  })
 		  ```
-	- ### data 入参格式
-		- `data` 以 `key: value` 的形式传入:
-			- 将 `this.data` 中的 `key` 对应的值改变成 `value` .
-		- `key` 可以两种形式:
-			- **变量名称** : 如 `foo`
-			  logseq.order-list-type:: number
-			- **数据路径** ( 即 **数组中的某一项** 或 **对象的某个属性** )
-			  logseq.order-list-type:: number
-				- 如 `'array[2].message'` , `'a.b.c.d'` .
-		- 注意: `key` 不需要在 `this.data` 中已有声明.
+	- ### data 入参
+		- #### 格式
+			- `data` 以 `key: value` 的形式传入:
+				- 将 `this.data` 中的 `key` 对应的值改变成 `value` .
+			- 注意: `key` 不需要在 `this.data` 中已有声明.
+		- #### key 的形式
+			- `key` 可以两种形式:
+				- **变量名称** : 如 `foo`
+				  logseq.order-list-type:: number
+				- **数据路径** ( 即 **数组中的某一项** 或 **对象的某个属性** )
+				  logseq.order-list-type:: number
+					- 如 `'array[2].message'` , `'a.b.c.d'` .
+		- #### key 的拼接
+			- `key` 是可以使用变量拼接的 (外层包一个 `[]`):
+				- 字符串拼接
+				  logseq.order-list-type:: number
+				- 模板字符串
+				  logseq.order-list-type:: number
+			- 如:
+				- ``` js
+				  this.setData(
+				    {
+				      ['arr[' + last + ']']: last,
+				      [`stu.${field}`]: "pingpong"
+				    }
+				  )
+				  ```
 	- ### 注意事项
 		- 仅支持 **可 JSON 化** 的数据.
 		  logseq.order-list-type:: number
@@ -66,8 +101,9 @@ tags:: [[微信小程序]]
 			- 避免内存中的 `this.data` 和页面显示的数据不一致, 导致一些问题.
 			- 如果需要在原有数据上进行处理后, 再赋值的话, 也不要直接修改 `this.data` .
 			- 可以考虑:
-				- 拷贝原数据.
+				- 拷贝原数据. (参见: [[JavaScript: Shallow Copy & Deep Copy]] )
 				  logseq.order-list-type:: number
+					- 如: `let list = [...this.data.tasks]; `
 				- 使用 **数据路径** 直接修改指定 **属性** 或 **元素** 的值.
 				  logseq.order-list-type:: number
 - ## 单向绑定

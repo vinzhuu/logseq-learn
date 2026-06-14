@@ -32,6 +32,8 @@ alias:: [[WeiXin Markup language]]
 	  logseq.order-list-type:: number
 		- [[WXML: this.setData 与 双向绑定]]
 		  logseq.order-list-type:: number
+	- ==列表渲染 与 条件渲染:==
+	  logseq.order-list-type:: number
 		- [[WXML 列表渲染 - wx:for]]
 		  logseq.order-list-type:: number
 		- [[WXML 列表渲染 - wx:key]]

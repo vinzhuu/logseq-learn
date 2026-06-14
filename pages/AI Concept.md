@@ -37,5 +37,7 @@ tags:: [[AI]]
 			  logseq.order-list-type:: number
 		- [[AI Coding Agent]]
 		  logseq.order-list-type:: number
+		- [[AI Design]]
+		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 -

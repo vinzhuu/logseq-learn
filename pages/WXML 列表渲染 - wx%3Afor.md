@@ -2,6 +2,8 @@ tags:: [[WXML]]
 ---
 
 - ## wx:for
+	- `wx:for-index` : 指定元素索引变量名
+	- `wx:for-item`: 指定元素变量名
 	- ``` html
 	  <!--pages/list/list.wxml-->
 	  
@@ -48,6 +50,22 @@ tags:: [[WXML]]
 	    <view> {{item}} </view>
 	  </block>
 	  ```
+- ## wx:for 必须绑定数组
+	- `wx:for` 必须绑定数组.
+	- 如果只需要循环次数, 而不需要数组内容, 可以这样:
+		- ``` html
+		  <view wx:for="{{loopArray}}" wx:key="index">
+		    第 {{index}} 次循环
+		  </view>
+		  ```
+		- ``` js
+		  Page({
+		    data: {
+		      // 例如需要循环 10 次
+		      loopArray: new Array(10)   // 生成一个长度为 10 的稀疏数组
+		    }
+		  })
+		  ```
 - ## 参考
 	- [列表渲染](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/list.html)
 	  logseq.order-list-type:: number
