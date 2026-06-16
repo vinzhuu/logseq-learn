@@ -1,4 +1,4 @@
-alias:: Testing
+alias:: [[Testing]]
+---
 
--
 -

@@ -13,6 +13,8 @@ tags:: [[AI Agent]], [[AI Coding]]
 		  logseq.order-list-type:: number
 		- [[TRAE]]
 		  logseq.order-list-type:: number
+		- [[CodeBuddy]]
+		  logseq.order-list-type:: number
 	- ### AI Coding CLI
 		- [[Claude Code]]
 		  logseq.order-list-type:: number

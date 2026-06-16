@@ -1,8 +1,8 @@
-alias:: [[设计]]
+tags:: [[Design]]
 ---
 
 -
-- ## Index
-	- [[网站收藏/UI&UX Design]]
+- ## 参考
+	- https://www.thefivekey.com/design-system/
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number

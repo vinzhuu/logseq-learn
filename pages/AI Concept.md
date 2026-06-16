@@ -12,32 +12,53 @@ tags:: [[AI]]
 	- [[ASI]] : 超级人工智能.
 		- 能处理的任务范围全面, 跨领域迁移能力极强, 自主学习能力极强.
 		- ==智能远超人类的水平, 涵盖所有认知和创造能力==
-- ## 概念
-	- ### 基础概念
-		- [[LLM]]
+- ## AIGC
+	- [[AIGC]] : 人工智能生成内容
+- ## AI 基础概念
+	- [[LLM]]
+	  logseq.order-list-type:: number
+	- Token
+	  logseq.order-list-type:: number
+	- [[AI Prompt]]
+	  logseq.order-list-type:: number
+	- [[RAG]]
+	  logseq.order-list-type:: number
+- ## AI 工具
+	- [[AI Chat]]
+	  logseq.order-list-type:: number
+	- [[AI Agent]]
+	  logseq.order-list-type:: number
+		- [[AI Agent Skill]]
 		  logseq.order-list-type:: number
-		- Token
+		- [[MCP]]
 		  logseq.order-list-type:: number
-		- [[AI Prompt]]
+		- [[Loop Engineering]]
 		  logseq.order-list-type:: number
-		- [[RAG]]
+		- [[Harness Engineering]]
 		  logseq.order-list-type:: number
-	- ### 工具
-		- [[AI Chat]]
+	- 通用 Agent:
+	  logseq.order-list-type:: number
+		- [[OpenClaw]]
 		  logseq.order-list-type:: number
-		- [[AI Agent]]
+		- [[Hermes Agent]]
 		  logseq.order-list-type:: number
-			- [[AI Agent Skill]]
-			  logseq.order-list-type:: number
-			- [[MCP]]
-			  logseq.order-list-type:: number
-			- [[AI Agent Loop]]
-			  logseq.order-list-type:: number
-			- [[AI Agent Harness]]
-			  logseq.order-list-type:: number
+		- [[WorkBuddy]]
+		  logseq.order-list-type:: number
+	- 细分 Agent:
+	  logseq.order-list-type:: number
 		- [[AI Coding Agent]]
 		  logseq.order-list-type:: number
 		- [[AI Design]]
+		  logseq.order-list-type:: number
+		- [[AI 漫剧]]
+		  logseq.order-list-type:: number
+	- Agent 辅助工具
+	  logseq.order-list-type:: number
+		- [[CC Switch]]
+		  logseq.order-list-type:: number
+		- [[Codex++]]
+		  logseq.order-list-type:: number
+		- 中转站
 		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 -
