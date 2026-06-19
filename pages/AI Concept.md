@@ -23,9 +23,10 @@ tags:: [[AI]]
 	  logseq.order-list-type:: number
 	- [[RAG]]
 	  logseq.order-list-type:: number
-- ## AI 工具
+- ## AI Chat
 	- [[AI Chat]]
 	  logseq.order-list-type:: number
+- ## AI Agent
 	- [[AI Agent]]
 	  logseq.order-list-type:: number
 		- [[AI Agent Skill]]
@@ -36,6 +37,12 @@ tags:: [[AI]]
 		  logseq.order-list-type:: number
 		- [[Harness Engineering]]
 		  logseq.order-list-type:: number
+		- [[OpenSpec]]
+		  logseq.order-list-type:: number
+		- [[DESIGN.md]]
+		  logseq.order-list-type:: number
+		- [[AGENTS.md]]
+		  logseq.order-list-type:: number
 	- 通用 Agent:
 	  logseq.order-list-type:: number
 		- [[OpenClaw]]
@@ -44,6 +51,11 @@ tags:: [[AI]]
 		  logseq.order-list-type:: number
 		- [[WorkBuddy]]
 		  logseq.order-list-type:: number
+	- 工作流 Agent:
+	  logseq.order-list-type:: number
+		- [[Coze]]
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 	- 细分 Agent:
 	  logseq.order-list-type:: number
 		- [[AI Coding Agent]]

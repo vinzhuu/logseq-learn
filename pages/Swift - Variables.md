@@ -11,7 +11,7 @@ tags:: [[Swift Syntax]]
 	  let myConstant = 42
 	  ```
 - ## 命名
-	- 常量与变量的名称几乎可以是任何字符，包括 Unicode 字符：
+	- 常量与变量的名称几乎可以是任何字符，包括 特殊 Unicode 字符：
 		- ``` swift
 		  let π = 3.14159
 		  let 你好 = "你好世界"

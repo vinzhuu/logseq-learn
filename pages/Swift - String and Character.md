@@ -148,6 +148,19 @@ tags:: [[Swift Type]]
 		  }
 		  // Prints "Nothing to see here".
 		  ```
+- ## String Mutability
+	- `let` 声明的字符串不可变.
+	- `var` 声明的字符串可变.
+	- ``` swift
+	  var variableString = "Horse"
+	  variableString += " and carriage"
+	  // variableString is now "Horse and carriage"
+	  
+	  
+	  let constantString = "Highlander"
+	  constantString += " and another Highlander"
+	  // this reports a compile-time error - a constant string cannot be modified
+	  ```
 -
 - ---
 - ## 参考

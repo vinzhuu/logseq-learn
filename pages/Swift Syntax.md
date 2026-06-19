@@ -4,6 +4,8 @@ tags:: [[Swift]]
 - ## 学习路线
 	- [[Swift - Hello World]]
 	  logseq.order-list-type:: number
+	- [[Swift - Comment]]
+	  logseq.order-list-type:: number
 	- [[Swift - Variables]]
 	  logseq.order-list-type:: number
 	- [[Swift Type]]
