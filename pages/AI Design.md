@@ -3,7 +3,7 @@ tags:: [[AI]], [[Design]]
 
 - ## 工具
 	- ### UI
-		- [[AI UI Design]]
+		- [[AI UI&UX Design]]
 	- ### 字体
 		- [XFUN](https://xfun.design/homePage)
 		  logseq.order-list-type:: number

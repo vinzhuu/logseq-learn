@@ -1,5 +1,5 @@
 alias:: [[单元测试]], [[Unit Test]]
-tags:: [[Test]]
+tags:: [[Testing]]
 ---
 
 - ==子目录==
