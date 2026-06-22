@@ -242,7 +242,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  ;; Favorites to list on the left sidebar
- :favorites ["ai software engineering" "ai for software engineering" "微信小程序 - 开发" "dart syntax/constructor" "java byte streams" "JavaScript" "web event basics" "DOM Basics" "cs" "java 后端学习路线" "contents"]
+ :favorites ["learning" "ai software engineering" "ai for software engineering" "微信小程序 - 开发" "dart syntax/constructor" "java byte streams" "JavaScript" "web event basics" "DOM Basics" "cs" "java 后端学习路线" "contents"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

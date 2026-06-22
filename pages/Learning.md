@@ -10,6 +10,8 @@ tags:: [[Contents]]
 	  logseq.order-list-type:: number
 	- [[Physics]]
 	  logseq.order-list-type:: number
+	- [[Astronomy]]
+	  logseq.order-list-type:: number
 - ## 社科
 	- [[Philosophy]]
 	  logseq.order-list-type:: number
@@ -36,4 +38,5 @@ tags:: [[Contents]]
 	  logseq.order-list-type:: number
 	- [[Affairs]]
 	  logseq.order-list-type:: number
+-
 -

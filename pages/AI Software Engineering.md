@@ -1,6 +1,9 @@
 tags:: [[AI]], [[Software Engineering]]
 ---
 
+- ## 问题
+	- 如果将后续的迭代内容, 沉淀到文档中?
+	  logseq.order-list-type:: number
 - ## AI 软件工程大致流程 (我的设想)
 	- 基于开发者对产品的思考, 反复与 AI 讨论, 产出一个类似 [[PRD]] (但比其包含更多内容) 的 **产品规范文档** (或许可以叫 Product Spec) (参见: [[AI Product Definition]] )
 	  logseq.order-list-type:: number
@@ -36,4 +39,9 @@ tags:: [[AI]], [[Software Engineering]]
 		  logseq.order-list-type:: number
 		- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 		  logseq.order-list-type:: number
--
+- ## 让 AI Agent 持续工作
+	- /Goal
+	  logseq.order-list-type:: number
+	- [[Loop Engineering]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
