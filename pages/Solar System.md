@@ -12,11 +12,11 @@ tags:: [[Astronomy]]
 	- ### 太阳系模型
 		- [NASA - Orrery（太阳系仪）](https://eyes.nasa.gov/apps/orrery/#/home)
 		  logseq.order-list-type:: number
-		- [NASA's Eyes（太阳系各星体和飞行器的实时位置）](https://science.nasa.gov/eyes/)
+		- [NASA's Eyes（太阳系各星体和 NASA 飞行器的实时位置）](https://science.nasa.gov/eyes/)
 		  logseq.order-list-type:: number
 		- [Solar System Scope](https://www.solarsystemscope.com/)
 		  logseq.order-list-type:: number
-		- [The Sky Live](https://theskylive.com/3dsolarsystem)
+		- [The Sky Live（太阳系各星体和各国人造卫星的实时位置）](https://theskylive.com/3dsolarsystem)
 		  logseq.order-list-type:: number
 		- [The Planets Today (太阳系今日静态模型)](https://www.theplanetstoday.com/index.html)
 		  logseq.order-list-type:: number
