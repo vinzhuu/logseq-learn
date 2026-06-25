@@ -34,4 +34,6 @@ alias:: [[时间]]
 		  logseq.order-list-type:: number
 		- 业务中, 对时间跨天的处理
 		  logseq.order-list-type:: number
+		- 业务中对闰秒的处理?
+		  logseq.order-list-type:: number
 -
