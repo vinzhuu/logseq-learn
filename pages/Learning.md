@@ -38,5 +38,6 @@ tags:: [[Contents]]
 	  logseq.order-list-type:: number
 	- [[Affairs]]
 	  logseq.order-list-type:: number
--
--
+- ## 资源
+	- [[学习资源]]
+	-
