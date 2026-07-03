@@ -18,9 +18,13 @@ tags:: [[Swift]]
 	- [Youtube - SwiftfulThinking](https://www.youtube.com/@SwiftfulThinking/playlists)
 - ## 当前进度
 	- ### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-		- #### A Swift Tour
-			- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
+		- #### Welcome to Swift
+			- 看完: About Swift, Version Compatibility
+			- A Swift Tour
+				- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
 		- #### Language Guide
 			- 看完: The Basics , Basic Operators ,
 			- [Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters): 看完 String Mutability
 				- 参见: [[Swift - String and Character]]
+			- Structures and Classes
+			-

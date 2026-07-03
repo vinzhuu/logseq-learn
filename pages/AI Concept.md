@@ -55,7 +55,8 @@ tags:: [[AI]]
 	  logseq.order-list-type:: number
 		- [[Coze]]
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+		- [[Dify]]
+		  logseq.order-list-type:: number
 	- 细分 Agent:
 	  logseq.order-list-type:: number
 		- [[AI Coding Agent]]

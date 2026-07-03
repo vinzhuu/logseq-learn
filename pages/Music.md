@@ -1,13 +1,9 @@
 alias:: [[音乐]]
 ---
 
-- ## 音乐三要素
-	- 节奏
+- ## 学习路线
+	- [[乐理]]
 	  logseq.order-list-type:: number
-	- 旋律
+	- [[Instrument]]
 	  logseq.order-list-type:: number
-	- 和声
-	  logseq.order-list-type:: number
-	- 三者决定了音乐的风格。
--
 -

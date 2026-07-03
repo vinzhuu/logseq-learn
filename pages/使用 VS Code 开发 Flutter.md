@@ -1,4 +1,4 @@
-tags:: [[VS Code]], [[Flutter]]
+tags:: [[Visual Studio Code]] , [[Flutter]]
 ---
 
 - ## 安装

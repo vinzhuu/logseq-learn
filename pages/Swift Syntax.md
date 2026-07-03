@@ -2,19 +2,30 @@ tags:: [[Swift]]
 ---
 
 - ## 学习路线
-	- [[Swift - Hello World]]
+	- 基础:
 	  logseq.order-list-type:: number
-	- [[Swift - Comment]]
+		- [[Swift - Hello World]]
+		  logseq.order-list-type:: number
+		- [[Swift - Comment]]
+		  logseq.order-list-type:: number
+		- [[Swift - Variables]]
+		  logseq.order-list-type:: number
+		- [[Swift - Basic Operator]]
+		  logseq.order-list-type:: number
+	- 类型系统 与 面向对象:
 	  logseq.order-list-type:: number
-	- [[Swift - Variables]]
+		- [[Swift Type]]
+		  logseq.order-list-type:: number
+	- 控制流:
 	  logseq.order-list-type:: number
-	- [[Swift Type]]
+		- [[Swift - Control Flow]]
+		  logseq.order-list-type:: number
+		- [[Swift - Assertions and Preconditions]]
+		  logseq.order-list-type:: number
+		- [[Swift - Error Handling]]
+		  logseq.order-list-type:: number
+	- 高级能力:
 	  logseq.order-list-type:: number
-	- [[Swift - Control Flow]]
-	  logseq.order-list-type:: number
-	- [[Swift - Assertions and Preconditions]]
-	  logseq.order-list-type:: number
-	- [[Swift - Error Handling]]
-	  logseq.order-list-type:: number
-	-
+		- [[Swift - Manual Memory Management]]
+		  logseq.order-list-type:: number
 -

@@ -7,11 +7,12 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- [[Swift Syntax]]
 	  logseq.order-list-type:: number
-	- 包管理: [[SwiftPM]]
+	- [[SwiftPM]]
 	  logseq.order-list-type:: number
-	- 命令: [[Swift Command]]
+	- [[Swift Command]]
 	  logseq.order-list-type:: number
-		- [[Swift REPL]]
+	- [[Swift REPL]]
+	  logseq.order-list-type:: number
 	- 四类程序开发实例:
 	  logseq.order-list-type:: number
 		- [Build a Command-line Tool](https://www.swift.org/getting-started/cli-swiftpm/)
@@ -24,4 +25,9 @@ tags:: [[Program Language]]
 		  logseq.order-list-type:: number
 	- Swift 代码 API 设计规范: [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 	  logseq.order-list-type:: number
+	- 其他玩意儿:
+	  logseq.order-list-type:: number
+		- [[SourceKit-LSP]]
+		  logseq.order-list-type:: number
+-
 -

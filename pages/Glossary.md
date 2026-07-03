@@ -6,5 +6,6 @@ alias:: [[术语]]
 	- [[CS 惯用表达]]
 	- [[Glossary/CS 符号名称]]
 	- [[CS 前端术语]]
+	- [[Program Language Glossary]]
 - ---
 -
