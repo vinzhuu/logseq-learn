@@ -9,7 +9,6 @@ tags:: [[Swift]]
 			- Swift
 				- [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
 				- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team)
-			- [Swift Standard Library](https://developer.apple.com/documentation/swift/swift-standard-library)
 			- [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 - ## 第三方资料
 	- [hacking with swift - 100 Days of Swift](https://www.hackingwithswift.com/100)
@@ -24,7 +23,7 @@ tags:: [[Swift]]
 				- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
 		- #### Language Guide
 			- 看完: The Basics , Basic Operators ,
-			- [Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters): 看完 String Mutability
+			- [Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters): 接下来看 `Substrings`
 				- 参见: [[Swift - String and Character]]
 			- Structures and Classes
 			-

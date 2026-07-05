@@ -9,7 +9,7 @@ tags:: [[Swift Type]]
 	- `Protocol` 本身是一套接口规范, 没有 Reference Type 或 Value Type 的概念.
 		- 但实现 `Protocol` 的类型, 肯定是具体属于 Reference Type 或 Value Type 的.
 - ## Value Type 的 Copying Optimization
-	- Swift standard library 中的 Collections , 如 `arrays`, `dictionaries`, and `strings` , 使用了一种优化, 来降低值赋值的成本:
+	- Swift standard library 中的 Collections , 如 `arrays`, `dictionaries`, and `strings` , 使用了一种优化, 来降低值复制的成本:
 		- 这些集合, 不会立即进行复制, **原始实例 和 副本** 之间共享这部分内存.
 		- 如果集合的 **某个副本被修改** , 元素将 **在修改之前进行复制** .
 		- 我们在代码中看到的行为, 总是仿佛立即进行了复制.

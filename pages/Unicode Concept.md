@@ -14,6 +14,7 @@ tags:: [[Unicode]]
 		  logseq.order-list-type:: number
 - ## Code Point 与 Code Unit
 	- `码点 Code Point` : Unicode 中字符的编号.
+		- Unicode 码点范围: `U+0000` ~ `U+10FFFF`
 	- `代码单元/码元 Code Unit` : Unicode 字符编码中, 表示字符的单元 (一个字符可以用 1 个或 多个 代码单元表示) .
 		- [[UTF-8]] 中, 代码单元是 1 个字节.
 		  logseq.order-list-type:: number
@@ -23,9 +24,15 @@ tags:: [[Unicode]]
 		  logseq.order-list-type:: number
 - ## Surrogate (代理项)
 	- Surrogate 是给 [[UTF-16]] 预留的码点, 不会被分配给任何字符.
-		- [[UTF-16]] 为什么需要预留码点? 因为其编码规则的特殊性.
-	- 一些 码点 比较大的字符, UTF-16 使用 2 个字节无法覆盖, 需要 2 个 Surrogate 组合而成 (共 4 个字节), 这被称为 **Surrogate pair (代理对)** .
+		- 包括两段:
+			- 高代理项 High Surrogate : `U+D800` ~ `U+DBFF`
+			- 低代理项 Low Surrogate : `U+DC00` ~ `U+DFFF`
+	- [[UTF-16]] 为什么需要预留码点? 因为其编码规则的特殊性.
+		- **码点** 超过 `U+FFFF` 的字符, UTF-16 使用 2 个字节无法覆盖, 需要 2 个 Surrogate 组合而成 (共 4 个字节), 这被称为 **Surrogate pair (代理对)** .
 		- 如 "Man" emoji 的 Unicode 字符（'👨'，U+1F468）, 由代理项 `U+D83D` 和 `U+DC68` 组合而成.
+		- ==注意, 需要用到代理项的 Unicode 字符, 都有它自己的码点. ==
+			- 在说明是哪个字符时, 用它自己的码点;
+			- 在进行 UTF-16 编码时, 才用到代理项.
 	- UTF-8 和 UTF-32 使用不到 Surrogate .
 - ## User-perceived character (用户感知字符)
 	- 参考: [Unicode (extended) grapheme clusters.](https://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

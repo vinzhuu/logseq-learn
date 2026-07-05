@@ -39,4 +39,3 @@ tags:: [[Swift]]
 	- [[Swift - Structure & Class]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
--
