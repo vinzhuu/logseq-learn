@@ -6,3 +6,5 @@ alias:: [[人工智能]], [[Artificial Intelligence]]
 	  logseq.order-list-type:: number
 	- [[AI Software Engineering]]
 	  logseq.order-list-type:: number
+-
+-

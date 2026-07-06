@@ -23,55 +23,22 @@ tags:: [[AI]]
 	  logseq.order-list-type:: number
 	- [[RAG]]
 	  logseq.order-list-type:: number
-- ## AI Chat
+- ## AI 工具
 	- [[AI Chat]]
 	  logseq.order-list-type:: number
-- ## AI Agent
 	- [[AI Agent]]
 	  logseq.order-list-type:: number
-		- [[AI Agent Skill]]
-		  logseq.order-list-type:: number
-		- [[MCP]]
-		  logseq.order-list-type:: number
-		- [[Loop Engineering]]
-		  logseq.order-list-type:: number
-		- [[Harness Engineering]]
-		  logseq.order-list-type:: number
-		- [[OpenSpec]]
-		  logseq.order-list-type:: number
-		- [[DESIGN.md]]
-		  logseq.order-list-type:: number
-		- [[AGENTS.md]]
-		  logseq.order-list-type:: number
-	- 通用 Agent:
+- ## AI 应用开发
+	- Python:
 	  logseq.order-list-type:: number
-		- [[OpenClaw]]
+		- [[LangChain]]
 		  logseq.order-list-type:: number
-		- [[Hermes Agent]]
-		  logseq.order-list-type:: number
-		- [[WorkBuddy]]
-		  logseq.order-list-type:: number
-	- 工作流 Agent:
+	- Java: 
 	  logseq.order-list-type:: number
-		- [[Coze]]
+		- [[LangChain4j]]
 		  logseq.order-list-type:: number
-		- [[Dify]]
+		- [[Spring AI]]
 		  logseq.order-list-type:: number
-	- 细分 Agent:
-	  logseq.order-list-type:: number
-		- [[AI Coding Agent]]
-		  logseq.order-list-type:: number
-		- [[AI Design]]
-		  logseq.order-list-type:: number
-		- [[AI 漫剧]]
-		  logseq.order-list-type:: number
-	- Agent 辅助工具
-	  logseq.order-list-type:: number
-		- [[CC Switch]]
-		  logseq.order-list-type:: number
-		- [[Codex++]]
-		  logseq.order-list-type:: number
-		- 中转站
-		  logseq.order-list-type:: number
+		-
 		- logseq.order-list-type:: number
--
+		- logseq.order-list-type:: number

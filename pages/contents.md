@@ -1,3 +1,1 @@
--
--
-- {{renderer :tocgen2, [[swift - unicode]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[swift - array]], calc(100vh - 135px)}}

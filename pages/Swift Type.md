@@ -26,16 +26,20 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 	- Collection Types:
 	  logseq.order-list-type:: number
-		- [[Swift - Array]]
-		  logseq.order-list-type:: number
-		- [[Swift - Dictionary]]
-		  logseq.order-list-type:: number
-		- [[Swift - Set]]
-		  logseq.order-list-type:: number
-	- [[Swift - Function]]
+		- [[Swift - Collection]]
+	- Compound Types:
 	  logseq.order-list-type:: number
-	- [[Swift - Enumeration]]
+		- [[Swift - Tuple]]
+		  logseq.order-list-type:: number
+		- [[Swift - Function]]
+		  logseq.order-list-type:: number
+		- [[Swift - Closure]]
+		  logseq.order-list-type:: number
+	- Named Types:
 	  logseq.order-list-type:: number
-	- [[Swift - Structure & Class]]
-	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+		- [[Swift - Enumeration]]
+		  logseq.order-list-type:: number
+		- [[Swift - Structure & Class]]
+		  logseq.order-list-type:: number
+		- [[Swift - Equatable & Hashable]]
+		  logseq.order-list-type:: number

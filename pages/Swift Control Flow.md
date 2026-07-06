@@ -1,6 +1,10 @@
 tags:: [[Swift Syntax]]
 ---
 
+- ## 学习路线
+	- [[Swift - if case]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 - ## 条件与循环的种类
 	- Conditional (条件): if, switch
 	- Loop (循环): for-in, while, repeat-while
@@ -31,5 +35,4 @@ tags:: [[Swift Syntax]]
 	  print("Score:", teamScore, scoreDecoration)
 	  // Prints "Score: 11 🎉"
 	  ```
--
 -

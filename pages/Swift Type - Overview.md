@@ -13,9 +13,9 @@ tags:: [[Swift Type]]
 		- `Protocol`
 		  logseq.order-list-type:: number
 	- ### Compound Types (复合类型)
-		- [[Swift - Function]]
-		  logseq.order-list-type:: number
 		- [[Swift - Tuple]]
+		  logseq.order-list-type:: number
+		- [[Swift - Function]]
 		  logseq.order-list-type:: number
 - ## 常用 Named Types
 	- 如下是常用 Named Types , 它们都属于 `Structure` ==或可称为 Basic Types ?== :
@@ -35,4 +35,5 @@ tags:: [[Swift Type]]
 			  logseq.order-list-type:: number
 			- [[Swift - Set]]
 			  logseq.order-list-type:: number
+-
 -
