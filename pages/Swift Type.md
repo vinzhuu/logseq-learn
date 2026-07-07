@@ -4,17 +4,21 @@ tags:: [[Swift]]
 - ## 学习路线
 	- [[Swift Type - Overview]]
 	  logseq.order-list-type:: number
-	- Basics:
+	- Type Declaration:
 	  logseq.order-list-type:: number
-		- [[Swift - Reference Type & Value Type]]
-		  logseq.order-list-type:: number
-		- [[Swift - Equal to & Identical to]]
-		  logseq.order-list-type:: number
 		- [[Swift - Type Annotation]]
 		  logseq.order-list-type:: number
 		- [[Swift - Optional Type]]
 		  logseq.order-list-type:: number
 		- [[Swift - Type Alias]]
+		  logseq.order-list-type:: number
+	- Type Concepts:
+	  logseq.order-list-type:: number
+		- [[Swift - Reference Type & Value Type]]
+		  logseq.order-list-type:: number
+		- [[Swift - Equal to & Identical to]]
+		  logseq.order-list-type:: number
+		- [[Swift - Equatable & Hashable]]
 		  logseq.order-list-type:: number
 	- Fundamental Types:
 	  logseq.order-list-type:: number
@@ -41,5 +45,6 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Structure & Class]]
 		  logseq.order-list-type:: number
-		- [[Swift - Equatable & Hashable]]
+		- [[Swift - Operator Method]]
 		  logseq.order-list-type:: number
+-

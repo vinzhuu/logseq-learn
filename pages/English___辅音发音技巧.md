@@ -1,4 +1,4 @@
-tags:: [[英语音标]]
+tags:: [[English Phonetic Symbol]]
 ---
 
 - ## /p/ 与 /b/

@@ -1,4 +1,4 @@
-tags:: [[英语音标]]
+tags:: [[English Phonetic Symbol]]
 ---
 
 - ## 英语音标输入（吕陶然）

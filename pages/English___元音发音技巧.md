@@ -1,4 +1,4 @@
-tags:: [[英语音标]]
+tags:: [[English Phonetic Symbol]]
 ---
 
 - 下面以 DJ 音标 (IPA88) 为例。

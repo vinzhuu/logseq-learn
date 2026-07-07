@@ -8,23 +8,31 @@ tags:: [[Swift]]
 		- [Swift Docs - Home](https://www.swift.org/documentation/)
 			- Swift
 				- [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-				- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team)
 			- [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 - ## 第三方资料
 	- [hacking with swift - 100 Days of Swift](https://www.hackingwithswift.com/100)
 	- [Stanford CS193p - Developing Apps for iOS](https://cs193p.sites.stanford.edu/2023)
 	- [bilibili - 斯坦福CS193P 2021春季SwiftUI 2.0课程](https://www.bilibili.com/video/BV1q64y1d7x5/?vd_source=2b44b4aaa2e3bce2ee0eff9ff550c6bb)
 	- [Youtube - SwiftfulThinking](https://www.youtube.com/@SwiftfulThinking/playlists)
-- ## 当前进度
-	- ### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-		- #### Welcome to Swift
-			- 看完: About Swift, Version Compatibility
-			- A Swift Tour
-				- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
-		- #### Language Guide
-			- 看完: The Basics, Basic Operators, Strings and Characters,
-			-
-			- Enumerations, Structures and Classes
-		- #### Language Reference
-			- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
--
+- ## 官网学习进度
+	- ![image.png](../assets/image_1783435113198_0.png)
+	- ==已阅:== 首页,
+	- ==需要时再看:== Blog, Install
+	- ### Docs
+		- #### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
+			- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team/documentation/the-swift-programming-language/)
+			- Welcome to Swift
+				- 看完: About Swift, Version Compatibility
+				- A Swift Tour
+					- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
+			- Language Guide
+				- 看完: The Basics, Basic Operators, Strings and Characters,
+				- [Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/#Sets) 接下来看 Sets
+					- [[Swift - Collection]]
+				- Enumerations, Structures and Classes
+			- Language Reference
+				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
+	- ### Packages
+		-
+	- ### Community
+		- ==暂不关注==

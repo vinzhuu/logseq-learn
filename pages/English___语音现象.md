@@ -1,4 +1,4 @@
-tags:: [[英语音标]]
+tags:: [[English Phonetic Symbol]]
 ---
 
 - ## 音节

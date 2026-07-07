@@ -33,9 +33,9 @@ alias:: [[智能体]]
 		  logseq.order-list-type:: number
 		- [[Dify]]
 		  logseq.order-list-type:: number
-	- 细分 Agent:
+	- 细分领域:
 	  logseq.order-list-type:: number
-		- [[AI Coding Agent]]
+		- [[AI Coding]]
 		  logseq.order-list-type:: number
 		- [[AI Design]]
 		  logseq.order-list-type:: number

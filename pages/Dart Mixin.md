@@ -111,7 +111,7 @@ tags:: [[Dart]]
 	    SingerDancer().performerMethod();
 	  }
 	  ```
-	- 使用 `on SuperClass` 子句, 定义了: 只用 `SuperClass` 及其子类可以使用该 `mixin` .
+	- 使用 `on SuperClass` 子句, 定义了: 只有 `SuperClass` 及其子类可以使用该 `mixin` .
 	- 同时 该 `mixin` 中, 可以使用 `super` 访问 `SuperClass` 中的成员.
 - ## Mixin Class
 	- 使用 `mixin class` 关键字, 定义 `mixin class` .
