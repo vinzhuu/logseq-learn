@@ -40,4 +40,6 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- [Swift Forums](https://forums.swift.org/)
 	  logseq.order-list-type:: number
+	- [Swift Package Index](https://swiftpackageindex.com/)
+	  logseq.order-list-type:: number
 -
