@@ -1,7 +1,14 @@
 tags:: [[Swift]]
 ---
 
-- ## swift run
-	- `swift run ${文件位置}` 并不会将编译后的结果保留在磁盘上，而是直接加载进内存 **执行** .
-	-
-	-
+- ## 子目录
+	- 运行相关:
+	  logseq.order-list-type:: number
+		- [[Swift Command - run]]
+		  logseq.order-list-type:: number
+	- Package 相关
+	  logseq.order-list-type:: number
+		- [[Swift Command - package]]
+		  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
+	- logseq.order-list-type:: number

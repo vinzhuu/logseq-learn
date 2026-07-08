@@ -32,4 +32,3 @@ tags:: [[W3C]], [[WHATWG]]
 	- [WHATWG 击败 W3C，赢得 HTML 和 DOM 的控制权](https://www.infoq.cn/article/bsvfxt96doh-sbzphbwj)
 	  logseq.order-list-type:: number
 	-
-	- logseq.order-list-type:: number

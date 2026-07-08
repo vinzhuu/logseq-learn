@@ -6,4 +6,12 @@ alias:: [[Swift Package Manager]]
 	- [[如何学习 SwiftPM]]
 	- [[SwiftPM Concepts]]
 	  logseq.order-list-type:: number
--
+	- 结构:
+	  logseq.order-list-type:: number
+		- [[SwiftPM Package Structure]]
+		  logseq.order-list-type:: number
+		- [[SwiftPM Package.swift]]
+		  logseq.order-list-type:: number
+	- [[Swift Command]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number

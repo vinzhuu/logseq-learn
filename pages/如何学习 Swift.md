@@ -4,19 +4,16 @@ tags:: [[Swift]]
 - ## 问题
 	-
 - ## 官方资料
-	- ### [官网](https://www.swift.org/)
-		- [Swift Docs - Home](https://www.swift.org/documentation/)
-			- Swift
-				- [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-			- [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
+	- [Swift Docs - Home](https://www.swift.org/documentation/)
+	- [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 - ## 第三方资料
 	- [hacking with swift - 100 Days of Swift](https://www.hackingwithswift.com/100)
 	- [Stanford CS193p - Developing Apps for iOS](https://cs193p.sites.stanford.edu/2023)
 	- [bilibili - 斯坦福CS193P 2021春季SwiftUI 2.0课程](https://www.bilibili.com/video/BV1q64y1d7x5/?vd_source=2b44b4aaa2e3bce2ee0eff9ff550c6bb)
 	- [Youtube - SwiftfulThinking](https://www.youtube.com/@SwiftfulThinking/playlists)
-- ## 官网学习进度
+- ## 学习进度: 官网
 	- ![image.png](../assets/image_1783435113198_0.png)
-	- ==已阅:== 首页,
+	- ==已阅:== 首页 (2026-07-08), Packages (2026-07-08)
 	- ==需要时再看:== Blog, Install
 	- ### Docs
 		- #### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
@@ -32,7 +29,6 @@ tags:: [[Swift]]
 				- Enumerations, Structures and Classes
 			- Language Reference
 				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
-	- ### Packages
-		-
 	- ### Community
 		- ==暂不关注==
+-
