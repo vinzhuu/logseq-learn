@@ -223,8 +223,9 @@ tags:: [[SwiftPM]]
 	- ### Test Libraries Target
 		- 内置的测试库, 如 [[Swift Testing]] 和 [[XCTest]] , 依赖某些运行时才能运行.
 		- 所以, 不要将依赖它们的 `Test Target` , 封装进 `Product` 中, 分发给最终用户, 导致运行异常.
-- ## Package.resolved
+- ## Dependency Resolution
 	- SwiftPM 解析 Manifest , 以确定 package dependencies 确切版本的过程, 被称为 `Dependency Resolution` (依赖解析) .
+		- 执行 [[Swift Command - package resolve]] 可以手动触发依赖解析.
 	- 这个过程完成后, 会在根目录生成 `Package.resolved` , 记录依赖解析的结果.
 	- 如果是 Apple 平台的应用, `Package.resolved` 则会在 `.xcodeproj` 或 `.xcworkspace` 中.
 	- 示例:

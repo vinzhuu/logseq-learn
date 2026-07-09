@@ -16,6 +16,8 @@ alias:: [[Swift Package Manager]]
 	  logseq.order-list-type:: number
 	- [[SwiftPM Resource]]
 	  logseq.order-list-type:: number
+	- [[SwiftPM Release]]
+	  logseq.order-list-type:: number
 	- [[Swift Command]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number

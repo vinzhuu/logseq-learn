@@ -10,7 +10,7 @@ tags:: [[SwiftPM]]
 	- ### [Swift Package Manager](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/)
 		- ==已阅:== 首页
 		- #### Essentials
-			- ==已阅:== Introducing Packages
+			- ==已阅:== Getting Started, Introducing Packages
 		- #### Guides
 			- ==已阅:== Setting the Swift tools version, Packaging based on the version of Swift
 	- ### [PackageDescription](https://docs.swift.org/swiftpm/documentation/packagedescription/)
