@@ -10,7 +10,9 @@ alias:: [[Swift Package Manager]]
 	  logseq.order-list-type:: number
 		- [[SwiftPM Package Structure]]
 		  logseq.order-list-type:: number
-		- [[SwiftPM Package.swift]]
+		- [[SwiftPM Manifest]]
+		  logseq.order-list-type:: number
+		- [[SwiftPM - Version-specific Tag]]
 		  logseq.order-list-type:: number
 	- [[Swift Command]]
 	  logseq.order-list-type:: number

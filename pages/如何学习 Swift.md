@@ -14,7 +14,7 @@ tags:: [[Swift]]
 - ## 学习进度: 官网
 	- ![image.png](../assets/image_1783435113198_0.png)
 	- ==已阅:== 首页 (2026-07-08), Packages (2026-07-08)
-	- ==需要时再看:== Blog, Install
+	- ==需要时再看:== Blog
 	- ### Docs
 		- #### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
 			- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team/documentation/the-swift-programming-language/)
@@ -29,6 +29,7 @@ tags:: [[Swift]]
 				- Enumerations, Structures and Classes
 			- Language Reference
 				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
+	- ### Install
+		- ==暂不关注==
 	- ### Community
 		- ==暂不关注==
--

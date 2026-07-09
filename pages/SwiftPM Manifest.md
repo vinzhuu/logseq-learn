@@ -78,6 +78,55 @@ tags:: [[SwiftPM]]
 		- 因为, 高版本的 `Swift` 能够解析低版本的 `Package.swift` .
 	- ### 使用命令行设置
 		- 参见: [[Swift Command - package tools-version]]
+- ## Version-specific Manifest
+	- 参考: [Swift Package Manager - Packaging based on the version of Swift](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/swiftversionspecificpackaging/)
+		- ==其实如下内容不太确定, 文档描述不够清晰==
+	- ### 什么是 Version-specific Manifest
+		- 即: 文件名指定特定 `Swift` 版本的 Manifest.
+			- 如 `Package@swift-6.swift` 格式.
+	- ### 为什么需要 Version-specific Manifest
+		- 因为, 有时候我们想为不同的 Swift 版本, 提供不同的 Manifest 文件.
+			- 比如: 我们想为 Swift 6.0 提供 `swift-tools-version` 为 6.0 的 Manifest, 而为 Swift 5.9 提供 `swift-tools-version` 为 5.9 的 Manifest .
+	- ### 如何匹配 Version-specific Manifest
+		- 设我们使用的 `Swift` 版本号为: `MAJOR.MINOR.PATCH` (如 `6.1.1`) .
+		- SwiftPM 按如下优先级, 匹配 Manifest :
+			- 查找是否有名称后缀为 `MAJOR.MINOR.PATCH` 的 Manifest (如 `Package@swift-6.1.1`) .
+			  logseq.order-list-type:: number
+			- 查找是否有名称后缀为 `MAJOR.MINOR` 的 Manifest (如 `Package@swift-6.1`) .
+			  logseq.order-list-type:: number
+			  id:: 6a4ed4d3-7712-4ded-8247-aa3c352c82b3
+			- 查找是否有名称后缀为 `MAJOR` 的 Manifest (如 `Package@swift-6`) .
+			  logseq.order-list-type:: number
+			- 查找所有 Manifest 中 `swift-tools-version` 最兼容的 (即 `swift-tools-version` 不超过 `MAJOR.MINOR.PATCH` , 而又最接近它的 Manifest ).
+			  logseq.order-list-type:: number
+		- 注意:
+			- Manifest 名称中的版本, 和它的 `swift-tools-version` 必须一致或兼容, 否则构建会报错.
+			  logseq.order-list-type:: number
+				- 参考: [Version-specific Package.swift files#swift-tools and manifest names](https://www.polpiella.dev/version-specific-package-manifests#swift-tools-and-manifest-names)
+			- 按照 Manifest 名称匹配到 Manifest 之后, 会检查此 Manifest 中  `swift-tools-version` 是否高于 Swift 版本:
+			  logseq.order-list-type:: number
+		- 比如:
+			- 某个 Package 有三个 Manifest:
+				- `Package.swift` (tools version 6.0)
+				  logseq.order-list-type:: number
+				- `Package@swift-5.10.swift` (tools version 5.10)
+				  logseq.order-list-type:: number
+				- `Package@swift-5.9.swift` (tools version 5.9)
+				  logseq.order-list-type:: number
+			- 匹配:
+				- Swift 6 及以上版本, 匹配 `Package.swift` (根据文件名未匹配到, 通过 `swift-tools-version` 找到最兼容版本)
+				  logseq.order-list-type:: number
+				- Swift 5.10 , 匹配 `Package@swift-5.10.swift`
+				  logseq.order-list-type:: number
+				- Swift 5.9 , 匹配 `Package@swift-5.9.swift`
+				  logseq.order-list-type:: number
+	- ### Unversioned Package.swift
+		- 最佳实践是:
+			- 没有版本后缀的 Manifest 文件, 一般用于声明最新版本的 `swift-tools-version` .
+		- 在考虑兼容旧版本 Swift 时:
+			- 没有版本后缀的 Manifest 文件, 用于声明旧版本的 `swift-tools-version` ; 而有版本后缀的 Manifest 文件, 用于声明新版本的 `swift-tools-version` .
+			- 因为, 旧版本 Swift , 显然只认得  `Package.swift` (而不认得 `Package@swift-5.10.swift` ).
+			- 但是, 当前 Swift 已经发出很多个版本了, 一般不用考虑不支持  Version-specific Manifest 的 Swift 版本.
 - ## 参考
 	- [PackageDescription - Package](https://docs.swift.org/swiftpm/documentation/packagedescription/package/)
 	  logseq.order-list-type:: number

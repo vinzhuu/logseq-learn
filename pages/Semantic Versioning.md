@@ -1,4 +1,4 @@
-alias:: [[Semantic Versioning]]
+alias:: [[SemVer]]
 tags:: [[Versioning]], [[Spec]]
 ---
 
