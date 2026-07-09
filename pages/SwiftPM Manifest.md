@@ -127,11 +127,138 @@ tags:: [[SwiftPM]]
 			- 没有版本后缀的 Manifest 文件, 用于声明旧版本的 `swift-tools-version` ; 而有版本后缀的 Manifest 文件, 用于声明新版本的 `swift-tools-version` .
 			- 因为, 旧版本 Swift , 显然只认得  `Package.swift` (而不认得 `Package@swift-5.10.swift` ).
 			- 但是, 当前 Swift 已经发出很多个版本了, 一般不用考虑不支持  Version-specific Manifest 的 Swift 版本.
+- ## Package, Target, Module, Product 与 Dependency
+	- ### Package
+		- 参考: [PackageDescription - 首页](https://docs.swift.org/swiftpm/documentation/packagedescription)
+		- `Package` 是打包好的可重用的的组件.
+			- `Package` 中包含: Source Files, Binaries, Resources 等内容
+			- 其中源代码支持: Swift, Objective-C, Objective-C++, C , C++
+	- ### Target
+		- `Target` 是真正参与编译的代码单元.
+		- 每个 `Target` 包含一组源文件, SwiftPM 将每个 `Target` 编译成 `Module` 或 `Test Suite` .
+		- 一个 `Target` 通常对应 `Sources/` (编译成 `Module` ) 或 `Tests/` (编译成 `Test Suite` ) 的一个子目录.
+			- 一个 `Package` 有一个或多个 `Target` .
+			- 如 `Sources/Demo/`, `Sources/Demo02/` , `Tests/DemoTests/` .
+		- `Target` 需要在 `Manifest File` 中声明.
+	- ### Target Type
+		- 可以在 `Manifest File` 中声明 `Target` 的类型:
+			- Library : 可被其他代码导入
+			  logseq.order-list-type:: number
+			- Test Suite : 专门用于测试.
+			  logseq.order-list-type:: number
+			- Executable : 可被操作系统运行
+			  logseq.order-list-type:: number
+			- Macro : 用于在编译时生成代码 (参见: [[Swift Macro]] )
+			  logseq.order-list-type:: number
+			- Binary file : 他人已编译好的二进制包 (如 `xcframework` / `.zip` 格式, 我们无法阅读源码), 我们在项目中引入.
+			  logseq.order-list-type:: number
+	- ### Module
+		- 每个 `Target` 在 `Package` 中都被视为一个 `Module` .
+		- 使用时, 通过 `import ModuleName` 引入.
+	- ### Product
+		- `Product` 由 一个或多个 `Target` 构建结果组合而成, 暴露给外部使用.
+			- `Package` 不直接暴露 `Target` , 而是暴露 `Product` .
+			- 暴露 `Product` , 即暴露指定 `Target` 的 Public API .
+			- Objective-C/Objective-C++/C /C++ 模块需要编写 `module.modulemap` 来公开 API, 而 Swift 模块不用.
+		- `Product` 需要在 `Manifest File` 中声明 (指定 `Target` 集合).
+		- 一个 `Package` 有一个或多个 `Product` .
+		- ``` swift
+		  let package = Package(
+		      name: "MyPackage",
+		      products: [
+		          .library(
+		              name: "MyKit",
+		              targets: ["Foo", "Bar"]
+		          )
+		      ],
+		      targets: [
+		          .target(name: "Foo"),
+		          .target(name: "Bar")
+		      ]
+		  )
+		  ```
+	- ### Product Type
+		- Product 有如下几种类型:
+			- `Library` : 库.
+			  logseq.order-list-type:: number
+				- 可被其他代码导入
+			- `Executable` : 可执行程序.
+			  logseq.order-list-type:: number
+				- 可被操作系统运行
+			- `Plugin` : 插件.
+			  logseq.order-list-type:: number
+				- 给 SwiftPM 调用, 用来提供 **附加命令** 或 **构建功能** .
+	- ### Dependency
+		- `Package` 的 `Dependency` 只表示这个 `Package` 要引入的 `Package` .
+			- 由 `Git URL` 和  `Version Requirement` 指定需要引入的 `Package` .
+		- 而 `Target` 的 `Dependency` 表示这个 `Target` 需要用到的:
+			- **自身的 `Target`**
+			  logseq.order-list-type:: number
+			- **外部的 `Product`** (来自 `Package` 引入的 `Package` ) .
+			  logseq.order-list-type:: number
+		- ``` swift
+		  let package = Package(
+		      name: "MyAppPackage",
+		      dependencies: [
+		          .package(
+		              url: "https://github.com/apple/swift-collections.git",
+		              from: "1.0.0"
+		          )
+		      ],
+		      targets: [
+		          .target(name: "Foo"),
+		          .target(
+		              name: "AppCore",
+		              dependencies: [
+		                  .product(
+		                      name: "Collections",
+		                      package: "swift-collections"
+		                  ),
+		                  "Foo"
+		              ]
+		          )
+		      ]
+		  )
+		  ```
+	- ### Test Libraries Target
+		- 内置的测试库, 如 [[Swift Testing]] 和 [[XCTest]] , 依赖某些运行时才能运行.
+		- 所以, 不要将依赖它们的 `Test Target` , 封装进 `Product` 中, 分发给最终用户, 导致运行异常.
+- ## Package.resolved
+	- SwiftPM 解析 Manifest , 以确定 package dependencies 确切版本的过程, 被称为 `Dependency Resolution` (依赖解析) .
+	- 这个过程完成后, 会在根目录生成 `Package.resolved` , 记录依赖解析的结果.
+	- 如果是 Apple 平台的应用, `Package.resolved` 则会在 `.xcodeproj` 或 `.xcworkspace` 中.
+	- 示例:
+		- ``` swift
+		  {
+		    "originHash" : "357a3d39c94e4de951501a73e215e8109515e6466e718e77db8f17484112f068",
+		    "pins" : [
+		      {
+		        "identity" : "swift-collections",
+		        "kind" : "remoteSourceControl",
+		        "location" : "https://github.com/apple/swift-collections.git",
+		        "state" : {
+		          "revision" : "a0cb0954ecb21e4e31b0070e6ed5674e8556685a",
+		          "version" : "1.6.0"
+		        }
+		      }
+		    ],
+		    "version" : 3
+		  }
+		  ```
 - ## 参考
 	- [PackageDescription - Package](https://docs.swift.org/swiftpm/documentation/packagedescription/package/)
 	  logseq.order-list-type:: number
+	- [PackageDescription - Product](https://docs.swift.org/swiftpm/documentation/packagedescription/product)
+	  logseq.order-list-type:: number
+	- [PackageDescription - Target](https://docs.swift.org/swiftpm/documentation/packagedescription/target/)
+	  logseq.order-list-type:: number
+	- [PackageDescription - Package.Dependency](https://docs.swift.org/swiftpm/documentation/packagedescription/package/dependency/)
+	  logseq.order-list-type:: number
 	- [Swift Package Manager - Setting the Swift tools version](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/settingswifttoolsversion)
+	  logseq.order-list-type:: number
+	- [Swift Package Manager - Introducing Packages](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/introducingpackages)
 	  logseq.order-list-type:: number
 	- AI
 	  logseq.order-list-type:: number
+-
 -

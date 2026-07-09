@@ -10,14 +10,14 @@ tags:: [[SwiftPM]]
 	- ### [Swift Package Manager](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/)
 		- ==已阅:== 首页
 		- #### Essentials
-			- ==已阅:==
+			- ==已阅:== Introducing Packages
 		- #### Guides
-			- ==已阅:== Setting the Swift tools version,
+			- ==已阅:== Setting the Swift tools version, Packaging based on the version of Swift
 	- ### [PackageDescription](https://docs.swift.org/swiftpm/documentation/packagedescription/)
 		- ![image.png](../assets/image_1783519086654_0.png){:height 211, :width 260}
 		- ==已阅:== 首页
-		- #### Package
-			- ==已阅:== 首页,
-			-
+		- Package
+			- ==已阅:== 首页, LanguageTag, Product, Target, Package.Dependency
+		- ==没啥内容:== Context, GitInformation, Version, WarningLevel, Swift
 	- ### [PackagePlugin](https://docs.swift.org/swiftpm/documentation/packageplugin/)
 		-

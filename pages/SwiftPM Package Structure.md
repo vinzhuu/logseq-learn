@@ -26,8 +26,8 @@ tags:: [[SwiftPM]]
 			- 文件名为 `Package.swift`.
 		- 多个 `Swift source file`  .
 		  logseq.order-list-type:: number
-			- `Sources/Demo` 目录: 源代码
-			- `Tests/DemoTests` 目录: 测试代码.
+			- `Sources/` 目录: 源代码
+			- `Tests/` 目录: 测试代码.
 		- Resources.
 		  logseq.order-list-type:: number
 		- 其他 Assets.
