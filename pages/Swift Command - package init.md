@@ -6,7 +6,6 @@ tags:: [[Swift Command]]
 - ## 常用参数
 	- ### –type=<type>
 		- 指定 `Package` 的类型.
-			- 详见: [[SwiftPM Package Structure]] 中相关小节
 		- 枚举值:
 			- `library` - A package with a library.
 			  logseq.order-list-type:: number

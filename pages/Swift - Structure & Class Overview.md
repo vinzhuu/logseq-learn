@@ -83,7 +83,7 @@ tags:: [[Swift Type]]
 			- 比如: 许多 `Objective-C` 框架需要我们继承它们的类.
 		- 需要控制 `Identity` 时, 使用 `Class` .
 		  logseq.order-list-type:: number
-			- 因为 `Class` 是引用类型, 有 `Identity` 的概念 (参见: [[Swift - Equal to & Identical to]] )
+			- 因为 `Class` 是引用类型, 有 `Identity` 的概念 (参见: [[Swift - Identical to & Equal to]] )
 - ## 参考
 	- [Swift Docs - Structures and Classes](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
 	  logseq.order-list-type:: number

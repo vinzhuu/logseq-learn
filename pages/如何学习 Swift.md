@@ -25,7 +25,7 @@ tags:: [[Swift]]
 			- Language Guide
 				- 看完: The Basics, Basic Operators, Strings and Characters,
 				- [Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/#Sets) 接下来看 Sets
-					- [[Swift - Collection]]
+					- [[Swift Collection]]
 				- Enumerations, Structures and Classes
 			- Language Reference
 				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==

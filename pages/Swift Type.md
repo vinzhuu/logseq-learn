@@ -12,13 +12,11 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Type Alias]]
 		  logseq.order-list-type:: number
-	- Type Concepts:
+	- Basic Concepts:
 	  logseq.order-list-type:: number
 		- [[Swift - Reference Type & Value Type]]
 		  logseq.order-list-type:: number
-		- [[Swift - Equal to & Identical to]]
-		  logseq.order-list-type:: number
-		- [[Swift - Equatable & Hashable]]
+		- [[Swift - Identical to & Equal to]]
 		  logseq.order-list-type:: number
 	- Fundamental Types:
 	  logseq.order-list-type:: number
@@ -28,9 +26,17 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - String and Character]]
 		  logseq.order-list-type:: number
+	- Named Type - Enumeration Type:
+	  logseq.order-list-type:: number
+		- [[Swift - Enumeration]]
+	- [[Swift - Equatable & Hashable]]
+	  logseq.order-list-type:: number
 	- Collection Types:
 	  logseq.order-list-type:: number
-		- [[Swift - Collection]]
+		- [[Swift Collection]]
+	-
+	-
+	- ==下方还未整理==
 	- Compound Types:
 	  logseq.order-list-type:: number
 		- [[Swift - Tuple]]
@@ -39,11 +45,9 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Closure]]
 		  logseq.order-list-type:: number
-	- Named Types:
+	- Named Type - Structure, Class & Protocol:
 	  logseq.order-list-type:: number
-		- [[Swift - Enumeration]]
-		  logseq.order-list-type:: number
-		- [[Swift - Structure & Class]]
+		- [[Swift - Structure & Class Overview]]
 		  logseq.order-list-type:: number
 		- [[Swift - Operator Method]]
 		  logseq.order-list-type:: number

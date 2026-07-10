@@ -268,7 +268,7 @@ tags:: [[Swift]]
 			- ``` swift
 			  enum ResultState: Equatable {
 			      case success
-			      case failure(Error) // Error 不遵守 Equatable
+			      case failure(Error) // 报错, Error 不遵守 Equatable
 			  }
 			  ```
 		- 此时, `==` 比较的是: 同一 `Case` , 且 `Associated Value` 相等.
