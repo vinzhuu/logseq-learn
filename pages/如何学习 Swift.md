@@ -19,14 +19,14 @@ tags:: [[Swift]]
 		- #### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
 			- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team/documentation/the-swift-programming-language/)
 			- Welcome to Swift
-				- 看完: About Swift, Version Compatibility
+				- ==已阅:== About Swift, Version Compatibility
 				- A Swift Tour
 					- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
 			- Language Guide
-				- 看完: The Basics, Basic Operators, Strings and Characters,
-				- [Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/#Sets) 接下来看 Sets
-					- [[Swift Collection]]
-				- Enumerations, Structures and Classes
+				- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types
+				- 接下来看 [Control Flow](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow)
+					- 参见: [[Swift Control Flow]]
+				- ==已阅==: Enumerations, Structures and Classes
 			- Language Reference
 				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
 	- ### Install

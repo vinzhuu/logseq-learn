@@ -29,8 +29,12 @@ tags:: [[Swift]]
 	- Named Type - Enumeration Type:
 	  logseq.order-list-type:: number
 		- [[Swift - Enumeration]]
-	- [[Swift - Equatable & Hashable]]
+	- Equatable & Hashable:
 	  logseq.order-list-type:: number
+		- [[Swift - Equatable & Hashable]]
+	- Compound Types - Tuple Type:
+	  logseq.order-list-type:: number
+		- [[Swift - Tuple]]
 	- Collection Types:
 	  logseq.order-list-type:: number
 		- [[Swift Collection]]
@@ -39,8 +43,6 @@ tags:: [[Swift]]
 	- ==下方还未整理==
 	- Compound Types:
 	  logseq.order-list-type:: number
-		- [[Swift - Tuple]]
-		  logseq.order-list-type:: number
 		- [[Swift - Function]]
 		  logseq.order-list-type:: number
 		- [[Swift - Closure]]
