@@ -16,7 +16,7 @@ tags:: [[Swift]]
 	  logseq.order-list-type:: number
 		- [[Swift - Reference Type & Value Type]]
 		  logseq.order-list-type:: number
-		- [[Swift - Identical to & Equal to]]
+		- [[Swift - Identity Operators & Equivalence Operators]]
 		  logseq.order-list-type:: number
 	- Fundamental Types:
 	  logseq.order-list-type:: number

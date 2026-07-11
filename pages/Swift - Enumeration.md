@@ -73,7 +73,7 @@ tags:: [[Swift]]
 		  
 		  let numberOfChoices = Beverage.allCases.count
 		  print("\(numberOfChoices) beverages available")
-		  // Prints "3 beverages available".
+		  // Prints "3 bevndeerages available".
 		  ```
 - ## Associated Values (关联值)
 	- ### 语法
@@ -239,53 +239,6 @@ tags:: [[Swift]]
 		  
 		  print(evaluate(product)) // 18
 		  ```
-- ## case 的相等性
-	- ==参考: AI==
-	- ### 没有 `Associated Value`
-		- 不管有没有 `Raw Value` ,  `==` 比较都是: 是不是同一个 `Case` .
-		- 因为没有 `Associated Value` 的 `Enumeration` 会默认遵循 `Equatable` 协议. (参见: [[Swift - Equatable & Hashable]] )
-		- ``` swift
-		  enum Direction {
-		      case north
-		      case south
-		  }
-		  
-		  Direction.north == Direction.north // true
-		  Direction.north == Direction.south // false
-		  ```
-	- ### 有 `Associated Value` , 且不遵循 `Equatable` 协议
-		- 则 `Case` 的实例之间, 无法用 `==` 比较.
-		- ``` swift
-		  enum LoginState {
-		      case loggedOut
-		      case loggedIn(userId: Int)
-		  }
-		  
-		  print(LoginState.loggedOut == LoginState.loggedOut) // 报错
-		  ```
-	- ### 有 `Associated Value` , 且遵循 `Equatable` 协议
-		- 则所有 `Associated Value` 的类型都必须遵循 `Equatable` 协议, 否则会报错.
-			- ``` swift
-			  enum ResultState: Equatable {
-			      case success
-			      case failure(Error) // 报错, Error 不遵守 Equatable
-			  }
-			  ```
-		- 此时, `==` 比较的是: 同一 `Case` , 且 `Associated Value` 相等.
-			- ``` swift
-			  enum LoginState: Equatable {
-			      case loggedOut
-			      case loggedIn(userId: Int)
-			      case failed(message: String)
-			  }
-			  
-			  print(LoginState.loggedOut == .loggedOut) // true
-			  print(LoginState.loggedIn(userId: 1) == .loggedIn(userId: 1)) // true
-			  print(LoginState.loggedIn(userId: 1) == .loggedIn(userId: 2)) // false
-			  print(LoginState.loggedIn(userId: 1) == .failed(message: "error")) // false
-			  ```
-	- ### 只是比较同一个 case
-		- 如果只是比较是否是同一 `case` , 而无需比较 `Associated Value` , 使用 `if case` 语法就好.
 - ## 参考
 	- [Swift Language Guide - Enumerations](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/)
 	  logseq.order-list-type:: number
