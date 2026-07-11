@@ -12,6 +12,8 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Basic Operator]]
 		  logseq.order-list-type:: number
+		- [[Swift - Range Operator]]
+		  logseq.order-list-type:: number
 	- 控制流:
 	  logseq.order-list-type:: number
 		- [[Swift Control Flow]]
