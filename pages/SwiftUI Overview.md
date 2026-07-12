@@ -5,7 +5,7 @@ tags:: [[SwiftUI]]
 	- SwiftUI , 采用 Declarative syntax (声明式语法), 而非 Imperative syntax (命令式语法) .
 	- 即 SwiftUI 只是编写结果 (Results), 而非编写指令 (Instructions)
 		- 参见: [[Programming Paradigm]]
-- ## Incrementally (渐进式)
+- ## Incremental Adoption (渐进式采用)
 	- SwiftUI 可以与 [[UIKit]] 和 [[AppKit]] 混合使用:
 		- 在使用 UIKit 和 AppKit 的项目中, 引入 SwiftUI, 可以保持旧有代码不变.
 		- 在使用 SwiftUI 的项目中, 为了达到更好的效果, 可以引入 UIKit 和 AppKit 混合使用.
