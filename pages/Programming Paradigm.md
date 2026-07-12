@@ -1,4 +1,5 @@
 alias:: [[编程范式]]
+tags:: [[Program Language Glossary]] 
 ---
 
 - ## 子目录

@@ -2,9 +2,17 @@ tags:: [[Swift Syntax]]
 ---
 
 - ## 学习路线
-	- [[Swift - if case]]
+	- 循环语句 (Loop Statement):
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+		- [[Swift - For-In Loop]]
+		  logseq.order-list-type:: number
+	- 条件语句 (Conditional Statement):
+	  logseq.order-list-type:: number
+		- [[Swift - if case]]
+		  logseq.order-list-type:: number
+	- 控制转移语句 (Control Transfer Statement):
+	  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 - ## 条件与循环的种类
 	- Conditional (条件): if, switch
 	- Loop (循环): for-in, while, repeat-while

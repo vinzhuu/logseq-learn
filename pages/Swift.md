@@ -19,6 +19,14 @@ tags:: [[Program Language]]
 		  logseq.order-list-type:: number
 		- [[XCTest]]
 		  logseq.order-list-type:: number
+	- 存储:
+	  logseq.order-list-type:: number
+		- [[SwiftData]]
+		  logseq.order-list-type:: number
+	- 其他库:
+	  logseq.order-list-type:: number
+		- [[Swift Charts]]
+		  logseq.order-list-type:: number
 	- Swift 代码 API 设计规范: [Swift API Design Guidelines](https://www.swift.org/documentation/api-design-guidelines/)
 	  logseq.order-list-type:: number
 	- 各类应用开发:

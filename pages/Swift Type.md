@@ -26,15 +26,15 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - String and Character]]
 		  logseq.order-list-type:: number
+	- Compound Type - Tuple Type:
+	  logseq.order-list-type:: number
+		- [[Swift - Tuple]]
 	- Named Type - Enumeration Type:
 	  logseq.order-list-type:: number
 		- [[Swift - Enumeration]]
 	- Equatable & Hashable:
 	  logseq.order-list-type:: number
 		- [[Swift - Equatable & Hashable]]
-	- Compound Types - Tuple Type:
-	  logseq.order-list-type:: number
-		- [[Swift - Tuple]]
 	- Collection Types:
 	  logseq.order-list-type:: number
 		- [[Swift Collection]]
