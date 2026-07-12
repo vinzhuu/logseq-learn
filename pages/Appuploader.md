@@ -1,4 +1,4 @@
-tags:: [[Apple Technology]], [[Application]] 
+tags:: [[Apple Dev]], [[Application]] 
 ---
 
 - [Appuploader 官网](http://www.applicationloader.net/)

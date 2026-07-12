@@ -1,4 +1,4 @@
-tags:: [[Apple Technology]]
+tags:: [[Apple Dev]]
 ---
 
 - ## 如何开启 App 的能力

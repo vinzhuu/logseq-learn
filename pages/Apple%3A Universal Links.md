@@ -1,4 +1,4 @@
-tags:: [[Apple Technology]] , [[Deep Linking]]
+tags:: [[Apple Dev]] , [[Deep Linking]]
 ---
 
 - 通读 [[Deep Linking Concept]]

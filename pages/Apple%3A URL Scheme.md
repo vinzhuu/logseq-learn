@@ -1,4 +1,4 @@
-tags:: [[URL Scheme]], [[Apple Technology]], [[Deep Linking]] 
+tags:: [[URL Scheme]], [[Apple Dev]], [[Deep Linking]] 
 ---
 
 - ## Apple 系统保留的 Scheme
