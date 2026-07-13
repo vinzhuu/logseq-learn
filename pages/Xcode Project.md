@@ -16,7 +16,7 @@ tags:: [[Xcode]]
 		- 添加后, 会新增如下内容:
 			- `HelloWorld.xcodeproj/project.xcworkspace/xcshareddata/swiftpm` 目录下新增 `Package.resolved` 文件, 或 `Package.resolved` 文件中新增依赖相关内容.
 			  logseq.order-list-type:: number
-			- `project.pbxproj` 文件中新增依赖相关内容.
+			- `HelloWorld.xcodeproj/project.pbxproj` 文件中新增依赖相关内容.
 			  logseq.order-list-type:: number
 		- 如下两处可以看到项目的依赖:
 			- ![image.png](../assets/image_1783937268260_0.png)
