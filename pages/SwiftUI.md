@@ -3,16 +3,20 @@ tags:: [[Swift]], [[Framework]]
 
 - ## 学习路线
 	- [[如何学习 SwiftUI]]
+	- [[SwiftUI Overview]]
+	  logseq.order-list-type:: number
 	- Xcode 相关:
 	  logseq.order-list-type:: number
 		- [[Xcode 安装与配置]]
 		  logseq.order-list-type:: number
 		- [[Xcode 使用必知]]
 		  logseq.order-list-type:: number
-	- [[SwiftUI Overview]]
+	- 相关概念:
 	  logseq.order-list-type:: number
-	- [[Xcode Project]]
-	  logseq.order-list-type:: number
+		- [[Xcode Project]]
+		  logseq.order-list-type:: number
+		- [[SwiftUI Concepts]]
+		  logseq.order-list-type:: number
 	-
 	- ==如下待整理==
 	- SwiftUI 概念:
