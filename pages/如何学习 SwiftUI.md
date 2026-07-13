@@ -21,11 +21,13 @@ tags:: [[SwiftUI]]
 	- ### Resources - Tutorials - Develop in Swift
 		- 旧教程: [SwiftUI Tutorials](https://developer.apple.com/tutorials/swiftui) ==不看了, 看新教程==
 			- 2024-10-19 学习完 Building lists and navigation 课程
-		- 旧教程: [SwiftUI Concepts Tutorials](https://developer.apple.com/tutorials/swiftui-concepts) ==不看了, 看新教程==
 		- 新教程 (2026-07-12): [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift)
 		- ==已阅:==
-			- Welcome to Develop in Swift Tutorials, Meet Xcode, Create a project
-			- 接下来看: [New: Discover coding intelligence](https://developer.apple.com/tutorials/develop-in-swift/discover-coding-intelligence)
+			- Welcome to Develop in Swift Tutorials, Meet Xcode, Create a project, New: Discover coding intelligence
+			- 接下来看: [Welcome to app design](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-design)
+	- ### Resources - Tutorials - SwiftUI Concepts
+		- [SwiftUI Concepts Tutorials](https://developer.apple.com/tutorials/swiftui-concepts)
+		-
 	- ### Get Started - SwiftUI Pathway
 		- [SwiftUI Pathway](https://developer.apple.com/swiftui/get-started/)
 		- ==已阅:== Meet SwiftUI ,
