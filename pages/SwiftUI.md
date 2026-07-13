@@ -7,14 +7,9 @@ tags:: [[Swift]], [[Framework]]
 	  logseq.order-list-type:: number
 	- Xcode 相关:
 	  logseq.order-list-type:: number
-		- [[Xcode 安装与配置]]
-		  logseq.order-list-type:: number
-		- [[Xcode 使用必知]]
-		  logseq.order-list-type:: number
+		- [[Xcode]] (特别关注: [[Xcode Project]] )
 	- 相关概念:
 	  logseq.order-list-type:: number
-		- [[Xcode Project]]
-		  logseq.order-list-type:: number
 		- [[SwiftUI Concepts]]
 		  logseq.order-list-type:: number
 	-

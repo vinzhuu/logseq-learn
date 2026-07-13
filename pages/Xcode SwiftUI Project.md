@@ -1,4 +1,4 @@
-tags:: [[Xcode]], [[SwiftUI]]
+tags:: [[Xcode Project]] , [[SwiftUI]]
 ---
 
 - ## Xcode 中项目视图
