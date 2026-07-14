@@ -8,7 +8,7 @@ tags:: [[Swift Type]], [[Swift Collection]]
 		  var dic2: [Int: String] = [:]
 		  ```
 	- 其中, `Key` 必须遵循 `Hashable` .
-		- 具体参见: [[Swift - Equatable & Hashable]]
+		- 具体参见: [[Swift Protocol - Equatable & Hashable]]
 - ## Creating A Dictionary
 	- ### 创建一个空 Dictionary
 		- ``` swift
@@ -84,7 +84,7 @@ tags:: [[Swift Type]], [[Swift Collection]]
 		  }
 		  ```
 	- ### 遍历 key 和 value: `keys` 属性 & `values` 属性
-		- `keys` 属性 和 `values` 属性, 都是集合类型, 可以通过 `for-in` 遍历:
+		- `keys` 属性 和 `values` 属性, 都是 `Collection` 类型, 可以通过 `for-in` 遍历:
 			- ``` swift
 			  for airportCode in airports.keys {
 			      print("Airport code: \(airportCode)")
@@ -94,7 +94,6 @@ tags:: [[Swift Type]], [[Swift Collection]]
 			      print("Airport name: \(airportName)")
 			  }
 			  ```
-		- 如上述方式直接遍历 `keys` 属性 和 `values` 属性, 不保证每次顺序都一致.
 		- 如需 **按升序** 遍历 `keys` 属性 和 `values` 属性, 需调用它们的 `.sorted()` 方法:
 			- ``` swift
 			  for airportCode in airports.keys.sorted() {
@@ -110,6 +109,10 @@ tags:: [[Swift Type]], [[Swift Collection]]
 			  let airportCodes = [String](airports.keys)
 			  let airportNames = [String](airports.values)
 			  ```
+	- ### 遍历的顺序
+		- 如上述采用 `for-in` 直接遍历 `键值对`  /  `keys` 属性 / `values` 属性, 如果 Dictionary 内部数据不发生改动, 则:
+			- 在程序的一次运行过程中, 每次遍历的顺序是一致的.
+			- 但是在程序重启后再次遍历, 其遍历顺序将与上一次运行的遍历次序不一致.
 - ## 参考
 	- [Swift Language - Collection Types#Dictionaries](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/#Dictionaries)
 	  logseq.order-list-type:: number

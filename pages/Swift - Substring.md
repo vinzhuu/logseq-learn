@@ -28,8 +28,11 @@ tags:: [[Swift Type]]
 		- 因为, 它可能会导致 `原始 String` 占用的内存长期无法被释放.
 - ## 遵循 StringProtocol
 	- `Substring` 和 `String` 都遵循 `StringProtocol` 协议.
+		- 只有标准库中的 `Substring` 和 `String` 可以遵循  `StringProtocol` 协议, 不能声明其他类型遵循 `StringProtocol` 协议.
 	- 所以, 字符串操作函数可以接收 `StringProtocol` 类型, 以支持 `Substring` 和 `String` 两种入参.
 - ## 参考
 	- [Swift Language Guide - Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters)
 	  logseq.order-list-type:: number
-	-
+	- [Swift API - StringProtocol](https://developer.apple.com/documentation/swift/stringprotocol)
+	  logseq.order-list-type:: number
+-

@@ -54,22 +54,7 @@ tags:: [[Swift Type]]
 		  }
 		  ```
 - ## 遵循 Collection
-	- 任何遵循 `Collection` 协议的类型, 都支持:
-		- `startIndex` 与 `endIndex` 属性.
-		  logseq.order-list-type:: number
-		- `index(before:)` , `index(after:)` 与 `index(_:offsetBy:)`  方法.
-		  logseq.order-list-type:: number
-		- `indices` 属性.
-		  logseq.order-list-type:: number
-	- 遵循 `Collection` 协议的类型有:
-		- `String`
-		  logseq.order-list-type:: number
-		- `Array`
-		  logseq.order-list-type:: number
-		- `Dictionary`
-		  logseq.order-list-type:: number
-		- `Set`
-		  logseq.order-list-type:: number
+	- 参见: [[Swift Protocol - Collection]]
 - ## 参考
 	- [Swift Language Guide - Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters)
 	  logseq.order-list-type:: number

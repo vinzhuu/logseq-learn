@@ -1,7 +1,7 @@
 tags:: [[Swift Type]]
 ---
 
-- ## 集合的的种类
+- ## 集合的种类
 	- `Array` : 有序的值集合.
 	  logseq.order-list-type:: number
 	- `Set` : 无序的唯一值集合.

@@ -15,7 +15,7 @@ tags:: [[Swift Type]]
 		- 如 `Int` 类型:
 		- ![image.png](../assets/image_1783089597489_0.png){:height 220, :width 487}
 	- 而我们自定义的类型, 默认是没有 `Equivalence Operator` 的实现的.
-		- 具体如何实现, 参见: [[Swift - Equatable & Hashable]]
+		- 具体如何实现, 参见: [[Swift Protocol - Equatable & Hashable]]
 - ## 参考
 	- [Structures and Classes#Identity Operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/#Identity-Operators)
 	  logseq.order-list-type:: number

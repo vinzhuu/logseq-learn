@@ -6,6 +6,7 @@ tags:: [[Swift Syntax]]
 	  logseq.order-list-type:: number
 		- [[Swift - For-In Loop]]
 		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 	- 条件语句 (Conditional Statement):
 	  logseq.order-list-type:: number
 		- [[Swift - if case]]

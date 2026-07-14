@@ -101,7 +101,7 @@ tags:: [[Swift Type]], [[Swift Collection]]
 	- ### 遍历数组: `for-in` + 数组自身
 		- ``` swift
 		  for item in shoppingList {
-		      print(item)
+		    print(item)
 		  }
 		  ```
 	- ### 遍历数组: `for-in` + 数组的 `enumerated()` 方法
