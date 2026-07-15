@@ -30,27 +30,12 @@ tags:: [[Swift Control Flow]]
 	  }
 	  print("\(base) to the power of \(power) is \(answer)")
 	  ```
-- ## stride() 方法
-	- 使用 `stride(from:to:by:)` : 创建一个 **左闭右开, 每次迭代指定跨度** 的区间
-		- ``` swift
-		  let minuteInterval = 5
-		  let minutes = 60
-		  
-		  for tickMark in stride(from: 0, to: minutes, by: minuteInterval) {
-		      // render the tick mark every 5 minutes (0, 5, 10, 15 ... 45, 50, 55)
-		  }
-		  ```
-	- 使用 `stride(from:through:by:)` : 创建一个 **左闭右闭, 每次迭代指定跨度** 的区间
-		- ``` swift
-		  let hours = 12
-		  let hourInterval = 3
-		  for tickMark in stride(from: 3, through: hours, by: hourInterval) {
-		      // render the tick mark every 3 hours (3, 6, 9, 12)
-		  }
-		  ```
 - ## Protocol: Sequence
 	- 任何遵循 `Sequence` 协议的类型, 都能使用 `for-in` 语法遍历.
-		- 参见: [[Swift Protocol - Sequence & IteratorProtocol]]
+		- 参见: [[Swift API - Sequence & IteratorProtocol]]
+	- 使用 `stride()` 方法创建的 `StrideThrough` 对象, 也支持 `for-in` 语法.
+		- 因为 `StrideThrough` 也遵循 `Sequence`.
+		- 参见: [[Swift API - Strideable]]
 - ## 参考
 	- [Swift Language - Control Flow#For-In Loops](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#For-In-Loops)
 	  logseq.order-list-type:: number

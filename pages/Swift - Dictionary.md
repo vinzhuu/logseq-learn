@@ -8,7 +8,7 @@ tags:: [[Swift Type]], [[Swift Collection]]
 		  var dic2: [Int: String] = [:]
 		  ```
 	- 其中, `Key` 必须遵循 `Hashable` .
-		- 具体参见: [[Swift Protocol - Equatable & Hashable]]
+		- 具体参见: [[Swift API - Equatable & Hashable]]
 - ## Creating A Dictionary
 	- ### 创建一个空 Dictionary
 		- ``` swift

@@ -1,2 +1,3 @@
 -
-- {{renderer :tocgen2, [[swift protocol - collection & slice]], calc(100vh - 135px)}}
+-
+- {{renderer :tocgen2, [[swift api - strideable]], calc(100vh - 135px)}}

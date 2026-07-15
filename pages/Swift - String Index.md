@@ -54,7 +54,7 @@ tags:: [[Swift Type]]
 		  }
 		  ```
 - ## 遵循 Collection
-	- 参见: [[Swift Protocol - Collection]]
+	- 参见: [[Swift API - Collection]]
 - ## 参考
 	- [Swift Language Guide - Strings and Characters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/stringsandcharacters)
 	  logseq.order-list-type:: number

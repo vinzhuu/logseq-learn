@@ -7,7 +7,7 @@ tags:: [[Swift Type]], [[Swift Collection]]
 		  let set: Set<String>;
 		  ```
 	- 其中, `Element` 必须遵循 `Hashable` .
-		- 具体参见: [[Swift Protocol - Equatable & Hashable]]
+		- 具体参见: [[Swift API - Equatable & Hashable]]
 - ## Creating A Set
 	- ### 创建一个空 Set
 		- ``` swift

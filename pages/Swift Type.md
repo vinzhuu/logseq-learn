@@ -34,17 +34,19 @@ tags:: [[Swift]]
 		- [[Swift - Enumeration]]
 	- Common Protocol:
 	  logseq.order-list-type:: number
-		- [[Swift Protocol - Equatable & Hashable]]
+		- [[Swift API - Equatable & Hashable]]
 	- Collection Types:
 	  logseq.order-list-type:: number
 		- [[Swift Collection]]
-	- Common Protocol:
+	- Common Protocols:
 	  logseq.order-list-type:: number
-		- [[Swift Protocol - Sequence & IteratorProtocol]]
+		- [[Swift API - Sequence & IteratorProtocol]]
 		  logseq.order-list-type:: number
-		- [[Swift Protocol - Collection]]
+		- [[Swift API - Collection]]
 		  logseq.order-list-type:: number
-			-
+		- [[Swift API - Strideable]]
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 	-
 	- ==下方还未整理==
 	- Compound Types:
@@ -53,12 +55,15 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift - Closure]]
 		  logseq.order-list-type:: number
-		- [[Swift Protocol - Comparable]]
+		- [[Swift API - Comparable]]
 		  logseq.order-list-type:: number
 	- Named Type - Structure, Class & Protocol:
 	  logseq.order-list-type:: number
 		- [[Swift - Structure & Class Overview]]
 		  logseq.order-list-type:: number
+		- [[Swift - Subscript]]
+		  logseq.order-list-type:: number
 		- [[Swift - Operator Method]]
 		  logseq.order-list-type:: number
+-
 -
