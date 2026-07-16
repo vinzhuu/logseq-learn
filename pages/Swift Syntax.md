@@ -22,7 +22,7 @@ tags:: [[Swift]]
 		- [[Swift Type]]
 	- 异常处理 与 断言:
 	  logseq.order-list-type:: number
-		- [[Swift - Error Handling]]
+		- [[Swift Error Handling]]
 		  logseq.order-list-type:: number
 		- [[Swift - Assertions and Preconditions]]
 		  logseq.order-list-type:: number

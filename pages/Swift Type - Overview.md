@@ -2,7 +2,7 @@ tags:: [[Swift Type]]
 ---
 
 - ## Named Types 和 Compound Types
-	- 总体有如下分类 (参考: [Swift Docs - Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/type)):
+	- 总体有如下分类 (参考: [Swift Docs - Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/types)):
 	- ### Named Types (具名类型)
 		- `Class`
 		  logseq.order-list-type:: number

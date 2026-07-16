@@ -1,6 +1,13 @@
 tags:: [[Swift Control Flow]]
 ---
 
+- ## 语法
+	- ``` swift
+	  let names = ["Anna", "Alex", "Brian", "Jack"]
+	  for name in names {
+	      print("Hello, \(name)!")
+	  }
+	  ```
 - ## For-In 的用处
 	- 遍历如下的数据结构中的项目:
 		- Array 中的 items : [[Swift - Array]]
