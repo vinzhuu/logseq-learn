@@ -13,11 +13,11 @@ tags:: [[SwiftUI]]
 	  logseq.order-list-type:: number
 		- `#Preview`
 		  logseq.order-list-type:: number
-		- App , Scene
-		  logseq.order-list-type:: number
-		- View
+		- App , Scene, View
 		  logseq.order-list-type:: number
 		- Modifier
+		  logseq.order-list-type:: number
+		- Layout
 		  logseq.order-list-type:: number
 		- Spacer()
 		  logseq.order-list-type:: number

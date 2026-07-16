@@ -18,17 +18,8 @@ tags:: [[Swift Syntax]]
 		  logseq.order-list-type:: number
 	- 控制转移语句 (Control Transfer Statement):
 	  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
-- ## 条件语句赋值
-	- `if` 和 `switch` 语句块可以紧跟在 `=` 后面进行赋值; 或跟在 `return` 后面返回.
-	- ``` swift
-	  var teamScore = 11
-	  let scoreDecoration = if teamScore > 10 {
-	      "🎉"
-	  } else {
-	      ""
-	  }
-	  print("Score:", teamScore, scoreDecoration)
-	  // Prints "Score: 11 🎉"
-	  ```
+	- do statement
+	  logseq.order-list-type:: number
+	- defer statement
+	  logseq.order-list-type:: number
 -

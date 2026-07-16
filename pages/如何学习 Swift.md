@@ -27,6 +27,9 @@ tags:: [[Swift]]
 				- 接下来看 [Swift Language - Control Flow#Switch](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Switch)
 					- 参见: [[Swift - Switch]]
 				- ==已阅==: Enumerations, Structures and Classes
+				- Access Control
+					- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
+					- 参见: [[Swift Access Control]]
 			- Language Reference
 				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
 	- ### Install

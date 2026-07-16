@@ -46,7 +46,7 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift API - Strideable]]
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 	-
 	- ==下方还未整理==
 	- Compound Types:
@@ -61,9 +61,17 @@ tags:: [[Swift]]
 	  logseq.order-list-type:: number
 		- [[Swift - Structure & Class Overview]]
 		  logseq.order-list-type:: number
-		- [[Swift - Subscript]]
+		- 属性:
 		  logseq.order-list-type:: number
-		- [[Swift - Operator Method]]
+			- [[Swift Property Wrapper]]
+			  logseq.order-list-type:: number
+		- 方法:
 		  logseq.order-list-type:: number
+			- [[Swift - Operator Method]]
+			  logseq.order-list-type:: number
+		- 下标:
+		  logseq.order-list-type:: number
+			- [[Swift - Subscript]]
+			  logseq.order-list-type:: number
 -
 -

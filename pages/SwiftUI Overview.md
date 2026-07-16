@@ -11,8 +11,7 @@ tags:: [[SwiftUI]]
 		- 在使用 SwiftUI 的项目中, 为了达到更好的效果, 可以引入 UIKit 和 AppKit 混合使用.
 - ## SF Symbols
 	- SwiftUI 可以使用系统自带的图标: [[SF Symbols]]
-	- 可以在 Xcode 中 `Command + Shift + l` 调出搜索面板.
--
+	- 可以在 Xcode 中 `Command + Shift + l` 调出搜索面板 (不过不全, 查看全量图标还得安装 SF Symbols 应用).
 - ## 参考
 	- [Apple Developer - SwiftUI](https://developer.apple.com/swiftui/)
 	  logseq.order-list-type:: number

@@ -27,7 +27,7 @@ tags:: [[SwiftUI]]
 			- 接下来看: [Welcome to app design](https://developer.apple.com/tutorials/develop-in-swift/welcome-to-app-design)
 	- ### Resources - Tutorials - SwiftUI Concepts
 		- [SwiftUI Concepts Tutorials](https://developer.apple.com/tutorials/swiftui-concepts)
-		-
+		- ==已阅:==
 	- ### Get Started - SwiftUI Pathway
 		- [SwiftUI Pathway](https://developer.apple.com/swiftui/get-started/)
 		- ==已阅:== Meet SwiftUI ,
