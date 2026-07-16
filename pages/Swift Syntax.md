@@ -48,7 +48,6 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 	-
 	- ==如下待整理==
-		- [[Swift Declaration]]
-		  logseq.order-list-type:: number
+		-
 	-
 -
