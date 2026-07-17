@@ -2,6 +2,8 @@ tags:: [[SwiftUI]]
 ---
 
 - ## 学习路线
+	- [[Xcode SwiftUI Project]]
+	  logseq.order-list-type:: number
 	- [[SwiftUI - App, Scene & View]]
 	  logseq.order-list-type:: number
 -

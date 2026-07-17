@@ -341,7 +341,7 @@
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? false
  :publishing/all-pages-public? true
- :ui/show-brackets? true
+ :ui/show-brackets? false
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"

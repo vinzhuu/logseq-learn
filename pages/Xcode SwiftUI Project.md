@@ -62,7 +62,7 @@ tags:: [[Xcode Project]] , [[SwiftUI]]
 	  └── HelloWorldApp.swift
 	  ```
 	- `HelloWorldApp.swift` 为程序入口.
-		- 有标注 `@main` , 且遵循 `App` 的 `struct` . ( 详见: [[SwiftUI Concepts]] )
+		- 有标注 `@main` , 且遵循 `App` 的 `struct` . ( 详见: [[SwiftUI - App, Scene & View]] )
 		- ``` swift
 		  @main
 		  struct HelloWorldApp: App {

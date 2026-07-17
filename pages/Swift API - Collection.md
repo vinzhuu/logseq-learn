@@ -52,7 +52,7 @@ tags:: [[Swift Type]]
 			- 即 `endIndex` 本身不是一个合法的索引.
 		- 如果 `Collection` 为空, 则 `startIndex` 与 `endIndex` 相等.
 	- ### subcript
-		- `Collection` 的如下两行, 是 **下标声明**  , 定义 下标语法 `[]` 的行为. (参见: [[Swift - Subscript]] )
+		- `Collection` 的如下两行, 是 **下标声明**  , 定义 下标语法 `[]` 的行为. (参见: [[Swift Subscript]] )
 		- ``` swift
 		  // 单个索引
 		  subscript(position: Self.Index) -> Self.Element { get }
@@ -131,7 +131,7 @@ tags:: [[Swift Type]]
 		- 需要实现如下内容:
 			- `startIndex` 和 `endIndex` 的 `getter` 方法.
 			  logseq.order-list-type:: number
-			- `subscript` : 下标语法的行为 (至少是只读的). (参见: [[Swift - Subscript]] )
+			- `subscript` : 下标语法的行为 (至少是只读的). (参见: [[Swift Subscript]] )
 			  logseq.order-list-type:: number
 			- `index(after:)` 方法: 获取下一个索引.
 			  logseq.order-list-type:: number

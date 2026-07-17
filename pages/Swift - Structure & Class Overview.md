@@ -13,7 +13,7 @@ tags:: [[Swift Type]]
 			  logseq.order-list-type:: number
 			- 初始化器 (Initializers)
 			  logseq.order-list-type:: number
-		- 面向对象:
+		- 行为:
 		  logseq.order-list-type:: number
 			- 可以被扩展 (Be Extended)
 			  logseq.order-list-type:: number
