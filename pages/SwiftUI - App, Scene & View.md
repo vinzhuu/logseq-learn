@@ -31,8 +31,17 @@ tags:: [[SwiftUI]]
 			      @MainActor @preconcurrency public static func main()
 			  }
 			  ```
-- ## body & Scene
-	-
+- ## 遵循 App 协议: body
+	- ``` swift
+	  @MainActor @preconcurrency public protocol App {
+	      associatedtype Body : Scene
+	  
+	      @SceneBuilder @MainActor @preconcurrency var body: Self.Body { get }
+	      @MainActor @preconcurrency init()
+	  }
+	  ```
+	- ==接下来, 需要先了解 : 计算属性 , Getter/Setter, @MainActor, @preconcurrency, @SceneBuilder==
 - https://developer.apple.com/documentation/swiftui/app-organization
 - https://developer.apple.com/documentation/swiftui/app
 - https://developer.apple.com/documentation/swiftui/scene
+-

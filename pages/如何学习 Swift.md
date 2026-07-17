@@ -24,8 +24,8 @@ tags:: [[Swift]]
 					- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
 			- Language Guide
 				- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types
-				- 接下来看 [Swift Language - Control Flow#Switch](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/#Switch)
-					- 参见: [[Swift - Switch]]
+				- 接下来看 [Swift Guide - Control Flow#Labeled Statements](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow#Labeled-Statements)
+					- 参见: [[Swift Control Flow]]
 				- ==已阅==: Enumerations, Structures and Classes
 				- Access Control
 					- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)

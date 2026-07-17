@@ -112,14 +112,14 @@ tags:: [[Swift]]
 			      print("QR code: \(productCode).")
 			  }
 			  ```
-	- ### if-case 语句
-		- 只想判断是否是某一个 `case` 时, 可以使用 `if-case` 语句.
+	- ### if case 语句
+		- 只想判断是否是某一个 `case` 时, 可以使用 `if case` 语句. (参见: [[Swift - switch case, if case & for case]] )
 			- ``` swift
 			  if case .qrCode = productBarcode {
 			      print("QR code!") // QR code!
 			  }
 			  ```
-		- `if-case` 语句提取关联值
+		- `if case` 语句提取关联值
 			- ``` swift
 			  if case .qrCode(let productCode) = productBarcode {
 			      print("QR code: \(productCode).") // ABCDEFGHIJKLMNOP
@@ -188,7 +188,7 @@ tags:: [[Swift]]
 - ## Recursive Enumerations (递归枚举)
 	- ### 语法
 		- 如果有 `Case` 的 `Associated Value` 类型是该枚举本身, 就称这个枚举为 `Recursive Enumeration` (递归枚举) .
-		- 在 `case` 上加 `indirect`
+		- 可以在特定 `case` 上加 `indirect`
 			- ``` swift
 			  enum ArithmeticExpression {
 			      case number(Int)
@@ -196,7 +196,7 @@ tags:: [[Swift]]
 			      indirect case multiplication(ArithmeticExpression, ArithmeticExpression)
 			  }
 			  ```
-		- 在 `Enumeration` 上加 `indirect`.
+		- 也可以在整个 `Enumeration` 上加 `indirect`.
 			- ``` swift
 			  indirect enum ArithmeticExpression {
 			      case number(Int)

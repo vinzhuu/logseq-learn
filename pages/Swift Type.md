@@ -51,7 +51,7 @@ tags:: [[Swift]]
 	- ==下方还未整理==
 	- Compound Types:
 	  logseq.order-list-type:: number
-		- [[Swift - Function]]
+		- [[Swift Function]]
 		  logseq.order-list-type:: number
 		- [[Swift - Closure]]
 		  logseq.order-list-type:: number

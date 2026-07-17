@@ -219,6 +219,7 @@ tags:: [[Swift Type]]
 			  ```
 	- ### 只是比较同一个 case
 		- 如果只是比较是否是同一 `case` , 而无需比较 `Associated Value` , 使用 `if case` 语法就好.
+			- 参见: [[Swift - Enumeration]]
 - ## 最佳实践
 	- ==对于 "不关心 Hash 值, 而只关心 `==` 操作符 (比如: 只想手动比较相等性, 不会放到 `Set` 中)" 的自定义类型:==
 	  logseq.order-list-type:: number
