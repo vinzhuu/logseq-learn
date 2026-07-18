@@ -40,10 +40,12 @@ tags:: [[Swift Syntax]]
 		- `throw` 
 		  logseq.order-list-type:: number
 			- 参见 [[Swift Error Handling]]
-	- do statement
+	- 标签语句 (Labeled Statement): [[Swift - Labeled Statement]]
 	  logseq.order-list-type:: number
-		-
-	- defer statement
+	- 卫语句 (Guard Statement) : [[Swift - Guard Statement]]
 	  logseq.order-list-type:: number
-		-
+	- 延迟语句 (Defer Statement) : [[Swift - Defer Statement]]
+	  logseq.order-list-type:: number
+	- [[Swift - Checking API Availability]]
+	  logseq.order-list-type:: number
 -

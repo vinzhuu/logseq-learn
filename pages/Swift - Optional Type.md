@@ -50,7 +50,6 @@ tags:: [[Swift Type]]
 	  }
 	  // Here, myNumber is an optional integer
 	  // Prints "My number is 123"
-	  
 	  ```
 	- 如果 if 语句块的 myNumber 被赋的值不是 nil ，则执行第一个分支，并且此时 myNumber 是 `Int` 类型，而不是 `Int?` .
 	- 如果 if 语句块的 myNumber 被赋的值是 nil , 则执行第二个分支，此时 myNumber 是 `Int?` 类型 .
