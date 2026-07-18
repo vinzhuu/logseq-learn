@@ -46,6 +46,6 @@ tags:: [[Swift Syntax]]
 	  logseq.order-list-type:: number
 	- 延迟语句 (Defer Statement) : [[Swift - Defer Statement]]
 	  logseq.order-list-type:: number
-	- [[Swift - Checking API Availability]]
+	- [[Swift - Availability Condition]]
 	  logseq.order-list-type:: number
 -

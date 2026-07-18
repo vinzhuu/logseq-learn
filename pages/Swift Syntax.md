@@ -26,6 +26,12 @@ tags:: [[Swift]]
 	- 类型系统 与 面向对象:
 	  logseq.order-list-type:: number
 		- [[Swift Type]]
+	- API 可用性:
+	  logseq.order-list-type:: number
+		- [[Swift - Availability Condition]]
+		  logseq.order-list-type:: number
+		- [[Swift Attribute - @available]]
+		  logseq.order-list-type:: number
 	- 代码访问控制:
 	  logseq.order-list-type:: number
 		- [[Swift Access Control]]

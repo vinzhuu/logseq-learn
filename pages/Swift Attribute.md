@@ -8,6 +8,8 @@ tags:: [[Swift Syntax]]
 	  logseq.order-list-type:: number
 		- [[Swift Attribute - @main]]
 		  logseq.order-list-type:: number
+		- [[Swift Attribute - @available]]
+		  logseq.order-list-type:: number
 	- Type Attribute (类型属性)
 	  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
