@@ -18,7 +18,7 @@ tags:: [[Swift Type]]
 			  ```
 	- ### 实现 == 操作符方法
 		- 遵循 `Equatable` 的类型的对象, 需要实现 `==` 操作符方法 (而  `!=` 就是对 `==` 的运算结果取反)
-			- 关于操作符方法, 参见: [[Swift - Operator Method]]
+			- 关于操作符方法, 参见: [[Swift Operator Method]]
 		- ``` swift
 		  struct Person: Equatable {
 		      let id: Int

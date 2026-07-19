@@ -52,32 +52,13 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift Closure]]
 		  logseq.order-list-type:: number
-	- Type Syntax:
+	- Named Type - Structure, Class & Protocol
 	  logseq.order-list-type:: number
-		- [[Swift - Structure & Class Overview]]
-		  logseq.order-list-type:: number
-		- 成员:
-		  logseq.order-list-type:: number
-			- [[Swift Property]]
-			  logseq.order-list-type:: number
-			- [[Swift Method]]
-			  logseq.order-list-type:: number
-			- [[Swift Subscript]]
-			  logseq.order-list-type:: number
-			- [[Swift Initializer]]
-			  logseq.order-list-type:: number
-		- 行为:
-		  logseq.order-list-type:: number
-			- [[Swift Extension]]
-			  logseq.order-list-type:: number
-			- [[Swift Protocol]]
-			  logseq.order-list-type:: number
+		- [[Swift - Structure, Class & Protocol]]
 	-
 	-
 	- ==下方还未整理==
 	- [[Swift API - Comparable]]
 	  logseq.order-list-type:: number
-	- Named Type - Structure, Class & Protocol:
-	  logseq.order-list-type:: number
-		-
+	- logseq.order-list-type:: number
 -

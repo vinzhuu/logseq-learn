@@ -15,24 +15,29 @@ tags:: [[Swift]]
 	- ![image.png](../assets/image_1783435113198_0.png)
 	- ==已阅:== 首页 (2026-07-08), Packages (2026-07-08)
 	- ==需要时再看:== Blog
-	- ### Docs
-		- #### [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
-			- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team/documentation/the-swift-programming-language/)
-			- Welcome to Swift
-				- ==已阅:== About Swift, Version Compatibility
-				- A Swift Tour
-					- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
-			- Language Guide
-				- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types, Swift Control Flow
-				- 接下来看 [Swift Guide - Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions)
-				-
-				- ==已阅==: Enumerations, Structures and Classes
-				-
-				- Access Control
-					- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
-					- 参见: [[Swift Access Control]]
-			- Language Reference
-				- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
+	- ### Swift Language
+		- [The Swift Programming Language - 最新版本](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
+		- [The Swift Programming Language - 中文版本 (by swiftgg)](https://doc.swiftgg.team/documentation/the-swift-programming-language/)
+		- Welcome to Swift
+			- ==已阅:== About Swift, Version Compatibility
+			- A Swift Tour
+				- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
+		- Language Guide
+			- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types, Swift Control Flow
+			- 接下来看 [Swift Guide - Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions)
+			-
+			- ==已阅==: Enumerations, Structures and Classes
+		- Properties
+			- 接下来看: [Property Observers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Property-Observers)
+			- 参见: [[Swift Property Observer]]
+		- Initialization
+			- 接下来看: [Customizing Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Customizing-Initialization)
+			- 参见: [[Swift Initializer]]
+		- Access Control
+			- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
+			- 参见: [[Swift Access Control]]
+		- Language Reference
+			- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
 	- ### Install
 		- ==暂不关注==
 	- ### Community

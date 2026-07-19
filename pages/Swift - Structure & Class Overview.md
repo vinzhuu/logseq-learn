@@ -60,7 +60,7 @@ tags:: [[Swift Type]]
 	  // Prints "The width of someVideoMode is now 1280".
 	  ```
 - ## Structure 的 Memberwise Initializer
-	- 所有的 Structure 都有一个 **默认** 的 `Memberwise Initializer` .
+	- 所有的 `Structure` 都有一个 **默认** 的 `Memberwise Initializer` .
 		- 可以在创建实例时, 给每个属性赋值.
 		- ``` swift
 		  let vga = Resolution(width: 640, height: 480)
