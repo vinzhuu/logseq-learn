@@ -11,3 +11,4 @@ tags:: [[JDK]]
 	- [[AdoptOpenJDK]]: ((64b0a03c-4c2b-480b-9c6e-feef4022f315))
 	- [[Temurin]]: ((64b0a72d-0290-46e2-9f16-ef3aec627ae5))
 -
+-
