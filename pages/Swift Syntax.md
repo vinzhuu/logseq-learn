@@ -44,7 +44,7 @@ tags:: [[Swift]]
 	- 异步编程:
 	  logseq.order-list-type:: number
 		- [[Swift Async]]
-	- [[Swift Attribute]]
+	- [[Swift Memory Safety]]
 	  logseq.order-list-type:: number
 	- [[Swift Macro]]
 	  logseq.order-list-type:: number
@@ -52,8 +52,8 @@ tags:: [[Swift]]
 	  logseq.order-list-type:: number
 		- [[Swift - Manual Memory Management]]
 		  logseq.order-list-type:: number
-	-
-	- ==如下待整理==
-		-
-	-
+- ## Index
+	- [[Swift Attribute]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 -

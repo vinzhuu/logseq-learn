@@ -50,24 +50,16 @@ tags:: [[Swift Function]]
 			- 这种优化被称为 **Call By Reference** .
 		- 而, 对于没有 **内存物理地址** 的 **实参** , 仍然执行上述 **复制 - 修改 - 赋值** 过程.
 			- 这包括: **计算属性** , **带有观察器的属性** , **下标访问** 等.
-		- 我们不要依赖上述  **Call By Reference** 优化编写代码.
-			- 比如, 在函数体中, 访问作为 **inout 实参** 传入的变量.
-				- ``` swift
-				  var number = 10
-				  
-				  func change(_ value: inout Int) {
-				      value = 20
-				      print(number)
-				  }
-				  
-				  change(&number)
-				  ```
-				-
+		- 我们不要依赖上述  **Call By Reference** 的特性, 编写代码.
+			- 因为 **Call By Reference** 只针对有 **内存物理地址** 的 **实参** .
+			- 我们仍应将上述 `copy-in copy-out` 作为理解模型.
 	- ### 计算属性 或 带有观察器的属性 作为 In-Out Parameter 的实参
 		- 当 **计算属性** 或 **带有观察器的属性** 作为 **in-out parameter** 的 **实参** 时:
 			- 其 `getter` 会在 **函数调用时** 被调用.
 			- 其 `setter` 会在 **函数返回时** 被调用.
 		- 参见: [[Swift Computed Property]] 与 [[Swift Property Observer]] .
+	- ###  In-Out Parameters 内存安全
+		- 参见: [[Swift Memory Safety]]
 - ## 参数
 	- [Swift Guide - Functions#In-Out Parameters](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/#In-Out-Parameters)
 	  logseq.order-list-type:: number

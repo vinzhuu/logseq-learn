@@ -23,6 +23,8 @@ tags:: [[Apple Dev]], [[Swift]], [[IDE]]
 		  logseq.order-list-type:: number
 		- [[Xcode 证书相关]]
 		  logseq.order-list-type:: number
+		- [[Xcode Debugging]]
+		  logseq.order-list-type:: number
 - ## Index
 	- [Xcode Home Page](https://developer.apple.com/xcode/)
 	  logseq.order-list-type:: number

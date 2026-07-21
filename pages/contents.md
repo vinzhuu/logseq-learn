@@ -1,2 +1,2 @@
 -
-- {{renderer :tocgen2, [[swift function type]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[swift memory safety]], calc(100vh - 135px)}}
