@@ -25,7 +25,7 @@ tags:: [[Swift]]
 		- Language Guide
 			- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types, Swift Control Flow, Functions
 			- 接下来看 [Swift Guide - Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures)
-				- 参见: [[Swift Function - In-Out Parameter]]
+				- 参见: [[Swift Closure]]
 			- ==已阅==: Enumerations, Structures and Classes
 			- Properties
 				- 接下来看: [Property Observers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Property-Observers)
@@ -36,6 +36,9 @@ tags:: [[Swift]]
 			- Access Control
 				- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
 				- 参见: [[Swift Access Control]]
+			- Memory Safety
+				- 接下来看 [Conflicting Access to self in Methods](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/memorysafety/#Conflicting-Access-to-self-in-Methods)
+				- 参见: [[Swift Memory Safety]]
 		- Language Reference
 			- ==只是详细且严谨的语法规则说明, 暂时无需阅读==
 	- ### Install
