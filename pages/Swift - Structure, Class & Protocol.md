@@ -40,3 +40,6 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 		- Deinitializer
 		  logseq.order-list-type:: number
+		- [[Swift Reference Counting]]
+		  logseq.order-list-type:: number
+-

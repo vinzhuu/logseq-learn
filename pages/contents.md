@@ -1,2 +1,2 @@
 -
-- {{renderer :tocgen2, [[swift closure expression]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[swift escaping closure]], calc(100vh - 135px)}}

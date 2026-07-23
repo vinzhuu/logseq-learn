@@ -13,7 +13,7 @@ tags:: [[Swift Closure]]
 	- Closure 有如下形式:
 		- **Global Function** : 有名称, 但不 **捕获 (Capture)** 任何值.
 		  logseq.order-list-type:: number
-		- **Nested Function** : 有名称, 且能从其 **Enclosing Function**  **捕获 (Capture)** 值.
+		- **Nested Function** : 有名称, 且能从其 **Enclosing Function**  **捕获 (Capture)** 值 (包括  **Enclosing Function** 的 **参数** 及其内部定义的 **变量与常量** )
 		  logseq.order-list-type:: number
 		- **Closure Expression** : 用 轻量语法 (lightweight syntax) 编写, 没有名称, 能够从上下文中 **捕获** 值.
 		  logseq.order-list-type:: number
