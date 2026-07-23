@@ -46,7 +46,7 @@ tags:: [[Swift]]
 		  logseq.order-list-type:: number
 		- [[Swift API - Strideable]]
 		  logseq.order-list-type:: number
-	- Compound Types:
+	- Closure & Function
 	  logseq.order-list-type:: number
 		- [[Swift Function]]
 		  logseq.order-list-type:: number

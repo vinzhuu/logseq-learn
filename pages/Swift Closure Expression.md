@@ -94,18 +94,51 @@ tags:: [[Swift Closure]]
 		  ```
 - ## Inline Closure Expression 的优化
 	- ### Inferring Type
-		- 在将 `Closure` 传给一个 **函数** 或 **方法** 时:
+		- 在将 `Closure Expression` 传给一个 **函数** 或 **方法** 时:
 			- **Parameter Type** 和 **Return Type** 都可以被省略, 因为它们都可以被推断.
 		- ``` swift
 		  reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
 		  ```
 	- ### Shorthand Argument Name
-		- 在将 `Closure` 传给一个 **函数** 或 **方法** 时:
+		- 在将 `Closure Expression` 传给一个 **函数** 或 **方法** 时:
 			- **Parameter List** 可以省略, 此时, `Closure Body` 中用 `$0` , `$1` ... `$n` 表示参数.
 			- `Closure Body` 中使用的最大编号, 决定了该 `Closure` 接收的参数数量.
 		- ``` swift
 		  reversedNames = names.sorted(by: { $0 > $1 } )
 		  ```
 	- ### Trailing Closure
-		-
+		- 如果函数的末尾连续 1 个或多个参数, 都用 `Closure Expression` 作为实参, 那么可以将它们都写成 `Trailing Closure` 形式.
+			- 一般在 `Closure Expression` 比较长的时候, 这样写. ==Swift 开发者大概觉得这样更易读吧, 我持保留意见==
+		- `Trailing Closure` 形式, 就是:
+			- 将原本写在函数调用 `()` 内的 `Closure Expression` 表达式, 写到括号外.
+			  logseq.order-list-type:: number
+				- ``` swift
+				  reversedNames = names.sorted() { $0 > $1 }
+				  ```
+			- 如果  `Closure Expression`  是这个函数的唯一实参, 则可以省略调用函数时的 `()` .
+			  logseq.order-list-type:: number
+				- ``` swift
+				  reversedNames = names.sorted { $0 > $1 }
+				  ```
+			- 第一个 `Closure Expression`  的 `Argument Label` 必须省略, 后面  `Closure Expression`  的  `Argument Label` 必须保留.
+			  logseq.order-list-type:: number
+				- 如果函数定义中, 参数的 `Argument Label` 是 `_` , 则传参时也用 `_` 作为  `Argument Label` .
+				- ``` swift
+				  func someFunctionThatTakesAClosure(c1: (Int) -> Void, _ c2: (String) -> Void, c3: (Bool) -> Bool) {
+				    // function body goes here
+				  }
+				  // 普通 Closure
+				  someFunctionThatTakesAClosure(c1: {(a: Int) -> Void in}, {s in}, c3: {$0})
+				  // Trailing Closure
+				  someFunctionThatTakesAClosure(){(a: Int) -> Void in
+				    // c1's body goes here
+				  } _: { s in
+				    // c2's body goes here
+				  } c3: { $0 }
+				  ```
+- ## 参考
+	- [Swift Guide - Closures#Closure Expressions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/#Closure-Expressions)
+	  logseq.order-list-type:: number
+	- [Swift Guide - Closures#Trailing Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/#Trailing-Closures)
+	  logseq.order-list-type:: number
 -
