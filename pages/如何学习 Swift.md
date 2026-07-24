@@ -24,8 +24,10 @@ tags:: [[Swift]]
 				- ==不看，讲的内容不全面，大概就是让初学者了解下这个语言的调性。==
 		- Language Guide
 			- ==已阅==: The Basics, Basic Operators, Strings and Characters, Collection Types, Swift Control Flow, Functions
-			- 接下来看 [Swift Guide - Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures)
-				- 参见: [[Swift Closure]]
+			- Closures
+				- 接下来看: [Swift Guide - Closures#Escaping Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/#Escaping-Closures)
+				- 建议先去读 [Automatic Reference Counting](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/automaticreferencecounting) 了解 `self` 和 `Capture List`
+				- 参见: [[Swift Escaping Closure]]
 			- ==已阅==: Enumerations, Structures and Classes
 			- Properties
 				- 接下来看: [Property Observers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Property-Observers)

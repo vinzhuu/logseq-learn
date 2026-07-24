@@ -19,6 +19,6 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- [[Swift Escaping Closure]]
 	  logseq.order-list-type:: number
-	- [[Swift Closure - Capturing In-Out Parameter]]
+	- [[Swift  Autoclosure]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
