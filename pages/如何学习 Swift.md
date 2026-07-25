@@ -32,6 +32,9 @@ tags:: [[Swift]]
 			- Properties
 				- 接下来看: [Property Observers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Property-Observers)
 				- 参见: [[Swift Property Observer]]
+			- Inheritance
+				- 接下来看: [Swift Guide - Inheritance#Defining a Base Class](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/inheritance/#Defining-a-Base-Class)
+				- 参见: [[Swift Inheritance]]
 			- Initialization
 				- 接下来看: [Customizing Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Customizing-Initialization)
 				- 参见: [[Swift Initializer]]

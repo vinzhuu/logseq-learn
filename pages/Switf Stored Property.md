@@ -40,7 +40,7 @@ tags:: [[Swift Type]]
 		- 在 **变量存储属性** 前加 `lazy` 关键字, 并在右侧加上 **赋值表达式** .
 		- ``` swift
 		  class DataImporter {
-		      /*
+		    /*
 		      DataImporter is a class to import data from an external file.
 		      The class is assumed to take a nontrivial amount of time to initialize.
 		      */
