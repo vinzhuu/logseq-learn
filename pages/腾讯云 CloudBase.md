@@ -1,11 +1,11 @@
 tags:: [[微信开发]]
-alias:: [[微信 CloudRun]], [[WeChat CloudRun]]
+alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 ---
 
 - ## Roadmap
 	- [[微信云开发, 腾讯云 CloudBase, 微信云托管 & 云服务器]]
 	  logseq.order-list-type:: number
-	- [[微信云托管 - 收费标准]]
+	- [[腾讯云 CloudBase Run]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
--
+	- [[腾讯云 CloudBase - 云模板]]
+	  logseq.order-list-type:: number
