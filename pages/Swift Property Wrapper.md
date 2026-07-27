@@ -1,4 +1,4 @@
-tags:: [[Swift Type]]
+tags:: [[Swift Property]] 
 ---
 
 -

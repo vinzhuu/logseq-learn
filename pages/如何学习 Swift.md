@@ -30,8 +30,8 @@ tags:: [[Swift]]
 				- 参见: [[Swift Escaping Closure]]
 			- ==已阅==: Enumerations, Structures and Classes
 			- Properties
-				- 接下来看: [Property Observers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Property-Observers)
-				- 参见: [[Swift Property Observer]]
+				- 接下来看: [Property Wrappers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers)
+				- 参见: [[Swift Property Wrapper]]
 			- Inheritance
 				- 接下来看: [Swift Guide - Inheritance#Subclassing](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/inheritance/#Subclassing)
 				- 参见: [[Swift Inheritance]]

@@ -1,2 +1,2 @@
 -
-- {{renderer :tocgen2, [[swift inheritance]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[swift - overriding]], calc(100vh - 135px)}}

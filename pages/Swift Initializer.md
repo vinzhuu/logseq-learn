@@ -1,10 +1,15 @@
 tags:: [[Swift Type]]
 ---
 
+- ## Roadmap
+	- [[Swift - Property Observer In Initialization]]
+	  logseq.order-list-type:: number
+	- [[Swift Initializer Delegation]]
+	  logseq.order-list-type:: number
 - ## Setting Initial Values for Stored Properties
 	- 在创建 `Class` 和 `Structure` 的实例时, 必须为所有 **Stored Property** 设置 **Initial Value** .
 		- **Stored Property** 不能处于未确定状态.
-	- 设置  **Initial Value**  有两种方式 (此时不会触发 **property observer** , 参见: [[Swift Property Observer]] ):
+	- 设置  **Initial Value**  有两种方式:
 		- 在 **Initializer** 中, 为 **Stored Property** 设值.
 		  logseq.order-list-type:: number
 		- 在 **Stored Property** 声明时, 设置默认值.

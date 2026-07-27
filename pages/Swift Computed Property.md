@@ -1,4 +1,4 @@
-tags:: [[Swift Type]]
+tags:: [[Swift Property]] 
 ---
 
 - ## 什么是 Computed Properties
@@ -90,9 +90,16 @@ tags:: [[Swift Type]]
 		  print("the volume of fourByFiveByTwo is \(fourByFiveByTwo.volume)")
 		  // Prints "the volume of fourByFiveByTwo is 40.0".
 		  ```
+	- ==注意, 不能只有 `set` 而没有 `get`.==
 - ## Computed Properties 不能用 `let` 声明
 	- 因为 **Computed Properties** 的值不是固定的, 所以不能用 `let` 声明.
 		- 即便是 **Read-Only Computed Properties** , 其值也并非固定的.
+- ## Computed Property 作为 In-Out Parameter 的实参
+	- 当 **计算属性** 作为 **in-out parameter** 的 **实参** , 传递给函数:
+		- 其 `get` 会在 **函数调用时** 被调用.
+		- 其 `set` 会在 **函数返回时** 被调用.
+			- ==因为 **计算属性** 没有内存优化, 所以不管函数内部有没有赋值操作, 在函数调用完成后, 总是需要赋值回去.==
+			- 参见: [[Swift Function - In-Out Parameter]]
 - ## 参考
 	- [Swift Guide - Properties#Computed Properties](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties#Computed-Properties)
 	  logseq.order-list-type:: number

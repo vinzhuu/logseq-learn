@@ -8,41 +8,23 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- Class & Structure 共有的:
 	  logseq.order-list-type:: number
-		- Properties:
+		- Properties: [[Swift Property]]
 		  logseq.order-list-type:: number
-			- [[Switf Stored Property]]
-			  logseq.order-list-type:: number
-			- [[Swift Computed Property]]
-			  logseq.order-list-type:: number
-			- [[Swift Property Observer]]
-			  logseq.order-list-type:: number
-			- [[Swift Property Wrapper]]
-			  logseq.order-list-type:: number
-		- Methods:
+		- Methods: [[Swift Method]]
 		  logseq.order-list-type:: number
-			- [[Swift Operator Method]]
-			  logseq.order-list-type:: number
-		- Subscripts:
+		- Subscripts: [[Swift Subscript]]
 		  logseq.order-list-type:: number
-			- [[Swift Subscript]]
-			  logseq.order-list-type:: number
-		- Initializers
+		- Initializers: [[Swift Initializer]]
 		  logseq.order-list-type:: number
-			- [[Swift Initializer]]
-			  logseq.order-list-type:: number
-		- Extension:
+		- Be Extended: [[Swift Extension]]
 		  logseq.order-list-type:: number
-			- [[Swift Extension]]
-			  logseq.order-list-type:: number
-		- Protocols
+		- Conform to Protocols: [[Swift Protocol]]
 		  logseq.order-list-type:: number
-			- [[Swift Protocol]]
-			  logseq.order-list-type:: number
 	- Class 独有的:
 	  logseq.order-list-type:: number
-		- Deinitializer
-		  logseq.order-list-type:: number
 		- [[Swift Inheritance]]
+		  logseq.order-list-type:: number
+		- [[Swift Deinitializer]]
 		  logseq.order-list-type:: number
 		- [[Swift Reference Counting]]
 		  logseq.order-list-type:: number
