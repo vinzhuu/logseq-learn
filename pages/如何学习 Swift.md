@@ -32,9 +32,7 @@ tags:: [[Swift]]
 			- Properties
 				- 接下来看: [Property Wrappers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers)
 				- 参见: [[Swift Property Wrapper]]
-			- Inheritance
-				- 接下来看: [Swift Guide - Inheritance#Subclassing](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/inheritance/#Subclassing)
-				- 参见: [[Swift Inheritance]]
+			- ==已阅:== Inheritance
 			- Initialization
 				- 接下来看: [Customizing Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Customizing-Initialization)
 				- 参见: [[Swift Initializer]]
