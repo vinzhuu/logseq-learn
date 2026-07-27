@@ -14,7 +14,7 @@ tags:: [[Swift Type]]
 		  logseq.order-list-type:: number
 		- Subscripts: [[Swift Subscript]]
 		  logseq.order-list-type:: number
-		- Initializers: [[Swift Initializer]]
+		- Initializers: [[Swift Initialization]]
 		  logseq.order-list-type:: number
 		- Be Extended: [[Swift Extension]]
 		  logseq.order-list-type:: number
@@ -24,7 +24,7 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 		- [[Swift Inheritance]]
 		  logseq.order-list-type:: number
-		- [[Swift Deinitializer]]
+		- [[Swift Deinitialization]]
 		  logseq.order-list-type:: number
 		- [[Swift Reference Counting]]
 		  logseq.order-list-type:: number

@@ -1,4 +1,4 @@
-tags:: [[Swift Initializer]]
+tags:: [[Swift Initialization]]
 ---
 
 -

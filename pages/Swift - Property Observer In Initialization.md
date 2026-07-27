@@ -1,4 +1,4 @@
-tags:: [[Swift Initializer]], [[Swift Property Observer]] 
+tags:: [[Swift Initialization]], [[Swift Property Observer]] 
 ---
 
 - ## Setting Initial Values & Property Observer

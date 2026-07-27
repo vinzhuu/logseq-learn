@@ -35,7 +35,7 @@ tags:: [[Swift]]
 			- ==已阅:== Inheritance
 			- Initialization
 				- 接下来看: [Customizing Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Customizing-Initialization)
-				- 参见: [[Swift Initializer]]
+				- 参见: [[Swift Initialization]]
 			- Access Control
 				- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
 				- 参见: [[Swift Access Control]]
