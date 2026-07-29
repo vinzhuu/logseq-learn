@@ -10,7 +10,7 @@ tags:: [[Swift Access Control]]
 - ## Source File & Type
 	- **Source File** 就是 **Module** 中的 **Swift 源代码文件** .
 	- 一个 **Source File** 中, 可以包含多个 **Type** 的 **Definition**
-		- 但通常, 在一个 **Source File** 中, 我们值定义一个 **Type** .
+		- 但通常, 在一个 **Source File** 中, 我们只定义一个 **Type** .
 - ## Package
 	- 一个 **Package** 包含一组 **Module** ,
 	- **Package** 并不在 Swift 源码中声明, 而是作为 **构建系统 (Build System)** 的一部分.

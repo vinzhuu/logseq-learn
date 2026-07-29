@@ -30,12 +30,12 @@ tags:: [[Swift]]
 				- 参见: [[Swift Escaping Closure]]
 			- ==已阅==: Enumerations, Structures and Classes
 			- Properties
-				- 接下来看: [Property Wrappers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers)
-				- 参见: [[Swift Property Wrapper]]
+				- 接下来看: [Global and Local Variables](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Global-and-Local-Variables)
+				- 参见: [[Swift - Global Variable & Local Variable]]
 			- ==已阅:== Inheritance
 			- Initialization
-				- 接下来看: [Customizing Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Customizing-Initialization)
-				- 参见: [[Swift Initialization]]
+				- 接下来看: [Class Inheritance and Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Class-Inheritance-and-Initialization)
+				- 参见: [[Swift - Class Inheritance & Initialization]]
 			- Access Control
 				- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
 				- 参见: [[Swift Access Control]]

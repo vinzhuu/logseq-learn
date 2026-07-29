@@ -3,7 +3,8 @@ tags:: [[Swift Initialization]]
 
 - ## Initialization Parameters
   id:: 6a68ef3a-3735-44d1-b635-34963fe11699
-	- `Initializer` 可以声明 `Initialization Parameters` , 其功能和语法与 **函数** 相同.
+	- `Initializer` 可以声明 `Initialization Parameters` , 其功能和语
+	- 法与 **函数** 相同.
 	- 与 函数 的 `Parameters` 一样, `Initialization Parameters` 可以同时声明:
 		- `Parameter Names` : `Initializer` 内部使用.
 		  logseq.order-list-type:: number

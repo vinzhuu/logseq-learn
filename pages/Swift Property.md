@@ -14,4 +14,8 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- [[Swift Property Wrapper]]
 	  logseq.order-list-type:: number
+	- [[Swift - Global Variable & Local Variable]]
+	  logseq.order-list-type:: number
+	- [[Swift Type Property]]
+	  logseq.order-list-type:: number
 -

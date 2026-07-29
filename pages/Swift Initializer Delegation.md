@@ -44,4 +44,8 @@ tags:: [[Swift Initialization]]
 	  // centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
 	  ```
 - ## Class 的 Initializer Delegation
+	- 参见: [[Swift - Class Inheritance & Initialization]]
+- ## 参考
+	- [Swift Guide - Initialization#Initializer Delegation for Value Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Initializer-Delegation-for-Value-Types)
+	  logseq.order-list-type:: number
 	-
