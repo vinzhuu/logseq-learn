@@ -37,8 +37,7 @@ tags:: [[Swift Initialization]]
 	  ```
 - ## Optional 类型的属性
 	- `Optional` 类型的属性, 可以不用在 `Initializer` 中为其赋值.
-		- 它在初始化时, 会被自动赋一个 `nil` 值.
-		- ==可以理解为, 它本来有就一个默认值 `nil` .==
+		- 因为它有一个默认值 `nil` .
 	- ``` swift
 	  class SurveyQuestion {
 	      var text: String

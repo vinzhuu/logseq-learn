@@ -6,21 +6,29 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- Class & Structure 共有的:
 	  logseq.order-list-type:: number
-		- Properties: [[Swift Property]]
+		- 成员:
 		  logseq.order-list-type:: number
-		- Methods: [[Swift Method]]
+			- Properties: [[Swift Property]]
+			  logseq.order-list-type:: number
+			- Methods: [[Swift Method]]
+			  logseq.order-list-type:: number
+			- Subscripts: [[Swift Subscript]]
+			  logseq.order-list-type:: number
+			- Initializers: [[Swift Initialization]]
+			  logseq.order-list-type:: number
+			- Nested Types: [[Swift Nested Type]]
+			  logseq.order-list-type:: number
+		- 行为:
 		  logseq.order-list-type:: number
-		- Subscripts: [[Swift Subscript]]
-		  logseq.order-list-type:: number
-		- Initializers: [[Swift Initialization]]
-		  logseq.order-list-type:: number
-		- Be Extended: [[Swift Extension]]
-		  logseq.order-list-type:: number
-		- Conform to Protocols: [[Swift Protocol]]
-		  logseq.order-list-type:: number
+			- Be Extended: [[Swift Extension]]
+			  logseq.order-list-type:: number
+			- Conform to Protocols: [[Swift Protocol]]
+			  logseq.order-list-type:: number
 	- Class 独有的:
 	  logseq.order-list-type:: number
 		- [[Swift Inheritance]]
+		  logseq.order-list-type:: number
+		- [[Swift Type Casting]]
 		  logseq.order-list-type:: number
 		- [[Swift Deinitialization]]
 		  logseq.order-list-type:: number

@@ -6,7 +6,7 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- [[Swift Customizing Initialization]]
 	  logseq.order-list-type:: number
-	- [[Swift Default Initializer]]
+	- [[Swift Default Initializer & Memberwise Initializer]]
 	  logseq.order-list-type:: number
 	- [[Swift - Property Observer In Initialization]]
 	  logseq.order-list-type:: number
