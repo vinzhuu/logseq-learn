@@ -63,12 +63,12 @@ tags:: [[Swift Property]]
 			  logseq.order-list-type:: number
 				- 这个 `wrappedValue` 属性, 被称为属性的 `wrapped value` , 也即: 属性的 `getter` 和 `setter` 所暴露的值.
 	- ### 支持 Property Wrapper 的属性
-		- `Property Wrapper` , 只能用于如下属性:
+		- `Property Wrapper` , 只能用于如下属性或变量:
 			- `var stored property` (不管带不带 `willSet/didSet` )
 			  logseq.order-list-type:: number
-			- `local stored variable`
+			- `local stored variable` (不管带不带 `willSet/didSet` )
 			  logseq.order-list-type:: number
-		- 而不能用于如下属性:
+		- 而不能用于如下属性或变量/常量: (参见: [[Swift - Global & Local Variable or Constant]] )
 			- constant:
 			  logseq.order-list-type:: number
 				- `let stored property`

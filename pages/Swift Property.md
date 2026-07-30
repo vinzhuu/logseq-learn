@@ -4,7 +4,7 @@ tags:: [[Swift Type]]
 - ## Roadmap
 	- [[Swift Property Overview]]
 	  logseq.order-list-type:: number
-	- [[Switf Stored Property]]
+	- [[Swift Stored Property]]
 	  logseq.order-list-type:: number
 	- [[Swift Computed Property]]
 	  logseq.order-list-type:: number
@@ -14,7 +14,7 @@ tags:: [[Swift Type]]
 	  logseq.order-list-type:: number
 	- [[Swift Property Wrapper]]
 	  logseq.order-list-type:: number
-	- [[Swift - Global Variable & Local Variable]]
+	- [[Swift - Global & Local Variable or Constant]]
 	  logseq.order-list-type:: number
 	- [[Swift Type Property]]
 	  logseq.order-list-type:: number
