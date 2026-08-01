@@ -1,8 +1,8 @@
 tags:: [[Swift Type]] 
 ---
 
-- ## Structure VS Class
-	- 二者共有的:
+- ## Structure, Enumeration & Class
+	- `Structure, Enumeration & Class` 共有的:
 		- 成员:
 		  logseq.order-list-type:: number
 			- 属性 (Properties)

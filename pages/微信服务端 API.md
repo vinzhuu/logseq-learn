@@ -5,23 +5,26 @@ tags:: [[微信开发]]
 	- [[如何学习微信服务端 API]]
 	- [[微信服务端 API: 概念]]
 	  logseq.order-list-type:: number
-	- Token 类型:
+	- Token :
 	  logseq.order-list-type:: number
-		- [[微信服务端 API: access_token]]
+		- Token 类型:
 		  logseq.order-list-type:: number
-		- [[微信服务端 API: authorizer_access_token]]
+			- [[微信服务端 API: access_token]]
+			  logseq.order-list-type:: number
+			- [[微信服务端 API: authorizer_access_token]]
+			  logseq.order-list-type:: number
+			- [[微信服务端 API: component_access_token]]
+			  logseq.order-list-type:: number
+		- 无需 Token 调用: [[微信云调用]]
 		  logseq.order-list-type:: number
-		- [[微信服务端 API: component_access_token]]
-		  logseq.order-list-type:: number
-	- 无需 Token 调用: [[微信云调用]]
-	  logseq.order-list-type:: number
-	- [[微信服务端 API: OpenAPI 管理]]
-	  logseq.order-list-type:: number
 	- 网页开发:
 	  logseq.order-list-type:: number
 		- [[微信服务端 API: JS-SDK ticket]]
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+	- 杂项:
+	  logseq.order-list-type:: number
+		- [[微信服务端 API: OpenAPI 管理]]
+		  logseq.order-list-type:: number
 - ## Index
 	- 各应用可调用的 API: 
 	  logseq.order-list-type:: number

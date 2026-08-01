@@ -28,7 +28,7 @@ tags:: [[Swift Initialization]]
 	  print("The default temperature is \(f.temperature)° Fahrenheit")
 	  // Prints "The default temperature is 32.0° Fahrenheit".
 	  ```
-	- 使用 `init() { ... }` 语法, 像是一个没有参数的 **Instance Method** .
+	- 使用 `init() { ... }` 语法, 像是一个 **Instance Method** .
 - ## Default Value 方式
 	- ``` swift
 	  struct Fahrenheit {

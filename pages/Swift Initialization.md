@@ -16,8 +16,11 @@ tags:: [[Swift Type]]
 		  logseq.order-list-type:: number
 		- [[Swift - Class Inheritance & Initialization]]
 		  logseq.order-list-type:: number
+	- [[Swift Failable Initializer]]
+	  logseq.order-list-type:: number
 	- Initializer 与 Property Observer
 	  logseq.order-list-type:: number
 		- [[Swift - Property Observer In Initialization]]
 		  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
 -

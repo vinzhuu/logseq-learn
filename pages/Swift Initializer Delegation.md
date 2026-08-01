@@ -7,7 +7,7 @@ tags:: [[Swift Initialization]]
 	- `Structure` 和 `Enumeration` 不支持继承. (在 Swift 文档中, 它们被并称为 `Value Type` )
 		- 因此, 它们的 `Initializer Delegation` 比较简单, 直接调用自身提供的 `Initializer` 就好.
 	- `Class` 类型支持继承.
-		- 因此, 它们需要额外确保所有继承的 `stored property` , 在初始化时也被赋值.
+		- 因此, 它们需要额外确保所有继承的 `stored property` 在初始化时也被赋值, 所以需要可能调用父类的 `Initializer` .
 - ## Structure & Enumeration 的 Initializer Delegation
 	- 在 `Structure` & `Enumeration` 中, 使用 `self.init` 调用同一类型中的其他 `Initializer` .
 		- 注意, `self.init` 只能在 `Initializer` 中被调用.

@@ -28,7 +28,7 @@ tags:: [[Swift]]
 				- 接下来看: [Swift Guide - Closures#Escaping Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/#Escaping-Closures)
 				- 建议先去读 [Automatic Reference Counting](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/automaticreferencecounting) 了解 `self` 和 `Capture List`
 				- 参见: [[Swift Escaping Closure]]
-			- ==已阅:== Enumerations, Structures and Classes, Properties, Methods
+			- ==已阅:== Enumerations, Structures and Classes, Properties, Methods, Subscripts
 			- ==已阅:== Inheritance
 			- Initialization
 				- 接下来看: [Class Inheritance and Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Class-Inheritance-and-Initialization)

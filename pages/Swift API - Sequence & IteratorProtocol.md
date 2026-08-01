@@ -33,7 +33,7 @@ tags:: [[Swift Type]]
 	  }
 	  ```
 	- 遵循 `IteratorProtocol` 协议需要实现 `next()` 方法.
-	- `next()` 方法: 前进到下一个元素并返回它, 如果不存在下一个元素则返回`nil`.
+	- `next()` 方法: 前进到下一个元素并返回它, 如果不存在下一个元素则返回 `nil` .
 		- 为了达到这一点, 必须有一个属性记录当前迭代到的位置.
 - ## Iterator 的使用
 	- ### for-in 与 makeIterator()
@@ -56,7 +56,7 @@ tags:: [[Swift Type]]
 			      print(animal)
 			  }
 			  ```
-		- 一般情况下, 我们直接用 `for-in` 语法遍历 `Sequence` 就好, 很少会直接用到 `Sequence` 的 `Iterator` (只是提供方法创建) .
+		- 一般情况下, 我们直接用 `for-in` 语法遍历 `Sequence` 就好, 很少会直接用到 `Sequence` 的 `Iterator` .
 			- 除非需要用 `Iterator` 扩展 `Sequence` 的能力.
 	- ### Destructive Consumption (破坏性消费)
 		- Destructive Consumption (破坏性消费), 即: 有些序列在被遍历后, 可能会被破坏 , 导致每次遍历的结果不同.
@@ -64,6 +64,7 @@ tags:: [[Swift Type]]
 		- `Sequence` 协议本身, 并不保证遍历不会产生 **破坏性消费** .
 			- 所以, 不要预期每次遍历同一个 `Sequence` 的结果一致.
 		- `Collection` 是 `Sequence` 的子协议, 它保证 **消费是非破坏性的** .
+			- 参见: [[Swift API - Collection]]
 	- ### 使用 `Iterator` 多次迭代
 		- 在使用 `Iterator` 对 `Sequence` 进行多次遍历时 (一定要先确保  `Sequence`  不会有破坏性消费):
 			- 不应只调用一次 `makeIterator()` 方法, 创建一次 `Iterator` 对象, 然后复制它.
@@ -128,7 +129,7 @@ tags:: [[Swift Type]]
 			  // Prints "1..."
 			  ```
 	- ### 方式二: 使用 makeIterator() 的默认实现
-		- 自定义类型声明遵循  `Sequence` 和 `IteratorProtocol` .
+		- 自定义类型声明遵循 `Sequence` 和 `IteratorProtocol` .
 		  logseq.order-list-type:: number
 		- 只需实现 `IteratorProtocol` 的 `next()` 方法即可.
 		  logseq.order-list-type:: number

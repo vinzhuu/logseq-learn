@@ -9,7 +9,7 @@ tags:: [[微信服务端 API]]
 		  logseq.order-list-type:: number
 		- [获取稳定版接口调用凭据 getStableAccessToken](https://developers.weixin.qq.com/miniprogram/dev/server/API/mp-access-token/api_getstableaccesstoken.html) ==微信官方建议使用此接口==
 		  logseq.order-list-type:: number
-- ### 获取 access_token 须知
+- ## 获取 access_token 须知
 	- 不同 AppID 获取到的 `access_token` 是隔离的.
 	  logseq.order-list-type:: number
 		- 即 AppIDA 获取到的 `access_token` , 不能用于 AppIDB .

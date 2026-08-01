@@ -4,7 +4,7 @@ tags:: [[Swift Type]]
 - ## Roadmap
 	- [[Swift - Structure & Class Overview]]
 	  logseq.order-list-type:: number
-	- Class & Structure 共有的:
+	- Structure, Enumeration & Class 共有的:
 	  logseq.order-list-type:: number
 		- 成员:
 		  logseq.order-list-type:: number
