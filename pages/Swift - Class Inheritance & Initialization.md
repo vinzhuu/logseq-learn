@@ -91,4 +91,7 @@ tags:: [[Swift Initialization]]
 		- 如下示例, 可以看出: Designated Initializer 是 Funnel Point
 			- ![image.png](../assets/image_1785558982476_0.png){:height 358, :width 322}
 - ## Two-Phase Initialization
-	-
+-
+- ## 参考
+	- [Swift Guide - Initialization#Designated Initializers and Convenience Initializers](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Designated-Initializers-and-Convenience-Initializers)
+	  logseq.order-list-type:: number

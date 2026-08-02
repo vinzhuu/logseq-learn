@@ -31,11 +31,12 @@ tags:: [[Swift]]
 			- ==已阅:== Enumerations, Structures and Classes, Properties, Methods, Subscripts
 			- ==已阅:== Inheritance
 			- Initialization
-				- 接下来看: [Class Inheritance and Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Class-Inheritance-and-Initialization)
+				- 接下来看: [Two-Phase Initialization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/#Two-Phase-Initialization)
 				- 参见: [[Swift - Class Inheritance & Initialization]]
 			- Access Control
 				- 看完 Modules, Source Files, and Packages, 接下来看 [Access Levels](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/#Access-Levels)
 				- 参见: [[Swift Access Control]]
+				- Control
 			- Memory Safety
 				- 接下来看 [Conflicting Access to self in Methods](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/memorysafety/#Conflicting-Access-to-self-in-Methods)
 				- 参见: [[Swift Memory Safety]]
