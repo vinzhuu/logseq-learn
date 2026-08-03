@@ -19,7 +19,7 @@ tags:: [[腾讯云 CloudBase]]
 		  logseq.order-list-type:: number
 			- 云函数
 			  logseq.order-list-type:: number
-			- 云托管 (可托管我们自建的后端服务, 由 [[腾讯云 CloudBase Run]] 提供底层能力)
+			- 云托管 (可容器化部署我们自建的后端服务)
 			  logseq.order-list-type:: number
 			- 身份认证 (邮箱/短信/账号密码登录等)
 			  logseq.order-list-type:: number
