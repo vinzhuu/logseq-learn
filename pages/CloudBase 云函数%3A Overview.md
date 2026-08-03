@@ -32,7 +32,7 @@ tags:: [[CloudBase 云函数]]
 			  logseq.order-list-type:: number
 				- SDK 调用
 				  logseq.order-list-type:: number
-					- 小程序端 :
+					- 小程序端 : ==xxxxxxxxxxxxxxx==
 					  logseq.order-list-type:: number
 					- Web 浏览器端 / Node.js 服务端 : [[CloudBase JS SDK]]
 					  logseq.order-list-type:: number
