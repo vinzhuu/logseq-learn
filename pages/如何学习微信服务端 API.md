@@ -14,7 +14,7 @@ tags:: [[微信服务端 API]]
 				- access_token 说明 ==已阅==
 				- component_access_token 说明 ==暂不需要==
 				- authorizer_access_token 说明 ==暂不需要==
-				- 云调用说明  ==暂不需要==
+				- 云调用说明  ==已阅==
 				- 接口报警和排查指引 ==遇到问题时再看==
 			- 开发指南 > 消息与事件推送
 		- #### 常见开发问题

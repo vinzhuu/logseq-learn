@@ -9,6 +9,8 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 		  logseq.order-list-type:: number
 		- [[微信云开发, 腾讯云 CloudBase, CloudBase 云托管 & 微信云托管]]
 		  logseq.order-list-type:: number
+		- [[腾讯云 CloudBase 环境]]
+		  logseq.order-list-type:: number
 	- ### 能力
 		- 数据库:
 		  logseq.order-list-type:: number

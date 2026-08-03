@@ -15,5 +15,3 @@ tags:: [[微信云开发]]
 	- Web 端:
 	  logseq.order-list-type:: number
 		-
-- [[微信云调用]]
--

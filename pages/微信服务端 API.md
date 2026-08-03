@@ -15,7 +15,7 @@ tags:: [[微信开发]]
 			  logseq.order-list-type:: number
 			- [[微信服务端 API: component_access_token]]
 			  logseq.order-list-type:: number
-		- 无需 Token 调用: [[微信云调用]]
+		- 无需 Token 调用: [[微信小程序云调用]]
 		  logseq.order-list-type:: number
 	- 网页开发:
 	  logseq.order-list-type:: number
@@ -28,7 +28,9 @@ tags:: [[微信开发]]
 - ## Index
 	- 各应用可调用的 API: 
 	  logseq.order-list-type:: number
-		- [服务号可调用的服务端 API](https://developers.weixin.qq.com/doc/service/api/)
+		- [服务号 - 服务端 API](https://developers.weixin.qq.com/doc/service/api/)
+		  logseq.order-list-type:: number
+		- [小程序 - 服务端 API](https://developers.weixin.qq.com/miniprogram/dev/server/API/)
 		  logseq.order-list-type:: number
 	- API 调试: [微信开放平台调试工具](https://developers.weixin.qq.com/apiExplorer)
 	  logseq.order-list-type:: number
