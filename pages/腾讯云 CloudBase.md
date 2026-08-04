@@ -9,7 +9,9 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 		  logseq.order-list-type:: number
 		- [[微信云开发, 腾讯云 CloudBase, CloudBase 云托管 & 微信云托管]]
 		  logseq.order-list-type:: number
-		- [[腾讯云 CloudBase 环境]]
+		- [[腾讯云 CloudBase: 环境]]
+		  logseq.order-list-type:: number
+		- [[腾讯云 CloudBase: PG 模式]]
 		  logseq.order-list-type:: number
 	- ### 能力
 		- 数据库:
@@ -34,7 +36,12 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 			- [[CloudBase SDK]]
 		- 通过 HTTP API 调用
 		  logseq.order-list-type:: number
-			- [[CloudBase HTTP API]]
+			- 调用 CloudBase 服务: [[CloudBase HTTP API]]
+			  logseq.order-list-type:: number
+			- 管理 CloudBase 资源: [[CloudBase Cloud API]]
+			  logseq.order-list-type:: number
+		- [错误码汇总](https://docs.cloudbase.net/error-code/basic)
+		  logseq.order-list-type:: number
 	- ### 工具
 		- [[CloudBase CLI]]
 		  logseq.order-list-type:: number

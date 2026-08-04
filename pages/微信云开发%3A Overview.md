@@ -6,7 +6,7 @@ tags:: [[微信云开发]]
 		- 支持如下应用:
 			- [[微信小程序]] / [[微信小游戏]]
 			  logseq.order-list-type:: number
-			- [[微信公众号]] / [[微信服务号]]
+			- [[微信网页开发]]
 			  logseq.order-list-type:: number
 			- [[Donut]]
 			  logseq.order-list-type:: number

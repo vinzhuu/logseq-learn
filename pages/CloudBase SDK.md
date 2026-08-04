@@ -12,11 +12,12 @@ tags:: [[腾讯云 CloudBase]]
 		  logseq.order-list-type:: number
 		- [[CloudBase C# SDK]] (.NET 应用, 包括 Unity、.NET Core、控制台及服务端应用)
 		  logseq.order-list-type:: number
+		- ==不支持的平台, 可以直接通过 [[CloudBase HTTP API]] 调用==
 	- 调用 CloudBase 服务及其支持的 **微信生态能力** :
 	  logseq.order-list-type:: number
-		- [[微信云开发 SDK]]
+		- 参见: [[微信云开发 SDK]]
 	- 管理 CloudBase 资源:
 	  logseq.order-list-type:: number
 		- [[CloudBase Manager Node SDK]] (仅 Node.js 服务端)
-	- ==以上没有提供 SDK 的语言或平台, 都可以直接通过 [[CloudBase HTTP API]] 调用==
+		- ==不支持的平台, 可以直接通过 [[CloudBase Cloud API]] 调用==
 -

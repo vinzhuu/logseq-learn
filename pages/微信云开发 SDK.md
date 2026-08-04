@@ -7,11 +7,15 @@ tags:: [[微信云开发]]
 - ## 各端 SDK
 	- 小程序端:
 	  logseq.order-list-type:: number
-		-
+		- 内置, 无需引入依赖 (都是以 `wx.cloud` 开头)
 	- 服务端 (云函数或云托管):
 	  logseq.order-list-type:: number
 		- Node.js: [[wx-server-sdk]]
 		- ==非 Node.js 环境, 可以通过 [[微信云开发 HTTP API]] 调用相关能力==
-	- Web 端:
+	- Web 端 ( [[微信网页开发]] ):
 	  logseq.order-list-type:: number
-		-
+		- [[微信云开发 Web SDK]]
+- ## SDK 文档
+	- 参见: [微信云开发各端 SDK 统一文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/Cloud.html)
+	- 各 API 会标注支持的端 (小程序端/服务端/Web 端)
+-
