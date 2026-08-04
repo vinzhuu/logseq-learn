@@ -4,6 +4,7 @@ tags:: [[微信云开发]]
 - ## 与 CloudBase SDK 的区别
 	- [[微信云开发 SDK]] 除了能调用 **CloudBase 服务** 之外, 还支持调用 **微信生态能力** .
 	- 而仅 [[CloudBase SDK]] 自身, 不能直接调用 **微信生态能力** .
+	- 因为 **微信云开发** 一般都需要调用 **微信生态能力** , 所以使用 [[微信云开发 SDK]] (而非 [[CloudBase SDK]] ).
 - ## 各端 SDK
 	- 小程序端:
 	  logseq.order-list-type:: number

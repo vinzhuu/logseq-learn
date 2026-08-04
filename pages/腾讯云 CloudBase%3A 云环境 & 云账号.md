@@ -1,0 +1,96 @@
+tags:: [[腾讯云 CloudBase]], [[微信云开发]]
+---
+
+- ## 问题
+	- 公众号网页是否有上线的概念? 如果没有, 是不是免费环境可以一直免费续期?
+	  logseq.order-list-type:: number
+	- 我资源用满, 主动销毁免费环境后, 能否立即创建新的免费环境?
+	  logseq.order-list-type:: number
+	- 先在 CloudBase 控制台创建免费环境, 就不能在微信开发者工具创建免费环境了? 那我如果销毁掉 CloudBase 控制台创建的环境, 能否在微信开发者工具创建新的免费环境?
+	  logseq.order-list-type:: number
+	- CloudBase 控制台创建的免费环境, 与微信开发者工具创建的免费环境的区别?
+	  logseq.order-list-type:: number
+- ## 云环境
+	- ### 什么是云环境
+		- **云环境** 是 CloudBase 的 **资源隔离单位** 与 **计费单位** , 每个环境内包含一整套独立的资源.
+	- ### 云环境 ID
+		- 每个 **云环境** 都有一个 `ID` , 在调用时需要用到.
+		- 在 **微信开发者工具** 的 `Network` 面板中, 可以查看 `环境 ID` 请求头.
+	- ### 云环境运行模式
+		- **PG 模式** : 创建时选择 **PostgreSQL 数据库** .
+			- 身份认证、云存储、权限模型由 PostgreSQL 统一承载. (详见: [[腾讯云 CloudBase: PG 模式]] )
+		- **传统模式** : 创建时未选择 **PostgreSQL 数据库** .
+- ## 创建云环境方式
+	- ### 从微信开发者工具创建 (不支持 PG 模式)
+		- 点击 **微信开发者工具** 右上角的 **云开发** 进行开通 (默认不创建 **SQL 型数据库** 实例)
+	- ### 从腾讯云 CloudBase 控制台创建 (可选 PG 模式)
+		- 进入 CloudBase 控制台, 创建新环境, 需要选择创建 **MySQL 实例** 还是 **PostgreSQL 实例** .
+	- ### 调用 `CreateEnv` 云 API 创建
+		- 参见: [`CreateEnv` 云 API](https://cloud.tencent.com/document/product/876/128592)
+		- 适合 **多租户** 的场景.
+- ## 云账号
+	- ### 什么是云账号
+		- 即 **腾讯云侧** 的 **账号** .
+		- 每个在 **微信开发者工具** 开通了 **微信云开发** 的 **微信公众平台应用 (小程序/小游戏/公众号/服务号)** 都会在 **腾讯云** 创建一个对应的 **云账号** .
+			- ==注销 **微信公众平台应用** , 并不会注销其关联的 **云账号** , 但会导致 **云账号** 无法使用 **微信公众平台应用**  登录, 所以需要事先绑定其它登录方式==
+		- 当然, 也可直接在 **腾讯云侧** 开通 **账号** .
+	- ### 绑定与解绑
+		- 如果是先在 **腾讯云侧** 创建了 **云账号** , 则可以在 [腾讯云 - 账号信息](https://console.cloud.tencent.com/developer) 将 **云账号** 与指定 **微信公众平台应用** 绑定.
+			- 也可以在 [腾讯云 - 账号信息](https://console.cloud.tencent.com/developer) 将 **云账号** 与 **微信公众平台应用** 解绑.
+			- 注意: 一个 **云账号** 只能绑定一个 **微信公众平台应用** .
+		- ![image.png](../assets/image_1785835037996_0.png){:height 217, :width 685}
+- ## 一个云账号配多个云环境
+	- CloudBase 官方建议: 一个云账号下, 创建三个云环境.
+		- **开发环境 (dev)** : 本地测试
+		  logseq.order-list-type:: number
+		- **测试环境 (staging)** : QA 回归、灰度验证.
+		  logseq.order-list-type:: number
+		- **生产环境 (prod)** : 线上正式流量.
+		  logseq.order-list-type:: number
+	- 建议在 **客户端** 通过 **配置文件** 或 **构建变量** 注入 **云环境 ID** , 避免硬编码.
+- ## 创建免费体验环境 (2026.08.04)
+	- ### 从微信开发者工具创建
+		- 若是第一次开通, 进入 CloudBase 控制台查看 **套餐用量** , 发现长这样:
+			- ==这里创建仍是 **旧版体验套餐** , 按==
+			- 参考: [云开发 CloudBase - 购买指南 - 资源点价格文档](https://cloud.tencent.com/document/product/876/127357)
+			- ![image.png](../assets/image_1785774415153_0.png){:height 244, :width 249}
+	- ### 从 CloudBase 控制台创建
+		- 参考: [云开发 CloudBase - 购买指南 - 资源点价格文档](https://cloud.tencent.com/document/product/876/127357)
+		- 每个 **腾讯云账号** , 可创建一个 **免费体验环境** (仅提供 **3000 资源点/月** , 且有功能限制) .
+			- **免费体验环境** 到期前 **1 个月内** 可以免费手动续期 6个月 (不会自动续期) .
+			- **免费体验环境** 会在 **小程序发布** 后第 15 天自动到期 (若需继续使用, 需转为付费)
+		- 在 **免费体验环境**  **到期 / 转为付费 / 销毁** 后, 可以重新创建新的 **免费体验环境** . ( ==存疑, 可以在免费体验环境资源点用完后试试销毁试试== )
+		- 若是第一次开通, 进入 CloudBase 控制台查看 **套餐用量** , 发现长这样:
+			- ![image.png](../assets/image_1785774559432_0.png){:height 367, :width 477}
+- ## 环境共享
+	- ### 什么是环境共享
+		- 即, 将 一个 **微信公众平台应用 (小程序/小游戏/公众号/服务号)** 的 **云环境** , 授权共享给 **同主体下** 的多个其他的 **微信公众平台应用 (小程序/小游戏/公众号/服务号)** 使用 .
+	- ### 单层级授权
+		- 假设 C 将资源授权给 B , 而 B 将资源授权给 A :
+			- 如果 C 没有主动将资源授权给 A , 则 A 不能调用 C 的资源.
+	- ### 添加环境共享
+		- **微信开发者工具** 打开 **云开发控制台** :
+			- 点击 `扩展能力 -> 环境共享 -> 开通` .
+			  logseq.order-list-type:: number
+			- 点击 `添加共享` , 填写 `接收环境的 AppID` , 选择 `环境` 及其 `权限` .
+			  logseq.order-list-type:: number
+				- ![image.png](../assets/image_1785839217647_0.png){:height 280, :width 660}
+- ## 管理环境的方式
+	- CLI: [[CloudBase CLI]]
+	  logseq.order-list-type:: number
+	- Node.js SDK: [[CloudBase Manager Node SDK]]
+	  logseq.order-list-type:: number
+	- HTTP: [[CloudBase Cloud API]]
+	  logseq.order-list-type:: number
+- ## 参考
+	- [CloudBase 快速开始 - 云开发环境介绍](https://docs.cloudbase.net/quick-start/env-overview)
+	  logseq.order-list-type:: number
+	- [CloudBase 快速开始 - 创建云开发环境](https://docs.cloudbase.net/quick-start/create-env)
+	  logseq.order-list-type:: number
+	- [微信云开发 - 基础概念 - 重要概念 - 环境](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/basis/concepts/environment.html)
+	  logseq.order-list-type:: number
+	- [微信云开发 - 基础概念 - 重要概念 - 账号](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/basis/concepts/account.html)
+	  logseq.order-list-type:: number
+	- [微信云开发 - 基础概念 - 跨账号环境共享](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/basis/resource-sharing.html)
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
