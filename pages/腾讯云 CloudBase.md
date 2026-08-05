@@ -42,6 +42,8 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 			  logseq.order-list-type:: number
 		- [错误码汇总](https://docs.cloudbase.net/error-code/basic)
 		  logseq.order-list-type:: number
+	- ### 安全规则
+		- [[CloudBase 安全规则]]
 	- ### 工具
 		- [[CloudBase CLI]]
 		  logseq.order-list-type:: number

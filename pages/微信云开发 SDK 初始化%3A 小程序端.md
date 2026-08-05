@@ -61,8 +61,15 @@ tags:: [[微信云开发 SDK]]
 		- 接收 `resourceEnv` 和 `traceUser` 字段
 		- | 字段 | 数据类型 | 必填 | 默认值 | 说明 |
 		  | ---- | ---- | ---- |
+		  | resourceAppid | string | 否  |  | 资源方 AppID (不填则默认是调用方 AppID) |
 		  | resourceEnv | string | 是 |  | 环境 ID |
 		  | traceUser | boolean | 否 | true | 是否在将用户访问记录到用户管理中，在控制台中可见 |
+		- `resourceAppid` :
+			- 如果不填, 则默认是找当前 **AppID** 的云环境 (一个 AppID 可能创建了多个云环境)
+			- 如果填了, 则是找指定 **AppID** 的云环境.
+		- `traceUser` :
+			- [云开发 - 开发者资源 - SDK 文档 - 工具类 - Cloud](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.Cloud.html) 没有写这个字段.
+			- [云开发 - 开发者资源 - SDK 文档 - 初始化 - 小程序](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/init/client.init.html) 写了这个字段.
 	- ### `init()` 方法
 		- 不接收参数, 无返回值.
 	- ### 示例
@@ -82,5 +89,8 @@ tags:: [[微信云开发 SDK]]
 - ## 参考
 	- [云开发 - 开发者资源 - SDK 文档 - 初始化 - 小程序](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/init/client.init.html)
 	  logseq.order-list-type:: number
+	- [云开发 - 开发者资源 - SDK 文档 - 工具类 - Cloud](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.Cloud.html)
+	  logseq.order-list-type:: number
 	- [云开发 - 开发指引 - 指引 - 初始化](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/guide/init.html)
 	  logseq.order-list-type:: number
+-
