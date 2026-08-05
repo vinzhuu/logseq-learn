@@ -15,6 +15,15 @@ tags:: [[微信云开发]]
 		- 各种应用直接通过 **腾讯云内网** 访问相关服务, 所以 **免鉴权** .
 - ## 微信云开发的底层
 	- **微信云开发** 由 **腾讯云** 的 [[腾讯云 CloudBase]] 服务支撑.
+- ## 计费
+	- 参见: [微信云开发 - 资源点新计费模式](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/billing/Billing_Instructions.html)
+	- ### 计费项
+		- 计费项: 套餐费用 + 套餐超额费用 (+ 加购资源包)
+			- 基础套餐: 19.9 元/月 (包含 `40,000 资源点/月`)
+			- 超额费用: `1000 资源点 = 1 元`
+		- 抵扣顺序: `套餐资源点 > 资源包资源点 > 按量计费` .
+	- ### 估算费用
+		- 估算费用: [微信云开发 - 价格计算器](https://cloud.weixin.qq.com/cloudbase/price)
 - ## 微信云开发相关网站
 	- [微信云开发官网 (好像没啥用, 只是展示作用)](https://cloud.weixin.qq.com/cloudbase)
 	  logseq.order-list-type:: number

@@ -8,7 +8,8 @@ tags:: [[微信云托管]]
 		- 多种腾讯云的底层资源.
 		  logseq.order-list-type:: number
 			- 如: 腾讯云 CloudBase Run, 腾讯云 TDSQL- C (数据库), 腾讯云 COS (对象存储)
-			- ==微信云托管的容器化部署能力, 来自 [[CloudBase 云托管]]==
+				- ==微信云托管的容器化部署能力, 来自 [[CloudBase 云托管]]==
+			- 开通 **微信云托管** , 会自动创建一个 **腾讯云** 账号.
 		- 微信生态的能力.
 		  logseq.order-list-type:: number
 			- 因此, 后端服务调用 [[微信服务端 API]] 可以 **免鉴权** .

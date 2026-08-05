@@ -11,4 +11,3 @@ tags:: [[腾讯云 CloudBase]]
 	- [CloudBase HTTP API 文档](https://docs.cloudbase.net/http-api/basic/overview)
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
--
