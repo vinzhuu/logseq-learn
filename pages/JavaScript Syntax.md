@@ -25,8 +25,11 @@ tags:: [[JavaScript]]
 	- logseq.order-list-type:: number
 	- [[JavaScript Syntax/Basics]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- Standard built-in objects
+	  logseq.order-list-type:: number
+		- [[JavaScript API: Symbol]]
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 	-
 	-
 	- logseq.order-list-type:: number
