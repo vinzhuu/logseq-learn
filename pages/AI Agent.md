@@ -3,21 +3,27 @@ alias:: [[智能体]]
 ---
 
 - ## 学习路线
-	- 相关概念:
+	- Agent 扩展:
 	  logseq.order-list-type:: number
 		- [[AI Agent Skill]]
 		  logseq.order-list-type:: number
+		- [[AI Agent Plugin]]
+		  logseq.order-list-type:: number
 		- [[MCP]]
+		  logseq.order-list-type:: number
+	- Agent 提示词:
+	  logseq.order-list-type:: number
+		- [[DESIGN.md]]
+		  logseq.order-list-type:: number
+		- [[AGENTS.md]]
+		  logseq.order-list-type:: number
+	- Agent 驾驭:
+	  logseq.order-list-type:: number
+		- [[OpenSpec]]
 		  logseq.order-list-type:: number
 		- [[Loop Engineering]]
 		  logseq.order-list-type:: number
 		- [[Harness Engineering]]
-		  logseq.order-list-type:: number
-		- [[OpenSpec]]
-		  logseq.order-list-type:: number
-		- [[DESIGN.md]]
-		  logseq.order-list-type:: number
-		- [[AGENTS.md]]
 		  logseq.order-list-type:: number
 	- 通用 Agent:
 	  logseq.order-list-type:: number

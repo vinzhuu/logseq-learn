@@ -49,4 +49,7 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 	- ### 工具
 		- [[CloudBase CLI]]
 		  logseq.order-list-type:: number
+		- [[CloudBase AI Toolkit]]
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 -

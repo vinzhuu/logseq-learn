@@ -7,4 +7,3 @@ alias:: [[人工智能]], [[Artificial Intelligence]]
 	- [[AI Software Engineering]]
 	  logseq.order-list-type:: number
 -
--
