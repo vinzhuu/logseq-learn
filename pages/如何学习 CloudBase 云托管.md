@@ -8,5 +8,8 @@ tags:: [[CloudBase 云托管]]
 	  logseq.order-list-type:: number
 - ## 学习进度: 文档
 	- [CloudBase 云托管](https://docs.cloudbase.net/run/introduction)
-	- ==已阅:==
+	- ==已阅== 概述
+	- 函数型开发框架:
+		- ==已阅== 介绍
+		- ==已阅== 对比其他方案
 -

@@ -7,11 +7,17 @@ tags:: [[腾讯云 CloudBase]]
 	  logseq.order-list-type:: number
 		- [[CloudBase 云函数: Overview]]
 		  logseq.order-list-type:: number
-		- [[CloudBase - 普通云函数, HTTP 云函数, 云托管 & 云托管函数框架]]
+		- [[CloudBase: 普通云函数, HTTP 云函数, 云托管 & 云托管函数框架]]
 		  logseq.order-list-type:: number
-	- API:
+	- 普通云函数
 	  logseq.order-list-type:: number
-		- [[CloudBase HTTP API]]
+		- logseq.order-list-type:: number
+	- HTTP 云函数
+	  logseq.order-list-type:: number
+		- Node.js 开发框架:
+		  logseq.order-list-type:: number
+			- [[CloudBase Functions Framework]]
+			  logseq.order-list-type:: number
 - ## Index
 	- [运行环境支持](https://docs.cloudbase.net/cloud-function/runtime-support)
 	  logseq.order-list-type:: number

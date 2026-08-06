@@ -1,5 +1,5 @@
 alias:: 树莓派
-tags:: [[部署运维]]
+tags:: [[Deployment]]
 ---
 
 - ## 学习路线

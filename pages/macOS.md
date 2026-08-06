@@ -1,4 +1,4 @@
-tags:: [[部署运维]], [[Unix]], [[Apple Dev]], [[OS]] 
+tags:: [[Deployment]], [[Unix]], [[Apple Dev]], [[OS]] 
 ---
 
 - ==子目录==
