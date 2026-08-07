@@ -15,7 +15,7 @@ tags:: [[微信开发]]
 			  logseq.order-list-type:: number
 			- [[微信服务端 API: component_access_token]]
 			  logseq.order-list-type:: number
-		- 无需 Token 调用: [[微信小程序云调用]]
+		- 无需 Token 调用: [[微信云调用]]
 		  logseq.order-list-type:: number
 	- 网页开发:
 	  logseq.order-list-type:: number
