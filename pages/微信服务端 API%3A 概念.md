@@ -45,7 +45,7 @@ tags:: [[微信服务端 API]]
 			  logseq.order-list-type:: number
 			- 第三方平台调用第三方平台专用 API 的凭证: [[微信服务端 API: component_access_token]]
 			  logseq.order-list-type:: number
-		- 使用 [[微信小程序云调用]] 也可以不使用 Token.
+		- 使用 [[微信云调用]] 也可以不使用 Token.
 - ## 请求约定
 	- 有如下约定:
 		- 大部分请求方法为 `POST` 和 `GET` .

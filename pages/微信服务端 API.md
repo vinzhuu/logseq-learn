@@ -17,7 +17,10 @@ tags:: [[微信开发]]
 			  logseq.order-list-type:: number
 		- 无需 Token 调用: [[微信云调用]]
 		  logseq.order-list-type:: number
-	- 网页开发:
+	- 小程序/小游戏 API:
+	  logseq.order-list-type:: number
+		- [[微信小程序服务端 API]]
+	- 网页开发 API:
 	  logseq.order-list-type:: number
 		- [[微信服务端 API: JS-SDK ticket]]
 		  logseq.order-list-type:: number

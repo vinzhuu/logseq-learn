@@ -10,9 +10,9 @@ tags:: [[微信云开发]]
 	  logseq.order-list-type:: number
 	- 仅服务端 (Node.js 云函数)
 	  logseq.order-list-type:: number
-		- [[微信云开发 SDK: cloud.DYNAMIC_CURRENT_ENV]]
+		- 当前服务端环境 : [[微信云开发 SDK: cloud.DYNAMIC_CURRENT_ENV]]
 		  logseq.order-list-type:: number
-		- [[微信云开发 SDK: cloud.getWXContext()]]
+		- 当前调用方上下文 : [[微信云开发 SDK: cloud.getWXContext()]]
 		  logseq.order-list-type:: number
 - ## Index
 	- [微信云开发各端 SDK 统一文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/Cloud.html)

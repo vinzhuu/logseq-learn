@@ -2,7 +2,7 @@ tags:: [[微信小程序 API]]
 ---
 
 - ## 小程序 API 风格
-	- 云开发的 **API 风格** , 同时支持:
+	- 小程序的 **API 风格** , 同时支持:
 		- 回调风格
 		  logseq.order-list-type:: number
 			- 调用 API 传入 Object 参数时, 传入 `success`、`fail`、`complete` 字段, 会被认为是 **回调风格** , 而不会返回 `Promise` 对象.
