@@ -99,6 +99,7 @@ tags:: [[微信小程序]], [[WXML]]
 		- `this.data` 中的数据应该是只读的, 不要直接修改  `this.data` .
 		  logseq.order-list-type:: number
 			- 避免内存中的 `this.data` 和页面显示的数据不一致, 导致一些问题.
+				- 即 直接修改了 `this.data` , 而没有调用 `this.setData()` 的情况.
 			- 如果需要在原有数据上进行处理后, 再赋值的话, 也不要直接修改 `this.data` .
 			- 可以考虑:
 				- 拷贝原数据. (参见: [[JavaScript: Shallow Copy & Deep Copy]] )

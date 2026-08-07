@@ -7,7 +7,7 @@ tags:: [[微信支付]]
 		  logseq.order-list-type:: number
 		- 移动端: [[微信 Open SDK]]
 		  logseq.order-list-type:: number
-		- 小程序端: [[微信小程序 - 支付]]
+		- 小程序端: [[微信小程序支付]]
 		  logseq.order-list-type:: number
 	- ### 第三方
 		- Flutter: [[Fluwx: 微信支付]]

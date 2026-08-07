@@ -1,8 +1,0 @@
-tags:: [[微信小程序]], [[WXML]]
----
-
--
-- ## Index
-	- [WXML 组件汇总](https://developers.weixin.qq.com/miniprogram/dev/component/)
-	  logseq.order-list-type:: number
--

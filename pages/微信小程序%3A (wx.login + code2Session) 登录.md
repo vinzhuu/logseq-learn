@@ -6,7 +6,6 @@ tags:: [[微信小程序登录]]
 	-
 	- **小程序端** 调用 `wx.login()` 获取 `临时登录凭证 code` .
 	  logseq.order-list-type:: number
-		- `code` 只能使用一次, 使用完就失效
 	- **小程序端** 将 `code` 发给 **开发者服务器** (一般就是 **登录接口** 啦) , **开发者服务器** 做如下事情:
 	  logseq.order-list-type:: number
 		- 调用 `code2Session` 服务端 API , 从 **微信接口服务** 换取如下参数:
@@ -17,8 +16,9 @@ tags:: [[微信小程序登录]]
 			- `UnionID` : 微信用户在当前 **微信开放平台账号** 下的唯一标识.
 			  logseq.order-list-type:: number
 				- 参见: [[微信开发: OpenID & UnionID]]
-			- `session_key` : 会话密钥 , 用于 **开发者服务器** 调用 **微信接口服务** 时的 **解密和签名** .
+			- `session_key` : 会话密钥 , 用于 **开发者服务器** 对 **开放数据** 进行 **验签和解密** .
 			  logseq.order-list-type:: number
+				- 参见: [[微信小程序: 获取开放数据]]
 			- ==以上参数, 都不应下发给 **小程序端** .==
 		- 生成系统用户 **会话标识 (如 Token/JWT 等)** , 并返回给 **小程序端** .
 		  logseq.order-list-type:: number
@@ -48,7 +48,11 @@ tags:: [[微信小程序登录]]
 				- ``` json
 				  {errMsg: "login:ok", code: "12dhskdusid48792chkah"}
 				  ```
-				- ==注意: `code` 只有 5 分钟有效期, 应尽快用于调用 `code2Session` 服务端 API .==
+				- ==关于 `code` :==
+					- `code` 只有 5 分钟有效期, 应尽快用于调用 `code2Session` 服务端 API .
+					  logseq.order-list-type:: number
+					- `code` 只能使用一次, 使用完就失效.
+					  logseq.order-list-type:: number
 			- `fail` (function 类型) : 失败回调
 			  logseq.order-list-type:: number
 				- 接收一个包含 `errMsg` 和 `errno` 字段的 `Error` 对象. (参见: [[微信小程序 API 风格]] )

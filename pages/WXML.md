@@ -44,7 +44,8 @@ alias:: [[WeiXin Markup language]]
 		  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index
-	- [[WXML 组件]]
+	- [[微信小程序组件]]
 	  logseq.order-list-type:: number
 	- [WXML 组件汇总](https://developers.weixin.qq.com/miniprogram/dev/component/)
 	  logseq.order-list-type:: number
+-
