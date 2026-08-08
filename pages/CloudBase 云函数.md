@@ -9,6 +9,8 @@ tags:: [[腾讯云 CloudBase]]
 		  logseq.order-list-type:: number
 		- [[CloudBase: 普通云函数, HTTP 云函数, 云托管 & 云托管函数框架]]
 		  logseq.order-list-type:: number
+		- [[CloudBase 云函数: 临时存储空间]]
+		  logseq.order-list-type:: number
 	- 普通云函数
 	  logseq.order-list-type:: number
 		- logseq.order-list-type:: number

@@ -95,7 +95,12 @@ tags:: [[微信云开发 SDK]]
 			  logseq.order-list-type:: number
 				- 参见下文 **处理 data 字段过大** 小节.
 - ## 处理 data 字段过大
-	- 调用 `callFunction` 时, 如果 `data` 中有大于 `100 KB` 的字段:
+	- 调用 `callFunction` 时,  `data` 中的如下字段, 不应直接传给 **云函数** :
+		- 大于 `100 KB` 的 `非 Buffer` 类型字段.
+		  logseq.order-list-type:: number
+		- 大于 `10 KB` 的 `Buffer` 类型字段,
+		  logseq.order-list-type:: number
+	- 解决方式是:
 		- 在小程序端:
 		  logseq.order-list-type:: number
 			- 可使用 [[微信云开发 SDK: cloud.CDN()]] ==仅用于小程序端调用 `callFunction` ==

@@ -28,10 +28,16 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 			  logseq.order-list-type:: number
 			- [[CloudBase HTTP 网关]]
 			  logseq.order-list-type:: number
-		- [[CloudBase 云模板]]
+		- 对象存储:
 		  logseq.order-list-type:: number
-		- [[微搭]]
+			- [[CloudBase 云存储]]
+			  logseq.order-list-type:: number
+		- 低代码:
 		  logseq.order-list-type:: number
+			- [[CloudBase 云模板]]
+			  logseq.order-list-type:: number
+			- [[微搭]]
+			  logseq.order-list-type:: number
 	- ### 调用
 		- 通过 SDK 调用
 		  logseq.order-list-type:: number
