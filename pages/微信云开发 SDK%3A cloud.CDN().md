@@ -34,13 +34,13 @@ tags:: [[微信云开发 SDK]]
 			  let arrayBuffer = ...
 			  wx.cloud.CDN(arrayBuffer)
 			  ```
-		- `文件路径定义对象` : 本地文件.
+		- `文件路径定义对象` : 本地临时文件.
 		  logseq.order-list-type:: number
 			- `文件路径定义对象`, 有如下字段
 			- | 字段名 | 类型 | 必填 | 说明 |
 			  | ---- | ---- | ---- |
-			  | type | string | 是 | 定义对象的类型，值只能是 `filePath` |
-			  | filePath | string | 是 | 临时文件路径 (参见: [[微信小程序文件系统]] ) |
+			  | type | string | 是 | 定义对象的类型，固定填 `filePath` |
+			  | filePath | string | 是 | 本地临时文件路径 (参见: [[微信小程序文件系统]] ) |
 			- ``` js
 			  wx.cloud.CDN({
 			    type: 'filePath',
