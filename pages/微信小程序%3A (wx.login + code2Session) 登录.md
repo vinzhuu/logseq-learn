@@ -18,7 +18,7 @@ tags:: [[微信小程序登录]]
 				- 参见: [[微信开发: OpenID & UnionID]]
 			- `session_key` : 会话密钥 , 用于 **开发者服务器** 对 **开放数据** 进行 **验签和解密** .
 			  logseq.order-list-type:: number
-				- 参见: [[微信小程序: 获取开放数据]]
+				- 参见: [[微信小程序开放数据]]
 			- ==以上参数, 都不应下发给 **小程序端** .==
 		- 生成系统用户 **会话标识 (如 Token/JWT 等)** , 并返回给 **小程序端** .
 		  logseq.order-list-type:: number
