@@ -29,6 +29,8 @@ tags:: [[JavaScript]]
 	  logseq.order-list-type:: number
 		- [[JavaScript API: Symbol]]
 		  logseq.order-list-type:: number
+		- [[JavaScript API: ArrayBuffer]]
+		  logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 	-
 	-
