@@ -1,17 +1,9 @@
 tags:: [[微信云开发 SDK]]
 ---
 
-- [典型问题：getWXContext() 返回结果不可信](https://docs.cloudbase.net/cloud-function/instance#%E5%85%B8%E5%9E%8B%E9%97%AE%E9%A2%98getwxcontext-%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C%E4%B8%8D%E5%8F%AF%E4%BF%A1)
 - ## 问题
-	- OPEN_DATA_INFO
+	- [典型问题：getWXContext() 返回结果不可信](https://docs.cloudbase.net/cloud-function/instance#%E5%85%B8%E5%9E%8B%E9%97%AE%E9%A2%98getwxcontext-%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C%E4%B8%8D%E5%8F%AF%E4%BF%A1)
 	  logseq.order-list-type:: number
-	- 环境共享时的 OPENID
-	  logseq.order-list-type:: number
-	- wx_localdebug? 
-	  logseq.order-list-type:: number
-	- 本地调用, 云函数调用云函数时? 需要强制指定环境?
-	  logseq.order-list-type:: number
--
 - ## 文档
 	- [云开发 - SDK 文档 - 工具类 - getWXContext](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.getWXContext.html)
 		- ==只用于云函数==
@@ -26,9 +18,11 @@ tags:: [[微信云开发 SDK]]
 			- `APPID` : 
 			  logseq.order-list-type:: number
 				- 云函数 **资源方** 的 `APPID` .
+				- ==其实, 不太确定发生 **环境共享** 时, 这个到底是不是 **资源方** 的值, 待验证==
 			- `OPENID` / `UNIONID` : 
 			  logseq.order-list-type:: number
 				- 用户在此云函数 **资源方** 的 `OPENID` / `UNIONID` .
+				- ==其实, 不太确定发生 **环境共享** 时, 这个到底是不是 **资源方** 的值 (毕竟 **调用方** 用户甚至可能都没用过 **资源方** 应用), 待验证==
 			- `FROM_APPID` : 
 			  logseq.order-list-type:: number
 				- 云函数 **调用方** 的 `APPID`
@@ -74,15 +68,31 @@ tags:: [[微信云开发 SDK]]
 		- **云函数 A** 内获得的 `SOURCE` 为 `wx_client` .
 		- **云函数 B** 内获得的 `SOURCE` 为 `wx_client,scf` .
 			- `scf` , 即 Serverless Cloud Function
-	- `SOURCE` 枚举值参见: [云开发 - SDK 文档 - getWXContext#使用说明](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.getWXContext.html#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+	- `SOURCE` 枚举: (来自：[云开发 - SDK 文档 - getWXContext#使用说明](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.getWXContext.html#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E) )
+		- | SOURCE 值 | 含义 |
+		  | ---- | ---- | ---- |
+		  | wx_devtools | 微信 IDE 调用 |
+		  | wx_client | 微信小程序调用 |
+		  | wx_http | 微信 HTTP API 调用 |
+		  | wx_trigger | 云函数定时触发器调用 |
+		  | wx_paycallback | 微信支付回调 |
+		  | wx_crawler | 微信小程序爬虫调用 |
+		  | wx_localdebug | 微信 IDE 本地调试调用 |
+		  | wx_unknown | 微信未知来源调用 |
+		  | scf | 云函数调用云函数 |
+		  | 其他 | 非微信端触发 |
 - ## OPEN_DATA_INFO 属性
 	- 参见: [[微信小程序云调用: 获取敏感开放数据]]
 - ## 云函数本地调试中的 ENV 与 SOURCE
 	- 在 **云函数本地调试** 时:
 		- `ENV` 值为 `local`
 		  logseq.order-list-type:: number
-		- `SOURCE` 值为 `wx_client` .
+		- `SOURCE` 值为 `wx_client`
 		  logseq.order-list-type:: number
+			- 小程序 调用 本地云函数, `SOURCE` 值为 `wx_client`  (而非上述 `wx_localdebug`).
+			  logseq.order-list-type:: number
+			- 本地云函数 调用 本地云函数, `SOURCE` 值也为 `wx_client` (而非上述 `wx_localdebug`).
+			  logseq.order-list-type:: number
 	- 参见:  [[微信云开发: 云函数本地调试]]
 - ## 参考
 	- [云开发 -  SDK 文档 - 工具类 - getWXContext](https://developers.weixin.qq.com/miniprogram/dev/wxcloudservice/wxcloud/reference-sdk-api/utils/Cloud.getWXContext.html)
