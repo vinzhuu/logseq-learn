@@ -1,38 +1,28 @@
 tags:: [[微信小程序登录]]
 ---
 
-- ## 获取唯一标识登录流程
+- 通读: [[微信小程序登录: 概念]]
+- ## 获取唯一标识流程
 	- ![image.png](../assets/image_1786033355041_0.png){:height 613, :width 547}
 	-
 	- **小程序端** 调用 `wx.login()` 获取 `临时登录凭证 code` .
 	  logseq.order-list-type:: number
-	- **小程序端** 将 `code` 发给 **开发者服务器** (一般就是 **登录接口** 啦) , **开发者服务器** 做如下事情:
+	- **小程序端** 将 `code` 发给 **开发者服务器** (一般就是 **登录接口** 啦) .
 	  logseq.order-list-type:: number
-		- 调用 `code2Session` 服务端 API , 从 **微信接口服务** 换取如下参数:
-		  logseq.order-list-type:: number
-			- `OpenID` : 微信用户在当前 **微信生态应用** 下的唯一标识.
-			  logseq.order-list-type:: number
-				- 参见: [[微信开发: OpenID & UnionID]]
-			- `UnionID` : 微信用户在当前 **微信开放平台账号** 下的唯一标识.
-			  logseq.order-list-type:: number
-				- 参见: [[微信开发: OpenID & UnionID]]
-			- `session_key` : 会话密钥 , 用于 **开发者服务器** 对 **开放数据** 进行 **验签和解密** .
-			  logseq.order-list-type:: number
-				- 参见: [[微信小程序开放数据]]
-			- ==以上参数, 都不应下发给 **小程序端** .==
-		- 生成系统用户 **会话标识 (如 Token/JWT 等)** , 并返回给 **小程序端** .
-		  logseq.order-list-type:: number
-			- 如果系统中已存在关联此 **微信用户** 的 **系统用户** , 则直接生成 **会话标识** .
-			  logseq.order-list-type:: number
-			- 如果系统中不存在关联此 **微信用户** 的 **系统用户** , 则创建新的关联此 **微信用户** 的 **系统用户** , 再生成 **会话标识** .
-			  logseq.order-list-type:: number
-	- **小程序端** 可以保存此 **会话标识** , 在后续向 **开发者服务器** 发起业务请求时带上, 以用于识别 **系统用户** .
+	- **开发者服务器** 调用 **微信接口服务** 的 `code2Session` 服务端 API , 用 `code` 换取如下参数:
 	  logseq.order-list-type:: number
-		- 为了保证 **会话标识** 的安全, 可以给 **会话标识** 设计 **过期失效** 逻辑.
-		- 为了保证 **会话标识** 持续有效, 可以给 **会话标识** 设计 **自动延期** 逻辑.
+		- `OpenID` & `UnionID` :
+		  logseq.order-list-type:: number
+			- 参见: [[微信开发: OpenID & UnionID]]
+		- `session_key` : 会话密钥 , 用于 **开发者服务器** 对 **开放数据** 进行 **验签和解密** .
+		  logseq.order-list-type:: number
+			- 参见: [[微信小程序开放数据]]
+		- ==以上参数, 都不应下发给 **小程序端** .==
+	- 会话管理: 一般使用 **自定义会话标识** .
+	  logseq.order-list-type:: number
 - ## 小程序 API: wx.login()
 	- ### 文档
-	- API 文档: [wx.login()](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html)
+		- API 文档: [wx.login()](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html)
 	- ### 调用须知
 		- 此接口是 **限频接口** (参见: [[微信小程序 API 限频]] )
 		  logseq.order-list-type:: number

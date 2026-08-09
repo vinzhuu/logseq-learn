@@ -1,2 +1,2 @@
 -
-- {{renderer :tocgen2, [[微信云开发: 云函数本地调试]], calc(100vh - 135px)}}
+- {{renderer :tocgen2, [[微信小程序: (云函数 + cloud.getwxcontext) 登录]], calc(100vh - 135px)}}
