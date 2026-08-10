@@ -57,5 +57,9 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 		  logseq.order-list-type:: number
 		- [[CloudBase AI Toolkit]]
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+	- ### 项目示例
+		- [Awesome Tencent CloudBase Examples 腾讯云开发案例](https://github.com/TencentCloudBase/awesome-cloudbase-examples)
+		  logseq.order-list-type:: number
+- ## Index
+	-
 -

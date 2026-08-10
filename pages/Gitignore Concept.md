@@ -9,7 +9,17 @@ tags:: [[Gitignore]]
 	- ### 符号
 		- **#** 用于注释，转义用 `\#` 。
 	- ### / slash
-		- 1. 如果 `pattern` 的 **开头** 或 **中间** 有 `/` ( eg: `doc/frotz/` )，则 表明这个  `pattern` 只能匹配 `.gitignore` 所在目录的相对目录；如果 `pattern` 的 **开头** 或 **中间** 没有 `/` ，即 只可能在末尾有 `/` ( eg: `frotz/` ) ，则可以匹配 **任意层级** 的目录。
-		  2. 如果 `pattern` 的 末尾 有 `/` (不管 **开头** 或 **中间** 有没有 `/` )，则表明 **只能匹配目录** ；如果 `pattern` 的 末尾 没有 `/` (不管 **开头** 或 **中间** 有没有 `/` )，则表明 **既能匹配目录，又能匹配文件** 。
+		- 如果 `pattern` 的 **开头** 或 **中间** 有 `/` ( eg: `doc/frotz/` ) :
+		  logseq.order-list-type:: number
+			- 则 表明这个  `pattern` 只能匹配 `.gitignore` 所在目录的相对目录；
+		- 如果 `pattern` 的 **开头** 或 **中间** 没有 `/` ，即 只可能在末尾有 `/` ( eg: `frotz/` ) :
+		  logseq.order-list-type:: number
+			- 则可以匹配 **任意层级** 的目录。
+		- 如果 `pattern` 的 末尾 有 `/` (不管 **开头** 或 **中间** 有没有 `/` ) :
+		  logseq.order-list-type:: number
+			- 则表明 **只能匹配目录** ；
+		- 如果 `pattern` 的 末尾 没有 `/` (不管 **开头** 或 **中间** 有没有 `/` ) :
+		  logseq.order-list-type:: number
+			- 则表明 **既能匹配目录，又能匹配文件** 。
 -
 -

@@ -37,6 +37,8 @@ tags:: [[AGENTS.md]]
 - ## 指令冲突怎么办
 	- 指令优先级:
 		- 用户当前对话内容 > 离被编辑文件最近的 `AGENTS.md` > 离被编辑文件更远的 `AGENTS.md`
+- ## 支持的 Agent
+	- 见: [支持 AGENTS.md 的 Agent](https://agents.md/#compatibility)
 - ## 参考
 	- [AGENTS.md](https://agents.md/)
 	  logseq.order-list-type:: number

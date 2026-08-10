@@ -1,4 +1,5 @@
-alias:: Subversion, Apache Subversion
+alias:: [[Subversion]], [[Apache Subversion]]
+tags:: Version Control Tool
+---
 
-- tags:: Version Control Tool
 -

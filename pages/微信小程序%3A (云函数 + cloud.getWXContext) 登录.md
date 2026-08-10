@@ -4,8 +4,6 @@ tags:: [[微信小程序登录]], [[微信云开发]]
 - 通读: [[微信小程序登录: 概念]]
 - ## cloud.getWXContext 的使用
 	- 通读: [[微信云开发 SDK: cloud.getWXContext()]]
-- ## 数据库设计
-	-
 - ## (云函数 + cloud.getWXContext) 登录方案
 	- (云函数 + cloud.getWXContext) 可以有如下登录方案:
 	- ### 隐式登录 + 用户是否已创建标识 作为 会话标识
