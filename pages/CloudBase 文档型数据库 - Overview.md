@@ -21,7 +21,7 @@ tags:: [[CloudBase 文档型数据库]]
 	- 文档型数据库 API 分为两种:
 		- 小程序端
 		  logseq.order-list-type:: number
-			- 有严格的调用权限控, 可以进行 **非敏感操作** .
+			- 有严格的调用权限控制, 可以进行 **非敏感操作** .
 		- 服务端 (比如 云函数)
 		  logseq.order-list-type:: number
 			- 可以私密且安全的操作数据库.

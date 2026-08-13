@@ -2,7 +2,7 @@ tags:: [[AI Design]]
 ---
 
 - ## Tools
-	- [[Google Stitch]]
+	- [[Stitch]]
 	  logseq.order-list-type:: number
 	- [[Claude Design]] (需要订阅才能使用)
 	  logseq.order-list-type:: number

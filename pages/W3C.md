@@ -8,4 +8,7 @@ tags:: [[Standard Organization]]
 	- 主要工作是开发 Web 标准。
 - ## 标准搜索
 	- [W3C 标准搜索页面](https://www.w3.org/TR/)
-	-
+- ## 旗下组织
+	- [[DTCG]]
+	  logseq.order-list-type:: number
+-

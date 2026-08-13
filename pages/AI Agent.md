@@ -11,11 +11,11 @@ alias:: [[智能体]]
 		  logseq.order-list-type:: number
 		- [[MCP]]
 		  logseq.order-list-type:: number
-	- Agent 提示词:
+	- [[AI Agent Instruction File]]:
 	  logseq.order-list-type:: number
-		- [[DESIGN.md]]
-		  logseq.order-list-type:: number
 		- [[AGENTS.md]]
+		  logseq.order-list-type:: number
+		- [[DESIGN.md]]
 		  logseq.order-list-type:: number
 	- Agent 驾驭:
 	  logseq.order-list-type:: number

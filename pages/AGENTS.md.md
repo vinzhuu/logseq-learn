@@ -1,4 +1,4 @@
-tags:: [[AI Agent]], [[AI Prompt]] 
+tags:: [[AI Agent Instruction File]] 
 ---
 
 - ## Roadmap

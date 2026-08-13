@@ -69,11 +69,11 @@ tags:: [[WXML]]
 			- 它遍历数组:
 				- `元素值 X` 无节点, 新增一个节点, 值为 `X` , 开关默认为 off
 				  logseq.order-list-type:: number
-				- `元素值 A` 有节点, 值保持为 `X` , 开关保持为 off
+				- `元素值 A` 有节点, 值保持为 `A` , 开关保持为 off
 				  logseq.order-list-type:: number
 				- `元素值 B` 有节点, 值保持为 `B` , 开关保持为 on
 				  logseq.order-list-type:: number
-				- `元素值 C` 有节点, 值保持为 `X` , 开关保持为 off
+				- `元素值 C` 有节点, 值保持为 `C` , 开关保持为 off
 				  logseq.order-list-type:: number
 		- 这就避免了上述的问题.
 		- 那么, 如何使用指定唯一标识呢,使用 `wx:key` .
