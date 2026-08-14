@@ -20,6 +20,12 @@ tags:: [[腾讯云 CloudBase]]
 		  logseq.order-list-type:: number
 			- [[CloudBase Functions Framework]]
 			  logseq.order-list-type:: number
+	- 调用云函数
+	  logseq.order-list-type:: number
+		- 微信生态: [[微信云开发 SDK: cloud.callFunction()]]
+		  logseq.order-list-type:: number
+		- 非微信生态:
+		  logseq.order-list-type:: number
 - ## Index
 	- [运行环境支持](https://docs.cloudbase.net/cloud-function/runtime-support)
 	  logseq.order-list-type:: number
