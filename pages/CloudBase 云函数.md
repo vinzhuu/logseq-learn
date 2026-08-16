@@ -11,6 +11,8 @@ tags:: [[腾讯云 CloudBase]]
 		  logseq.order-list-type:: number
 		- [[CloudBase 云函数: 临时存储空间]]
 		  logseq.order-list-type:: number
+	- [[CloudBase 云函数 Layer]]
+	  logseq.order-list-type:: number
 	- 普通云函数
 	  logseq.order-list-type:: number
 		- logseq.order-list-type:: number

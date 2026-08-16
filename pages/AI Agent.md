@@ -19,7 +19,9 @@ alias:: [[智能体]]
 		  logseq.order-list-type:: number
 	- Agent 驾驭:
 	  logseq.order-list-type:: number
-		- [[OpenSpec]]
+		- [[Prompt Engineering]]
+		  logseq.order-list-type:: number
+		- [[Context Engineering]]
 		  logseq.order-list-type:: number
 		- [[Loop Engineering]]
 		  logseq.order-list-type:: number
