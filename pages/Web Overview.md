@@ -9,6 +9,7 @@ tags:: [[Contents]], [[Web]]
 - ## JS 运行时
 	- [[Browser]]
 	- [[Node.js]]
+	- [[Deno]]
 - ## 构建工具
 	- [[Vite]]
 	- [[Webpack]]

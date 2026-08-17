@@ -20,18 +20,18 @@ alias:: [[云开发 CloudBase]], [[Tencent CloudBase]], [[TCB]]
 			  logseq.order-list-type:: number
 			- [[CloudBase 关系型数据库]]
 			  logseq.order-list-type:: number
-		- 后端服务:
+		- 后端服务托管:
 		  logseq.order-list-type:: number
 			- [[CloudBase 云函数]]
 			  logseq.order-list-type:: number
 			- [[CloudBase 云托管]]
 			  logseq.order-list-type:: number
-			- [[CloudBase HTTP 网关]]
-			  logseq.order-list-type:: number
-		- 对象存储:
+		- 对象存储: [[CloudBase 云存储]]
 		  logseq.order-list-type:: number
-			- [[CloudBase 云存储]]
-			  logseq.order-list-type:: number
+		- 网关: [[CloudBase HTTP 网关]]
+		  logseq.order-list-type:: number
+		- 身份认证: [[CloudBase 身份认证]]
+		  logseq.order-list-type:: number
 		- 低代码:
 		  logseq.order-list-type:: number
 			- [[CloudBase 云模板]]

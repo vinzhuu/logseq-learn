@@ -2,7 +2,15 @@ tags:: [[JavaScript]]
 alias:: [[JavaScript 运行时]]
 ---
 
--
+- ## 有哪些 JavaScript Runtime
+	- [[Node.js]]
+	  logseq.order-list-type:: number
+	- [[Deno]]
+	  logseq.order-list-type:: number
+	- [[Bun]]
+	  logseq.order-list-type:: number
+	- [[NW.js]]
+	  logseq.order-list-type:: number
 - ## 与 JavaScript Engine 的区别
 	- JavaScript Runtime 与 JavaScript Engine 的区别在于:
 		- JavaScript Engine 属于执行核心, 负责 解析、编译、执行 JS 代码
