@@ -9,4 +9,6 @@ alias:: [[Node.js Packaga Manager]], [[Node Package Manager]]
 	  logseq.order-list-type:: number
 	- [[npm Basics]]
 	  logseq.order-list-type:: number
+	- [[npm CLI]]
+	  logseq.order-list-type:: number
 -

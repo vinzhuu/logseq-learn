@@ -15,13 +15,16 @@ tags:: [[AI Agent]], [[AI Coding]]
 		  logseq.order-list-type:: number
 		- [[CodeBuddy]]
 		  logseq.order-list-type:: number
-	- ### AI Coding CLI
+	- ### AI Coding 非 IDE 工具
 		- [[Claude Code]]
 		  logseq.order-list-type:: number
 		- [[Open Code]]
 		  logseq.order-list-type:: number
 		- [[Codex]]
 		  logseq.order-list-type:: number
-		-
+		- [[Pi]]
+		  logseq.order-list-type:: number
+		- [[DeepSeek Harness]]
+		  logseq.order-list-type:: number
 -
 -
