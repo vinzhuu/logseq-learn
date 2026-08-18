@@ -12,6 +12,8 @@ tags:: [[微信云开发]]
 	  logseq.order-list-type:: number
 		- [[微信云开发 SDK: cloud.callFunction()]]
 		  logseq.order-list-type:: number
+		- [[微信云开发 SDK 云存储]]
+		  logseq.order-list-type:: number
 	- 仅服务端 (Node.js 云函数):
 	  logseq.order-list-type:: number
 		- 当前服务端环境 : [[微信云开发 SDK: cloud.DYNAMIC_CURRENT_ENV]]

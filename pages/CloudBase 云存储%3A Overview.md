@@ -31,10 +31,14 @@ tags:: [[CloudBase 云存储]]
 			  logseq.order-list-type:: number
 				- 非微信公众平台应用端 (参见: [[CloudBase SDK]] )
 				  logseq.order-list-type:: number
-				- 微信公众平台应用端 (参见: [[微信云开发 SDK]])
+				- 微信公众平台应用端 (参见: [[微信云开发 SDK 云存储]])
 				  logseq.order-list-type:: number
-			- HTTP API (参见: [[CloudBase HTTP API]])
+			- HTTP API
 			  logseq.order-list-type:: number
+				- 非微信公众平台应用端 (参见: [[CloudBase HTTP API]] )
+				  logseq.order-list-type:: number
+				- 微信公众平台应应用端 (参见: [[微信云开发 HTTP API]] )
+				  logseq.order-list-type:: number
 - ## 参考
 	- [CloudBase 云存储 - 概述](https://docs.cloudbase.net/storage/introduce)
 	  logseq.order-list-type:: number
