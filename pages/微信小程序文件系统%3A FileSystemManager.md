@@ -35,7 +35,7 @@ tags:: [[微信小程序文件系统]]
 		  | 所有文件类型 | 判断 **文件或目录** 是否存在 | `access` / `accessSync` | 无|
 		  | 所有文件类型 | 获取 **文件或目录** 信息 | `stat` / `statSync` | `fstat` / `fstatSync`|
 		  | 所有文件类型 | 复制文件到 **指定路径** | `copyFile` / `copyFileSync` | 无 |
-		  | 所有文件类型 | 读取指定目录文件列表 | `readdir` / `readdirSync` | 无 |
+		  | 所有文件类型 | 读取指定目录的文件列表 | `readdir` / `readdirSync` | 无 |
 		  | 所有文件类型 | 读文件 |  `readFile` / `readFileSync` | `read` / `readSync` |
 		  | 所有文件类型 | 关闭文件 | 无 | `close` / `closeSync` |
 		  | 本地用户文件 | 创建目录 | `mkdir` / `mkdirSync` | 无 |
