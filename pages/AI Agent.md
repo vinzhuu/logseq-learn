@@ -49,6 +49,8 @@ alias:: [[智能体]]
 		  logseq.order-list-type:: number
 		- [[AI 漫剧]]
 		  logseq.order-list-type:: number
+		- [[AI Music]]
+		  logseq.order-list-type:: number
 	- Agent 辅助工具
 	  logseq.order-list-type:: number
 		- [[CC Switch]]
