@@ -7,7 +7,7 @@ tags:: [[腾讯云 CloudBase]]
 	  logseq.order-list-type:: number
 		- [[CloudBase 云存储: Overview]]
 		  logseq.order-list-type:: number
-		- [[CloudBase 云存储: 文件管理]]
+		- [[CloudBase 云存储: 云存储路径]]
 		  logseq.order-list-type:: number
 	- 两种模式:
 	  logseq.order-list-type:: number

@@ -18,10 +18,10 @@ tags:: [[微信云开发 SDK 云存储]]
 		  | status | 状态码 (0 为成功) | Number |
 		  | errMsg | 错误信息 (成功为 ok, 失败为失败原因) | String |
 - ## 关于 tempFileURL 的有效期
-	- 公有读的文件 , 生成的 `tempFileURL` 不会过期.
-	- 私有读的文件 , 生成的 `tempFileURL` 为临时链接, 会过期.
-		- 有效期在 [CloudBase 控制台 - 云存储 - 权限管理 - 临时链接配置](https://tcb.cloud.tencent.com/dev#/storage/permission) 配置.
-	- 参见: [[CloudBase 传统模式云存储: 权限管理]] & [[CloudBase PG 模式云存储: 权限管理]]
+	- **公有读** 的文件 , 生成的 `tempFileURL` 不会过期.
+	- **私有读** 的文件 , 生成的 `tempFileURL` 为临时链接, 会过期.
+		- 有效期默认为 `10 分钟`, 可在 [CloudBase 控制台 - 云存储 - 权限管理 - 临时链接配置](https://tcb.cloud.tencent.com/dev#/storage/permission) 配置.
+	- 参见: [[CloudBase 传统模式云存储: 访问权限]] & [[CloudBase PG 模式云存储: 访问权限]]
 - ## 示例
 	- ### 小程序端
 		- ``` node

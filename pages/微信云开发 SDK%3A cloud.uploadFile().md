@@ -5,7 +5,7 @@ tags:: [[微信云开发 SDK 云存储]]
 	- ### 请求参数
 		- | 字段 | 说明 | 数据类型 | 
 		  | ---- | ---- | ---- |
-		  | cloudPath | 云存储路径 (参见: [[CloudBase 云存储: 文件管理]]) | String |
+		  | cloudPath | 云存储路径 (参见: [[CloudBase 云存储: 云存储路径]]) | String |
 		  | filePath | 文件资源路径 (目前貌似只支持  **本地临时文件** , 参见: [[微信小程序文件系统]]) | String |
 		  | config | 配置 (参见: [[微信云开发 SDK: API 风格]]) | Object |
 	- ### `success` 返回参数
@@ -41,7 +41,7 @@ tags:: [[微信云开发 SDK 云存储]]
 	- ### 请求参数
 		- | 字段 | 说明 | 数据类型 | 
 		  | ---- | ---- | ---- |
-		  | cloudPath | 云存储路径 (参见: [[CloudBase 云存储: 文件管理]]) | String |
+		  | cloudPath | 云存储路径 (参见: [[CloudBase 云存储: 云存储路径]]) | String |
 		  | fileContent | 文件内容 | Buffer 或 fs.ReadStream (参见: [[Node.js API: Buffer]] & [[Node.js File System]] ) |
 	- ### `success` 返回参数
 		- | 字段 | 说明 | 数据类型 |
