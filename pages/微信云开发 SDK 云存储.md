@@ -1,13 +1,17 @@
-tags:: [[微信云开发 SDK]]
+tags:: [[微信云开发 SDK]], [[CloudBase 云存储]]
 ---
 
 - ## Roadmap
 	- 概念: [[CloudBase 云存储]]
 	  logseq.order-list-type:: number
-	- SDK 调用:
+	- SDK:
 	  logseq.order-list-type:: number
-		- [[微信云开发 SDK 云存储: 小程序端]]
+		- 上传文件: [[微信云开发 SDK: cloud.uploadFile()]]
 		  logseq.order-list-type:: number
-		- [[微信云开发 SDK 云存储: Node.js 云函数端]]
+		- 下载文件: [[微信云开发 SDK: cloud.downloadFile()]]
+		  logseq.order-list-type:: number
+		- 删除文件: [[微信云开发 SDK: cloud.deleteFile()]]
+		  logseq.order-list-type:: number
+		- 生成文件的临时链接: [[微信云开发 SDK: cloud.getTempFileURL()]]
 		  logseq.order-list-type:: number
 	-
