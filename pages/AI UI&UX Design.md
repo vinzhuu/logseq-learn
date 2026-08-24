@@ -21,5 +21,11 @@ tags:: [[AI Design]]
 	- ### 流行的 Skills
 		- [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 		  logseq.order-list-type:: number
+		- [Frontend Design (Anthropics)](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)
+		  logseq.order-list-type:: number
+		- [Impeccable](https://impeccable.style/)
+		  logseq.order-list-type:: number
+		- [Taste Skill](https://www.tasteskill.dev/)
+		  logseq.order-list-type:: number
 - ## 提示词
 	- [[DESIGN.md]]

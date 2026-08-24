@@ -7,6 +7,8 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number
+	- [[JDK]]
+	  logseq.order-list-type:: number
 	- [[Java SE]]
 	  logseq.order-list-type:: number
 	- [[Java EE]]

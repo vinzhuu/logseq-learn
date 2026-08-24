@@ -1,4 +1,4 @@
-tags:: [[Web]]
+tags:: [[Web]], [[Playground]]
 ---
 
 - ## 通用在线代码编辑器

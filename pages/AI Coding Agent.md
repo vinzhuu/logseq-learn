@@ -6,7 +6,7 @@ tags:: [[AI Agent]], [[AI Coding]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index
-	- ### AI Coding IDE
+	- ### IDE AI Coding Agent
 		- [[Cursor]]
 		  logseq.order-list-type:: number
 		- [[Antigravity]]
@@ -15,7 +15,7 @@ tags:: [[AI Agent]], [[AI Coding]]
 		  logseq.order-list-type:: number
 		- [[CodeBuddy]]
 		  logseq.order-list-type:: number
-	- ### AI Coding 非 IDE 工具
+	- ### 非 IDE AI Coding  Agent
 		- [[Claude Code]]
 		  logseq.order-list-type:: number
 		- [[Open Code]]

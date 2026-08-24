@@ -35,6 +35,8 @@ tags:: [[AI]], [[Software Engineering]]
 		  logseq.order-list-type:: number
 		- [[OpenSpec]]
 		  logseq.order-list-type:: number
+		- [[Comet]] (协调 OpenSpec 与 Superpowers)
+		  logseq.order-list-type:: number
 		- [Skills for Real Engineers](https://github.com/mattpocock/skills)
 		  logseq.order-list-type:: number
 		- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
