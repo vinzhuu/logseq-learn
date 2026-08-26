@@ -1,4 +1,4 @@
-tags:: GNU, Linux
+tags:: [[GNU]], [[Linux]]
+---
 
-- ---
 -

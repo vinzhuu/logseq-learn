@@ -8,4 +8,5 @@ alias:: [[OSI]]
 - ## 什么是 Open Source Initiative
 	- 可以翻译为 开源倡议组织 .
 	- 它定义了什么是 [[Open Source]]
-	-
+	- [[Open Source License]] 经它审核通过, 才会被收纳.
+-

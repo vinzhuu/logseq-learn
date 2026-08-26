@@ -29,7 +29,7 @@ tags:: [[Contents]]
 	  logseq.order-list-type:: number
 	- [[Writing]]
 	  logseq.order-list-type:: number
-	- [[Video]]
+	- [[视频制作]]
 	  logseq.order-list-type:: number
 - ## 生活
 	- [[Shopping]]
