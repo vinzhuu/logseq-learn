@@ -15,6 +15,8 @@ tags:: [[Contents]]
 - ## 社科
 	- [[Philosophy]]
 	  logseq.order-list-type:: number
+	- [[Law]]
+	  logseq.order-list-type:: number
 - ## 语言
 	- [[English]]
 	  logseq.order-list-type:: number

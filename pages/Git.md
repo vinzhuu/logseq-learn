@@ -1,4 +1,4 @@
-tags::  [[Version Control Tool]]
+tags::  [[Version Control System]]
 ---
 
 - ## Roadmap

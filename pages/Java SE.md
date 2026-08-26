@@ -8,6 +8,8 @@ tags:: [[Java]]
 	  logseq.order-list-type:: number
 	- [[Java Syntax]]
 	  logseq.order-list-type:: number
+	- [[JDK]]
+	  logseq.order-list-type:: number
 	- 打包相关:
 	  logseq.order-list-type:: number
 		- [[Java Package And Import]]

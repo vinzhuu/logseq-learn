@@ -1,7 +1,7 @@
 tags:: [[Java]]
 ---
 
-- ## 三种 Edition
+- ## Java Platform 的三种 Edition
 	- ![image.png](../assets/image_1712819775664_0.png)
 	- 图片来源: [Oracle - Java docs](https://docs.oracle.com/en/java/index.html)
 	- Java 技术可分为三种版本：

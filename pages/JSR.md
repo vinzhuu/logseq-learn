@@ -1,4 +1,4 @@
-alias:: [[Java Specification Request]], [[JSRs]], [[Java Specification Requests]]
+alias:: [[Java Specification Request]]
 tags:: [[Java]], [[Spacification]]
 ---
 

@@ -97,37 +97,9 @@ tags:: [[HTML]]
 		- 浏览器只在鼠标悬浮时，显示此属性内容 (那么键盘用户或者手机用户就看不了了)。
 		  logseq.order-list-type:: number
 	- 所以，如果是重要内容，最好写到正文中。
-- ## License
-	- ### License Types
-		- 有如下几种 license 类型：
-			- All rights reserved
-			  logseq.order-list-type:: number
-			- Permissive
-			  logseq.order-list-type:: number
-			- Public domain/CC0
-			  logseq.order-list-type:: number
-	- ### All rights reserved
-		- 即 版权的持有者 拥有使用他们作品的专有权。
-		- 如果要使用这种作品，需要满足以下条件之一：
-			- 获得明确的书面许可。
-			  logseq.order-list-type:: number
-			- 支付费用。
-			  logseq.order-list-type:: number
-				- 可能是一次性付费，可以无限制地使用；
-				- 也可能是按使用次数、时间、区域、行业、媒体类型付费。
-			- 法律允许的合理使用 ( [fair use](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/) or [fair dealing](https://copyrightservice.co.uk/copyright/p27_work_of_others) )
-			  logseq.order-list-type:: number
-		- 如果网上看到有作品没有声明版权，并不一定是没有版权，最安全的做法是，认为它 All rights reserved .
-	- ### Permissive
-		- 即 自由许可, 如 [MIT](https://mit-license.org/), [BSD](https://opensource.org/license/BSD-3-clause), or a suitable [Creative Commons (CC) license](https://chooser-beta.creativecommons.org/) 等 license.
-		- 我们无需支付费用，只要满足 license 要求的条件即可.
-	- ### Public domain/CC0
-		- 公众领域的作品，我们可以在未经许可的情况下使用，无需满足任何条件。
-			- 作品进入公众领域，原因可能是 版权到期 或者 版权持有人放弃权利等。
-			- 将作品置于公众领域的一个方法是，将作品许可为 [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) .
-		- 使用公众领域的作品时，记得保存能证明其属于公众领域的证据。
-			- 比如 截图 .
-			- 可以考虑在你的网站列出你使用的所有作品及其 license 要求.
+- ## 网络图片的 License
+	- ### License 概念
+		- 参见: [[License Concept]]
 	- ### Search for permissively-licensed images
 		- 搜索自由许可图片时，可以加上类似如下的关键字：
 			- "public domain images"
