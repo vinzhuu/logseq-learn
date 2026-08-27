@@ -6,4 +6,7 @@ tags:: [[Copyright]]
 	  logseq.order-list-type:: number
 	- [信息网络传播权保护条例](https://www.cac.gov.cn/2013-02/18/c_126468776.htm)
 	  logseq.order-list-type:: number
+- ## 美国版权相关法律
+	- [Copyright Law of the United States (Title 17)](https://www.copyright.gov/title17/)
+	  logseq.order-list-type:: number
 -
