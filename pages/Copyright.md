@@ -8,7 +8,7 @@ tags:: [[Law]]
 	  logseq.order-list-type:: number
 		- [[Copyright Concept]]
 		  logseq.order-list-type:: number
-		- [[Public Domain]]
+		- [[Public Domain of Copyright]]
 		  logseq.order-list-type:: number
 	- [[Copyright Law]]
 	  logseq.order-list-type:: number
