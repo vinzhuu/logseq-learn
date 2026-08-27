@@ -41,10 +41,14 @@ tags:: [[Free Software]]
 	- `Free Software` 可以被企业 **商业使用 (commercial use)** , **商业开发 (commercial development)** 和 **商业分发 (commercial distribution)** .
 		- 企业可以通过为 `Free Software` 提供专业的付费支持来获利.
 	- 显然, 如果禁止企业使用 `Free Software` , 那 `Free Software` 将永远无法替代 `Proprietary Software` .
-- ## Open Source vs Free Software
-	- https://www.gnu.org/philosophy/open-source-misses-the-point.html
-- ## 一个 Software 如何声明自己 Free
-	- 方法一: 将 Software
+- ## 如何让 Software 成为 Free Software
+	- 参考: [GNU - What is Copyleft?](https://www.gnu.org/licenses/copyleft.html)
+	- ### 方法一: 尽可能主动放弃 Software 的所有权利
+		- 尽可能主动放弃 Software 的所有权利, 让公众获得类似 [[Public Domain]] 的使用自由 (比如使用 [[CC0]] )
+		- 这种方法的弊端是:
+			- 一些不愿意合作的人, 可能会在自己修改后, 将其作为 `Proprietary Software` 发布.
+	- ### 方法二: 给 Software 添加 Copyleft License
+		- 参见: [[Copyleft]]
 - ## 参考
 	- [GNU - What is Free Software](https://www.gnu.org/philosophy/free-sw.html)
 	  logseq.order-list-type:: number

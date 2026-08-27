@@ -79,7 +79,7 @@ tags:: [[Copyright]]
 				- No Rights Reserved (主动放弃所有可放弃的权利)
 				  logseq.order-list-type:: number
 					- 一般通过给作品加 [[CC0]] 实现.
-			- Public Domain (版权不在保护期内/公有领域)
+			- Uncopyrighted / Public Domain (版权不在保护期内/公有领域)
 			  logseq.order-list-type:: number
 				- 参见: [[Public Domain of Copyright]]
 	- ### All Rights Reserved

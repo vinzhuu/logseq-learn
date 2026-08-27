@@ -10,6 +10,8 @@ tags:: [[CC0]]
 		- 在法律允许的最大范围内, 放弃对作品享有的版权及相关权利.
 	- 第二层: Fallback License (备用许可)
 		- 如果法律不允许放弃所有版权及相关权利, 那么直接给一个尽可能宽泛的、全球性的、免费的许可.
+- ## CC0 禁止撤回
+	- CC0 条款禁止: 对一个已经加了 CC0 的作品, 撤回 CC0 .
 - ## 使用者对加了 CC0 的作品的权利
 	- 对于加了 CC0 的作品, 使用者可以:
 		- 无需许可, 自由使用作品, 可商用.
@@ -23,5 +25,7 @@ tags:: [[CC0]]
 	- [[CC0]] : 提供了在 **法律允许的最大范围** 内, **完全放弃** 版权和数据库保护的选择 .
 		- 可以视为 `no rights reserved` 的替代方案.
 - ## 参考
+	- AI
+	  logseq.order-list-type:: number
 	- [Creative Commons - Public Domain](https://creativecommons.org/public-domain/)
 	  logseq.order-list-type:: number

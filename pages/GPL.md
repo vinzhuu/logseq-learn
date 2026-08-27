@@ -1,5 +1,5 @@
 alias:: [[GNU General Public License]]
-tags:: [[GNU]] 
+tags:: [[GNU]], [[Open Source License]] 
 ---
 
 - ## Roadmap
@@ -8,3 +8,5 @@ tags:: [[GNU]]
 	- [[GPLv2]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
+- https://www.gnu.org/licenses/gpl-faq.html
+-

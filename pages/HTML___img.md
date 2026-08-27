@@ -97,11 +97,11 @@ tags:: [[HTML]]
 		- 浏览器只在鼠标悬浮时，显示此属性内容 (那么键盘用户或者手机用户就看不了了)。
 		  logseq.order-list-type:: number
 	- 所以，如果是重要内容，最好写到正文中。
-- ## 网络图片的 License
-	- ### License 概念
-		- 参见: [[License Concept]]
-	- ### Search for permissively-licensed images
-		- 搜索自由许可图片时，可以加上类似如下的关键字：
+- ## 网络图片的版权
+	- ### 版权概念
+		- 参见: [[Copyright Concept]]
+	- ### 查询开放版权的图片
+		- 搜索开放版权的图片时，可以加上类似如下的关键字：
 			- "public domain images"
 			- "public domain image library"
 			- "open licensed images"

@@ -1,22 +1,20 @@
-alias:: 自由软件
+alias:: [[自由软件]]
+tags:: [[Software]] 
 ---
 
 - ## Roadmap
-	- 概念:
+	- [[Free Software Concept]]
 	  logseq.order-list-type:: number
-		- [[Free Software Concept]]
-		  logseq.order-list-type:: number
-		- [[Selling Free Software]]
-		  logseq.order-list-type:: number
-		- [[Free Software - Words to Avoid]]
-		  logseq.order-list-type:: number
-		- [[Copyleft]]
-		  logseq.order-list-type:: number
-	- [[GNU]]
+	- [[Open Source & Free Software]]
 	  logseq.order-list-type:: number
-	- [[Savannah]]
+	- [[Selling Free Software]]
 	  logseq.order-list-type:: number
--
+	- [[Copyleft]]
+	  logseq.order-list-type:: number
+	- [[Free Software - Words to Avoid]]
+	  logseq.order-list-type:: number
+	- [[Proprietary Software]]
+	  logseq.order-list-type:: number
 - ## Index
 	- [Free Software Directory](https://directory.fsf.org/wiki/Main_Page#About)
 	  logseq.order-list-type:: number
