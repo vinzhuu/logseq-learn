@@ -1,0 +1,6 @@
+- 含义: `为了不…… / 以免……`
+- 摘录:
+	- > Another reason we release only under the GPL is so as not to permit proprietary extensions that would present practical advantages over our free programs. 
+	  -- 引自 [GNU - Selling Exceptions to the GNU GPL](https://www.gnu.org/philosophy/selling-exceptions.html)
+	- 我们只采用 GPL 发布软件，还有另一个原因：这样可以避免允许出现专有扩展，从而使这些专有扩展相对于我们的自由软件带来实际上的优势。
+-

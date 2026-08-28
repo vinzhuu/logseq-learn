@@ -16,7 +16,14 @@ tags:: [[Copyleft]]
 - ## Selling Exceptions vs Exceptions to the License
 	- `Exceptions to the License` 是 License 的一部分, 在 License 中有说明.
 	- 而 `Selling Exceptions` 独立于 License, 与 License 本身无关.
--
+- ## 为什么 FSF 不采用 Selling Exceptions
+	- 原因如下:
+		- 这会产生 **专有软件** , 导致用户失去自由.
+		  logseq.order-list-type:: number
+		- 这可能会出现比 **自由软件** 更具实用优势的 **专有软件** .
+		  logseq.order-list-type:: number
+		- FSF 平等对待所有用户, 致力于向所有用户提供相同的 License.
+		  logseq.order-list-type:: number
 - ## 参考
 	- [Selling Exceptions to the GNU GPL](https://www.gnu.org/philosophy/selling-exceptions.html)
 	  logseq.order-list-type:: number

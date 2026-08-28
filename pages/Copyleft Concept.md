@@ -27,7 +27,7 @@ tags:: [[Copyleft]]
 		- "一个用圆圈套起来的反着的字母 C" 符号, 仅供娱乐 .
 - ## Copyleft 的实现
 	- `Copyleft` 是一个抽象的概念, 需要有具体的实现才能使用.
-	- GNU 提供了一些实现了 `Copyleft` 的 License, 参见: [[Copyleft License]] .
+	- 各个组织提供了一些实现了 `Copyleft` 的 License, 参见: [[Copyleft License]] .
 - ## 参考
 	- [GNU - What is Copyleft?](https://www.gnu.org/licenses/copyleft.html)
 	  logseq.order-list-type:: number

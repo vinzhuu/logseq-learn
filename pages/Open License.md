@@ -11,10 +11,10 @@ alias:: [[开放许可]]
 		  logseq.order-list-type:: number
 		- 开放数据: [[Open Data License]]
 		  logseq.order-list-type:: number
-	- 按宽松程度区分:
+	- 按自由程度区分:
 	  logseq.order-list-type:: number
-		- Permissive License
+		- [[Free License]]
 		  logseq.order-list-type:: number
-		- [[Copyleft License]]
+		- Nonfree License
 		  logseq.order-list-type:: number
 -

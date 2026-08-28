@@ -9,6 +9,7 @@ tags:: [[GNU]]
 		- ==已阅==
 			- Selling Free Software
 			- Copyleft: Pragmatic Idealism
+			- Selling Exceptions to the GNU GPL
 - ## 学习进度: Licenses
 	- https://www.gnu.org/licenses/licenses.html
 	- ==已阅==

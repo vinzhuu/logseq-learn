@@ -16,9 +16,16 @@ tags:: [[Free Software]]
 			- ==实现这一点的前提是: **获取源代码** .==
 		- `freedom 2` : **重新分发副本** 的自由 (可以让他人也用上) .
 		  logseq.order-list-type:: number
-		- `freedom 3` : 向他人 **分发你修改后的版本的副本** 的自由 (可以让社区从你的修改中受益) .
+		- `freedom 3` : 向他人 **重新分发你修改后的版本的副本** 的自由 (可以让社区从你的修改中受益) .
 		  logseq.order-list-type:: number
 			- ==实现这一点的前提是: **获取源代码** .==
+	- 所谓 "自由" , 意味着, 你行使上述 `freedom` 时,
+		- 无需通知任何人.
+		  logseq.order-list-type:: number
+		- 无需征得任何人的许可.
+		  logseq.order-list-type:: number
+		- 无需为此付费.
+		  logseq.order-list-type:: number
 - ## 关于获取源代码
 	- 为了实现 `freedom 1` 和 `freedom 3` , 用户必须能够 **获取源代码** .
 	- **源代码 (Source Code)** 被定义为: 开发者进行修改时首选的程序形式.
@@ -26,11 +33,23 @@ tags:: [[Free Software]]
 	- 注意:
 		- 被混淆的 **源代码** 不是真正的 **源代码** , 应给用户提供混淆前的 **源代码** .
 		  logseq.order-list-type:: number
+- ## 关于重新分发的自由
+	- 用户重新分发的自由:
+		- 用户可以修改, 也可以不修改.
+		  logseq.order-list-type:: number
+		- 用户可以收费, 也可以不收费.
+		  logseq.order-list-type:: number
+		- 用户可以发布给任何人.
+		  logseq.order-list-type:: number
+		- 用户可以发布 **二进制或可执行程序** , 也可以发布 **源码** .
+		  logseq.order-list-type:: number
+- ## 关于重新分发的 License
+	- 参见: [[Free License Concept]]
 - ## Free Software & Nonfree Software / Proprietary Software
 	- 如果任何 **获取到软件副本** 且 **遵守该软件 License 所有条款** 的用户, 都拥有上述 Freedom :
 		- 则我们将这个软件被归为 `Free Software` .
 	- 反之, 如果用户没有上述 Freedom, 或只有部分用户拥有上述 Freedom , 或要求付费才能拥有上述 Freedom:
-		- 则不能将这个软件归为 `Free Software` , 而被归为 `Nonfree Software (非自由软件)` / `Proprietary Software (专有软件)` .
+		- 则不能将这个软件归为 `Free Software` , 而应归为 `Nonfree Software (非自由软件)` / `Proprietary Software (专有软件)` .
 - ## Free Software 用到的所有代码都必须 Free
 	- 只有软件使用的所有代码 (不管是直接使用的代码, 还是间接使用的代码) , 都必须满足上述 `Freedom` , 才能被称为 `Free Software` .
 	- 比如:
@@ -39,21 +58,8 @@ tags:: [[Free Software]]
 		- 如果通过修改甲程序, 使其不再依赖乙程序, 那么甲程序就会被认为是自由的.
 - ## Free Software 可以商用
 	- `Free Software` 可以被企业 **商业使用 (commercial use)** , **商业开发 (commercial development)** 和 **商业分发 (commercial distribution)** .
-		- 企业可以通过为 `Free Software` 提供专业的付费支持来获利.
+		- 企业可以通过为 `Free Software` 提供专业的付费支持来获利. (详见: [[Selling Free Software]] )
 	- 显然, 如果禁止企业使用 `Free Software` , 那 `Free Software` 将永远无法替代 `Proprietary Software` .
-- ## 如何声明一个 Software 是 Free Software
-	- 参考: [GNU - What is Copyleft?](https://www.gnu.org/licenses/copyleft.html)
-	- ### 方法一: 尽可能主动放弃 Software 的所有权利
-		- 尽可能主动放弃 Software 的所有权利, 让公众获得类似 [[Public Domain]] 的使用自由 (比如使用 [[CC0]] )
-		- 这种方法的弊端是:
-			- 一些不愿意合作的人, 可能会在自己修改后, 将其作为 `Proprietary Software` 发布.
-	- ### 方法二: 给 Software 添加 License
-		- [[Copyleft License]]  (要求衍生作品也是 Free Software).
-		  logseq.order-list-type:: number
-		- 非 Copyleft License (不要求衍生作品也是 Free Software)
-		  logseq.order-list-type:: number
-			- 如: [[MIT]], [[Apache License]] 等.
-	-
 - ## 参考
 	- [GNU - What is Free Software](https://www.gnu.org/philosophy/free-sw.html)
 	  logseq.order-list-type:: number

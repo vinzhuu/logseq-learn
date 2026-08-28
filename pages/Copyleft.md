@@ -1,4 +1,4 @@
-tags:: [[CS Glossary]], [[Free Software]] 
+tags:: [[Free Software]] 
 ---
 
 - ## Roadmap
