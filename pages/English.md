@@ -11,4 +11,6 @@ alias:: [[英语]]
 	  logseq.order-list-type:: number
 	- [[Oral English]]
 	  logseq.order-list-type:: number
--
+	- [[EN Vocab]]
+	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number

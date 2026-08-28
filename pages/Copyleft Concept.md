@@ -2,10 +2,10 @@ tags:: [[Copyleft]]
 ---
 
 - ## 什么是 Copyleft
-	- `Copyleft` 是实现 [[Free Software]] 的通用方法.
-		- 也即, `Copyleft` 让软件保证用户拥有 [[Free Software]] 所具有的所有 `Freedom` .
-	- `Copyleft` 可以作为动词:
-		- 用来形容: 使用 `Copyleft` 方法, 将一个程序发布为 [[Free Software]] .
+	- `Copyleft` 是声明一个 Software 是 [[Free Software]] 的通用方法.
+	- 但是, 为了防止 自由软件 的后续修改版本被某些人专有化:
+		- `Copyleft` 要求: [[Free Software]] 的衍生作品, 也必须是 [[Free Software]] .
+	- `Copyleft` 可以作为动词使用: Copyleft 一个程序
 - ## 如何 Copyleft 一个程序
 	- 如下步骤:
 		- 声明程序是 **有版权的 (copyrighted)** .
@@ -23,18 +23,11 @@ tags:: [[Copyleft]]
 		- [[Proprietary Software]] 使用 `Copyright` 剥夺了用户的自由.
 		- [[Free Software]] 使用 `Copyright` 保证了用户的自由.
 - ## Copyleft 的符号
-	- 在法律上, `Copyleft` 没有放弃 `Copyright` , 所以在声明版权时仍应使用 "©" .
-		- "一个用圆圈套起来的反着的字母 C" , 仅供娱乐 .
+	- 在法律上, `Copyleft` 没有放弃 `Copyright` , 所以在声明版权时仍应使用 "©" 符号.
+		- "一个用圆圈套起来的反着的字母 C" 符号, 仅供娱乐 .
 - ## Copyleft 的实现
 	- `Copyleft` 是一个抽象的概念, 需要有具体的实现才能使用.
 	- GNU 提供了一些实现了 `Copyleft` 的 License, 参见: [[Copyleft License]] .
-- ## 如何使用 Copyleft License
-	- 只需:
-		- 在作品中包含一份相应 License 的文本文件.
-		  logseq.order-list-type:: number
-		- 在源代码文件中适当地标明对这个 License 文件的引用.
-		  logseq.order-list-type:: number
-			- 一般建议在每个源代码文件中都加, 这样的话, 即便源代码文件脱离整个项目, 也能知道它的版权和许可证信息.
 - ## 参考
 	- [GNU - What is Copyleft?](https://www.gnu.org/licenses/copyleft.html)
 	  logseq.order-list-type:: number

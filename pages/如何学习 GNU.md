@@ -5,9 +5,13 @@ tags:: [[GNU]]
 	- [官网](https://www.gnu.org/)
 - ## 学习进度: Philosophy
 	- https://www.gnu.org/philosophy/philosophy.html
-	- ==已阅==
-		- Selling Free Software
+	- ### Essays and Articles
+		- ==已阅==
+			- Selling Free Software
+			- Copyleft: Pragmatic Idealism
 - ## 学习进度: Licenses
 	- https://www.gnu.org/licenses/licenses.html
 	- ==已阅==
 		- What is Copyleft?
+		- Why you shouldn't use the Lesser GPL for your next library
+		-
