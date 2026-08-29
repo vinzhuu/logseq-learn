@@ -33,18 +33,20 @@ tags:: [[Free Software]]
 	- 注意:
 		- 被混淆的 **源代码** 不是真正的 **源代码** , 应给用户提供混淆前的 **源代码** .
 		  logseq.order-list-type:: number
-- ## 关于重新分发的自由
-	- 用户重新分发的自由:
+- ## 关于重新分发
+	- ### 重新分发的自由
 		- 用户可以修改, 也可以不修改.
 		  logseq.order-list-type:: number
 		- 用户可以收费, 也可以不收费.
 		  logseq.order-list-type:: number
 		- 用户可以发布给任何人.
 		  logseq.order-list-type:: number
-		- 用户可以发布 **二进制或可执行程序** , 也可以发布 **源码** .
+		- 用户可以以 **二进制或可执行程序** 形式发布, 也可以以 **源码** 形式发布.
 		  logseq.order-list-type:: number
-- ## 关于重新分发的 License
-	- 参见: [[Free License Concept]]
+	- ### 对重新分发的限制
+		- 只要不剥夺 **自由软件的核心自由** , 对自由软件的使用加一些限制, 是可以接受的.
+			- 参见: [[Free License Concept]]
+		- ==注意: 只要你不重新分发, 只是私下使用, 你的任何自由都不受限制.==
 - ## Free Software & Nonfree Software / Proprietary Software
 	- 如果任何 **获取到软件副本** 且 **遵守该软件 License 所有条款** 的用户, 都拥有上述 Freedom :
 		- 则我们将这个软件被归为 `Free Software` .

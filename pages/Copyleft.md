@@ -1,4 +1,5 @@
-tags:: [[Free Software]] 
+tags:: [[Free Software]]
+alias:: [[著佐权]]
 ---
 
 - ## Roadmap
