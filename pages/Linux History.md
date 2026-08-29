@@ -9,7 +9,7 @@ tags:: [[Linux]], [[History]]
 - ## GNU/Linux
 	- ![image-20220702175641552.png](../assets/image-20220702175641552_1683299185329_0.png)
 	- 狭义的 `Linux` 只是指 `Linux kernel` 。
-	- 广义的 `Linux` 是指在使用 `Linux kernel` 的基础上，开发自己的 `shell` 和 `外围应用程序` 的完整的操作系统，即 `GNU/Linux` ，也即 **Linux的发行版本** 。
+	- 广义的 `Linux` 是指在使用 `Linux kernel` 的基础上，开发自己的 `shell` 和 `外围应用程序` 的完整的操作系统，即 [[GNU/Linux]] ，也即 **Linux的发行版本** 。
 	- 我们常说的安装 `Linux` ，就是指 **广义的Linux** 。
 - ## 常见的Linux发行版
 	- Red Hat 系列

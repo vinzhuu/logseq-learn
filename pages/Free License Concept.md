@@ -64,6 +64,17 @@ tags:: [[Free License]]
 			  logseq.order-list-type:: number
 			- 可以在哪里 **提起诉讼** .
 			  logseq.order-list-type:: number
+- ## 基于版权的许可证 vs 基于合同的许可证
+	- `Copyright-based License` : 要求主要围绕版权许可.
+		- 绝大多数 License 是 `Copyright-based License` , 能够添加的要求主要围绕版权许可, 这很有限.
+		- 所以, 一个基于 **版权** 的 License 能够遵循 **自由软件原则** , 它很可能就会被视为 Free License .
+			- ==可能会有一些例外.==
+	- `Contract-based License` : 要求可以扩展到版权之外.
+		- 有一些 License 是基于 **合同 (Contract)** 的, 所以能够添加的要求可以扩展到版权之外.
+		- 这就意味着, 基于 **合同** 的 License 可能在很多不经意的地方, 违背 **自由软件原则** .
+- ## 无法一一列举所有情况
+	- FSF 无法一一列举所有 **不被视为 Free License** 的情况, 所以还要具体情况具体分析.
+		- ==如果遇到一些新情况时, 并讨论得出结论时, FSF 会更新他的标准.==
 - ## 参考
 	- [GNU - What is Free Software](https://www.gnu.org/philosophy/free-sw.html)
 	  logseq.order-list-type:: number

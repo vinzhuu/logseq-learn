@@ -62,6 +62,12 @@ tags:: [[Free Software]]
 	- `Free Software` 可以被企业 **商业使用 (commercial use)** , **商业开发 (commercial development)** 和 **商业分发 (commercial distribution)** .
 		- 企业可以通过为 `Free Software` 提供专业的付费支持来获利. (详见: [[Selling Free Software]] )
 	- 显然, 如果禁止企业使用 `Free Software` , 那 `Free Software` 将永远无法替代 `Proprietary Software` .
+- ## 其它自由作品
+	- Free Software 的 **手册 (Manual)** 也应该是 **自由的** , 因为 **手册** 实际上也是软件的一部分.
+		- 参加: [[Free Documentation Concept]]
+	- 实际上, 任何其它有使用价值的作品, 都可以是 **自由的** .
+		- 所以, Free Software 的定义可以延伸到其它作品.
+		- 所以, 有了 [[Free Cultural Works]] 概念 (它包含 Free Software) .
 - ## 参考
 	- [GNU - What is Free Software](https://www.gnu.org/philosophy/free-sw.html)
 	  logseq.order-list-type:: number

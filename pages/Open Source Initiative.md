@@ -6,7 +6,7 @@ alias:: [[OSI]]
 	- [Open Source Initiative 官网](https://opensource.org/)
 	  logseq.order-list-type:: number
 - ## 什么是 Open Source Initiative
-	- 可以翻译为 开源倡议组织 .
-	- 它定义了什么是 [[Open Source]]
+	- 可以翻译为 **开源倡议组织** .
+	- 它定义了什么是 [[Open Source]] .
 	- [[Open Source License]] 经它审核通过, 才会被收纳.
 -

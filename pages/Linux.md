@@ -1,23 +1,18 @@
-tags:: [[Deployment]], [[OS]] 
+tags:: [[OS]] 
 ---
 
-- ==子目录==
-	-
-	- [[Linux Kernel]]
-	- [[Linux Command]]
-- ---
-- ## 学习路线
+- ## Roadmap
+	- [[如何学习 Linux]]
 	- [[Linux History]]
 	  logseq.order-list-type:: number
 	- [[Linux 文件系统]]
 	  logseq.order-list-type:: number
 	- [[Linux 环境变量]]
 	  logseq.order-list-type:: number
-- ## 权威资料
-	- [The Linux Document Project](https://tldp.org/)
-	- [Linux Foundation Referenced Specifications](https://refspecs.linuxfoundation.org)
-	-
-	-
-	-
--
--
+	- [[Linux Kernel]]
+	  logseq.order-list-type:: number
+	- [[Linux Command]]
+	  logseq.order-list-type:: number
+- ## Index
+	- [Linux 发行版本历史](https://commons.wikimedia.org/wiki/File:Linux_Distribution_Timeline.svg)
+	  logseq.order-list-type:: number

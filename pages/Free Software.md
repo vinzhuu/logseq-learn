@@ -21,4 +21,6 @@ tags:: [[Software]]
 	  logseq.order-list-type:: number
 	- [[Free Software - Words to Avoid]]
 	  logseq.order-list-type:: number
+	- [Free Software 翻译成各种语言](https://www.gnu.org/philosophy/fs-translations.html)
+	  logseq.order-list-type:: number
 -
