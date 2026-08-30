@@ -11,6 +11,8 @@ tags:: [[GNU]]
 			- Copyleft: Pragmatic Idealism
 			- Selling Exceptions to the GNU GPL
 			- How Free Software and Open Source Relate as Categories of Programs
+			- FLOSS and FOSS
+			- Why Open Source Misses the Point of Free Software
 - ## 学习进度: Licenses
 	- https://www.gnu.org/licenses/licenses.html
 	- ==已阅==

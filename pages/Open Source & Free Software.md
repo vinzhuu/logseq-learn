@@ -1,4 +1,4 @@
-tags:: [[Free Software]], [[Open Source]] 
+tags:: [[Free Software]], [[Open Source]], [[Open Source Software]] 
 ---
 
 - ## Open Source 源自 Free Software
@@ -29,14 +29,14 @@ tags:: [[Free Software]], [[Open Source]]
 				- 解决方案是: 停止用 Nonfree Software 方式开发, 改用 Open Source 方式开发.
 - ## Open Source 软件不一定 Free
 	- Open Source 软件由如下类别组成:
-		- 极大部分使用 [[Open Source License]] , 且不存在 [[Tivoization]] 行为 (属于 Free Software).
+		- 极大部分使用既属于 Open Source License 也属于 Free License 的 License , 且不存在 [[Tivoization]] 行为 (属于 Free Software).
 		  logseq.order-list-type:: number
-		- 极小部分使用 Open Source License , 但存在 [[Tivoization]] 行为 (属于 Nonfree Software).
+		- 极小部分使用既属于 Open Source License 也属于 Free License 的 License , 但存在 [[Tivoization]] 行为 (属于 Nonfree Software).
 		  logseq.order-list-type:: number
 			- 虽然仍符合 Open Source 标准, 但是 [[Tivoization]] 行为却违反 Free Software 精神.
 				- 它虽然 **源码** 是 **自由的** , 但是 **可执行文件** 却 **不是自由的** .
 			- 比如, 有 **许多安卓设备的操作系统** , 属于这一类.
-		- 极小部分使用 Open Source License , 但不属于 Free License (属于 Nonfree Software).
+		- 极小部分使用属于 Open Source License 但不属于 Free License 的 License (属于 Nonfree Software).
 		  logseq.order-list-type:: number
 	- ==所以总结就是:==
 		- 所有 Free Software 都符合 Open Source 标准.
@@ -56,6 +56,14 @@ tags:: [[Free Software]], [[Open Source]]
 	- Open Source 一词, 由于被用于一些没有 **源代码** 的领域, 导致这个词进一步被误解.
 		- 比如: 政府, 教育, 科学 等领域.
 	- 在这些领域, Open Source 通常只是用来表示 **共享** 或 **透明** .
+- ## Open Source 对 Free Software 的影响
+	- Open Source 虽然客观上让许多企业和个人, 开始使用甚至开发 Free Software .
+	- 但是, [[Richard Matthew Stallman]] 认为它阻碍了用户对 Free Software 的更深层次的理解, 没有教会他们去捍卫自己的自由.
+		- RMS 还认为, 一切推广 Open 一词, 都倾向于掩盖 Free Software 运动的意义.
+- ## FLOSS & FOSS
+	- `FLOSS` 和 `FOSS` 都可以中立的表示 Free Software 或 Open Source Software .
+	- 但 RMS 更建议使用 `FLOSS` (参见: [[FOSS]] )
+		- FSF 当然两个都不使用, 因为他们不保持中立, 他们坚持 Free Software 的理念 .
 - ## 参考
 	- [Why Open Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.html)
 	  logseq.order-list-type:: number

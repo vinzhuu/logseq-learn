@@ -5,14 +5,20 @@ tags:: [[Software]]
 - ## Roadmap
 	- 理念:
 	  logseq.order-list-type:: number
-		- [[Free Software Concept]]
+		- 自由软件本身:
 		  logseq.order-list-type:: number
-		- [[Selling Free Software]]
+			- [[Free Software Concept]]
+			  logseq.order-list-type:: number
+			- [[Selling Free Software]]
+			  logseq.order-list-type:: number
+		- 与其它软件的区别:
 		  logseq.order-list-type:: number
-		- [[Open Source & Free Software]]
-		  logseq.order-list-type:: number
-		- [[Proprietary malware]]
-		  logseq.order-list-type:: number
+			- [[Open Source & Free Software]]
+			  logseq.order-list-type:: number
+			- [[Categories of Software]]
+			  logseq.order-list-type:: number
+			- [[Proprietary malware]]
+			  logseq.order-list-type:: number
 	- 实现:
 	  logseq.order-list-type:: number
 		- [[How to make a Software Free]]
