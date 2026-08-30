@@ -1,8 +1,8 @@
-alias:: GNU Package, GNU Packages
-tags:: GNU
+alias:: [[GNU Package]]
+tags:: [[GNU]]
+---
 
-- ---
-- ==子目录==
+- ## Roadmap
 	- Archiving
 		- [[Tar]]
 	- Software development

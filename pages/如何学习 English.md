@@ -1,6 +1,15 @@
 tags:: [[English]]
 ---
 
+- ## 问题
+	- 如何避免翻译, 用英文思考?
+	  logseq.order-list-type:: number
+	- 如何学习单词/句式?
+	  logseq.order-list-type:: number
+	- 如何提升口语?
+	  logseq.order-list-type:: number
+	- 如何学习语法?
+	  logseq.order-list-type:: number
 - ## 学习进度
 	- [第01讲 一张图告诉你英语该怎么学 | 英语学习方法论](https://www.bilibili.com/video/BV1jE41157bX/?vd_source=f1fbb083ddef12dcff3388779faac201)
 	  logseq.order-list-type:: number
@@ -9,6 +18,8 @@ tags:: [[English]]
 	- [零基础专升本四级六级考研雅思托福GRE商务词根词缀，单词速记背单词的高效方法](https://www.bilibili.com/video/BV1tF411z7cF/)
 	  logseq.order-list-type:: number
 		- 词根词缀
+	- [1000 小时 - 李笑来](https://1000h.org/)
+	  logseq.order-list-type:: number
 - ## 学习资料
 	- [第01讲 一张图告诉你英语该怎么学 | 英语学习方法论](https://www.bilibili.com/video/BV1jE41157bX/?vd_source=f1fbb083ddef12dcff3388779faac201)
 	  logseq.order-list-type:: number
