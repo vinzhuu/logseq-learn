@@ -60,8 +60,9 @@ tags:: [[Free Software]]
 		- 如果通过修改甲程序, 使其不再依赖乙程序, 那么甲程序就会被认为是自由的.
 - ## Free Software 可以商用
 	- `Free Software` 可以被企业 **商业使用 (commercial use)** , **商业开发 (commercial development)** 和 **商业分发 (commercial distribution)** .
-		- 企业可以通过为 `Free Software` 提供专业的付费支持来获利. (详见: [[Selling Free Software]] )
 	- 显然, 如果禁止企业使用 `Free Software` , 那 `Free Software` 将永远无法替代 `Proprietary Software` .
+		- `Free Software` 的定义本身, 并没有对用户发布 Free Software 衍生品的限制.
+		- 所以, 根据 License 的不同, 可以要求衍生品不能专有化, 也可以允许衍生品专有化.
 - ## 其它自由作品
 	- Free Software 的 **手册 (Manual)** 也应该是 **自由的** , 因为 **手册** 实际上也是软件的一部分.
 		- 参加: [[Free Documentation Concept]]

@@ -8,6 +8,6 @@ tags:: [[Open License]]
 	  logseq.order-list-type:: number
 		- [[Free License]]
 		  logseq.order-list-type:: number
-		- Nonfree License
+		- Nonfree License (极少部分属于 Open Source , 但不 Free)
 		  logseq.order-list-type:: number
 	-
