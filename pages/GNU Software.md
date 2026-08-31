@@ -1,8 +1,12 @@
-alias:: [[GNU Package]]
+alias:: [[GNU Package]], [[GNU Program]]
 tags:: [[GNU]]
 ---
 
 - ## Roadmap
+	- [[GNU Software Concept]]
+	  logseq.order-list-type:: number
+	- Kernel
+		- [[Hurd]]
 	- Archiving
 		- [[Tar]]
 	- Software development

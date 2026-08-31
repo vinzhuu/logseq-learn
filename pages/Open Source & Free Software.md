@@ -39,7 +39,7 @@ tags:: [[Free Software]], [[Open Source]], [[Open Source Software]]
 		- 极小部分使用属于 Open Source License 但不属于 Free License 的 License (属于 Nonfree Software).
 		  logseq.order-list-type:: number
 	- ==所以总结就是:==
-		- 所有 Free Software 都符合 Open Source 标准.
+		- 几乎所有 Free Software 都符合 Open Source 标准 (可能存在例外).
 		  logseq.order-list-type:: number
 		- 而并非所有 Open Source 软件, 都是 Free Software.
 		  logseq.order-list-type:: number

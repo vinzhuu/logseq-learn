@@ -4,6 +4,7 @@ tags:: [[Deployment]], [[OS]]
 - ==子目录==
 	- [[Unix History]]
 	- [[Unix-like Shell]]
+	- [[Unix-like OS]]
 	- [[BSD]]
 	- Index
 		- [[Unix-like Command]]
