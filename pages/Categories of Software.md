@@ -7,9 +7,44 @@ tags:: [[Free Software]], [[Open Source Software]]
 - ## Open Source Software & Free Software
 	- 理想状态下, Free Software 应该都可以被划分到 Open Source Software .
 		- 但是, 或许可能存在某些 Free Software 不被 [[Open Source Definition]] 认可.
-		- ==这或许正是上面 Open Source Software 右下有个缺角的原因==
+		- ==这或许正是上面 Open Source Software 右下方有缺角的原因==
 	- Open Source Software 存在一部分软件, 不被承认为 Free Software .
 		- 具体参见: [[Open Source & Free Software]]
+- ## Nonfree/Proprietary Software
+	- Nonfree Software 和 Proprietary Software 是同义词, 是 Free Software 的反义词.
+- ## FSF 内部禁止使用 Proprietary Software
+	- ==FSF 自己遵循这样一条规则:==
+		- 不能在自己的计算机上安装任何 Proprietary Software , 除非是为了开发它的替代品而临时安装.
+	- 但是 FSF 不用这条规则来要求 GNU  Software 的 **用户和贡献者** .
+		- 但 FSF 仍然呼吁人们为了自己的自由而遵循这条规则.
+- ## Freeware
+	- Freeware 没有一个明确公认的定义, 但通常用于指:
+		- **允许再分发 但 不允许修改 (且其源代码不可获取)** 的软件.
+	- Freeware 并非 Free Software .
+- ## Shareware
+	- Shareware 是指:
+		- 允许再分发, 但 "人们虽然可以免费获取副本, 但获取到副本之后需付费使用" 的软件.
+		- 典型的就是各种可以免费下载安装, 但打开后, 需要付费订阅才能使用的软件.
+	- Shareware 不属于 Free Software, 因为:
+		- 大多数 Shareware 无法获取源代码 (所以你无法修改).
+		  logseq.order-list-type:: number
+		- 获取到副本之后需付费使用 (所以你再分发的自由受限, 因为拿到副本的人无法直接使用).
+		  logseq.order-list-type:: number
+			- 这与付费的 Free Software 不同, 付费之后拿到的 Free Software 副本, 可以自由使用, 没有限制.
+			- 我们将副本发给其他人之后, 其他人也可以自由使用 (而无需再次付费) .
+- ## Private/Custom Software
+	- Private Software (或称 Custom Software) :
+		- 是为 **单一用户 (比如组织或公司)** 开发, 而不向公众发布 **源代码或二进制** 的软件.
+	- ==如果 Private Software 的单一用户拥有 Free Software 所定义的 **四项自由** , 则也属于 Free Software .==
+		- 很多程序员的工作, 都是在开发 Private Software , 所以只要开发的 Private Software 属于 Free Software , 那也算是在实践 Free Software 的理念了.
+	- ==有人可能会说: 如果一个 Private Software 很重要, 那不公开它将对人类是一种伤害.==
+		- 但其实这种情况很罕见, 一个 Private Software 通常没有那么重要.
+		- 所以, 不发布 Private Software 与 Free Software 的原则并不冲突.
+- ## Commercial Software vs Proprietary Software
+	- Commercial Software 是 **作为企业业务的一部分** 而开发的软件.
+	- ==Commercial Software 并不等同于 Proprietary Software .==
+		- 大多数 Commercial Software 是 Proprietary Software , 但也存在 Commercial Free Software .
+		- 而 Noncommercial Software 也不一定就是 Free Software, 也存在  Noncommercial Nonfree Software.
 - ## 参考
 	- [Categories of Free and Nonfree Software](https://www.gnu.org/philosophy/categories.html)
 	  logseq.order-list-type:: number

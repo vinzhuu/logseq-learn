@@ -13,6 +13,7 @@ tags:: [[GNU]]
 			- How Free Software and Open Source Relate as Categories of Programs
 			- FLOSS and FOSS
 			- Why Open Source Misses the Point of Free Software
+			- Categories of Free and Nonfree Software
 - ## 学习进度: Licenses
 	- https://www.gnu.org/licenses/licenses.html
 	- ==已阅==

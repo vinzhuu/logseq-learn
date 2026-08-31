@@ -17,7 +17,7 @@ tags:: [[Software]]
 			  logseq.order-list-type:: number
 			- [[Categories of Software]]
 			  logseq.order-list-type:: number
-			- [[Proprietary malware]]
+			- [[Proprietary Malware]]
 			  logseq.order-list-type:: number
 	- 实现:
 	  logseq.order-list-type:: number
