@@ -1,4 +1,4 @@
-tags:: [[Open License]]
+tags:: [[License]]
 ---
 
 -

@@ -1,4 +1,4 @@
-tags:: [[CS Glossary]]
+tags:: [[CS Glossary]], [[Tivoization]] 
 alias:: [[Tyrant Device]]
 ---
 

@@ -19,6 +19,10 @@ tags:: [[Software]]
 			  logseq.order-list-type:: number
 			- [[Proprietary Malware]]
 			  logseq.order-list-type:: number
+		- 自由文档:
+		  logseq.order-list-type:: number
+			- [[Free Documentation Concept]]
+			  logseq.order-list-type:: number
 	- 实现:
 	  logseq.order-list-type:: number
 		- [[How to make a Software Free]]

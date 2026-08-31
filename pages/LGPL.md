@@ -1,5 +1,5 @@
-tags:: [[GNU]], [[Open Source License]] 
 alias:: [[GNU Lesser General Public License]]
+tags:: [[GNU]], [[License]], [[Copyleft]] 
 ---
 
 - ## 与 GPL 的不同点

@@ -73,7 +73,7 @@ tags:: [[Copyright]]
 						- ==但不是声明了才有权利, 只是明确提醒公众: 不要认为这个作品可以随便使用.==
 				- Some Rights Reserved (开放部分权利)
 				  logseq.order-list-type:: number
-					- 一般通过给作品加 [[Open License]] 实现.
+					- 一般通过给作品加 [[License]] 实现.
 						- 软件领域, 如: [[MIT License]], [[BSD License]]
 						- 内容领域, 如: [[CC License]] (包含多种)
 				- No Rights Reserved (主动放弃所有可放弃的权利)
@@ -96,7 +96,7 @@ tags:: [[Copyright]]
 				- 美国:  [fair use](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/) or [fair dealing](https://copyrightservice.co.uk/copyright/p27_work_of_others)
 	- ### Some Rights Reserved
 		- 我们 **无需支付费用** , 只要 **满足使用条件** 即可使用.
-			- 使用了 [[Open License]] , 就是满足相应 `License` 的条件.
+			- 使用了 [[License]] , 就是满足相应 `License` 的条件.
 	- ### No Rights Reserved
 		- 我们可以在法律允许范围内自由使用.
 	- ### Public Domain

@@ -1,5 +1,5 @@
 alias:: [[Creative Commons License]]
-tags:: [[Open Content License]], [[Creative Commons]]
+tags:: [[License]], [[Creative Commons]]
 ---
 
 - https://creativecommons.org/cc-licenses/

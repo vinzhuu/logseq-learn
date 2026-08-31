@@ -6,20 +6,26 @@ tags:: [[GNU]]
 - ## 学习进度: Philosophy
 	- https://www.gnu.org/philosophy/philosophy.html
 	- ### Essays and Articles
+		- https://www.gnu.org/philosophy/essays-and-articles.html
 		- ==已阅==
 			- Selling Free Software
 			- Copyleft: Pragmatic Idealism
 			- Selling Exceptions to the GNU GPL
 			- How Free Software and Open Source Relate as Categories of Programs
 			- FLOSS and FOSS
+			- What is Free Software?
 			- Why Open Source Misses the Point of Free Software
 			- Categories of Free and Nonfree Software
+			- Tivoization
+			- Why Free Software Needs Free Documentation
 - ## 学习进度: Licenses
 	- https://www.gnu.org/licenses/licenses.html
 	- ==已阅==
 		- What is Copyleft?
 		- Why you shouldn't use the Lesser GPL for your next library
+		- Various Licenses and Comments about Them ==扫过, 以后查阅==
 - ## 学习进度: Software
 	- https://www.gnu.org/software/software.html
 	- ==已阅==
 		- Free Software is More Reliable!
+-

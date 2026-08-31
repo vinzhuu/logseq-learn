@@ -1,5 +1,5 @@
 alias:: [[GNU General Public License]]
-tags:: [[GNU]], [[Open Source License]] 
+tags:: [[GNU]], [[License]], [[Copyleft]] 
 ---
 
 - ## Roadmap
