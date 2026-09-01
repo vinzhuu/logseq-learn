@@ -24,8 +24,9 @@ tags:: [[GNU]]
 		- What is Copyleft?
 		- Why you shouldn't use the Lesser GPL for your next library
 		- Various Licenses and Comments about Them ==扫过, 以后查阅==
+		- Unofficial Translations ==Index==
 - ## 学习进度: Software
 	- https://www.gnu.org/software/software.html
 	- ==已阅==
 		- Free Software is More Reliable!
--
+		-

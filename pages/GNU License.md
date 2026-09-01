@@ -4,6 +4,8 @@ tags:: [[GNU]], [[Copyleft License]]
 - ## Roadmap
 	- [[Categories of License]]
 	  logseq.order-list-type:: number
+	- [[GNU License Translation]]
+	  logseq.order-list-type:: number
 	- 类别:
 	  logseq.order-list-type:: number
 		- 软件:
@@ -24,3 +26,7 @@ tags:: [[GNU]], [[Copyleft License]]
 		  logseq.order-list-type:: number
 		- [[如何使用 GNU License]]
 		  logseq.order-list-type:: number
+- ## Index
+	- [GNU License 非官方翻译](https://www.gnu.org/licenses/translations.html)
+	  logseq.order-list-type:: number
+-

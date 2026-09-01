@@ -1,4 +1,4 @@
-tags:: [[Glossary]]
+tags:: [[CS Glossary]] 
 ---
 
 -
