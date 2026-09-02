@@ -1,10 +1,12 @@
 tags:: [[Java]], [[SDK]] 
+alias:: [[Java Development Kit]]
 ---
 
-- ## 学习路线
-	- [[OpenJDK Distribution]]
+- ## Roadmap
+	- [[OpenJDK]]
 	  logseq.order-list-type:: number
 	- [[JDK 安装]]
 	  logseq.order-list-type:: number
-	-
+	- [[Oracle JDK]]
+	  logseq.order-list-type:: number
 -

@@ -9,4 +9,9 @@ tags:: [[GNU Software]]
 	- [[GNU Coreutils]]
 - ## Software libraries
 	- [[GNU C Library]]
+- ## Java
+	- [[GNU Classpath]]
+	  logseq.order-list-type:: number
+	- [[GNU Classpathx]]
+	  logseq.order-list-type:: number
 -

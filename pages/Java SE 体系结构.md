@@ -8,7 +8,7 @@ tags:: [[Java]]
 	- `JDK` (Java SE Development Kit)
 		- JDK = JRE + Tools (包含 compilers, debuggers 等工具)
 	- `JRE` (Java SE Runtime Environment)
-		- JRE = JVM + Libraries + 其它组件 ( [[Java SE specification]] 中未规定)
+		- JRE = JVM + Libraries (Java SE API) + 其它组件 ( [[Java SE specification]] 中未规定)
 		- ==如果只是运行 **编译好** 的 Java 程序，则只需要 `JRE` 。==
 	- `JVM` (Java Virtual Machine)
 - ## JDK 产品及其安装

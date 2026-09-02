@@ -7,10 +7,11 @@ tags:: [[Java]], [[JDK]]
 	  logseq.order-list-type:: number
 		- [[OpenJDK Distribution]]
 		  logseq.order-list-type:: number
+		- [[OpenJDK License]]
+		  logseq.order-list-type:: number
 		- [[OpenJDK Community Overview]]
 		  logseq.order-list-type:: number
-	- [[OpenJDK License]]
-	  logseq.order-list-type:: number
+	-
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number

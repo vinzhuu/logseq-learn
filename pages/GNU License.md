@@ -20,6 +20,10 @@ tags:: [[GNU]], [[Copyleft License]]
 		  logseq.order-list-type:: number
 			- [[FDL]] : 针对 **文档** 的 Copyleft 实现.
 			  logseq.order-list-type:: number
+	- Exception:
+	  logseq.order-list-type:: number
+		- [[GNU Classpath Exception]]
+		  logseq.order-list-type:: number
 	- 使用:
 	  logseq.order-list-type:: number
 		- [[如何选择 GNU License]]
