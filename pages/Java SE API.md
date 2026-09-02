@@ -1,11 +1,11 @@
-tags:: [[Java]]
+tags:: [[Java SE]] 
 ---
 
 - ## Roadmap
-	- [[JCP Concept]]
+	- [[Java IO]]
 	  logseq.order-list-type:: number
-	- [[OpenJDK Distribution]]
+	- [[Java Network]]
 	  logseq.order-list-type:: number
-	- [[OpenJDK Community Overview]]
+	- [[Java Security]]
 	  logseq.order-list-type:: number
 -

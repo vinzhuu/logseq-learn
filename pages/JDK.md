@@ -7,6 +7,5 @@ alias:: [[Java Development Kit]]
 	  logseq.order-list-type:: number
 	- [[JDK 安装]]
 	  logseq.order-list-type:: number
-	- [[Oracle JDK]]
-	  logseq.order-list-type:: number
+	-
 -

@@ -1,10 +1,6 @@
 tags:: [[OpenJDK]], [[License]]
 ---
 
-- ## 问题
-	- GNU Classpath Exception?
-	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
 - ## OpenJDK 使用的 License
 	- 一般称为: [[GPLv2]] + Classpath Exception
 - ## OpenJDK 使用的 License原文
@@ -40,8 +36,11 @@ tags:: [[OpenJDK]], [[License]]
 		- 添加 "CLASSPATH" EXCEPTION TO THE GPL 段落.
 		  logseq.order-list-type:: number
 - ## Classpath Exception
-	- Classpath Exception 是基于 [[GNU Classpath Exception]] 而来的.
-	-
+	- OpenJDK 的 Classpath Exception 在 [[GNU Classpath Exception]] 原文的基础上, 在开头额外加了一段描述:
+		- `Certain source files distributed by Oracle America ...`
+		- 大致是在说: 只有在开头有如下描述的 **源文件 (source file)** , 才遵守 Classpath Exception
+			- > Oracle designates this particular file as subject to the "Classpath" exception as provided by Oracle in the LICENSE file that accompanied this code.
+	- Classpath Exception 正文内容, 与 [[GNU Classpath Exception]]  一致.
 - ## 参考
 	- [GNU General Public License, version 2, with the Classpath Exception](https://openjdk.org/legal/gplv2+ce.html)
 	  logseq.order-list-type:: number

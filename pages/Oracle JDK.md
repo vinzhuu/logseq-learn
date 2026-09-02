@@ -1,8 +1,18 @@
 tags:: [[JDK]], [[OpenJDK Distribution]] 
 ---
 
-- https://www.oracle.com/java/technologies/downloads/
--
+- ## Roadmap
+	- 概念:
+	  logseq.order-list-type:: number
+		- [[Java Platform]]
+		  logseq.order-list-type:: number
+	- [[Java SE]]
+	  logseq.order-list-type:: number
+	- [[Java EE]]
+	  logseq.order-list-type:: number
+- ## Index
+	- [Oracle JDK Download](https://www.oracle.com/java/technologies/downloads/)
+	  logseq.order-list-type:: number
 - ## 问题
 	- License 是怎样的?
 	  logseq.order-list-type:: number

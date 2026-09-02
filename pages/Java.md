@@ -7,11 +7,14 @@ tags:: [[Program Language]]
 	  logseq.order-list-type:: number
 	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number
-	- [[Java SE]]
+	- JDK:
 	  logseq.order-list-type:: number
-	- [[Java EE]]
-	  logseq.order-list-type:: number
-	-
+		- [[Oracle JDK]]
+		  logseq.order-list-type:: number
+		- [[Oracle OpenJDK Build]]
+		  logseq.order-list-type:: number
+		- [[Eclipse Temurin]]
+		  logseq.order-list-type:: number
 - ## Index
 	- ### Java API
 		- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
