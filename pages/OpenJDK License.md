@@ -2,7 +2,9 @@ tags:: [[OpenJDK]], [[License]]
 ---
 
 - ## OpenJDK 使用的 License
-	- 一般称为: [[GPLv2]] + Classpath Exception
+	- OpenJDK 自首次开源以来, 一直使用 "[[GPLv2]] + Classpath Exception" 的许可证模式.
+		- 2006 年, Sun Microsystems 宣布将 Java 开源, 并首次发布了 HotSpot 虚拟机 和 编译器的源代码, 此时使用的就是  **GPLv2 + Classpath Exception** .
+		- 2007 年, Sun Microsystems 发布了 JDK 最主要的类库（Class Library）的源代码, 继续沿用   **GPLv2 + Classpath Exception** .
 - ## OpenJDK 使用的 License原文
 	- OpenJDK 网站: [GNU General Public License, version 2, with the Classpath Exception](https://openjdk.org/legal/gplv2+ce.html)
 	  logseq.order-list-type:: number
@@ -40,7 +42,9 @@ tags:: [[OpenJDK]], [[License]]
 		- `Certain source files distributed by Oracle America ...`
 		- 大致是在说: 只有在开头有如下描述的 **源文件 (source file)** , 才遵守 Classpath Exception
 			- > Oracle designates this particular file as subject to the "Classpath" exception as provided by Oracle in the LICENSE file that accompanied this code.
+		- ==所以, OpenJDK 并非所有 **源文件** 都需要遵守 Classpath Exception.==
 	- Classpath Exception 正文内容, 与 [[GNU Classpath Exception]]  一致.
+-
 - ## 参考
 	- [GNU General Public License, version 2, with the Classpath Exception](https://openjdk.org/legal/gplv2+ce.html)
 	  logseq.order-list-type:: number

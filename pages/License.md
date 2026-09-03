@@ -3,7 +3,12 @@ tags:: [[CS Glossary]], [[Copyright]]
 ---
 
 - ## Roadmap
-	- [[License Concept]]
+	- 概念:
 	  logseq.order-list-type:: number
+		- [[License Concept]]
+		  logseq.order-list-type:: number
+		- [[License Exception]]
+		  logseq.order-list-type:: number
 	- [[Categories of License]]
 	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number

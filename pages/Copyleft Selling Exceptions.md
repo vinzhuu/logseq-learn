@@ -14,7 +14,8 @@ tags:: [[Copyleft]]
 	- `Dual Licensing` 是用户 **选择一个 License 遵守** 或者 **某些情况下必须同时遵守两个 License** .
 	- 而 `Selling Exceptions` 不是第二个 License , 它只要求购买了 Exception 的用户遵守.
 - ## Selling Exceptions vs Exceptions to the License
-	- `Exceptions to the License` 是 License 的一部分, 在 License 中有说明.
+	- `Exceptions to the License` 是对 License 主要部分的补充说明, 属于 License 的一部分.
+		- 参见: [[License Exception]]
 	- 而 `Selling Exceptions` 独立于 License, 与 License 本身无关.
 - ## 为什么 FSF 不采用 Selling Exceptions
 	- 原因如下:

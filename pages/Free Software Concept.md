@@ -58,11 +58,14 @@ tags:: [[Free Software]]
 		- 有两个程序, 甲程序运行的时候会, 自动调用乙程序.
 		- 发布甲程序意味着用户必须使用到乙程序, 那么必须甲乙两个程序都是自由的, 甲程序才是自由的.
 		- 如果通过修改甲程序, 使其不再依赖乙程序, 那么甲程序就会被认为是自由的.
+- ## Free Software 的定义并未限制衍生品的发布
+	- `Free Software` 的定义只要求 `Free Software` 本身给予用户上述自由, 并没有要求 `Free Software` 的衍生品也给予用户上述自由 (虽然这是 FSF 希望的).
+	- 不同的 License 对 **衍生品** 有不同的要求 (或无要求) :
+		- 可以要求衍生品不能专有化, 也可以允许衍生品专有化.
+		- 参见: [[Free License]]
 - ## Free Software 可以商用
 	- `Free Software` 可以被企业 **商业使用 (commercial use)** , **商业开发 (commercial development)** 和 **商业分发 (commercial distribution)** .
 	- 显然, 如果禁止企业使用 `Free Software` , 那 `Free Software` 将永远无法替代 `Proprietary Software` .
-		- `Free Software` 的定义本身, 并没有对用户发布 Free Software 衍生品的限制.
-		- 所以, 根据 License 的不同, 可以要求衍生品不能专有化, 也可以允许衍生品专有化.
 - ## 其它自由作品
 	- Free Software 的 **手册 (Manual)** 也应该是 **自由的** , 因为 **手册** 实际上也是软件的一部分.
 		- 参加: [[Free Documentation Concept]]
