@@ -22,8 +22,8 @@ tags:: [[OpenJDK]]
 		- 与 [[Java SE]] 紧密相关的项目 (closely-related projects) (参见: [[OpenJDK Community Project]] ) .
 		  logseq.order-list-type:: number
 - ## OpenJDK Community 项目源码
-	- Github 仓库: [OpenJDK Projects](https://github.com/openjdk/)
-		- ~~曾经使用 [[Mercurial]] 管理源码, 现已弃用: [OpenJDK Projects](https://hg.openjdk.org/)~~
+	- ~~曾经使用 [[Mercurial]] 管理源码, 现已弃用: [OpenJDK Projects](https://hg.openjdk.org/)~~
+	- 现在使用 Github : [OpenJDK Projects](https://github.com/openjdk/)
 - ## 参与 OpenJDK Community
 	- 如何参与 OpenJDK Community , 参见: [Developers’ Guide](https://openjdk.org/guide/)
 - ## JEP

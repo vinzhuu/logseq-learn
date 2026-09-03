@@ -1,7 +1,7 @@
-alias:: Unix 内核
+alias:: [[Unix 内核]]
+tags:: [[Unix]], [[Kernel]]
+---
 
-- tags:: [[Unix]], [[Kernel]]
-- ---
 - ==子目录==
 	- [[Darwin]]
 	-

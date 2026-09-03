@@ -42,8 +42,6 @@ tags:: [[OpenJDK Distribution]]
 		- 构建与打包策略
 		  logseq.order-list-type:: number
 			- 比如: 在发行版的 `src.zip` 中包含所有依赖库的源码, 以方便开发者调试.
-- ## 为什么需要 OpenJDK Distribution
-	-
 - ## 有哪些 OpenJDK Distribution
 	- Oracle 官方:
 	  logseq.order-list-type:: number
@@ -51,6 +49,9 @@ tags:: [[OpenJDK Distribution]]
 	- 开源社区: 
 	  logseq.order-list-type:: number
 		- [[Eclipse Temurin]]
+	- Linux 发行版厂商:
+	  logseq.order-list-type:: number
+		- [[Red Hat Build of OpenJDK]]
 	- 商业公司:
 	  logseq.order-list-type:: number
 		- [[Amazon Corretto]]
@@ -65,22 +66,47 @@ tags:: [[OpenJDK Distribution]]
 		  logseq.order-list-type:: number
 		- [[Tencent Kona]]
 		  logseq.order-list-type:: number
-		- [[Red Hat Build of OpenJDK]]
-		  logseq.order-list-type:: number
 		- [[Microsoft Build of OpenJDK]]
 		  logseq.order-list-type:: number
-- ## Oracle JDK & Oracle OpenJDK Build
-	-
+- ## Oracle OpenJDK Build vs OpenJDK Distribution
+	- 为什么有 [[Oracle OpenJDK Build]] 了, 还需要 [[OpenJDK Distribution]] ?
+	- 因为:
+		- OpenJDK Distribution 会提供长期支持, 保证问题得到及时修复.
+		  logseq.order-list-type:: number
+			- 而即便问题修复已经合并到 OpenJDK 源码中, 也未必会及时发布带有修复的 Oracle OpenJDK Build , 修复可能只是和下一个版本一起发布.
+		- OpenJDK Distribution 相比 Oracle OpenJDK Build , 会多一些 优化 和 额外功能.
+		  logseq.order-list-type:: number
+		- OpenJDK Distribution 发行商, 可以提供一些额外的有偿技术支持.
+		  logseq.order-list-type:: number
+- ## Oracle JDK vs Oracle OpenJDK Build
+	- [[Oracle JDK]] 与 [[Oracle OpenJDK Build]] 的区别:
+		- 是否收费:
+		  logseq.order-list-type:: number
+			- Oracle OpenJDK Build 完全免费. (参见 [[OpenJDK License]] )
+			  logseq.order-list-type:: number
+			- Oracle JDK (参见 [[Oracle JDK License]])
+			  logseq.order-list-type:: number
+		- 功能:
+		  logseq.order-list-type:: number
+			- Oracle JDK 与 Oracle OpenJDK Build 二者功能很接近,
+			- Oracle JDK 只比 Oracle OpenJDK Build 少量不涉及核心的专有功能.
+				- 比如: 多了 Java Flight Recorder .
+		- 是否自由:
+		  logseq.order-list-type:: number
+			- Oracle OpenJDK Build 自由.
+			  logseq.order-list-type:: number
+			- Oracle JDK 专有, 且存在闭源代码.
+			  logseq.order-list-type:: number
 - ## JDK 产品
 	- **参考:**
-		- [【方向盘】逐渐碎片化的Java生态圈：Oracle JDK、OpenJDK、阿里Dragonwell、华为毕昇](https://developer.aliyun.com/article/1108370)
 		- [Java Is Still Free 3.0.0 (Oct 2021)](https://medium.com/@javachampions/java-is-still-free-3-0-0-ocrt-2021-bca75c88d23b)
 		- [What is the difference between Azul OpenJDK, Zulu OpenJDK and OpenJDK?](https://stackoverflow.com/a/61337953)
-	- [[Oracle JDK]] : Oracle 官方 JDK ，并不完全免费 (8u211 以下版本 (比如JDK 8u202) 不升级就不收费，升级但不商用也不收费) 。
 	-
 - ## 参考
 	- AI
 	  logseq.order-list-type:: number
 	- [Best Oracle Java Alternatives in 2026: Comparison of OpenJDK Distributions](https://bell-sw.com/blog/oracle-java-alternatives-comparison-of-openjdk-distributions/)
+	  logseq.order-list-type:: number
+	- [【方向盘】逐渐碎片化的Java生态圈：Oracle JDK、OpenJDK、阿里Dragonwell、华为毕昇](https://developer.aliyun.com/article/1108370)
 	  logseq.order-list-type:: number
 -
