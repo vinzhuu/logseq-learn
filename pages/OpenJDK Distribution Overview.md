@@ -89,7 +89,7 @@ tags:: [[OpenJDK Distribution]]
 		- 功能:
 		  logseq.order-list-type:: number
 			- Oracle JDK 与 Oracle OpenJDK Build 二者功能很接近,
-			- Oracle JDK 只比 Oracle OpenJDK Build 少量不涉及核心的专有功能.
+			- Oracle JDK 只比 Oracle OpenJDK Build 多了少量不涉及核心的专有功能.
 				- 比如: 多了 Java Flight Recorder .
 		- 是否自由:
 		  logseq.order-list-type:: number
@@ -97,11 +97,6 @@ tags:: [[OpenJDK Distribution]]
 			  logseq.order-list-type:: number
 			- Oracle JDK 专有, 且存在闭源代码.
 			  logseq.order-list-type:: number
-- ## JDK 产品
-	- **参考:**
-		- [Java Is Still Free 3.0.0 (Oct 2021)](https://medium.com/@javachampions/java-is-still-free-3-0-0-ocrt-2021-bca75c88d23b)
-		- [What is the difference between Azul OpenJDK, Zulu OpenJDK and OpenJDK?](https://stackoverflow.com/a/61337953)
-	-
 - ## 参考
 	- AI
 	  logseq.order-list-type:: number

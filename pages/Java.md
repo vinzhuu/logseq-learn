@@ -3,20 +3,23 @@ tags:: [[Program Language]]
 
 - ## 学习路线
 	- [[如何学习 Java]]
-	- [[Java Concept]]
+	- [[Java Overview]]
 	  logseq.order-list-type:: number
 	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number
-	- JDK:
+	- Java Platform:
 	  logseq.order-list-type:: number
-		- [[Oracle JDK]]
+		- [[Java SE]]
 		  logseq.order-list-type:: number
-		- [[Oracle OpenJDK Build]]
+		- [[Java EE]]
 		  logseq.order-list-type:: number
-		- [[Eclipse Temurin]]
+	- Development Kit:
+	  logseq.order-list-type:: number
+		- [[JDK]]
+		  logseq.order-list-type:: number
+		- [[JVM]]
 		  logseq.order-list-type:: number
 - ## Index
-	- ### Java API
-		- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
-		  logseq.order-list-type:: number
+	- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
+	  logseq.order-list-type:: number
 -

@@ -4,8 +4,10 @@ tags:: [[Java]]
 
 - ## 学习路线
 	- [[如何学习 Java EE]]
-	- [[Java EE Concept]]
+	- [[Java EE Overview]]
 	  logseq.order-list-type:: number
-	- [[Java API for WebSocket]]
+	- 功能:
 	  logseq.order-list-type:: number
+		- [[Java API for WebSocket]]
+		  logseq.order-list-type:: number
 -

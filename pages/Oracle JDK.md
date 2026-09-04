@@ -4,15 +4,10 @@ tags:: [[JDK]], [[OpenJDK Distribution]]
 - ## Roadmap
 	- 概念:
 	  logseq.order-list-type:: number
-		- [[Java Platform]]
-		  logseq.order-list-type:: number
 		- [[Oracle JDK License]]
 		  logseq.order-list-type:: number
-	- [[Java SE]]
+	- [[Oracle JDK 安装]]
 	  logseq.order-list-type:: number
-	- [[Java EE]]
-	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
 - ## Index
 	- [Oracle JDK Download](https://www.oracle.com/java/technologies/downloads/)
 	  logseq.order-list-type:: number

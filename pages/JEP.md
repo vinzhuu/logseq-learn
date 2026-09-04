@@ -1,7 +1,10 @@
 tags:: [[Java]], [[Proposal]] 
-alias:: [[JDK Enhancement Proposal]], [[JEPs]]
+alias:: [[JDK Enhancement Proposal]]
 ---
 
-- ## 官方资料
-	- [JEP 官网](https://openjdk.java.net/jeps/0)
-	-
+- ## Roadmap
+	- [[JEP Overview]]
+	  logseq.order-list-type:: number
+- ## Index
+	- [JEP 列表](https://openjdk.java.net/jeps/0)
+	  logseq.order-list-type:: number

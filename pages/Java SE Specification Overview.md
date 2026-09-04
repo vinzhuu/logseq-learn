@@ -22,3 +22,4 @@ tags:: [[Java SE Specification]]
 			  logseq.order-list-type:: number
 - ## 查看某个版本 Java SE 的所有规范
 	- [Java SE Home](https://docs.oracle.com/en/java/javase/index.html) 点击指定版本 -> 点击 Specifications 区域的 Other specifications .
+-

@@ -4,13 +4,11 @@ tags:: [[Java]]
 
 - ## 学习路线
 	- [[如何学习 Java SE]]
-	- [[Java SE Concept]]
+	- [[Java SE Overview]]
 	  logseq.order-list-type:: number
 	- [[Java Syntax]]
 	  logseq.order-list-type:: number
 	- [[Java SE API]]
-	  logseq.order-list-type:: number
-	- [[JDK]]
 	  logseq.order-list-type:: number
 	- 原理:
 	  logseq.order-list-type:: number

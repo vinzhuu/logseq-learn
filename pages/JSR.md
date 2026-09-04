@@ -1,5 +1,5 @@
 alias:: [[Java Specification Request]]
-tags:: [[Java]], [[Spacification]]
+tags:: [[Java]], [[Specification]], [[JCP]]
 ---
 
 - ## 学习路线
