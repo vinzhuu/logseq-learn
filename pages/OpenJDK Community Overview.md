@@ -19,7 +19,7 @@ tags:: [[OpenJDK]]
 		  logseq.order-list-type:: number
 - ## jdk.java.net 网站
 	- https://jdk.java.net/ 是 Oracle 维护的网站.
-	- 提供 Oracle 自己从 OpenJDK Community 项目源码构建的:
+	- 提供 Oracle 自己从 OpenJDK Community 各项目源码构建的:
 		- JDK, JavaFX, JMC 的 GA Release
 		  logseq.order-list-type:: number
 		- JDK, JavaFX, Jextract, Leyden, Loom, Valhalla 的 Early-Access Release .

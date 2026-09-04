@@ -3,7 +3,7 @@ alias:: [[Java Development Kit]]
 ---
 
 - ## Roadmap
-	- [[Java SE Structure]]
+	- [[JDK Overview]]
 	  logseq.order-list-type:: number
 	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number

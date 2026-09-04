@@ -11,8 +11,6 @@ tags:: [[OpenJDK]]
 	- [[JEP Overview]]
 	  logseq.order-list-type:: number
 - ## 问题
-	- Oracle , JCP 与 OpenJDK 的关系?
-	  logseq.order-list-type:: number
 	- JSR 与 JEP 的关系?
 	  logseq.order-list-type:: number
 	- OpenJDK 实现与 JCP 规范的关系? OpenJDK 开发新版本然后规范进入 JCP 规范?

@@ -2,7 +2,7 @@ tags:: [[Java SE]]
 ---
 
 - ## Roadmap
-	- [[Java SE Structure]]
+	- [[JDK Overview]]
 	  logseq.order-list-type:: number
 	- [[Java SE Specification Overview]]
 	  logseq.order-list-type:: number

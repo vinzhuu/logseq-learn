@@ -3,8 +3,11 @@ tags:: [[JCP]]
 
 - ## 什么是 JCP
 	- **JCP, 即 Java Community Process, 是国际 Java 社区的一个组织**, 它的目标是执行 JCP Program (JCP 计划)。
-	- [JCP 成员](https://jcp.org/en/participation/members) , 可以看到 阿里巴巴 在列：
-	- ![image.png](../assets/image_1712843060650_0.png){:height 686, :width 931}
+- ## JCP 成员
+	- 参见: [JCP 成员](https://jcp.org/en/participation/members)
+	- 可以看到 Oracle 在列, 且 Oracle 对 JCP 影响极大.
+	- 也可以看到 阿里巴巴 在列：
+		- ![image.png](../assets/image_1712843060650_0.png){:height 686, :width 931}
 - ## 什么是 JCP Program
 	- > The Java Community Process (JCP) Program is the process by which the international Java community standardizes and ratifies the specifications for Java technologies. 
 	  -- 引自 [JCP Overview](https://jcp.org/en/procedures/overview)
