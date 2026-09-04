@@ -12,10 +12,18 @@ tags:: [[JDK]], [[OpenJDK Distribution]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 - ## Index
-	- [Oracle JDK Download](https://www.oracle.com/java/technologies/downloads/)
+	- 下载:
 	  logseq.order-list-type:: number
-	- [Oracle JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
+		- [Oracle JDK Download](https://www.oracle.com/java/technologies/downloads/)
+		  logseq.order-list-type:: number
+		- [Oracle JDK Download (Archived)](https://www.oracle.com/java/technologies/downloads/archive/)
+		  logseq.order-list-type:: number
+	- 版本信息:
 	  logseq.order-list-type:: number
+		- [Oracle JDK Release Notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
+		  logseq.order-list-type:: number
+		- [Oracle JDK Support Timeline](https://ops.java/releases#support-timeline)
+		  logseq.order-list-type:: number
 - ## 问题
 	- License 是怎样的?
 	  logseq.order-list-type:: number
