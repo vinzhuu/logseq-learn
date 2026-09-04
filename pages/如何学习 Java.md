@@ -19,9 +19,24 @@ tags:: [[Java]]
 	- jar 格式与 maven 打包方式。
 	  logseq.order-list-type:: number
 - ## 官方资料
-	- ### Technologies
-		- #### [Java Platform, Standard Edition (Java SE)](https://docs.oracle.com/en/java/javase/index.html)
-		- #### [Java Platform, Enterprise Edition (Java EE)](https://www.oracle.com/java/technologies/java-ee-glance.html)
-	- ### dev.java
-		- [dev.java](https://dev.java/)
+	- ### Oracle Java 相关
+		- [java.com](https://www.java.com/en/) : 相当于一个 Java 资源导航
+		  logseq.order-list-type:: number
+		- [dev.java](https://dev.java/) : Java 开发者资源
+		  logseq.order-list-type:: number
+		- [ops.java](https://ops.java/) : Java 运维资源
+		  logseq.order-list-type:: number
+		- [Oracle Java](https://www.oracle.com/java/) : Oracle Java 产品
+		  logseq.order-list-type:: number
+		- Oracle Java 文档:
+		  logseq.order-list-type:: number
+			- [Java Platform, Standard Edition (Java SE)](https://docs.oracle.com/en/java/javase/index.html)
+			  logseq.order-list-type:: number
+			- [Java Platform, Enterprise Edition (Java EE)](https://www.oracle.com/java/technologies/java-ee-glance.html)
+			  logseq.order-list-type:: number
+	- ### OpenJDK 相关
+		- [OpenJDk](https://openjdk.org/) : OpenJDK 社区
+		  logseq.order-list-type:: number
+		- [jdk.java.net](https://jdk.java.net/) : Oracle OpenJDK Build 下载.
+		  logseq.order-list-type:: number
 -

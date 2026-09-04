@@ -6,7 +6,7 @@ tags:: [[Java]]
 	  logseq.order-list-type:: number
 		- [[Oracle JDK 安装]]
 		  logseq.order-list-type:: number
-		- [[Oracle OpenJDK Build 安装]]
+		- [[Oracle OpenJDK 安装]]
 		  logseq.order-list-type:: number
 		- [[SDKMAN 安装 JDK]]
 		  logseq.order-list-type:: number

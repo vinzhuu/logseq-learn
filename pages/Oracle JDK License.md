@@ -3,6 +3,8 @@ tags:: [[Oracle JDK]]
 
 - [Oracle Java License Change: Complete Guide (2026)](https://bell-sw.com/announcements/2022/02/24/java-licensing-changes-in-2021/)
 - https://www.oracle.com/downloads/licenses/no-fee-license.html
+- https://ops.java/supporthandbook/downloadguide
+- https://www.oracle.com/java/technologies/javase/jdk-faqs.html
 - ## 问题
 	- 自 Java 17 起, 使用 NFTC License ?
 	  logseq.order-list-type:: number

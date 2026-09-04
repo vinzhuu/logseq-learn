@@ -11,7 +11,7 @@ tags:: [[OpenJDK Distribution]]
 			- 修改 OpenJDK 源码, 再做构建 (有问题可能会先自己修复, 后面上游源码修复了, 再做合并)
 - ## OpenJDK Build
 	- `OpenJDK Build` 目前由 [[Oracle]] 直接从 OpenJDK 源码构建得到 .
-		- 所以一般也称为 : [[Oracle OpenJDK Build]]
+		- 所以一般也称为 : [[Oracle OpenJDK]]
 - ## OpenJDK Distribution
 	- **OpenJDK Distribution** 就是对 OpenJDK 源码进行 **修改、构建、测试、打包** 后, 提供给用户的 **JDK 二进制发行版** .
 	- **OpenJDK Distribution** 一般会用 **Prebuilt** 这个词来形容:
@@ -68,32 +68,33 @@ tags:: [[OpenJDK Distribution]]
 		  logseq.order-list-type:: number
 		- [[Microsoft Build of OpenJDK]]
 		  logseq.order-list-type:: number
-- ## Oracle OpenJDK Build vs OpenJDK Distribution
-	- 为什么有 [[Oracle OpenJDK Build]] 了, 还需要 [[OpenJDK Distribution]] ?
+- ## Oracle OpenJDK vs OpenJDK Distribution
+	- 为什么有 [[Oracle OpenJDK]] 了, 还需要 [[OpenJDK Distribution]] ?
 	- 因为:
 		- OpenJDK Distribution 会提供长期支持, 保证问题得到及时修复.
 		  logseq.order-list-type:: number
-			- 而即便问题修复已经合并到 OpenJDK 源码中, 也未必会及时发布带有修复的 Oracle OpenJDK Build , 修复可能只是和下一个版本一起发布.
-		- OpenJDK Distribution 相比 Oracle OpenJDK Build , 会多一些 优化 和 额外功能.
+			- 而 Oracle OpenJDK 不保证及时修复问题, 也不保证修复会应用到旧 Release Family .
+			- 参见: [[Oracle OpenJDK Overview]]
+		- OpenJDK Distribution 相比 Oracle OpenJDK , 会多一些 优化 和 额外功能.
 		  logseq.order-list-type:: number
 		- OpenJDK Distribution 发行商, 可以提供一些额外的有偿技术支持.
 		  logseq.order-list-type:: number
-- ## Oracle JDK vs Oracle OpenJDK Build
-	- [[Oracle JDK]] 与 [[Oracle OpenJDK Build]] 的区别:
+- ## Oracle JDK vs Oracle OpenJDK
+	- 都来自 Oracle , [[Oracle JDK]] 与 [[Oracle OpenJDK]] 有什么区别:
 		- 是否收费:
 		  logseq.order-list-type:: number
-			- Oracle OpenJDK Build 完全免费. (参见 [[OpenJDK License]] )
+			- Oracle OpenJDK 完全免费. (参见 [[OpenJDK License]] )
 			  logseq.order-list-type:: number
 			- Oracle JDK (参见 [[Oracle JDK License]])
 			  logseq.order-list-type:: number
 		- 功能:
 		  logseq.order-list-type:: number
-			- Oracle JDK 与 Oracle OpenJDK Build 二者功能很接近,
-			- Oracle JDK 只比 Oracle OpenJDK Build 多了少量不涉及核心的专有功能.
+			- Oracle JDK 与 Oracle OpenJDK 二者功能很接近,
+			- Oracle JDK 只比 Oracle OpenJDK 多了少量不涉及核心的专有功能.
 				- 比如: 多了 Java Flight Recorder .
 		- 是否自由:
 		  logseq.order-list-type:: number
-			- Oracle OpenJDK Build 自由.
+			- Oracle OpenJDK 自由.
 			  logseq.order-list-type:: number
 			- Oracle JDK 专有, 且存在闭源代码.
 			  logseq.order-list-type:: number

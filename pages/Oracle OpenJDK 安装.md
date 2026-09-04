@@ -1,4 +1,4 @@
-tags:: [[Oracle OpenJDK Build]]
+tags:: [[Oracle OpenJDK]]
 ---
 
 - ## 安装步骤
