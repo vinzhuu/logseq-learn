@@ -25,11 +25,7 @@ tags:: [[JDK]], [[OpenJDK Distribution]]
 		- [Oracle JDK Support Timeline](https://ops.java/releases#support-timeline)
 		  logseq.order-list-type:: number
 - ## 问题
-	- License 是怎样的?
-	  logseq.order-list-type:: number
 	- 版本是怎么更新的? CPU, PSU? 版本号?
-	  logseq.order-list-type:: number
-	- Oracle JDK 与 OpenJDK 有什么不同?
 	  logseq.order-list-type:: number
 	- https://ops.java/releases#release-types
 	  logseq.order-list-type:: number

@@ -1,5 +1,5 @@
 alias:: [[Symbolic Link]], [[软链接]], [[符号链接]]
-tags:: [[Linux]]
+tags:: [[OS]], [[File System]] 
 ---
 
 - 类似于快捷方式。

@@ -1,10 +1,10 @@
-tags:: [[SDKMAN]]
+tags:: [[SDKMAN!]]
 ---
 
 - ## 一句话解释
 	- 一个可以管理 [[JDK]] 、[[Tomcat]] 等多种软件版本的
 - ## 安装
-	- [SDKMAN Install](https://sdkman.io/install)
+	- [SDKMAN! Install](https://sdkman.io/install)
 - ## 命令速查
 	- ``` sh
 	  # 查看命令帮助

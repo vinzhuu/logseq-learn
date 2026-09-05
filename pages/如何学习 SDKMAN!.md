@@ -1,4 +1,4 @@
-tags:: [[SDKMAN]]
+tags:: [[SDKMAN!]]
 ---
 
 - ## 资料

@@ -16,4 +16,6 @@ alias:: [[Java Development Kit]]
 		  logseq.order-list-type:: number
 		- [[Eclipse Temurin]]
 		  logseq.order-list-type:: number
--
+		- ...
+		  logseq.order-list-type:: number
+	-

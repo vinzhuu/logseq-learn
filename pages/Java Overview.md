@@ -16,8 +16,8 @@ tags:: [[Java]]
 		  logseq.order-list-type:: number
 		- [[JSR Concept]]
 		  logseq.order-list-type:: number
-	- OpenJDK & JEP
+	- OpenJDK & OpenJDK Community & JEP
 	  logseq.order-list-type:: number
 		- [[OpenJDK Overview]]
 		  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	-

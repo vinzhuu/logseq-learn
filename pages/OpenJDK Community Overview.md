@@ -17,13 +17,19 @@ tags:: [[OpenJDK]]
 		  logseq.order-list-type:: number
 		- ...
 		  logseq.order-list-type:: number
-- ## jdk.java.net 网站
-	- https://jdk.java.net/ 是 Oracle 维护的网站.
-	- 提供 Oracle 自己从 OpenJDK Community 各项目源码构建的:
-		- JDK, JavaFX, JMC 的 GA Release
-		  logseq.order-list-type:: number
-		- JDK, JavaFX, Jextract, Leyden, Loom, Valhalla 的 Early-Access Release .
-		  logseq.order-list-type:: number
 - ## 参与 OpenJDK Community
 	- 如何参与 OpenJDK Community , 参见: [Developers’ Guide](https://openjdk.org/guide/)
--
+- ## jdk.java.net 网站
+	- https://jdk.java.net/ 是 Oracle 维护的网站.
+	- 提供 Oracle 自己从 OpenJDK Community 各项目源码构建的: JDK, JavaFX, JMC 等软件
+- ## OpenJDK 官方网站
+	- [OpenJDK 官网](https://openjdk.org/)
+	  logseq.order-list-type:: number
+	- [OpenJDK Wiki](https://wiki.openjdk.org/)
+	  logseq.order-list-type:: number
+	- [JDK Bug System (JBS)](https://bugs.openjdk.org/secure/Dashboard.jspa)
+	  logseq.order-list-type:: number
+- ## OpenJDK IRC 频道
+	- 参见: [OpenJDK - IRC](https://openjdk.org/irc/)
+- ## OpenJDK 人口普查
+	- 参见: [OpenJDK - Census](https://openjdk.org/census)

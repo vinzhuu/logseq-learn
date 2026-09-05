@@ -1,4 +1,4 @@
-tags:: [[Java]], [[Proposal]] 
+tags:: [[Java]], [[Proposal]], [[OpenJDK Community]] 
 alias:: [[JDK Enhancement Proposal]]
 ---
 

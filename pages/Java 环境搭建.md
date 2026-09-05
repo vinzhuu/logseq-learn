@@ -8,7 +8,7 @@ tags:: [[Java]]
 		  logseq.order-list-type:: number
 		- [[Oracle OpenJDK 安装]]
 		  logseq.order-list-type:: number
-		- [[SDKMAN 安装 JDK]]
+		- [[SDKMAN! 安装 JDK]]
 		  logseq.order-list-type:: number
 	- 环境变量:
 	  logseq.order-list-type:: number

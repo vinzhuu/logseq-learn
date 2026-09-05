@@ -5,6 +5,8 @@ tags:: [[Oracle JDK]]
 - https://www.oracle.com/downloads/licenses/no-fee-license.html
 - https://ops.java/supporthandbook/downloadguide
 - https://www.oracle.com/java/technologies/javase/jdk-faqs.html
+- ## JDK 各版本的 License
+	- 参见: [What is the licensing for currently available Oracle Java SE releases?](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)
 - ## 问题
 	- 自 Java 17 起, 使用 NFTC License ?
 	  logseq.order-list-type:: number

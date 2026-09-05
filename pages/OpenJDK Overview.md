@@ -2,22 +2,28 @@ tags:: [[OpenJDK]]
 ---
 
 - ## Roadmap
-	- [[OpenJDK Community Overview]]
-	  logseq.order-list-type:: number
 	- [[OpenJDK Distribution Overview]]
 	  logseq.order-list-type:: number
 	- [[OpenJDK License]]
+	  logseq.order-list-type:: number
+	- [[OCA]]
+	  logseq.order-list-type:: number
+	- [[OpenJDK Community Overview]]
 	  logseq.order-list-type:: number
 	- [[JEP Overview]]
 	  logseq.order-list-type:: number
 - ## 问题
 	- JSR 与 JEP 的关系?
 	  logseq.order-list-type:: number
-	- OpenJDK 实现与 JCP 规范的关系? OpenJDK 开发新版本然后规范进入 JCP 规范?
+	- OpenJDK 实现与 JCP 规范的关系? OpenJDK 开发新版本然后总结成规范进入 JCP ?
 	  logseq.order-list-type:: number
 	- JCP 规范包含哪些内容?
 	  logseq.order-list-type:: number
 	- OpenJDK 源码包含哪些东西?
+	  logseq.order-list-type:: number
+	- 什么是 Group.
+	  logseq.order-list-type:: number
+	- 章程: https://openjdk.org/bylaws
 	  logseq.order-list-type:: number
 	- **参考:**
 	  logseq.order-list-type:: number

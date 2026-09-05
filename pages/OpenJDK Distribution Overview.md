@@ -85,18 +85,18 @@ tags:: [[OpenJDK Distribution]]
 		  logseq.order-list-type:: number
 			- Oracle OpenJDK 完全免费. (参见 [[OpenJDK License]] )
 			  logseq.order-list-type:: number
-			- Oracle JDK (参见 [[Oracle JDK License]])
+			- Oracle JDK 不完全免费, 得看具体情况. (参见 [[Oracle JDK License]])
 			  logseq.order-list-type:: number
 		- 功能:
 		  logseq.order-list-type:: number
-			- Oracle JDK 与 Oracle OpenJDK 二者功能很接近,
+			- Oracle JDK 与 Oracle OpenJDK 二者功能很接近 .
 			- Oracle JDK 只比 Oracle OpenJDK 多了少量不涉及核心的专有功能.
 				- 比如: 多了 Java Flight Recorder .
 		- 是否自由:
 		  logseq.order-list-type:: number
 			- Oracle OpenJDK 自由.
 			  logseq.order-list-type:: number
-			- Oracle JDK 专有, 且存在闭源代码.
+			- Oracle JDK 专有, 且存在闭源代码 (这得益于 [[OCA]] ).
 			  logseq.order-list-type:: number
 - ## 参考
 	- AI
