@@ -7,7 +7,7 @@ tags:: [[Contents]], [[Roadmap]]
 		  logseq.order-list-type:: number
 		- 多线程
 		  logseq.order-list-type:: number
-		- io
+		- [[Java IO]]
 		  logseq.order-list-type:: number
 		- 函数式编程
 		  logseq.order-list-type:: number
