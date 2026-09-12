@@ -3,7 +3,7 @@ tags:: [[Unicode]]
 
 - ## Unicode 是什么
 	- Unicode 是一种字符集, 与具体的字符编码是有区别的.
-		- 符集与字符编码的区别, 阅读: [[字符集与字符编码]]
+		- 字符集与字符编码的区别, 阅读: [[字符集与字符编码]]
 - ## Unicode 的编码方式
 	- Unicode 有如下编码方式:
 		- [[UTF-32]] : 定长编码 32 位, 直接将码点 (十进制数) , 转为二进制比特位 .
@@ -43,7 +43,7 @@ tags:: [[Unicode]]
 		- 为了与上述的所谓 **典型字符** 区分开, 我们将这种 **基本单位** 统称为 **User-perceived character (用户感知字符)** .
 			- 即 用户在视觉和使用上, 通常认为是一个 **基本单位** 的字符.
 			- ==注意: 这里并不是特指需要多个码点的字符, 而是指所有字符==
-	- ### Grapheme cluster
+	- ### Grapheme cluster (字素簇)
 		- 在具体技术实现中, **User-perceived character** 对应 **Grapheme cluster** 这一术语.
 		- 为了与旧版本 **Grapheme cluster** 规范 区分开:
 			- 新版本的 **Grapheme cluster** 被称为 **Extended Grapheme Cluster** 或 **Default Grapheme Cluster** .

@@ -2,20 +2,21 @@ alias:: [[设计原则]]
 ---
 
 - ## 七大设计原则
-	- 单一职责原则 (Single Responsibility Principle, SRP)
-	  logseq.order-list-type:: number
-	- 开闭原则 (Open-Closed Principle, OCP)
-	  logseq.order-list-type:: number
-	- 里氏替换原则 (Liskov Substitution Principle, LSP)
-	  logseq.order-list-type:: number
-	- 接口隔离原则 (Interface Segregation Principle, ISP)
-	  logseq.order-list-type:: number
-	- 依赖倒置原则 (Dependency Inversion Principle, DIP)
-	  logseq.order-list-type:: number
-	- 迪米特法则 (Law of Demeter, LoD)
-	  logseq.order-list-type:: number
-	- 合成复用原则 (Composite Reuse Principle, CRP)
-	  logseq.order-list-type:: number
+	- 七大设计原则：
+		- 单一职责原则 (Single Responsibility Principle, SRP)
+		  logseq.order-list-type:: number
+		- 开闭原则 (Open-Closed Principle, OCP)
+		  logseq.order-list-type:: number
+		- 里氏替换原则 (Liskov Substitution Principle, LSP)
+		  logseq.order-list-type:: number
+		- 接口隔离原则 (Interface Segregation Principle, ISP)
+		  logseq.order-list-type:: number
+		- 依赖倒置原则 (Dependency Inversion Principle, DIP)
+		  logseq.order-list-type:: number
+		- 迪米特法则 (Law of Demeter, LoD)
+		  logseq.order-list-type:: number
+		- 合成复用原则 (Composite Reuse Principle, CRP)
+		  logseq.order-list-type:: number
 	- 其中，前五项被合称为 **SOLID 原则** ，由 [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) 在论坛与他人讨论整理得出，后来他在 [架构整洁之道 Clean Architecture](https://weread.qq.com/web/reader/480322f072021a3248038c8k32932b102423295c76ac7d9) 也有对 SOLID 的讲解。
 - ## 单一职责原则
 	- Single Responsibility Principle, SRP
@@ -32,7 +33,7 @@ alias:: [[设计原则]]
 	- 也就是说，程序中所有用到父类的地方，可以使用子类代替；所以父类已经实现的方法，最好不要去重写。
 - ## 接口隔离原则
 	- Interface Segregation Principle, ISP
-	- > 类不应该依赖它不需要的接口
+	- > 类不应该被迫依赖于它不使用的方法，一个类对另一个类的依赖应该建立在最小的接口上
 	- 如果依赖的接口中有自己用不到的方法，则说明这个接口应该进行拆分。
 - ## 依赖倒置原则
 	- Dependency Inversion Principle, DIP
