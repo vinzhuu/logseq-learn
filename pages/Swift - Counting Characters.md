@@ -18,7 +18,7 @@ tags:: [[Swift Type]]
 	  // Prints "the number of characters in café is 4".
 	  ```
 - ## `count` 属性是实时计算的
-	- 注意, `count` 属性并非是随着 **字符串** 修改而同步修啊改的属性, 而是实时计算得到的值.
+	- 注意, `count` 属性并非是随着 **字符串** 修改而同步修改的属性, 而是实时计算得到的值.
 	- 由于 `count` 属性计算的是, `User-perceived character` (用户感知字符) 的个数.
 		- 所以, 我们无法直接通过字符串所占用内存的长度, 来直接得到 `count` 属性的值.
 	- 因此, 计算 `count` 属性时, 必须遍历整个字符串的 `Unicode Scalar` .

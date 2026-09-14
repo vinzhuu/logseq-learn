@@ -1,0 +1,4 @@
+tags:: [[MySQL Data Type]]
+---
+
+-

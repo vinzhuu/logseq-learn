@@ -1,4 +1,4 @@
-tags:: [[OpenJDK]]
+tags:: [[OpenJDK Community]] 
 ---
 
 - ## OpenJDK Community 项目

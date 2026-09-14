@@ -1,6 +1,11 @@
 tags:: [[MySQL]], [[SQL]]
 ---
 
+- ## Roadmap
+	- Utility Statements：
+	  logseq.order-list-type:: number
+		- [[MySQL EXPLAIN Statement]]
+		  logseq.order-list-type:: number
 - ## 命令速查
 	- ### 数据库参数相关
 		- ``` sql
