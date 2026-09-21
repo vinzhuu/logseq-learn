@@ -7,16 +7,24 @@ tags:: [[RDBMS]], [[Database]]
 	  logseq.order-list-type:: number
 	- [[MySQL 安装配置]]
 	  logseq.order-list-type:: number
-	- Basic:
+	- Basics:
 	  logseq.order-list-type:: number
 		- [[MySQL Data Type]]
+		  logseq.order-list-type:: number
+		- [[MySQL Time Zone]]
 		  logseq.order-list-type:: number
 		- [[MySQL SQL]]
 		  logseq.order-list-type:: number
 		- [[MySQL Index]]
 		  logseq.order-list-type:: number
-	- [[MySQL Transaction]]
+	- Tx & Lock
 	  logseq.order-list-type:: number
-	- [[MySQL 锁]]
+		- [[MySQL Transaction]]
+		  logseq.order-list-type:: number
+		- [[MySQL 锁]]
+		  logseq.order-list-type:: number
+	- Tools
 	  logseq.order-list-type:: number
+		- [[MySQL Connector]]
+		  logseq.order-list-type:: number
 -

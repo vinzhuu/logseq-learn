@@ -1,0 +1,5 @@
+tags:: [[Transaction]]
+---
+
+- https://microservices.io/patterns/data/transactional-outbox.html
+-

@@ -46,7 +46,7 @@ tags:: [[Spring Cloud]]
 - ## 引入 Spring Cloud 最佳实践
 	- 先确定我们使用的 Spring Boot 的版本。
 	  logseq.order-list-type:: number
-	- 然后根据 Spring Boot  的版本，选择适配的 Spring Cloud 的版本。
+	- 然后根据 Spring Boot 的版本，选择适配的 Spring Cloud 的版本。
 	  logseq.order-list-type:: number
 		- 如果不考虑与  Spring Cloud Alibaba 的兼容性的话，一旦确定了 Spring Boot 的版本，就可以选择使用适配的 `Release Train` 下的最新的小版本。
 	- 在 `pom.xml` 文件中加入如下内容。
@@ -71,6 +71,7 @@ tags:: [[Spring Cloud]]
 	- ### 查看各组件文档
 		- 在相应版本的 Spring Cloud 文档中 (如 [Spring Cloud 2021.0.5 文档](https://docs.spring.io/spring-cloud/docs/2021.0.5/reference/html/) )，进入想要使用的组件即可。
 		- ![image.png](../assets/image_1736607187995_0.png){:height 358, :width 678}
+		- 查看各组件文档
 	- ### 查看配置汇总
 		- 在相应版本的 Spring Cloud 文档中 (如 [Spring Cloud 2021.0.5 文档](https://docs.spring.io/spring-cloud/docs/2021.0.5/reference/html/) )，进入配置汇总页面即可。
 		- ![image.png](../assets/image_1736607266945_0.png){:height 89, :width 522}

@@ -18,7 +18,7 @@ alias:: [[时间]]
 		  logseq.order-list-type:: number
 		- [[原子钟与 SI 秒]]
 		  logseq.order-list-type:: number
-		- [[时区]]
+		- [[Time Zone]]
 		  logseq.order-list-type:: number
 		- 夏令时
 		  logseq.order-list-type:: number

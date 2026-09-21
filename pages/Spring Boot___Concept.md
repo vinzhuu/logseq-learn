@@ -73,7 +73,7 @@
 		  logseq.order-list-type:: number
 		- [The Executable Jar Format](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/appendix-executable-jar-format.html#executable-jar)
 		  logseq.order-list-type:: number
-	- 我们最终想要得到一个 `completely self-contained executable jar file` , 即 包含**我们编写的代码的 class 和 所有 jar 依赖**的 可执行 jar 文件，这样可以方便部署；有时也被称为 `fat jars` 。
+	- 我们最终想要得到一个 `completely self-contained executable jar file` , 即 包含**我们编写的代码的 class 和 所有 jar 依赖** 的可执行 jar 文件，这样可以方便部署；有时也被称为 `fat jars` 。
 	- 首先想到的思路是: **将所有依赖的 jar 文件嵌入到最终的 jar 文件中** 。
 	  logseq.order-list-type:: number
 		- 但是有个问题是, java 并没有一个标准的方法去加载这种 **内嵌 jar 文件的 jar 文件** 。
@@ -91,7 +91,7 @@
 	- ### Spring Boot CLI
 		- > The Spring Boot CLI (Command Line Interface) is a command line tool that you can use to quickly prototype with Spring. It lets you run [Groovy](https://groovy-lang.org/) scripts, which means that you have a familiar Java-like syntax without so much boilerplate code.
 		  -- 引自 [Installing the Spring Boot CLI](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/getting-started.html#getting-started-installing-the-cli)
-		- Spring Boot CLI 是一个命令行工具，可以在开发 Spring 应用时减少一些 ((6620925c-0281-4b08-aeec-d8c8960b590d)) 的编写。
+		- Spring Boot CLI 是一个命令行工具，可以在开发 Spring 应用时减少一些 [[Boilerplate Code]] 的编写。
 		- ==该工具用得不多，无需深入了解==
 	- ### spring-boot-properties-migrator
 		- 参见: [Upgrading from an Earlier Version of Spring Boot](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/getting-started.html#getting-started-upgrading-from-an-earlier-version)

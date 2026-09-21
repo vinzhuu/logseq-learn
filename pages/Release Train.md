@@ -1,4 +1,4 @@
-tags:: [[Software Engineering]]
+tags:: [[Software Engineering]], [[Versioning Glossary]] 
 ---
 
 - ## 什么是 Release Train

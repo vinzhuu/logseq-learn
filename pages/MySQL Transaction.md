@@ -46,4 +46,28 @@ tags:: [[MySQL]], [[Transaction]]
 				  logseq.order-list-type:: number
 				- 事务 A 和 事务 B 插入的数据的过期时间，都为 T1 + 一个月。
 				  logseq.order-list-type:: number
--
+	- ### 一个数据库操作 和 一个远程调用
+		- #### 场景
+			- 我有一个权益字段，每次行使权益，会扣减次数。
+			  logseq.order-list-type:: number
+			- 行使权益需要进行远程调用。
+			  logseq.order-list-type:: number
+			- 我们希望：
+				- 若执行远程调用成功，则扣减权益次数。
+				  logseq.order-list-type:: number
+				- 若执行远程调用失败，则不扣减。
+				  logseq.order-list-type:: number
+		- #### 方案一
+			- 如果先执行远程调用，后执行数据库操作，则可能出现异常：
+				- 远程调用执行成功，但是程序中断，数据库操作未执行。
+			- 如果先执行数据库操作，后执行远程调用，并将二者加到一个事务中。
+				- 存在两个问题：
+					- 一致性问题
+					  logseq.order-list-type:: number
+						- 但是还可能存在：出现远程调用成功，但是本地因超时而失败。
+						- 所以，若此时回滚，会导致一致性问题。
+					- 长事务问题
+					  logseq.order-list-type:: number
+						- 远程调用一般比较耗时，可能导致事务执行时间过长。
+			-
+	-
