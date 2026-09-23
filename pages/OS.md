@@ -1,6 +1,8 @@
-alias:: [[operating system]], [[操作系统]]
+alias:: [[Operating System]], [[操作系统]]
 ---
 
-- ==子目录==
+- ## Roadmap
+	- [[如何学习 OS]]
 	- [[Kernel]]
+	  logseq.order-list-type:: number
 	-

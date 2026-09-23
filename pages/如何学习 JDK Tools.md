@@ -1,13 +1,6 @@
-tags:: [[Java SE]]
+tags:: [[JDK Tools]]
 ---
 
-- ## 学习路线
-	- Concept
-		- [[Java 如何查找 Class]]
-	- Basic Tool
-		- [[JAR]]
-		- [[javac]]
-		- [[java command]]
 - ## 官方资料
 	- [JDK Tools and Utilities](https://docs.oracle.com/javase/8/docs/technotes/tools/index.html#enhancements)
 		- ![image.png](../assets/image_1736353695176_0.png){:height 263, :width 705}

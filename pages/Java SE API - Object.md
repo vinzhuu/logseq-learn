@@ -1,7 +1,7 @@
-alias:: [[锁]]
+tags:: [[Java SE API]]
 ---
 
 - ## Roadmap
-	- [[Lock Overview]]
+	- [[Java SE API - Object: finalize()]]
 	  logseq.order-list-type:: number
 	- logseq.order-list-type:: number

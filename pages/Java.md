@@ -22,4 +22,8 @@ tags:: [[Program Language]]
 - ## Index
 	- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
 	  logseq.order-list-type:: number
+	- [Java SE 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+	  logseq.order-list-type:: number
+	- [Java SE 21 API Specification](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
+	  logseq.order-list-type:: number
 -

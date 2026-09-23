@@ -8,6 +8,10 @@ tags:: [[Java]]
 	  logseq.order-list-type:: number
 	- [[Java Syntax]]
 	  logseq.order-list-type:: number
+	- [[Java Memory Model]]
+	  logseq.order-list-type:: number
+	- [[Java Concurrent]]
+	  logseq.order-list-type:: number
 	- [[Java SE API]]
 	  logseq.order-list-type:: number
 	- 原理:
@@ -34,7 +38,7 @@ tags:: [[Java]]
 	  logseq.order-list-type:: number
 	- [Java SE Specifications](https://docs.oracle.com/javase/specs/)
 	  logseq.order-list-type:: number
-	- [[JDK Tools and Utilities]]
+	- [[JDK Tools]]
 	  logseq.order-list-type:: number
 -
 -

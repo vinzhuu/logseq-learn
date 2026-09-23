@@ -69,5 +69,8 @@ tags:: [[MySQL]], [[Transaction]]
 					- 长事务问题
 					  logseq.order-list-type:: number
 						- 远程调用一般比较耗时，可能导致事务执行时间过长。
-			-
+	- ### 两个数据库操作 中间 夹一个远程调用
+		- #### 场景
+			- 数据库操作 A 执行完成之后，才能执行远程调用，远程调用执行完成后，才能执行数据库操作 B。
+			  logseq.order-list-type:: number
 	-

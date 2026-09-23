@@ -60,7 +60,8 @@ tags:: [[Java IO]]
 	- ### finalize() 方法
 		- Java 早期 `FileInputStream` , `FileOutputStream` 等方法中, 有 `finalize()` 方法,
 			- 当 GC 回收流对象时，会调用它的 `finalize()` , `finalize()` 方法内部会调用 `close()` 方法 .
-		- 但是, GC 触发的时机不可预测, 所以并不可靠, 所以在Java 9 之后被标记为 `deprecated` .
+		- 但是, GC 触发的时机不可预测, 所以并不可靠, 所以在 Java 9 之后被标记为 `deprecated` .
+			- 参见: [[Java SE API - Object: finalize()]]
 	- ### Cleaner
 		- 现代 JDK 采用 `Cleaner` 机制来代替 `finalize()`.
 			- 当流对象被 GC 回收时，Cleaner 线程会在后台调用 `close0()` (native 方法) 关闭资源.

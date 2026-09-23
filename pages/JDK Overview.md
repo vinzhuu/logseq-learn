@@ -15,7 +15,7 @@ tags:: [[Java SE]], [[JDK]]
 			- [[Apache Harmony]] : Apache 从头实现的 Java SE. ==现已停止维护==
 		- 单 JVM:
 		  logseq.order-list-type:: number
-			- [[Eclipse OpenJ9]] : 源自 [[IBM J9 JVM]] , 通常搭配 OpenJDK 类库使用.
+			- [[OpenJ9]] : 源自 [[IBM J9 JVM]] , 通常搭配 OpenJDK 类库使用.
 			  logseq.order-list-type:: number
 			- [[JamVM]] : 通常搭配 [[GNU Classpath]] 或 OpenJDK 类库 使用.
 			  logseq.order-list-type:: number

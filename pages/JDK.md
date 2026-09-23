@@ -7,6 +7,8 @@ alias:: [[Java Development Kit]]
 	  logseq.order-list-type:: number
 	- [[Java 环境搭建]]
 	  logseq.order-list-type:: number
+	- [[JDK Tools]]
+	  logseq.order-list-type:: number
 	- OpenJDK 发行版上游:
 	  logseq.order-list-type:: number
 		- [[OpenJDK]]
