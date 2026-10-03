@@ -1,8 +1,13 @@
 alias:: [[系统设计]]
 ---
 
-- ## 学习资料
-	- [MIT 6.005: Software Construction](https://ocw.mit.edu/courses/6-005-software-construction-spring-2016/)
+- [[如何学习 System Design]]
+- ## 一致性问题
+	- [[Consistency]]
+	  logseq.order-list-type:: number
+	- [[Lock]]
+	  logseq.order-list-type:: number
+	- [[Transaction]]
 	  logseq.order-list-type:: number
 - ## 通用业务
 	- [[一个完善的 Web 系统设计]]

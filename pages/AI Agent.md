@@ -3,6 +3,7 @@ alias:: [[智能体]]
 ---
 
 - ## 学习路线
+	- [[如何学习 AI Agent]]
 	- Agent 扩展:
 	  logseq.order-list-type:: number
 		- [[AI Agent Skill]]

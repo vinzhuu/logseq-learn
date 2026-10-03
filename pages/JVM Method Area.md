@@ -1,6 +1,7 @@
 tags:: [[JVM Run-Time Data Areas]], [[JVM]]
 ---
 
+- https://openjdk.org/jeps/122
 - ## HotSpot: Permanent Generation VS Metaspace
 	- 参考: https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/considerations.html
 	- HotSpot：

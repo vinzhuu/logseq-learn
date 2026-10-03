@@ -1,6 +1,7 @@
 tags:: [[AI Agent]],
 ---
 
+- 旧版入口: https://www.coze.cn/space
 - ## 学习路径
 	- [[如何学习 Coze]]
 	- [[Coze 基本概念]]
