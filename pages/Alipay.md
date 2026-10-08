@@ -1,10 +1,11 @@
 alias:: [[支付宝]]
-tags:: [[Payment Product]] 
 ---
 
-- ## 关于超时
-	-
-- ## 关于交易状态说明
-	- https://opendocs.alipay.com/support/01raw9
-	- 包括，交易具体在什么时间创建。
+- ## Roadmap
+	- 能力：
+	  logseq.order-list-type:: number
+		- [[支付宝支付]]
+		  logseq.order-list-type:: number
+	- [[支付宝小程序]]
+	  logseq.order-list-type:: number
 -
