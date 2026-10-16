@@ -22,13 +22,15 @@ tags:: [[Lock]]
 - ## 锁的类型
 	- 按 “是否独占锁” 区分：
 	  logseq.order-list-type:: number
-		- 互斥锁：一个竞争者获取到锁，其他竞争者则不能获取
+		- 独占锁/互斥锁：一个竞争者获取到锁，其他竞争者则不能获取
+		  logseq.order-list-type:: number
+		- 共享锁：一个竞争者获取到锁，其他竞争者则还能获取。
 		  logseq.order-list-type:: number
 		- 读写锁：
 		  logseq.order-list-type:: number
 			- 将操作分为 **读操作** 和 **写操作** 。
 			- 读操作获取读锁，为共享锁，多个竞争者可以同时持有。
-			- 写操作获取写锁，未独占锁，同时只能有一个竞争者持有。
+			- 写操作获取写锁，为独占锁，同时只能有一个竞争者持有。
 			- ==互斥规则：读读不互斥，读写互斥，写写互斥。==
 	- 按 “未获取到锁时，如何等待” 区分：
 	  logseq.order-list-type:: number
@@ -42,9 +44,20 @@ tags:: [[Lock]]
 		  logseq.order-list-type:: number
 		- [[Pessimistic Lock]]：修改时加锁，未加上锁则不能修改。
 		  logseq.order-list-type:: number
-	- 按 “唤醒”
+	- 按 “是否可以重复获取” 区分：
 	  logseq.order-list-type:: number
--
+		- 可重入锁：
+		  logseq.order-list-type:: number
+		- 不可重入锁
+		  logseq.order-list-type:: number
+	- 按 “获取锁的优先顺序” 区分：
+	  logseq.order-list-type:: number
+		- 公平锁
+		  logseq.order-list-type:: number
+		- 非公平锁
+		  logseq.order-list-type:: number
+		-
+		-
 - ## 参考
 	- [Java 锁详解：互斥锁、读写锁、自旋锁与 synchronized 锁优化](https://javaguide.cn/java/concurrent/java-lock.html)
 	  logseq.order-list-type:: number

@@ -68,7 +68,7 @@ tags:: [[Program Language Glossary]]
 	- ### 如何保证上述关系
 		- 即把对 `Equality` 运算有贡献的部分, 也纳入到 `Hash` 运算中.
 	- ### 只调整 Hash 算法
-		- 如果只是想调整 `Hash 值` 的算法, 只要保证 `Equality` 方法认为相等的对象, 它们的 `Hash 值` 也相等, `Equality` 方法就无需重写,
+		- 如果只是想调整 `Hash 值` 的算法, 只要保证 `Equality` 方法认为相等的对象, 它们的 `Hash 值` 也相等, `Equality` 方法就无需重写.
 	- ### 保证 Hash 值有良好的分布性
 		- 虽然, 我们无需保证不同对象有不同的 `Hash 值` .
 		- 但是, 仍应尽量保证 `Hash 值` 有良好的分布性:

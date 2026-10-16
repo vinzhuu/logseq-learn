@@ -37,7 +37,7 @@ alias::  [[建站]]
 		- 使用 [acme.sh](https://github.com/acmesh-official/acme.sh) 生成免费 SSL 证书。
 		- 使用 Nginx 托管静态网站。
 		- 阿里云域名需要备案。
-	- ### (阿里云服务器 + Caddy) + 阿里云域名+ Caddy 免费 SSL
+	- ### (阿里云服务器 + Caddy) + 阿里云域名 + Caddy 免费 SSL
 		- 如果服务器的 80 和 443 端口都通公网的话，可以使用 Caddy web 服务器，它有免费 SSL .
 		- 阿里云域名需要备案。
 	-
