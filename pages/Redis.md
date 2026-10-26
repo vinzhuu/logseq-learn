@@ -11,6 +11,8 @@ tags:: [[Middleware]], [[Caching]]
 	  logseq.order-list-type:: number
 	- [[Redis 集群]]
 	  logseq.order-list-type:: number
+	- [[Redis Persistence]]
+	  logseq.order-list-type:: number
 	- 业务相关：
 	  logseq.order-list-type:: number
 		- [[Redis 分布式锁]]

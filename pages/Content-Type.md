@@ -6,7 +6,7 @@ tags:: [[HTTP Header]]
 	  Content-Type: text/html; charset=utf-8
 	  Content-Type: multipart/form-data; boundary=ExampleBoundaryString
 	  ```
-	- Media Type 开头, 然后后面跟着参数, 有两个参数可选:
+	- [[Media Type]] 开头, 然后后面跟着参数, 有两个参数可选:
 		- `charset` 表示资源的字符集.
 		  logseq.order-list-type:: number
 		- `boundary` 表示资源多个部分的分隔符.
