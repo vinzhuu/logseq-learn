@@ -17,11 +17,17 @@ tags:: [[RDBMS]], [[Database]]
 		  logseq.order-list-type:: number
 		- [[MySQL Index]]
 		  logseq.order-list-type:: number
+		- [[MySQL Store Engine]]
+		  logseq.order-list-type:: number
 	- Tx & Lock
 	  logseq.order-list-type:: number
 		- [[MySQL Transaction]]
 		  logseq.order-list-type:: number
-		- [[MySQL 锁]]
+		- [[MySQL Lock]]
+		  logseq.order-list-type:: number
+	- MySQL Server Administration
+	  logseq.order-list-type:: number
+		- [[MySQL Server Log]]
 		  logseq.order-list-type:: number
 	- Tools
 	  logseq.order-list-type:: number

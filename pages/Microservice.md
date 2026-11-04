@@ -1,8 +1,20 @@
 alias:: [[微服务]]
+tags:: [[System Design]] 
 ---
 
-- ## 资料
-	- [Martin Fowler Blog - Microservices](https://martinfowler.com/articles/microservices.html)
-		- [Microservices 中文翻译](https://blog.cuicc.com/blog/2015/07/22/microservices/)
-	- [Microservice Architecture](https://microservices.io/index.html)
+- ## Roadmap
+	- [[如何学习 Microservice]]
+	  logseq.order-list-type:: number
+	- 概念：
+	  logseq.order-list-type:: number
+		- [[Microservice Concept]]
+		  logseq.order-list-type:: number
+		- [[Distributed System, Cluster & Microservice]]
+		  logseq.order-list-type:: number
+	- 框架：
+	  logseq.order-list-type:: number
+		- [[Spring Cloud]]
+		  logseq.order-list-type:: number
+		- [[Spring Cloud Alibaba]]
+		  logseq.order-list-type:: number
 -

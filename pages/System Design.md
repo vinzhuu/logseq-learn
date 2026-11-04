@@ -1,25 +1,8 @@
 alias:: [[系统设计]]
 ---
 
-- [[如何学习 System Design]]
-- ## 一致性问题
-	- [[Consistency]]
+- ## Roadmap
+	- [[如何学习 System Design]]
+	- [[System Design Overview]]
 	  logseq.order-list-type:: number
-	- [[Lock]]
-	  logseq.order-list-type:: number
-	- [[Transaction]]
-	  logseq.order-list-type:: number
-- ## 通用业务
-	- [[一个完善的 Web 系统设计]]
-	- [[一款完善的移动 APP 设计]]
-- ## 业务无关模块
-	- [[Caching]]
-- ## 通用业务模块
-	- ### 用户相关
-		- [[用户系统设计]]
-		- [[会员订阅系统设计]]
-	- ### 支付相关
-		- 支付服务提供方: [[支付系统设计]]
-		- 支付服务调用方: [[商户支付中台设计]]
-- ## 具体业务模块
-	-
+-

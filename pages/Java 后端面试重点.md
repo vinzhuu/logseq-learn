@@ -12,7 +12,7 @@ tags:: [[Java]], [[面试重点]]
 		- Java IO
 		  logseq.order-list-type:: number
 	- ### 关系型数据库
-		- [[MySQL - 面试重点]]
+		- [[MySQL 面试重点]]
 	- ### 非关系型数据库
 		- [[Redis - 面试重点]]
 	- ### 框架
