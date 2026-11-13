@@ -2,7 +2,7 @@ tags:: [[Java IO]]
 ---
 
 - ## Closeable 与 AutoCloseable
-	- Java 由 `Closeable` 与 `AutoCloseable` 两个关闭资源相关的接口, `Closeable` 继承了 `AutoCloseable` .
+	- Java 有 `Closeable` 与 `AutoCloseable` 两个关闭资源相关的接口, `Closeable` 继承了 `AutoCloseable` .
 	- ### AutoCloseable
 		- 实现了 `AutoCloseable` 接口的对象, 如果使用 `try-with-resources` , 则会在使用完毕后自动关闭:
 			- ``` java

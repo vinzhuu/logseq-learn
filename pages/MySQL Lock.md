@@ -6,7 +6,9 @@ tags:: [[MySQL]]
 	  logseq.order-list-type:: number
 	- 如何查看 MySQL 的锁？
 	  logseq.order-list-type:: number
--
+- ## Roadmap
+	- [[MySQL Lock Overview]]
+	  logseq.order-list-type:: number
 - ## 如何查看锁
 	- ``` sql
 	  # 8.0 版本之后
