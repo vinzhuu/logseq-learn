@@ -5,6 +5,8 @@ tags:: [[Database]]
 - ## Roadmap
 	- [[Transaction Concept]]
 	  logseq.order-list-type:: number
+	- [[ACID]]
+	  logseq.order-list-type:: number
 	- [[Distributed Transaction]]
 	  logseq.order-list-type:: number
 -
