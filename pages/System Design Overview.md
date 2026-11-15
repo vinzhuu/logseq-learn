@@ -16,9 +16,11 @@ tags:: [[System Design]]
 	  logseq.order-list-type:: number
 	- 正确性：
 	  logseq.order-list-type:: number
-		- [[Consistency]]
+		- [[Concurrency]]
 		  logseq.order-list-type:: number
 		- [[Lock]]
+		  logseq.order-list-type:: number
+		- [[Consistency]]
 		  logseq.order-list-type:: number
 		- [[Transaction]]
 		  logseq.order-list-type:: number
