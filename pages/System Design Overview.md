@@ -11,12 +11,19 @@ tags:: [[System Design]]
 	  logseq.order-list-type:: number
 	- 单体应用
 	  logseq.order-list-type:: number
+- ## 代码架构
+	- [[Design Pattern]]
+	  logseq.order-list-type:: number
+	- [[UML]]
+	  logseq.order-list-type:: number
 - ## 主题
 	- [[High Availability]]
 	  logseq.order-list-type:: number
 	- 正确性：
 	  logseq.order-list-type:: number
 		- [[Concurrency]]
+		  logseq.order-list-type:: number
+		- [[Atomicity]]
 		  logseq.order-list-type:: number
 		- [[Lock]]
 		  logseq.order-list-type:: number

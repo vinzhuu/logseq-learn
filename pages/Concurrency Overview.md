@@ -37,7 +37,8 @@ tags:: [[Concurrency]]
 			- 在变量初始化完成前，就对变量进行访问。
 			  logseq.order-list-type:: number
 - ## 临界区并发控制的方式
-	-
+	- [[Lock]]
+	  logseq.order-list-type:: number
 - ## 参考
 	- AI
 	  logseq.order-list-type:: number

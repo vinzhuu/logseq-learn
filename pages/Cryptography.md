@@ -1,4 +1,4 @@
-alias:: [[Cryptography]]
+alias:: [[密码学]]
 ---
 
 - ==子目录==
