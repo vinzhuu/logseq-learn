@@ -2,14 +2,12 @@ tags:: [[WebSocket]], [[Web API]]
 ---
 
 - ## 学习路线
-	- [[WebSocket API Concept]]
+	- [[Web WebSocket API Overview]]
 	  logseq.order-list-type:: number
-	- [[WebSocket Event]]
+	- [[Web WebSocket Interface]]
 	  logseq.order-list-type:: number
-	- [[WebSocket Interface]]
+	- [[Web WebSocketStream Interface]]
 	  logseq.order-list-type:: number
-	- [[WebSocketStream Interface]]
-	  logseq.order-list-type:: number
-	- [[WebTransport API]]
+	- [[Web WebTransport API]]
 	  logseq.order-list-type:: number
 	-

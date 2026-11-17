@@ -59,7 +59,7 @@ tags:: [[HTML DOM]]
 			  logseq.order-list-type:: number
 			- Web Workers interfaces
 			  logseq.order-list-type:: number
-			- WebSocket interfaces: [[WebSocket API]]
+			- WebSocket interfaces: [[Web WebSocket API]]
 			  logseq.order-list-type:: number
 			- Server-sent events interfaces: [[Server-sent events]]
 			  logseq.order-list-type:: number

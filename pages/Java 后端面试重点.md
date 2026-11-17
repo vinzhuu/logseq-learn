@@ -5,6 +5,8 @@ tags:: [[Java]], [[面试重点]]
 	- ### Java
 		- Java 基础
 		  logseq.order-list-type:: number
+			- [[Java Collection - 面试重点]]
+			  logseq.order-list-type:: number
 		- [[Java 并发 - 面试重点]]
 		  logseq.order-list-type:: number
 		- [[JVM - 面试重点]]

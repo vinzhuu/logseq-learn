@@ -29,7 +29,7 @@ tags:: [[JavaScript]]
 	- ### 教程之外的顺序
 		- 接下来学习下 **JavaScript** 的执行顺序 (参见:  [[JavaScript Async]] )
 		  logseq.order-list-type:: number
-			- 然后学习 Fetch API 及其相关对象 ( 参见: [[Fetch API]] )
+			- 然后学习 Fetch API 及其相关对象 ( 参见: [[Web Fetch API]] )
 		- 重新阅读 MDN  并整理 [[JavaScript Syntax]] 的内容.
 		  logseq.order-list-type:: number
 		-

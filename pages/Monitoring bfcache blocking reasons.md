@@ -1,4 +1,4 @@
-tags:: [[bfcache]], [[Performance API]]
+tags:: [[bfcache]], [[Web Performance API]]
 ---
 
 - ##

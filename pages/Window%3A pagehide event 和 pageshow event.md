@@ -1,4 +1,4 @@
-tags:: [[Window Interface]], [[PageTransitionEvent Interface]]
+tags:: [[Web Window Interface]], [[PageTransitionEvent Interface]]
 ---
 
 - ## 如何触发 pagehide

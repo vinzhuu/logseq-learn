@@ -11,21 +11,21 @@ tags:: [[JavaScript]], [[Web]]
 		  logseq.order-list-type:: number
 		- 常用的几个接口
 		  logseq.order-list-type:: number
-			- [[Window Interface]]
+			- [[Web Window Interface]]
 			  logseq.order-list-type:: number
-			- [[Document Interface]]
+			- [[Web Document Interface]]
 			  logseq.order-list-type:: number
 	- ### 网络请求
-		- 网络请求: [[Fetch API]]
+		- 网络请求: [[Web Fetch API]]
 		  logseq.order-list-type:: number
 		- 流式请求: [[Server-sent events]]
 		  logseq.order-list-type:: number
-		- [[WebSocket API]]
+		- [[Web WebSocket API]]
 		  logseq.order-list-type:: number
-		- [[Streams API]]
+		- [[Web Streams API]]
 		  logseq.order-list-type:: number
 	- ### 性能相关
-		- [[Performance API]]
+		- [[Web Performance API]]
 		  logseq.order-list-type:: number
 	- ### 异步
 		- [[Service Worker]]

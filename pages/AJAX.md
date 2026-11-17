@@ -12,7 +12,7 @@ alias:: [[Asynchronous JavaScript and XML]]
 		- 如今, 通常使用 `JSON` 来传输数据 , 但即便用 `JSON` , 这一技术还是被称为 AJAX .
 - ## 具体实现
 	- 早期使用 [[XMLHttpRequest]] API ;
-	- 现在 [[Fetch API]] 更流行.
+	- 现在 [[Web Fetch API]] 更流行.
 -
 - ## 参考
 	- [MDN - Glossary - AJAX](https://developer.mozilla.org/en-US/docs/Glossary/AJAX)

@@ -5,9 +5,11 @@ tags:: [[Web]], [[Protocol]]
 	- [[如何学习 WebSocket]]
 	- [[WebSocket Concept]]
 	  logseq.order-list-type:: number
+	- [[WebSocket Event]]
+	  logseq.order-list-type:: number
 	- WebSocket 客户端: 
 	  logseq.order-list-type:: number
-		- [[WebSocket API]]
+		- [[Web WebSocket API]]
 		  logseq.order-list-type:: number
 	- WebSocket 服务端:
 	  logseq.order-list-type:: number

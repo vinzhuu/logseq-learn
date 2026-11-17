@@ -3,7 +3,7 @@ alias:: [[XHR]]
 ---
 
 - ## 介绍
-	- [[AJAX]] 技术的一种实现, 如今已有些过时, 建议使用 [[Fetch API]] .
+	- [[AJAX]] 技术的一种实现, 如今已有些过时, 建议使用 [[Web Fetch API]] .
 	- 尽管名称中带有 `XML` , 但其数据传输格式并不局限于 `XML` .
 - ## Index
 	- [XMLHttpRequest](https://xhr.spec.whatwg.org/)

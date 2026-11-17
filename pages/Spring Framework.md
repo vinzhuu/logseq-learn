@@ -4,7 +4,7 @@ tags:: [[Spring]]
 - ## 学习路线
 	- [[Spring Framework Concept]]
 	  logseq.order-list-type:: number
-	- [[Spring 事务]]
+	- [[Spring Transaction]]
 	  logseq.order-list-type:: number
 	- [[Spring 定时任务与异步任务]]
 	  logseq.order-list-type:: number
