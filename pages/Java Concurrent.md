@@ -6,6 +6,8 @@ tags:: [[Java]]
 	  logseq.order-list-type:: number
 	- [[Java Concurrent Concept]]
 	  logseq.order-list-type:: number
+	- [[Java Thread]]
+	  logseq.order-list-type:: number
 	- syntax:
 	  logseq.order-list-type:: number
 		- [[Java synchronized]]

@@ -9,6 +9,8 @@ alias:: [[Java Virtual Machine]]
 	  logseq.order-list-type:: number
 	- [[JVM Class Loading]]
 	  logseq.order-list-type:: number
+	- [[JVM GC]]
+	  logseq.order-list-type:: number
 	- JVM:
 	  logseq.order-list-type:: number
 		- [[HotSpot]]
