@@ -26,10 +26,6 @@ tags:: [[Java]]
 		  logseq.order-list-type:: number
 		- [[javac]]
 		  logseq.order-list-type:: number
-	- Java SE 8 新特性:
-	  logseq.order-list-type:: number
-		- [[Java Compact Profile]]
-		  logseq.order-list-type:: number
 	- [[Java SE 8 之后的新特性]]
 	  logseq.order-list-type:: number
 	-

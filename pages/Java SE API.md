@@ -8,6 +8,8 @@ tags:: [[Java SE]]
 		  logseq.order-list-type:: number
 	- java.util:
 	  logseq.order-list-type:: number
+		- [[Java Functional Interface]]
+		  logseq.order-list-type:: number
 		- [[Java Collection]]
 		  logseq.order-list-type:: number
 	- [[Java IO]]

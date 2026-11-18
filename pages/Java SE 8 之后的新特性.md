@@ -4,6 +4,10 @@ tags:: [[Java]]
 - ## Java 8
 	- [[Java Lambda]]
 	  logseq.order-list-type:: number
+	- [[Java Functional Interface]]
+	  logseq.order-list-type:: number
+	- [[Java Compact Profile]]
+	  logseq.order-list-type:: number
 - ## Java 9
 	-
 - ## Java 17
