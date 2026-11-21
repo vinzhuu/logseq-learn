@@ -2,8 +2,13 @@ tags:: [[Java]]
 ---
 
 - ## Roadmap
-	- [[Lock Overview]]
+	- [[如何学习 Java Concurrent]]
+	- 通识：
 	  logseq.order-list-type:: number
+		- [[Concurrency]]
+		  logseq.order-list-type:: number
+		- [[Lock]]
+		  logseq.order-list-type:: number
 	- [[Java Concurrent Concept]]
 	  logseq.order-list-type:: number
 	- [[Java Thread]]

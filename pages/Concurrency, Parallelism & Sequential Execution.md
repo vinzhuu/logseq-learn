@@ -3,7 +3,7 @@ tags:: [[Concurrency]], [[Parallelism]], [[Sequential Execution]]
 
 - ## Concurrency & Parallelism & Sequential Execution
 	- > Concurrency is about *dealing with* lots of things at once. Parallelism is about *doing* lots of things at once.
-	  -- 引自 [Concurrency is not parallelism](https://go.dev/blog/waza-talk)
+	  -- 引自 [Go Blog - Concurrency is not parallelism](https://go.dev/blog/waza-talk)
 	- Parallelism (并行)：**在同一时刻执行** 多个任务
 		- **多个 CPU 核心** ：在同一时刻，**每个 CPU 核心** 都在执行一个单独的任务。
 		- ==**单个 CPU 核心** ：不会发生 **并行** 。==
