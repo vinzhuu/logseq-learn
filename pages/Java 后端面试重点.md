@@ -1,10 +1,18 @@
-tags:: [[Java]], [[面试重点]]
+tags:: [[Java 后端面试]], [[面试重点]]
 ---
 
 - ## T0
 	- ### 项目
 		- 项目亮点（突出难点）
 		  logseq.order-list-type:: number
+		- 项目数据
+		  logseq.order-list-type:: number
+			- QPS
+			  logseq.order-list-type:: number
+			- 数据量
+			  logseq.order-list-type:: number
+			- 用户量
+			  logseq.order-list-type:: number
 		- 处理过的问题
 		  logseq.order-list-type:: number
 		- 线上出现过故障
@@ -77,7 +85,7 @@ tags:: [[Java]], [[面试重点]]
 	- ### 场景题
 		-
 	- ### 工程思想
-		- [[设计模式 - 面试重点]]
+		- [[设计模式面试重点]]
 - ## T1
 	- ### 框架
 		- [[Spring 面试重点]]
@@ -111,4 +119,6 @@ tags:: [[Java]], [[面试重点]]
 		- [[Kubernetes 面试重点]]
 		  logseq.order-list-type:: number
 	- ### 计算机基础
-		-
+		- [[Computer Network 面试重点]]
+		  logseq.order-list-type:: number
+-

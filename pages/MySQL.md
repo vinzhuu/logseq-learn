@@ -7,6 +7,8 @@ tags:: [[RDBMS]], [[Database]]
 	  logseq.order-list-type:: number
 	- [[MySQL 安装配置]]
 	  logseq.order-list-type:: number
+	- [[MySQL Structure]]
+	  logseq.order-list-type:: number
 	- Basics:
 	  logseq.order-list-type:: number
 		- [[MySQL Data Type]]

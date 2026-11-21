@@ -21,7 +21,7 @@ tags:: [[Atomicity]]
 				  logseq.order-list-type:: number
 					- 通过设计机制，使故障不会导致外部观察到 **不完整的操作结果** 。
 			- ==注意，这里说 “在调用者看来” 是想表达：==
-				- 需要执行的动作不一定立即执行了，但是 **调用者** 可以立即看到 **执行的结果** 。
+				- **需要执行的动作** 或者 **故障恢复** 不一定立即执行了，但是 **调用者** 可以立即看到 **执行的结果** 。
 		- `Before-or-after Atomicity` ，用于 **协调并发活动 (coordination of concurrent activities)**
 		  logseq.order-list-type:: number
 			- 当多个 **原子动作 (Atomic Action)** 并发执行时，在每个 **原子动作 (Atomic Action)** 看来，其他 **原子动作 (Atomic Action)** ：
@@ -30,6 +30,7 @@ tags:: [[Atomicity]]
 				- 要么完全发生在它之后。
 				  logseq.order-list-type:: number
 			- ==即各个 **原子动作 (Atomic Action)** 达到 **串行** 的效果 (虽然实际执行时不一定是串行)==
+				- 参见: [[Sequential Execution]]
 	- | 对比 | All-or-nothing atomicity | Before-or-after atomicity |
 	  | ---- | ---- | ---- |
 	  | 解决的问题 | 异常、崩溃导致 **原子动作** 只完成一部分 | 多个 **原子动作** 交错执行，互相干扰 |

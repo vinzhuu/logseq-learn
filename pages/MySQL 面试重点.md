@@ -61,5 +61,6 @@ tags:: [[面试重点]], [[MySQL]]
 		  logseq.order-list-type:: number
 		- MVCC
 		  logseq.order-list-type:: number
-			-
--
+- ## 参考
+	- [MySQL 全系列](https://www.bilibili.com/video/BV1de4y1r7W4?vd_source=f1fbb083ddef12dcff3388779faac201)
+	  logseq.order-list-type:: number

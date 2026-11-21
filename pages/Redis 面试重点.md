@@ -16,7 +16,7 @@ tags:: [[面试重点]], [[Redis]]
 		  logseq.order-list-type:: number
 	- Redis 持久化
 	  logseq.order-list-type:: number
-		- ADB & AOF
+		- RDB & AOF
 		  logseq.order-list-type:: number
 	- 数据类型
 	  logseq.order-list-type:: number
@@ -28,8 +28,7 @@ tags:: [[面试重点]], [[Redis]]
 		  logseq.order-list-type:: number
 	- Redis 集群部署
 	  logseq.order-list-type:: number
-		- 都有哪些集群
-		  logseq.order-list-type:: number
+		- 参见: [[Redis High Availability]]
 	- 性能：
 	  logseq.order-list-type:: number
 		- Redis 为什么这么快

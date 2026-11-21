@@ -9,7 +9,7 @@ tags:: [[Middleware]], [[Caching]]
 	  logseq.order-list-type:: number
 	- [[Redis Command]]
 	  logseq.order-list-type:: number
-	- [[Redis 集群]]
+	- [[Redis High Availability]]
 	  logseq.order-list-type:: number
 	- [[Redis Persistence]]
 	  logseq.order-list-type:: number
