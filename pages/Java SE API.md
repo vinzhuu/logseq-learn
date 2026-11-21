@@ -12,6 +12,8 @@ tags:: [[Java SE]]
 		  logseq.order-list-type:: number
 		- [[Java Collection]]
 		  logseq.order-list-type:: number
+	- java.: [[Java Concurrency]]
+	  logseq.order-list-type:: number
 	- [[Java IO]]
 	  logseq.order-list-type:: number
 	- [[Java Network]]

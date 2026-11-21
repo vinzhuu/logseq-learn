@@ -11,7 +11,7 @@ tags:: [[Java SE]]
 	- classpath 是啥？
 	  logseq.order-list-type:: number
 - ## Roadmap
-	- [[如何学习 Java Concurrent]]
+	- [[如何学习 Java Concurrency]]
 	  logseq.order-list-type:: number
 - ## 学习进度
 	- 以 Java SE 8 为基础版本进行学习.

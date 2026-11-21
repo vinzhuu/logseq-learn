@@ -1,4 +1,4 @@
-tags:: [[Java Concurrent]]
+tags:: [[Java Concurrency]]
 ---
 
 - ## 关于 JUC
