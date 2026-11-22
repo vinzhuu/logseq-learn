@@ -7,7 +7,7 @@ alias:: [[设计原则]]
 		  logseq.order-list-type:: number
 		- 开闭原则 (Open-Closed Principle, OCP)
 		  logseq.order-list-type:: number
-		- 里氏替换原则 (Liskov Substitution Principle, LSP)
+		- 里氏替换原则 ([[Liskov Substitution Principle]], LSP)
 		  logseq.order-list-type:: number
 		- 接口隔离原则 (Interface Segregation Principle, ISP)
 		  logseq.order-list-type:: number
@@ -15,7 +15,7 @@ alias:: [[设计原则]]
 		  logseq.order-list-type:: number
 		- 迪米特法则 (Law of Demeter, LoD)
 		  logseq.order-list-type:: number
-		- 合成复用原则 (Composite Reuse Principle, CRP)
+		- 合成复用原则 ([[Composite Reuse Principle]], CRP)
 		  logseq.order-list-type:: number
 	- 其中，前五项被合称为 **SOLID 原则** ，由 [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) 在论坛与他人讨论整理得出，后来他在 [架构整洁之道 Clean Architecture](https://weread.qq.com/web/reader/480322f072021a3248038c8k32932b102423295c76ac7d9) 也有对 SOLID 的讲解。
 - ## 单一职责原则

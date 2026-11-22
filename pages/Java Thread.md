@@ -8,7 +8,8 @@ tags:: [[Java Concurrency]]
 		  logseq.order-list-type:: number
 	- [[Java Thread Overview]]
 	  logseq.order-list-type:: number
-	- [[Java Thread Object]]
+	- [[Java Class - Thread]]
 	  logseq.order-list-type:: number
-	- logseq.order-list-type:: number
+	- [[Java Thread Pool]]
+	  logseq.order-list-type:: number
 -

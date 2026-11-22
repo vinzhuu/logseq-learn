@@ -67,7 +67,7 @@ tags:: [[Java 后端面试]], [[面试重点]]
 			  logseq.order-list-type:: number
 		- [[Java Collection 面试重点]]
 		  logseq.order-list-type:: number
-		- [[Java Concurrent 面试重点]]
+		- [[Java Concurrency 面试重点]]
 		  logseq.order-list-type:: number
 		- [[JVM 面试重点]]
 		  logseq.order-list-type:: number
