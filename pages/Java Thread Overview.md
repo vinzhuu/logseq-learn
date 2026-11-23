@@ -29,6 +29,15 @@ tags:: [[Java Thread]]
 - ## 关于 Main Thread
 	- 作为程序员，我们一般更关注 Application Threads 。
 	- 程序启动时，最初只有一个 Application Thread ，即 **主线程 (Main Thread)** 。
+- ## Thread & Thread Object
+	- 只要我们的 Java 代码在某条线程上执行，就有一个表示当前执行线程的 `Thread` 对象 。
+	- 所以，当我们想要将 Java 代码交给 **主线程** 之外的其他线程执行时，我们有如下选择：
+		- 创建新的 `Thread` 对象。
+		  logseq.order-list-type:: number
+			- 参见: [[Java Class - Thread]]
+		- 使用已经创建的 `Thread` 对象。
+		  logseq.order-list-type:: number
+			- 此处可以使用 [[Java Thread Pool]] 管理这些已经创建的线程。
 - ## 参考
 	- AI
 	  logseq.order-list-type:: number

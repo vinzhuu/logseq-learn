@@ -22,10 +22,16 @@ tags:: [[Program Language]]
 	- [[Java 后端面试重点]]
 	  logseq.order-list-type:: number
 - ## Index
-	- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/index.html)
+	- [Java SE 8 API Specification](https://docs.oracle.com/javase/8/docs/api/overview-summary.html)
 	  logseq.order-list-type:: number
+		- [Java SE 8 - All Classes](https://docs.oracle.com/javase/8/docs/api/allclasses-noframe.html)
+		  logseq.order-list-type:: number
 	- [Java SE 17 API Specification](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 	  logseq.order-list-type:: number
+		- [Java SE 17 - All Classes](https://docs.oracle.com/en/java/javase/17/docs/api/allclasses-index.html)
+		  logseq.order-list-type:: number
 	- [Java SE 21 API Specification](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
 	  logseq.order-list-type:: number
+		- [Java SE 21 - All Classes](https://docs.oracle.com/en/java/javase/21/docs/api/allclasses-index.html)
+		  logseq.order-list-type:: number
 -

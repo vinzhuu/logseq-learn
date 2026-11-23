@@ -3,18 +3,24 @@ tags:: [[Java Concurrency]]
 
 - ## [[Java Thread]]
 	- ### P0
-		- Thread 的创建方式
+		- 线程的创建方式
 		  logseq.order-list-type:: number
-			- 参见: [[Java Class - Thread]]
+			- ==本质上是在问：创建线程实例其实就是调用构造方法，重点是如何指定线程任务。==
+			- [[Java Class - Thread: instantiate, start & run]]
 		- 线程的生命周期
 		  logseq.order-list-type:: number
 		- 线程池
 		  logseq.order-list-type:: number
+			- [[Java Class - ThreadPoolExecutor]]
 			- 线程池流程
 			  logseq.order-list-type:: number
 			- 参数含义
 			  logseq.order-list-type:: number
 			- 参数设置最佳实践
+			  logseq.order-list-type:: number
+			- 线程池的状态？CTL？
+			  logseq.order-list-type:: number
+			- 超时怎么处理？
 			  logseq.order-list-type:: number
 	- ### P1
 		- 进程与线程

@@ -12,4 +12,6 @@ tags:: [[Java Concurrency]]
 	  logseq.order-list-type:: number
 	- [[Java Thread Pool]]
 	  logseq.order-list-type:: number
+	- [[Java ThreadLocal]]
+	  logseq.order-list-type:: number
 -

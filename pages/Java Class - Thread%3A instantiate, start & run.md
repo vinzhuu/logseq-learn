@@ -12,6 +12,7 @@ tags:: [[Java Class - Thread]]
 		- https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#start--
 		- 调用 Thread 实例的 `start()` 方法，即可让线程真正开始执行。
 			- 线程会自动执行 Thread 实例的 `run()` 方法。
+		- ==注意：同一个 Thread 实例，只能调用一次 `start()` 方法。==
 	- ### 执行已指定的任务：run()
 		- https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#run--
 		- Thread 中 `run()` 相关代码如下：
@@ -100,7 +101,22 @@ tags:: [[Java Class - Thread]]
 				- 违背了 [[合成复用原则]] (组合优于继承)。
 			- 只是通过子类扩展 `Thread` 的功能也就罢了，本可以通过 父类 (即 `Thread`) 的构造方法指定要执行的任务，却非要重写 `Thread` 的 `run()` 方法。
 				- 违背了 [[里氏替换原则]] 。
-			-
+	- ### 其他方案
+		- 其它方案本质上都是上面两种方式的变体。
+		- 比如，方案一的变体：
+			- 使用 `FutureTask` 实例作为任务，传入 `Thread` 的构造方法。
+			  logseq.order-list-type:: number
+				- 因为 `FutureTask` 实现了 `Runnable`。
+				- 参见: [[Java Class - FutureTask]]
+			- `ThreadPoolExecutor` 采用的默认线程工厂 `DefaultThreadFactory` ，是调用 Thread 的如下构造方法指定要执行的任务。
+			  logseq.order-list-type:: number
+				- ``` java
+				  public Thread(ThreadGroup group, Runnable target, String name,
+				                long stackSize) {
+				    init(group, target, name, stackSize);
+				  }
+				  ```
+				- 参见: [[Java Class - ThreadPoolExecutor]]
 - ## 参考
 	- [Java Tutorials - Defining and Starting a Thread](https://docs.oracle.com/javase/tutorial/essential/concurrency/runthread.html)
 	  logseq.order-list-type:: number

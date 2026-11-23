@@ -1,7 +1,7 @@
 tags:: [[Java 后端面试]], [[面试重点]]
 ---
 
-- ## T0
+- ## P0
 	- ### 项目
 		- 项目亮点（突出难点）
 		  logseq.order-list-type:: number
@@ -22,7 +22,7 @@ tags:: [[Java 后端面试]], [[面试重点]]
 		  logseq.order-list-type:: number
 			- equals 与 hashCode
 			  logseq.order-list-type:: number
-				- 参见: [[Identity, Equality & Hash]]
+				- [[Identity, Equality & Hash]]
 			- 包装类型：
 			  logseq.order-list-type:: number
 				- 自动装箱与拆箱
@@ -83,10 +83,10 @@ tags:: [[Java 后端面试]], [[面试重点]]
 		- 接口响应过慢？
 		  logseq.order-list-type:: number
 	- ### 场景题
-		-
+		- [[系统设计场景题]]
 	- ### 工程思想
 		- [[设计模式面试重点]]
-- ## T1
+- ## P1
 	- ### 框架
 		- [[Spring 面试重点]]
 		- [[Spring Boot 面试重点]]
@@ -110,7 +110,7 @@ tags:: [[Java 后端面试]], [[面试重点]]
 			  logseq.order-list-type:: number
 			- 负载均衡
 			  logseq.order-list-type:: number
-- ## T2
+- ## P2
 	- ### 运维
 		- [[Linux 面试重点]]
 		  logseq.order-list-type:: number
