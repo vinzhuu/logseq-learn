@@ -6,7 +6,7 @@ tags:: [[Spring]]
 	  logseq.order-list-type:: number
 	- [[Spring Transaction]]
 	  logseq.order-list-type:: number
-	- [[Spring 定时任务与异步任务]]
+	- [[Spring Integration]]
 	  logseq.order-list-type:: number
 	- [[Spring 面试重点]]
 	  logseq.order-list-type:: number

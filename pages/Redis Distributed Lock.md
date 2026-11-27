@@ -1,4 +1,4 @@
-tags:: [[Distributed Lock]]
+tags:: [[Distributed Lock]], [[Redis]] 
 ---
 
 - ## 需要考虑的问题

@@ -19,4 +19,8 @@ alias:: [[分布式系统]]
 	  logseq.order-list-type:: number
 	- [[Distributed Transaction]]
 	  logseq.order-list-type:: number
+	- 具体场景:
+	  logseq.order-list-type:: number
+		- [[Distributed ID]]
+		  logseq.order-list-type:: number
 -

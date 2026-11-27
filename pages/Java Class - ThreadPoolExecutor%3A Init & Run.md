@@ -15,6 +15,9 @@ tags:: [[Java Class - ThreadPoolExecutor]]
 	  ```
 - ## ThreadPoolExecutor 的执行流程
 	-
-- ## 拒绝策略：RejectedExecutionHandler handler
+- ## 多余线程空闲时长: keepAliveTime & unit
+	- `keepAliveTime` : 当线程数大于核心线程数时, 多余的空闲线程存活的最长时间
+	- `unit` : 时间单位
+- ## 拒绝策略: RejectedExecutionHandler handler
 	- 参见: [[Java Class - RejectedExecutionHandler]]
 -

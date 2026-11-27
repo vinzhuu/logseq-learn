@@ -2,13 +2,16 @@ tags:: [[Java]]
 ---
 
 - ## 学习路径
-	- 数据类型：
+	- 常用数据类型：
 	  logseq.order-list-type:: number
-		- 基本数据类型：
+		- [[Java Primitive Data Type]]
 		  logseq.order-list-type:: number
-			- logseq.order-list-type:: number
+		- [[Java Primitive Wrapper Class]]
+		  logseq.order-list-type:: number
 		- [[Java String & Character]]
 		  logseq.order-list-type:: number
+	- [[Java Operator]]
+	  logseq.order-list-type:: number
 	- [[Java Control Flow]]
 	  logseq.order-list-type:: number
 	- [[Java Generics]]

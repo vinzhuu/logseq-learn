@@ -9,12 +9,12 @@ tags:: [[Java Concurrency]]
 			- [[Java Class - Thread: instantiate, start & run]]
 		- 线程的生命周期
 		  logseq.order-list-type:: number
+		- 线程同步方式
+		  logseq.order-list-type:: number
 		- 线程池
 		  logseq.order-list-type:: number
 			- [[Java Class - ThreadPoolExecutor]]
-			- 线程池流程
-			  logseq.order-list-type:: number
-			- 参数含义
+			- 线程池流程及参数作用
 			  logseq.order-list-type:: number
 			- 参数设置最佳实践
 			  logseq.order-list-type:: number
@@ -26,8 +26,6 @@ tags:: [[Java Concurrency]]
 		- 进程与线程
 		  logseq.order-list-type:: number
 		- Java 线程模型
-		  logseq.order-list-type:: number
-		- 线程同步方式
 		  logseq.order-list-type:: number
 - ## JMM
 	- CPU 缓存及其带来的问题

@@ -61,10 +61,8 @@ tags:: [[Java 后端面试]], [[面试重点]]
 			  logseq.order-list-type:: number
 			- String, StringBuffer, StringBuilder
 			  logseq.order-list-type:: number
-		- Java IO：
+		- [[Java IO 面试重点]]
 		  logseq.order-list-type:: number
-			- BIO、NIO、AIO 的区别
-			  logseq.order-list-type:: number
 		- [[Java Collection 面试重点]]
 		  logseq.order-list-type:: number
 		- [[Java Concurrency 面试重点]]

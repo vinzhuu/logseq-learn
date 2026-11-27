@@ -16,8 +16,9 @@ tags:: [[Java Collection]]
 		  logseq.order-list-type:: number
 	- Map
 	  logseq.order-list-type:: number
-		- [[Java HashMap]]
+		- HashMap
 		  logseq.order-list-type:: number
+			- [[Java Class - HashMap]]
 			- put、get 机制
 			  logseq.order-list-type:: number
 				- hash 扰乱
