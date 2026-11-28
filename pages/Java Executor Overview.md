@@ -23,7 +23,7 @@ tags:: [[Java Executor]]
 			  	public static void main(String[] args) {
 			  		Executor executor = new ThreadPerTaskExecutor();
 			  		executor.execute(() -> System.out.println("ThreadPerTaskExecutor"));
-			  	}
+			      }
 			  }
 			  
 			  class ThreadPerTaskExecutor implements Executor {
@@ -86,13 +86,130 @@ tags:: [[Java Executor]]
 			    }
 			  }
 			  ```
-- ## ExecutorService 接口
-	- `ExecutorService` 继承了 `Executor` ，比 `Executor` 使用更广泛，很多常用的 `Executor` 都实现了 `ExecutorService` 。
-	- 参见: [[Java Interface - ExecutorService]]
-- ## ThreadPoolExecutor 类
-	- `ThreadPoolExecutor` 提供了线程池的实现.
-	- 参见: [[Java Class - ThreadPoolExecutor]]
-- ## Executors 类
+- ## Executor 继承体系
+	- ### Executor 继承体系类图
+		- ![mermaid-diagram (1).png](../assets/mermaid-diagram_(1)_1795861133973_0.png){:height 629, :width 632}
+			- mermaid 源码
+			  collapsed:: true
+				- ```mermaid
+				  %%{init: {"theme":"base","themeVariables":{"darkMode":true,"background":"#1F252B","primaryColor":"#000000","secondaryColor":"#000000","mainBkg":"#000000","lineColor":"#7A828D","textColor":"#FFFFFF","labelColor":"#FFFFFF","primaryTextColor":"#FFFFFF","edgeLabelBackground":"#000000","fontFamily":"JetBrains Mono, Menlo, monospace"},"themeCSS":".edgeLabel,.edgeLabel p,.edgeLabel span{background-color:#000000!important;color:#FFFFFF!important}.edgeLabel rect,.labelBkg{fill:#000000!important;opacity:1!important}.classLabel .box{fill:#000000!important;opacity:1!important}.classLabel .label{fill:#FFFFFF!important}"}}%%
+				  classDiagram
+				      direction TB
+				  
+				      class Executor {
+				          <<interface>>
+				      }
+				  
+				      class ThreadPerTaskExecutor {
+				          <<class>>
+				          CompletableFuture 内部类
+				      }
+				  
+				      class ExecutorService {
+				          <<interface>>
+				      }
+				  
+				      class ScheduledExecutorService {
+				          <<interface>>
+				      }
+				  
+				      class AbstractExecutorService {
+				          <<abstract class>>
+				      }
+				  
+				      class ThreadPoolExecutor {
+				          <<class>>
+				      }
+				  
+				      class ScheduledThreadPoolExecutor {
+				          <<class>>
+				      }
+				  
+				      class ForkJoinPool {
+				          <<class>>
+				      }
+				  
+				      class DelegatedExecutorService {
+				          <<class>>
+				          Executors 内部类
+				      }
+				  
+				      class FinalizableDelegatedExecutorService {
+				          <<class>>
+				          Executors 内部类
+				      }
+				  
+				      class DelegatedScheduledExecutorService {
+				          <<class>>
+				          Executors 内部类
+				      }
+				  
+				      Executor <|.. ThreadPerTaskExecutor : implements
+				      Executor <|-- ExecutorService : extends
+				      ExecutorService <|-- ScheduledExecutorService : extends
+				  
+				      ExecutorService <|.. AbstractExecutorService : implements
+				      AbstractExecutorService <|-- ThreadPoolExecutor : extends
+				      AbstractExecutorService <|-- ForkJoinPool : extends
+				  
+				      ThreadPoolExecutor <|-- ScheduledThreadPoolExecutor : extends
+				      ScheduledExecutorService <|.. ScheduledThreadPoolExecutor : implements
+				  
+				      AbstractExecutorService <|-- DelegatedExecutorService : extends
+				      DelegatedExecutorService <|-- FinalizableDelegatedExecutorService : extends
+				      DelegatedExecutorService <|-- DelegatedScheduledExecutorService : extends
+				      ScheduledExecutorService <|.. DelegatedScheduledExecutorService : implements
+				  
+				      style Executor fill:#3C4553,stroke:#59A84B,stroke-width:3px,color:#D4D6D9
+				      style ExecutorService fill:#3C4553,stroke:#59A84B,stroke-width:3px,color:#D4D6D9
+				      style ScheduledExecutorService fill:#3C4553,stroke:#59A84B,stroke-width:3px,color:#D4D6D9
+				  
+				      style AbstractExecutorService fill:#3C4553,stroke:#D19A66,stroke-width:3px,stroke-dasharray:6 4,color:#F0D2B6
+				  
+				      style ThreadPerTaskExecutor fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style ThreadPoolExecutor fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style ScheduledThreadPoolExecutor fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style ForkJoinPool fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style DelegatedExecutorService fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style FinalizableDelegatedExecutorService fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				      style DelegatedScheduledExecutorService fill:#3C4553,stroke:#00A4C7,stroke-width:2px,color:#D4D6D9
+				  ```
+	- ### 单实现 / 单继承
+		- `Executor` 接口
+			- `ThreadPerTaskExecutor` 类
+			  logseq.order-list-type:: number
+				- 每次调用 `execute` 时, 都立即创建新线程并启动.
+				- 参见: [[Java Class - CompletableFuture: ThreadPerTaskExecutor]]
+			- `ExecutorService` 接口
+			  logseq.order-list-type:: number
+				- 比 `Executor` 使用更广泛，很多常用的 `Executor` 都实现了 `ExecutorService` 。
+				- 参见: [[Java Interface - ExecutorService]]
+				- `AbstractExecutorService` 抽象类
+				  logseq.order-list-type:: number
+					-
+					- `ThreadPoolExecutor` 类
+					  logseq.order-list-type:: number
+						- 提供了线程池的实现.
+						- 参见: [[Java Class - ThreadPoolExecutor]]
+					- `ForkJoinPool` 类
+					  logseq.order-list-type:: number
+					- `DelegatedExecutorService` 类
+					  logseq.order-list-type:: number
+						- `FinalizableDelegatedExecutorService` 类
+						  logseq.order-list-type:: number
+				- `ScheduledExecutorService` 接口.
+				  logseq.order-list-type:: number
+					-
+	- ### 多实现 / 多继承
+		- `ScheduledThreadPoolExecutor` 类
+		  logseq.order-list-type:: number
+			- 继承自: `ThreadPoolExecutor` 类; 实现自: `ScheduledExecutorService` 接口.
+			-
+		- `DelegatedScheduledExecutorService` 类
+		  logseq.order-list-type:: number
+			- 继承自: `DelegatedExecutorService` 类; 实现自: `ScheduledExecutorService` 接口.
+			-
+- ## Executors 工具类
 	- `Executors` 提供了很多 `Executor`  的工厂方法.
 	- 参见: [[Java Class - Executors]]
 - ## 参考
